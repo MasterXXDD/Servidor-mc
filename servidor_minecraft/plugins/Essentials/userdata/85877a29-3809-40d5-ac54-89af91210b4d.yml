@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1738991145345
   login: 1738987867063
 money: '0'
 last-account-name: Agent_FFFF
+logoutlocation:
+  world: 28659312-8323-4dda-a331-f90911e55ca7
+  world-name: world
+  x: 84.99966508761435
+  y: 66.0
+  z: -446.02439848106997
+  yaw: -49.9534912109375
+  pitch: -5.099814414978027

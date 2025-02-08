@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1738988966347
-  login: 1738988970646
+  logout: 1738991009154
+  login: 1738989679196
 money: '0'
 last-account-name: Luquitas_Alpha
 logoutlocation:
   world: 28659312-8323-4dda-a331-f90911e55ca7
   world-name: world
-  x: 152.64979990031216
-  y: 73.0
-  z: -204.97578039483892
-  yaw: 173.9410858154297
-  pitch: 9.277016639709473
+  x: 149.13984303217225
+  y: 86.0
+  z: -277.5034787964115
+  yaw: 141.32281494140625
+  pitch: 8.452987670898438
+lastlocation:
+  world: 28659312-8323-4dda-a331-f90911e55ca7
+  world-name: world
+  x: 71.02321039916625
+  y: 56.9609720264612
+  z: -480.33935499696486
+  yaw: 13.188720703125
+  pitch: 15.281190872192383

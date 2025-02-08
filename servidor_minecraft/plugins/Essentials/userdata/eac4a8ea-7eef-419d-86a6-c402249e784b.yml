@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1738991145341
   login: 1738989441046
 money: '0'
 last-account-name: skyszz
@@ -28,3 +28,11 @@ lastlocation:
   z: -214.71425907774054
   yaw: -75.8757553100586
   pitch: 3.454930067062378
+logoutlocation:
+  world: 28659312-8323-4dda-a331-f90911e55ca7
+  world-name: world
+  x: 89.69999998807907
+  y: 66.0
+  z: -438.43447503761536
+  yaw: -116.925048828125
+  pitch: 8.676565170288086
