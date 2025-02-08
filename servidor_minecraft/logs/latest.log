@@ -87,3 +87,13 @@
 [19:12:47] [Server thread/INFO]: Teagokk_ issued server command: /advancement revoke Teagokk_ everything
 [19:12:47] [Server thread/INFO]: [Teagokk_: Revoked 1399 advancements from Teagokk_]
 [19:12:59] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival
+[19:18:25] [Server thread/INFO]: Teagokk_ issued server command: /vanish
+[19:18:36] [Server thread/INFO]: Teagokk_ issued server command: /vanish
+[19:18:57] [Server thread/INFO]: Teagokk_ was shot by Skeleton
+[19:19:20] [Server thread/INFO]: Teagokk_ issued server command: /scoreboard objectives add vida health
+[19:19:20] [Server thread/INFO]: [Teagokk_: Created new objective [vida]]
+[19:19:27] [Server thread/INFO]: Teagokk_ issued server command: /scoreboard objectives setdisplay list vida
+[19:19:27] [Server thread/INFO]: [Teagokk_: Set display slot list to show objective vida]
+[19:19:49] [Server thread/INFO]: Teagokk_ issued server command: /fly
+[19:19:55] [Server thread/INFO]: Teagokk_ lost connection: Disconnected
+[19:19:55] [Server thread/INFO]: Teagokk_ left the game
