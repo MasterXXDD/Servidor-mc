@@ -107,3 +107,39 @@
 [19:49:19] [Server thread/INFO]: Teagokk_[/127.189.225.101:35663] logged in with entity id 8770 at ([world]16.74787530550578, 71.65664944177598, 104.68849545953226)
 [19:55:25] [Server thread/INFO]: Teagokk_ lost connection: Disconnected
 [19:55:25] [Server thread/INFO]: Teagokk_ left the game
+[20:08:04] [User Authenticator #3/INFO]: UUID of player faturcop is e742aa66-6cbf-4b68-9b0b-1681b3f65344
+[20:08:05] [Server thread/INFO]: faturcop joined the game
+[20:08:05] [Server thread/INFO]: faturcop[/127.64.227.9:49059] logged in with entity id 9746 at ([world]0.5, 70.0, 9.5)
+[20:08:49] [Server thread/INFO]: faturcop lost connection: Disconnected
+[20:08:49] [Server thread/INFO]: faturcop left the game
+[20:13:25] [User Authenticator #4/INFO]: UUID of player Teagokk_ is 5f3b4f9e-0a67-4dab-9cb0-f83a5e0eeb80
+[20:13:26] [Server thread/INFO]: Teagokk_ joined the game
+[20:13:26] [Server thread/INFO]: Teagokk_[/127.189.225.101:58923] logged in with entity id 10212 at ([world]-4.058509784477931, 98.16729946687909, 96.35522414860861)
+[20:13:41] [Server thread/INFO]: Teagokk_ issued server command: /fly
+[20:13:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/INFO]: Teagokk_ lost connection: Flying is not enabled on this server
+[20:13:46] [Server thread/INFO]: Teagokk_ left the game
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:13:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:14:11] [User Authenticator #4/INFO]: UUID of player Teagokk_ is 5f3b4f9e-0a67-4dab-9cb0-f83a5e0eeb80
+[20:14:11] [Server thread/INFO]: Teagokk_ (/127.189.225.101:40893) lost connection: Disconnected
+[20:14:27] [User Authenticator #4/INFO]: UUID of player Teagokk_ is 5f3b4f9e-0a67-4dab-9cb0-f83a5e0eeb80
+[20:14:30] [Server thread/INFO]: Teagokk_ joined the game
+[20:14:30] [Server thread/INFO]: Teagokk_[/127.189.225.101:52837] logged in with entity id 10514 at ([world]42.25763554005227, 75.28739014431952, 34.7600258524718)
+[20:16:17] [Async Chat Thread - #7/INFO]: <Teagokk_> a
