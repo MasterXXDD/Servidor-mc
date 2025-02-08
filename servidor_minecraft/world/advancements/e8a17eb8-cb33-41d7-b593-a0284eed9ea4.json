@@ -429,6 +429,7 @@
     "criteria": {
       "cooked_porkchop": "2025-02-08 03:05:25 +0000",
       "bread": "2025-02-08 03:16:50 +0000",
+      "rotten_flesh": "2025-02-08 03:43:49 +0000",
       "cooked_mutton": "2025-02-08 03:05:58 +0000",
       "porkchop": "2025-02-08 03:29:19 +0000"
     },
@@ -442,6 +443,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2025-02-08 03:43:45 +0000",
       "minecraft:zombie": "2025-02-08 03:08:36 +0000",
       "minecraft:creeper": "2025-02-08 03:05:51 +0000"
     },
@@ -780,6 +782,36 @@
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2025-02-08 03:28:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-02-08 03:44:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-02-08 03:41:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2025-02-08 03:41:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-02-08 03:44:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-02-08 03:41:09 +0000"
     },
     "done": true
   },

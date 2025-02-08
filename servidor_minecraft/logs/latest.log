@@ -153,3 +153,79 @@
 [03:37:08] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x111) .005578 /gl 2
 [03:37:09] [Server thread/INFO]: Luquitas_Alpha was slain by Agent_FFFF
 [03:37:46] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x149) .627587 /gl 3
+[03:38:46] [Server thread/INFO]: Grim » faturcop failed FastBreak (x60) Delay=1.0
+[03:39:00] [Server thread/INFO]: faturcop was slain by Zombie
+[03:40:49] [Server thread/INFO]: Grim » Agent_FFFF failed Simulation (x160) .030177 /gl 4
+[03:41:06] [Server thread/INFO]: Teagokk_ has made the advancement [Monster Hunter]
+[03:41:21] [Server thread/INFO]: Villager Villager['Leatherworker'/214, uuid='08aad32b-5273-482a-92ba-de26832884e2', l='ServerLevel[world]', x=160.58, y=79.00, z=-463.51, cpos=[10, -29], tl=30259, v=true] died, message: 'Leatherworker was slain by Agent_FFFF'
+[03:41:25] [Server thread/INFO]: faturcop has made the advancement [Monster Hunter]
+[03:42:30] [Server thread/INFO]: Villager Villager['Leatherworker'/207, uuid='dff28d65-1017-4c53-8edf-ca401b8332a5', l='ServerLevel[world]', x=126.42, y=84.94, z=-527.04, cpos=[7, -33], tl=31729, v=true] died, message: 'Leatherworker was slain by Zombie'
+[03:42:50] [Async Chat Thread - #6/INFO]: <Agent_FFFF> zombies wop wop
+[03:43:50] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x5) 3.41309 blocks
+[03:43:56] [Server thread/INFO]: Agent_FFFF was slain by Luquitas_Alpha
+[03:44:10] [Netty Epoll Server IO #3/INFO]: [GrimAC] Disconnecting Agent_FFFF for spamming invalid packets, packets cancelled within a second 101
+[03:44:10] [Netty Epoll Server IO #3/INFO]: [GrimAC] Disconnecting Agent_FFFF for disconnect.closed
+[03:44:10] [Server thread/INFO]: Agent_FFFF lost connection: Disconnected
+[03:44:10] [Server thread/INFO]: Agent_FFFF left the game
+[03:44:14] [Server thread/INFO]: faturcop was slain by Luquitas_Alpha
+[03:44:16] [User Authenticator #5/INFO]: UUID of player Agent_FFFF is 85877a29-3809-40d5-ac54-89af91210b4d
+[03:44:17] [Server thread/INFO]: Agent_FFFF joined the game
+[03:44:17] [Server thread/INFO]: Agent_FFFF[/127.86.91.244:55009] logged in with entity id 8150 at ([world]180.68522132437505, 80.16477328182607, -465.9268557680648)
+[03:44:18] [Server thread/INFO]: Luquitas_Alpha was slain by Teagokk_
+[03:45:08] [Server thread/INFO]: Grim » Agent_FFFF failed Reach (x5) 4.67838 blocks, type=spider
+[03:45:19] [Async Chat Thread - #9/INFO]: <Luquitas_Alpha> What's 2+2? [2edff98265f096888084367e5dee9c95d]
+[03:45:26] [Async Chat Thread - #9/INFO]: <Agent_FFFF> otno
+[03:45:30] [Async Chat Thread - #9/INFO]: <Teagokk_> q
+[03:45:34] [Async Chat Thread - #9/INFO]: <Luquitas_Alpha> so
+[03:46:19] [Server thread/INFO]: Grim » Luquitas_Alpha failed RotationPlace (x1) post-flying
+[03:46:20] [Server thread/INFO]: Grim » Luquitas_Alpha failed FarPlace (x3) 
+[03:46:20] [Server thread/INFO]: Grim » Luquitas_Alpha failed RotationPlace (x5) pre-flying
+[03:46:26] [Server thread/INFO]: Grim » Luquitas_Alpha failed FarPlace (x3) 
+[03:46:26] [Server thread/INFO]: Grim » Luquitas_Alpha failed RotationPlace (x10) pre-flying
+[03:46:43] [Server thread/INFO]: Grim » Luquitas_Alpha failed FastBreak (x12) Delay=85.0
+[03:46:44] [Server thread/WARN]: Luquitas_Alpha moved wrongly!
+[03:47:29] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x2) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
+[03:47:29] [Server thread/INFO]: Grim » faturcop failed FastBreak (x3) Diff=348.0,Balance=1348.0
+[03:47:33] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x2) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
+[03:47:35] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x3) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
+[03:47:35] [Server thread/INFO]: Grim » faturcop failed FastBreak (x12) Diff=594.0,Balance=1594.0
+[03:47:38] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x3) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
+[03:47:38] [Server thread/INFO]: Grim » faturcop failed FastBreak (x17) Diff=599.0,Balance=1599.0
+[03:47:38] [Server thread/INFO]: Grim » faturcop failed FastBreak (x17) Delay=0.0
+[03:47:42] [Server thread/INFO]: Grim » Agent_FFFF failed Reach (x10) 3.41338 blocks, type=spider
+[03:47:42] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x3) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
+[03:47:42] [Server thread/INFO]: Grim » faturcop failed FastBreak (x22) Diff=600.0,Balance=1600.0
+[03:47:42] [Server thread/INFO]: Grim » faturcop failed FastBreak (x22) Delay=0.0
+[03:47:45] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x3) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
+[03:47:45] [Server thread/INFO]: Grim » faturcop failed FastBreak (x27) Diff=594.0,Balance=1594.0
+[03:47:48] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x3) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
+[03:47:48] [Server thread/INFO]: Grim » faturcop failed FastBreak (x32) Delay=0.0
+[03:47:48] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x3) action=FINISHED_DIGGING, last=null, pos=152, 84, -529
+[03:47:48] [Server thread/INFO]: Grim » faturcop failed FastBreak (x32) Diff=600.0,Balance=1500.0
+[03:47:50] [Server thread/INFO]: Grim » Agent_FFFF failed Simulation (x119) .006053 /gl 5
+[03:47:51] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x3) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
+[03:47:54] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x4) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
+[03:47:54] [Server thread/INFO]: Grim » faturcop failed FastBreak (x41) Diff=600.0,Balance=1600.0
+[03:47:56] [Server thread/INFO]: Grim » faturcop failed FastBreak (x46) Delay=1.0
+[03:48:00] [Server thread/INFO]: Grim » faturcop failed FastBreak (x49) Diff=594.0,Balance=1594.0
+[03:48:00] [Server thread/INFO]: Grim » faturcop failed FastBreak (x49) Delay=0.0
+[03:48:00] [Server thread/INFO]: Grim » Agent_FFFF failed Simulation (x159) .045150 /gl 6
+[03:48:04] [Server thread/INFO]: Grim » faturcop failed FastBreak (x53) Delay=1.0
+[03:48:07] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x9) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
+[03:48:07] [Server thread/INFO]: Grim » faturcop failed FastBreak (x56) Diff=600.0,Balance=1600.0
+[03:48:09] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x10) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
+[03:48:09] [Server thread/INFO]: Grim » faturcop failed FastBreak (x60) Diff=600.0,Balance=1600.0
+[03:48:09] [Server thread/INFO]: Grim » faturcop failed FastBreak (x60) Delay=0.0
+[03:48:10] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x10) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
+[03:48:10] [Server thread/INFO]: Grim » faturcop failed FastBreak (x65) Diff=348.0,Balance=1348.0
+[03:48:11] [Server thread/INFO]: Grim » faturcop failed FastBreak (x70) Delay=58.0
+[03:48:13] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x10) action=FINISHED_DIGGING, last=null, pos=152, 84, -529
+[03:48:13] [Server thread/INFO]: Grim » faturcop failed FastBreak (x75) Diff=350.0,Balance=1350.0
+[03:48:14] [Server thread/INFO]: Grim » faturcop failed FastBreak (x80) Delay=132.0
+[03:48:15] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x10) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
+[03:48:15] [Server thread/INFO]: Grim » faturcop failed FastBreak (x85) Diff=381.0,Balance=1381.0
+[03:48:16] [Server thread/INFO]: Grim » faturcop failed FastBreak (x90) Delay=65.0
+[03:48:17] [Server thread/INFO]: Grim » faturcop failed FastBreak (x95) Delay=101.0
+[03:48:18] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x10) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
+[03:48:18] [Server thread/INFO]: Grim » faturcop failed FastBreak (x100) Diff=349.0,Balance=1349.0
+[03:48:19] [Server thread/INFO]: Grim » faturcop failed FastBreak (x105) Delay=101.0
