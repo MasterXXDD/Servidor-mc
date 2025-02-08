@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1738987885081
+  lastteleport: 1738989606537
   lastheal: 0
   mute: 0
   jail: 0
@@ -23,11 +23,11 @@ last-account-name: Teagokk_
 lastlocation:
   world: 28659312-8323-4dda-a331-f90911e55ca7
   world-name: world
-  x: 136.91289745917427
-  y: 72.0
-  z: -160.83873819637924
-  yaw: 83.54002380371094
-  pitch: 14.583983421325684
+  x: 168.5
+  y: 73.0
+  z: -169.4050793889209
+  yaw: 0.0
+  pitch: 0.0
 logoutlocation:
   world: 28659312-8323-4dda-a331-f90911e55ca7
   world-name: world

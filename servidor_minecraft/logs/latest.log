@@ -265,3 +265,79 @@
 [04:30:28] [Server thread/INFO]: Grim » faturcop failed Reach (x45) 3.44233 blocks
 [04:30:34] [Server thread/INFO]: Grim » faturcop failed Reach (x50) 5.28837 blocks
 [04:30:41] [Server thread/INFO]: Agent_FFFF fell from a high place
+[04:31:04] [Server thread/INFO]: Agent_FFFF was doomed to fall by Luquitas_Alpha
+[04:31:12] [Server thread/INFO]: Luquitas_Alpha fell from a high place
+[04:32:05] [User Authenticator #4/INFO]: UUID of player charly73111 is 01dbfa6f-8679-40e6-bc7a-c9cb8e48b7fe
+[04:32:07] [Server thread/INFO]: charly73111 joined the game
+[04:32:07] [Server thread/INFO]: charly73111[/127.160.76.128:55975] logged in with entity id 7827 at ([world]160.5, 79.0, -167.5)
+[04:32:07] [Server thread/INFO]: Grim » faturcop failed Reach (x40) 3.44035 blocks
+[04:32:08] [Server thread/INFO]: faturcop was slain by Luquitas_Alpha
+[04:32:20] [Server thread/INFO]: Agent_FFFF was slain by Luquitas_Alpha
+[04:32:35] [Server thread/INFO]: Teagokk_ issued server command: /tp charly73111 Teagokk_
+[04:32:35] [Server thread/INFO]: Teagokk_ was slain by Luquitas_Alpha
+[04:32:45] [Server thread/INFO]: Agent_FFFF was slain by Luquitas_Alpha
+[04:32:50] [Server thread/INFO]: charly73111 was slain by Luquitas_Alpha
+[04:32:54] [Server thread/INFO]: Luquitas_Alpha was slain by Teagokk_
+[04:33:16] [Server thread/INFO]: Teagokk_ issued server command: /op charly73111
+[04:33:16] [Server thread/INFO]: [Teagokk_: Made charly73111 a server operator]
+[04:33:24] [Server thread/INFO]: charly73111 issued server command: /kill Luquitas_Alpha
+[04:33:24] [Server thread/INFO]: Luquitas_Alpha died
+[04:33:29] [Server thread/INFO]: Teagokk_ issued server command: /deop charly73111
+[04:33:29] [Server thread/INFO]: [Teagokk_: Made charly73111 no longer a server operator]
+[04:33:30] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] times 2s 9999d 9999d
+[04:33:30] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] title {"text":"Raided By Faturcop", "bold":true, "italic":false, "color":"red"}
+[04:34:05] [Server thread/INFO]: Teagokk_ issued server command: /give Teagokk_ tnt 60
+[04:34:11] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[04:34:23] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival
+[04:34:25] [Server thread/INFO]: faturcop was slain by Luquitas_Alpha
+[04:35:02] [Server thread/INFO]: Agent_FFFF was doomed to fall by Luquitas_Alpha
+[04:35:09] [Server thread/INFO]: charly73111 has made the advancement [Getting an Upgrade]
+[04:35:19] [Server thread/INFO]: Luquitas_Alpha was blown up by Teagokk_
+[04:35:20] [Server thread/INFO]: faturcop lost connection: Disconnected
+[04:35:20] [Server thread/INFO]: faturcop left the game
+[04:36:43] [Server thread/INFO]: charly73111 lost connection: Disconnected
+[04:36:43] [Server thread/INFO]: charly73111 left the game
+[04:37:18] [User Authenticator #5/INFO]: UUID of player skyszz is eac4a8ea-7eef-419d-86a6-c402249e784b
+[04:37:21] [Server thread/INFO]: skyszz joined the game
+[04:37:21] [Server thread/INFO]: skyszz[/127.147.129.74:60151] logged in with entity id 9895 at ([world]160.5, 71.0, -172.5)
+[04:37:47] [User Authenticator #5/INFO]: UUID of player faturcop is e742aa66-6cbf-4b68-9b0b-1681b3f65344
+[04:37:49] [Server thread/INFO]: faturcop joined the game
+[04:37:49] [Server thread/INFO]: faturcop[/127.64.227.9:39297] logged in with entity id 10154 at ([world]151.53683479769245, 85.0, -274.69999998807907)
+[04:37:51] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x5) 3.51118 blocks
+[04:37:59] [Server thread/INFO]: Agent_FFFF has made the advancement [Ol' Betsy]
+[04:38:00] [Server thread/INFO]: Luquitas_Alpha was shot by Agent_FFFF
+[04:38:00] [Server thread/INFO]: Agent_FFFF has made the advancement [Take Aim]
+[04:38:00] [Server thread/INFO]: Grim » faturcop failed BadPacketsG (x20) state=false
+[04:38:08] [Server thread/INFO]: Grim » faturcop failed BadPacketsF (x2) state=true
+[04:38:16] [Server thread/INFO]: Grim » faturcop failed BadPacketsF (x9) state=false
+[04:38:17] [Server thread/INFO]: Teagokk_ issued server command: /tp skyszz Teagokk_
+[04:38:49] [Server thread/INFO]: skyszz has made the advancement [Acquire Hardware]
+[04:38:54] [Server thread/INFO]: Teagokk_ issued server command: /give Teagokk_ bread
+[04:38:58] [Server thread/INFO]: skyszz has made the advancement [Stone Age]
+[04:39:17] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[04:39:32] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival
+[04:39:39] [Server thread/INFO]: skyszz fell from a high place
+[04:39:41] [Server thread/INFO]: Grim » faturcop failed GroundSpoof (x2) claimed false
+[04:39:41] [Server thread/INFO]: Grim » faturcop failed Simulation (x119) .259424 /gl 17
+[04:39:45] [Server thread/INFO]: Teagokk_ issued server command: /fly
+[04:39:48] [Server thread/INFO]: Grim » faturcop failed GroundSpoof (x2) claimed true
+[04:39:48] [Server thread/INFO]: Grim » faturcop failed Simulation (x159) 1.432457 /gl 18
+[04:39:48] [Async Chat Thread - #7/INFO]: <Luquitas_Alpha> 7give luquitas notch
+[04:40:01] [Server thread/INFO]: Teagokk_ was slain by Luquitas_Alpha
+[04:40:01] [Server thread/INFO]: Grim » faturcop failed GroundSpoof (x2) claimed true
+[04:40:01] [Server thread/INFO]: Grim » faturcop failed Simulation (x199) 1.461702 /gl 19
+[04:40:06] [Server thread/INFO]: Teagokk_ issued server command: /tp Luquitas_Alpha
+[04:40:07] [Server thread/INFO]: skyszz was slain by Luquitas_Alpha
+[04:40:11] [Server thread/INFO]: Grim » faturcop failed Simulation (x237) .517360 /gl 20
+[04:40:15] [Server thread/INFO]: Teagokk_ issued server command: /kill Luquitas_Alpha
+[04:40:15] [Server thread/INFO]: Luquitas_Alpha was slain by Teagokk_
+[04:40:20] [Server thread/INFO]: faturcop has made the advancement [Acquire Hardware]
+[04:40:30] [Server thread/INFO]: faturcop was blown up by Teagokk_
+[04:40:44] [Server thread/INFO]: Grim » faturcop failed Simulation (x277) .638675 /gl 21
+[04:40:45] [Server thread/INFO]: Grim » faturcop failed Timer (x23) 
+[04:40:46] [Server thread/INFO]: Grim » faturcop failed BadPacketsN (x15) 
+[04:40:46] [Server thread/INFO]: Agent_FFFF fell from a high place
+[04:40:46] [Server thread/INFO]: Grim » faturcop failed Timer (x51) 
+[04:40:47] [Server thread/INFO]: Grim » faturcop failed Simulation (x317) 1.310984 /gl 22
+[04:40:49] [Server thread/INFO]: Grim » faturcop failed Simulation (x339) .013428 /gl 23
+[04:40:52] [Server thread/INFO]: Grim » faturcop failed Simulation (x355) .129729 /gl 24

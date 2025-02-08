@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.147.129.74
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 0
+  login: 1738989441046
+money: '0'
+last-account-name: skyszz
+lastlocation:
+  world: 28659312-8323-4dda-a331-f90911e55ca7
+  world-name: world
+  x: 138.65781223817797
+  y: 74.0
+  z: -214.71425907774054
+  yaw: -75.8757553100586
+  pitch: 3.454930067062378
