@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1738987864608
+  logout: 1738988450700
+  login: 1738988477448
 money: '0'
 last-account-name: Teagokk_
 lastlocation:
@@ -28,3 +28,11 @@ lastlocation:
   z: -160.83873819637924
   yaw: 83.54002380371094
   pitch: 14.583983421325684
+logoutlocation:
+  world: 28659312-8323-4dda-a331-f90911e55ca7
+  world-name: world
+  x: 182.77129482357162
+  y: 106.0
+  z: -455.7100644852072
+  yaw: -123.18807983398438
+  pitch: 54.3720703125

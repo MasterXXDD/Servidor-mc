@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1738988304698
+  logout: 1738988498756
+  login: 1738988505846
 money: '0'
 last-account-name: faturcop
+logoutlocation:
+  world: 28659312-8323-4dda-a331-f90911e55ca7
+  world-name: world
+  x: 170.14489815460226
+  y: 86.24918707874468
+  z: -354.3055721778471
+  yaw: 171.25442504882812
+  pitch: 26.134830474853516

@@ -161,3 +161,107 @@
 [04:20:23] [Server thread/INFO]: Grim » faturcop failed Reach (x10) 4.43516 blocks
 [04:20:29] [Server thread/INFO]: Agent_FFFF was slain by Luquitas_Alpha
 [04:20:34] [Server thread/INFO]: Teagokk_ was slain by Luquitas_Alpha
+[04:20:50] [Server thread/INFO]: Teagokk_ lost connection: Disconnected
+[04:20:50] [Server thread/INFO]: Teagokk_ left the game
+[04:21:04] [Server thread/INFO]: Teagokk_ (/127.189.225.101:48593) lost connection: Disconnected
+[04:21:15] [User Authenticator #2/INFO]: UUID of player Teagokk_ is 5f3b4f9e-0a67-4dab-9cb0-f83a5e0eeb80
+[04:21:17] [Server thread/INFO]: Teagokk_ joined the game
+[04:21:17] [Server thread/INFO]: Teagokk_[/127.189.225.101:53723] logged in with entity id 3118 at ([world]182.77129482357162, 106.0, -455.7100644852072)
+[04:21:29] [Server thread/INFO]: faturcop issued server command: /gamerule sendCommandFeedback false
+[04:21:29] [Server thread/INFO]: faturcop issued server command: /gamerule logAdminCommands false
+[04:21:29] [Server thread/INFO]: faturcop issued server command: /execute at @a[name=!faturcop,name=!Agent_FFFF] run particle ash ~ ~ ~ 1 1 1 1 2147483647 force @a[name=!faturcop,name=!Agent_FFFF]
+[04:21:29] [Server thread/INFO]: faturcop issued server command: /gamerule randomTickSpeed 2147483647
+[04:21:30] [Server thread/INFO]: faturcop issued server command: /gamerule sendCommandFeedback false
+[04:21:30] [Server thread/INFO]: faturcop issued server command: /gamerule logAdminCommands false
+[04:21:30] [Server thread/INFO]: faturcop issued server command: /execute at @a[name=!faturcop,name=!Agent_FFFF] run particle ash ~ ~ ~ 1 1 1 1 2147483647 force @a[name=!faturcop,name=!Agent_FFFF]
+[04:21:30] [Server thread/INFO]: faturcop issued server command: /gamerule randomTickSpeed 2147483647
+[04:21:36] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] times 2s 9999d 9999d
+[04:21:36] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] title {"text":"Raided By Faturcop", "bold":true, "italic":false, "color":"red"}
+[04:21:36] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] subtitle {"text":"Raided", "bold":true, "italic":false, "color":"dark_red"}
+[04:21:36] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] times 2s 9999d 9999d
+[04:21:36] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] title {"text":"Raided By Faturcop", "bold":true, "italic":false, "color":"red"}
+[04:21:36] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] subtitle {"text":"Raided", "bold":true, "italic":false, "color":"dark_red"}
+[04:21:38] [Server thread/INFO]: faturcop issued server command: /gamerule sendCommandFeedback false
+[04:21:38] [Server thread/INFO]: faturcop issued server command: /gamerule logAdminCommands false
+[04:21:38] [Server thread/INFO]: faturcop issued server command: /execute at @a[name=!faturcop,name=!Agent_FFFF] run particle ash ~ ~ ~ 1 1 1 1 2147483647 force @a[name=!faturcop,name=!Agent_FFFF]
+[04:21:38] [Server thread/INFO]: faturcop issued server command: /gamerule randomTickSpeed 2147483647
+[04:21:38] [Server thread/INFO]: faturcop issued server command: /gamerule sendCommandFeedback false
+[04:21:38] [Server thread/INFO]: faturcop issued server command: /gamerule logAdminCommands false
+[04:21:38] [Server thread/INFO]: faturcop lost connection: Kicked for spamming
+[04:21:38] [Server thread/INFO]: faturcop left the game
+[04:21:41] [Server thread/INFO]: Teagokk_ issued server command: /fly
+[04:21:44] [User Authenticator #2/INFO]: UUID of player faturcop is e742aa66-6cbf-4b68-9b0b-1681b3f65344
+[04:21:45] [Server thread/INFO]: faturcop joined the game
+[04:21:45] [Server thread/INFO]: faturcop[/127.64.227.9:58883] logged in with entity id 3232 at ([world]170.122404519215, 86.25220334025373, -354.45170808102847)
+[04:21:58] [Server thread/INFO]: Teagokk_ was slain by Luquitas_Alpha
+[04:21:59] [Server thread/INFO]: Luquitas_Alpha was slain by Agent_FFFF
+[04:22:04] [Server thread/INFO]: Teagokk_ issued server command: /kill Luquitas_Alpha
+[04:22:04] [Server thread/INFO]: Luquitas_Alpha died
+[04:22:10] [Server thread/INFO]: Teagokk_ issued server command: /kill Luquitas_Alpha
+[04:22:10] [Server thread/INFO]: Luquitas_Alpha died
+[04:22:11] [Server thread/INFO]: Teagokk_ issued server command: /kill Luquitas_Alpha
+[04:22:11] [Server thread/INFO]: Luquitas_Alpha died
+[04:22:12] [Server thread/INFO]: Teagokk_ issued server command: /kill Luquitas_Alpha
+[04:22:12] [Server thread/INFO]: Teagokk_ issued server command: /kill Luquitas_Alpha
+[04:22:13] [Server thread/INFO]: Teagokk_ issued server command: /kill Luquitas_Alpha
+[04:22:13] [Server thread/INFO]: Luquitas_Alpha died
+[04:22:14] [Server thread/INFO]: Teagokk_ issued server command: /kill Luquitas_Alpha
+[04:22:14] [Server thread/INFO]: Luquitas_Alpha died
+[04:23:37] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x5) 3.59646 blocks
+[04:23:44] [Server thread/INFO]: Luquitas_Alpha was slain by Spider
+[04:23:48] [Server thread/INFO]: Agent_FFFF has made the advancement [Monster Hunter]
+[04:24:58] [Server thread/INFO]: faturcop was slain by Luquitas_Alpha
+[04:25:13] [Server thread/INFO]: Agent_FFFF was slain by Luquitas_Alpha
+[04:25:17] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x10) 3.54978 blocks, type=zombie
+[04:25:22] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x10) 3.72927 blocks, type=zombie
+[04:26:04] [Server thread/INFO]: Grim » Luquitas_Alpha failed AimModulo360 (x40) 
+[04:26:07] [Server thread/INFO]: Luquitas_Alpha was slain by Teagokk_
+[04:26:08] [Server thread/INFO]: Grim » Luquitas_Alpha failed Timer (x23) 
+[04:26:08] [Server thread/INFO]: Grim » Luquitas_Alpha failed Timer (x23) 
+[04:26:15] [Server thread/INFO]: Grim » faturcop failed Reach (x5) 4.31994 blocks, type=zombie
+[04:26:17] [Server thread/INFO]: Grim » faturcop failed Reach (x10) 5.52575 blocks, type=zombie
+[04:26:19] [Server thread/INFO]: Grim » faturcop failed Reach (x15) 3.94792 blocks, type=zombie
+[04:26:24] [Server thread/INFO]: Grim » Agent_FFFF failed Simulation (x110) .082077 /gl 15
+[04:26:31] [Server thread/INFO]: faturcop was slain by Zombie
+[04:26:34] [Server thread/INFO]: faturcop issued server command: /gamerule sendCommandFeedback false
+[04:26:34] [Server thread/INFO]: faturcop issued server command: /gamerule logAdminCommands false
+[04:26:34] [Server thread/INFO]: faturcop issued server command: /execute at @a[name=!faturcop,name=!Agent_FFFF] run particle ash ~ ~ ~ 1 1 1 1 2147483647 force @a[name=!faturcop,name=!Agent_FFFF]
+[04:26:34] [Server thread/INFO]: faturcop issued server command: /gamerule randomTickSpeed 2147483647
+[04:26:36] [Server thread/INFO]: faturcop issued server command: /gamerule sendCommandFeedback false
+[04:26:36] [Server thread/INFO]: faturcop issued server command: /gamerule logAdminCommands false
+[04:26:36] [Server thread/INFO]: faturcop issued server command: /execute at @a[name=!faturcop,name=!Agent_FFFF] run particle ash ~ ~ ~ 1 1 1 1 2147483647 force @a[name=!faturcop,name=!Agent_FFFF]
+[04:26:36] [Server thread/INFO]: faturcop issued server command: /gamerule randomTickSpeed 2147483647
+[04:26:37] [Server thread/INFO]: Agent_FFFF was slain by Zombie
+[04:27:11] [Server thread/INFO]: Agent_FFFF was slain by Zombie
+[04:27:29] [Server thread/INFO]: Grim » Luquitas_Alpha failed AimModulo360 (x40) 
+[04:27:49] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x15) 3.98629 blocks, type=zombie
+[04:27:50] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x90) .191232 /gl 16
+[04:27:55] [Server thread/INFO]: Grim » faturcop failed Reach (x20) 5.12341 blocks
+[04:27:57] [Server thread/INFO]: Grim » faturcop failed Reach (x25) 3.40400 blocks, type=zombie
+[04:27:59] [Server thread/INFO]: Grim » faturcop failed Reach (x30) 3.99311 blocks, type=zombie
+[04:28:02] [Server thread/INFO]: Grim » faturcop failed Reach (x35) 4.54775 blocks, type=zombie
+[04:28:26] [Server thread/INFO]: Teagokk_ was slain by Luquitas_Alpha
+[04:28:35] [Server thread/INFO]: Luquitas_Alpha was doomed to fall by Teagokk_
+[04:28:46] [Server thread/INFO]: Luquitas_Alpha was slain by Teagokk_
+[04:28:49] [Server thread/INFO]: Grim » faturcop failed Reach (x40) 3.12235 blocks
+[04:28:54] [Server thread/INFO]: Luquitas_Alpha was slain by faturcop
+[04:29:17] [Netty Epoll Server IO #3/INFO]: [GrimAC] Disconnecting Luquitas_Alpha for spamming invalid packets, packets cancelled within a second 101
+[04:29:17] [Netty Epoll Server IO #3/INFO]: [GrimAC] Disconnecting Luquitas_Alpha for disconnect.closed
+[04:29:17] [Server thread/INFO]: Luquitas_Alpha lost connection: disconnect.closed
+[04:29:17] [Server thread/INFO]: Luquitas_Alpha left the game
+[04:29:21] [User Authenticator #3/INFO]: UUID of player Luquitas_Alpha is e8a17eb8-cb33-41d7-b593-a0284eed9ea4
+[04:29:22] [Server thread/INFO]: Luquitas_Alpha joined the game
+[04:29:22] [Server thread/INFO]: Luquitas_Alpha[/127.31.93.45:38855] logged in with entity id 6946 at ([world]152.75640866541573, 73.0, -203.9281947013658)
+[04:29:23] [Server thread/INFO]: Luquitas_Alpha issued server command: /invsee Teagokk_
+[04:29:23] [Server thread/INFO]: [Essentials] Luquitas_Alpha was denied access to command.
+[04:29:26] [Netty Epoll Server IO #2/INFO]: [GrimAC] Disconnecting Luquitas_Alpha for spamming invalid packets, packets cancelled within a second 101
+[04:29:26] [Netty Epoll Server IO #2/INFO]: [GrimAC] Disconnecting Luquitas_Alpha for disconnect.closed
+[04:29:26] [Server thread/INFO]: Luquitas_Alpha lost connection: disconnect.closed
+[04:29:26] [Server thread/INFO]: Luquitas_Alpha left the game
+[04:29:28] [Server thread/INFO]: faturcop fell from a high place
+[04:29:29] [User Authenticator #3/INFO]: UUID of player Luquitas_Alpha is e8a17eb8-cb33-41d7-b593-a0284eed9ea4
+[04:29:30] [Server thread/INFO]: Luquitas_Alpha joined the game
+[04:29:30] [Server thread/INFO]: Luquitas_Alpha[/127.31.93.45:54207] logged in with entity id 7074 at ([world]152.64979990031216, 73.0, -204.97578039483892)
+[04:30:28] [Server thread/INFO]: Grim » faturcop failed Reach (x45) 3.44233 blocks
+[04:30:34] [Server thread/INFO]: Grim » faturcop failed Reach (x50) 5.28837 blocks
+[04:30:41] [Server thread/INFO]: Agent_FFFF fell from a high place
