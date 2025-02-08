@@ -109,3 +109,47 @@
 [03:27:36] [User Authenticator #3/INFO]: UUID of player Luquitas_Alpha is e8a17eb8-cb33-41d7-b593-a0284eed9ea4
 [03:27:37] [Server thread/INFO]: Luquitas_Alpha joined the game
 [03:27:37] [Server thread/INFO]: Luquitas_Alpha[/127.31.93.45:37461] logged in with entity id 3719 at ([world]110.17151575719129, 83.0, -310.90751804708736)
+[03:28:59] [Server thread/INFO]: Teagokk_ issued server command: /tps
+[03:29:41] [Server thread/INFO]: Teagokk_ issued server command: /team add Usuario
+[03:29:41] [Server thread/INFO]: [Teagokk_: Created team [Usuario]]
+[03:29:41] [Server thread/INFO]: Luquitas_Alpha was slain by faturcop
+[03:31:15] [Server thread/INFO]: Luquitas_Alpha lost connection: Disconnected
+[03:31:15] [Server thread/INFO]: Luquitas_Alpha left the game
+[03:31:39] [Async Chat Thread - #5/INFO]: <faturcop> descansa en pas lebei y luquitas
+[03:31:47] [Async Chat Thread - #5/INFO]: <Teagokk_> noooooooooo
+[03:31:53] [Async Chat Thread - #5/INFO]: <Teagokk_> cara triste
+[03:31:56] [Async Chat Thread - #5/INFO]: <Teagokk_> tocar
+[03:32:02] [Async Chat Thread - #5/INFO]: <faturcop> tocar
+[03:32:13] [Server thread/INFO]: Villager Villager['Leatherworker'/190, uuid='d6e048ad-60a4-4bd5-9809-f3c43308f6db', l='ServerLevel[world]', x=158.92, y=77.94, z=-465.90, cpos=[9, -30], tl=19403, v=true] died, message: 'Leatherworker was slain by faturcop'
+[03:32:17] [Server thread/INFO]: Villager Villager['Leatherworker'/189, uuid='53b76131-b57f-4c02-9404-997917aec607', l='ServerLevel[world]', x=162.48, y=77.94, z=-467.70, cpos=[10, -30], tl=19752, v=true] died, message: 'Leatherworker was slain by faturcop'
+[03:32:20] [Server thread/INFO]: Villager Villager['Leatherworker'/193, uuid='9e9c1ec6-6055-4dcf-aa79-6c9b72ff64da', l='ServerLevel[world]', x=162.91, y=79.94, z=-469.24, cpos=[10, -30], tl=19831, v=true] died, message: 'Leatherworker was slain by faturcop'
+[03:32:32] [User Authenticator #4/INFO]: UUID of player Luquitas_Alpha is e8a17eb8-cb33-41d7-b593-a0284eed9ea4
+[03:32:34] [Server thread/INFO]: Luquitas_Alpha joined the game
+[03:32:34] [Server thread/INFO]: Luquitas_Alpha[/127.31.93.45:49251] logged in with entity id 4682 at ([world]170.5, 75.0, -183.5)
+[03:32:34] [Server thread/INFO]: Villager Villager['Villager'/206, uuid='7d662c4d-31f6-4d40-a098-e8b5350c6168', l='ServerLevel[world]', x=141.61, y=88.00, z=-530.27, cpos=[8, -34], tl=19603, v=true] died, message: 'Villager was slain by faturcop'
+[03:32:36] [Server thread/INFO]: Villager Villager['Villager'/245, uuid='2c4b71ed-cc7b-4573-a106-df97d4676a51', l='ServerLevel[world]', x=139.58, y=88.00, z=-530.75, cpos=[8, -34], tl=19764, v=true] died, message: 'Villager was slain by faturcop'
+[03:34:18] [Server thread/INFO]: Grim » faturcop failed FastBreak (x4) Delay=128.0
+[03:34:29] [Server thread/INFO]: Grim » faturcop failed FastBreak (x9) Delay=87.0
+[03:34:55] [Server thread/INFO]: Grim » faturcop failed FastBreak (x14) Delay=101.0
+[03:35:01] [Server thread/INFO]: Grim » faturcop failed FastBreak (x19) Delay=101.0
+[03:35:23] [Server thread/INFO]: Grim » faturcop failed AirLiquidBreak (x2) block=air, type=START_DIGGING
+[03:35:25] [Server thread/INFO]: Grim » faturcop failed AirLiquidBreak (x7) block=air, type=START_DIGGING
+[03:35:36] [Server thread/INFO]: Grim » faturcop failed FastBreak (x28) Delay=100.0
+[03:35:42] [Server thread/INFO]: Grim » faturcop failed FastBreak (x33) Delay=101.0
+[03:35:48] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x5) 3.97860 blocks, type=rabbit
+[03:35:49] [Server thread/INFO]: Grim » faturcop failed FastBreak (x38) Delay=100.0
+[03:35:50] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x10) 3.97476 blocks, type=rabbit
+[03:35:54] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x15) 4.02414 blocks, type=rabbit
+[03:35:57] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x20) 3.92355 blocks, type=rabbit
+[03:36:00] [Server thread/INFO]: Grim » faturcop failed FastBreak (x43) Delay=101.0
+[03:36:00] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x25) 3.94298 blocks, type=rabbit
+[03:36:04] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x30) 4.33755 blocks, type=rabbit
+[03:36:41] [Server thread/INFO]: Grim » faturcop failed FarPlace (x1) 
+[03:36:41] [Server thread/INFO]: Grim » faturcop failed RotationPlace (x4) pre-flying
+[03:36:48] [Server thread/INFO]: Grim » faturcop failed AirLiquidBreak (x9) block=air, type=START_DIGGING
+[03:36:54] [Server thread/INFO]: Grim » faturcop failed FastBreak (x52) Delay=52.0
+[03:36:57] [Server thread/INFO]: Grim » Agent_FFFF failed Simulation (x120) .010036 /gl 1
+[03:37:00] [Server thread/INFO]: Grim » faturcop failed FastBreak (x57) Delay=68.0
+[03:37:08] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x111) .005578 /gl 2
+[03:37:09] [Server thread/INFO]: Luquitas_Alpha was slain by Agent_FFFF
+[03:37:46] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x149) .627587 /gl 3
