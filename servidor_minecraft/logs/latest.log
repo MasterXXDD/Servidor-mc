@@ -1,231 +1,163 @@
-[03:18:05] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[03:18:05] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[03:18:05] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:18:05] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/grimac-2.3.69.jar'...
-[03:18:08] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/grimac-2.3.69.jar' in 2790ms.
-[03:18:08] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[03:18:08] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
- - GrimAC (2.3.69)
-[03:18:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:18:14] [ServerMain/INFO]: Loaded 1290 recipes
-[03:18:14] [ServerMain/INFO]: Loaded 1399 advancements
-[03:18:14] [Server thread/INFO]: Starting minecraft server version 1.21
-[03:18:14] [Server thread/INFO]: Loading properties
-[03:18:14] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[03:18:15] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:18:15] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:18:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:18:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[03:18:16] [Server thread/INFO]: Default game type: SURVIVAL
-[03:18:16] [Server thread/INFO]: Generating keypair
-[03:18:16] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:18:16] [Server thread/INFO]: Using epoll channel type
-[03:18:16] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:18:16] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[03:18:16] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.69
-[03:18:17] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
-[03:18:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:18:21] [Server thread/INFO]: Preparing level "world"
-[03:18:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:18:23] [Server thread/INFO]: Time elapsed: 1573 ms
-[03:18:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:18:23] [Server thread/INFO]: Time elapsed: 264 ms
-[03:18:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:18:23] [Server thread/INFO]: Time elapsed: 245 ms
-[03:18:23] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.69
-[03:18:23] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
-[03:18:23] [Server thread/INFO]: [GrimAC] Registering packets...
-[03:18:23] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
-[03:18:24] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
-[03:18:24] [Server thread/INFO]: Grim Version: 2.3.69
-[03:18:24] [Server thread/INFO]: [spark] Starting background profiler...
-[03:18:25] [Server thread/INFO]: Done preparing level "world" (3.876s)
-[03:18:25] [Server thread/INFO]: Running delayed init tasks
-[03:18:25] [Server thread/INFO]: Done (20.990s)! For help, type "help"
-[03:18:25] [Server thread/INFO]: Timings Reset
-[03:18:25] [Craft Scheduler Thread - 2 - GrimAC/INFO]: New GrimAC version found! Version 2.3.70 is available to be downloaded here: https://modrinth.com/plugin/grimac
-[03:18:26] [User Authenticator #0/INFO]: UUID of player Agent_FFFF is 85877a29-3809-40d5-ac54-89af91210b4d
-[03:18:27] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 5f3b4f9e-0a67-4dab-9cb0-f83a5e0eeb80
-[03:18:28] [Server thread/INFO]: Agent_FFFF joined the game
-[03:18:28] [Server thread/INFO]: Agent_FFFF[/127.86.91.244:55459] logged in with entity id 103 at ([world]165.5, 72.0, -180.5)
-[03:18:29] [Server thread/INFO]: Teagokk_ joined the game
-[03:18:29] [Server thread/INFO]: Teagokk_[/127.189.225.101:58223] logged in with entity id 104 at ([world]168.02273290943276, 78.0, -486.98815813052505)
-[03:18:36] [User Authenticator #0/INFO]: UUID of player Luquitas_Alpha is e8a17eb8-cb33-41d7-b593-a0284eed9ea4
-[03:18:37] [Server thread/INFO]: Luquitas_Alpha joined the game
-[03:18:37] [Server thread/INFO]: Luquitas_Alpha[/127.31.93.45:51733] logged in with entity id 469 at ([world]155.1159562665879, 91.08639997415543, -533.3386023305595)
-[03:18:40] [User Authenticator #0/INFO]: UUID of player faturcop is e742aa66-6cbf-4b68-9b0b-1681b3f65344
-[03:18:41] [Server thread/INFO]: faturcop joined the game
-[03:18:41] [Server thread/INFO]: faturcop[/127.64.227.9:37303] logged in with entity id 575 at ([world]165.28324656839064, 78.0, -480.5968727867757)
-[03:18:52] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Acquire Hardware]
-[03:19:35] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Isn't It Iron Pick]
-[03:19:47] [Server thread/INFO]: Agent_FFFF has made the advancement [Stone Age]
-[03:20:00] [Server thread/INFO]: Agent_FFFF issued server command: /plugins
-[03:20:09] [Server thread/INFO]: faturcop issued server command: /pl
-[03:20:46] [Server thread/INFO]: Agent_FFFF has made the advancement [Getting an Upgrade]
-[03:21:08] [Server thread/INFO]: faturcop was slain by Luquitas_Alpha
-[03:21:15] [Server thread/INFO]: Teagokk_ issued server command: /kick Agent_FFFF
-[03:21:15] [Server thread/INFO]: Agent_FFFF lost connection: Kicked by an operator
-[03:21:15] [Server thread/INFO]: Agent_FFFF left the game
-[03:21:15] [Server thread/INFO]: [Teagokk_: Kicked Agent_FFFF: Kicked by an operator]
-[03:21:19] [User Authenticator #1/INFO]: UUID of player Agent_FFFF is 85877a29-3809-40d5-ac54-89af91210b4d
-[03:21:20] [Server thread/INFO]: Agent_FFFF joined the game
-[03:21:20] [Server thread/INFO]: Agent_FFFF[/127.86.91.244:39887] logged in with entity id 1235 at ([world]136.40480571764442, 76.0, -248.6022563177147)
-[03:21:50] [Server thread/INFO]: faturcop was slain by Luquitas_Alpha
-[03:22:02] [Server thread/INFO]: Teagokk_ was slain by Luquitas_Alpha
-[03:23:12] [Server thread/INFO]: Teagokk_ was shot by Skeleton
-[03:23:22] [Server thread/INFO]: faturcop was slain by Luquitas_Alpha
-[03:23:32] [Server thread/INFO]: Luquitas_Alpha was slain by Agent_FFFF
-[03:23:34] [Server thread/INFO]: Agent_FFFF has made the advancement [Acquire Hardware]
-[03:24:03] [Server thread/INFO]: Luquitas_Alpha was slain by faturcop
-[03:24:24] [Server thread/INFO]: Agent_FFFF was blown up by Creeper
-[03:24:29] [Server thread/INFO]: Grim » faturcop failed Reach (x5) 3.19145 blocks, type=creeper
-[03:24:40] [Server thread/INFO]: Grim » faturcop failed Reach (x10) 5.53674 blocks, type=creeper
-[03:24:43] [Server thread/INFO]: Grim » faturcop failed Reach (x15) 5.76401 blocks, type=creeper
-[03:24:51] [Server thread/INFO]: Luquitas_Alpha was slain by faturcop
-[03:25:08] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] times 2s 9999d 9999d
-[03:25:08] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] title {"text":"Raided By Faturcop", "bold":true, "italic":false, "color":"red"}
-[03:25:08] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] subtitle {"text":"Raided", "bold":true, "italic":false, "color":"dark_red"}
-[03:25:09] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] times 2s 9999d 9999d
-[03:25:09] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] title {"text":"Raided By Faturcop", "bold":true, "italic":false, "color":"red"}
-[03:25:09] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] subtitle {"text":"Raided", "bold":true, "italic":false, "color":"dark_red"}
-[03:25:21] [Server thread/INFO]: faturcop has made the advancement [Sweet Dreams]
-[03:25:38] [Server thread/INFO]: Teagokk_ has made the advancement [Sweet Dreams]
-[03:25:58] [Server thread/INFO]: Teagokk_ issued server command: /kick Luquitas_Alpha
-[03:25:58] [Server thread/INFO]: Luquitas_Alpha lost connection: Kicked by an operator
-[03:25:58] [Server thread/INFO]: Luquitas_Alpha left the game
-[03:25:58] [Server thread/INFO]: [Teagokk_: Kicked Luquitas_Alpha: Kicked by an operator]
-[03:26:02] [User Authenticator #2/INFO]: UUID of player Luquitas_Alpha is e8a17eb8-cb33-41d7-b593-a0284eed9ea4
-[03:26:03] [Server thread/INFO]: Luquitas_Alpha joined the game
-[03:26:03] [Server thread/INFO]: Luquitas_Alpha[/127.31.93.45:45657] logged in with entity id 3350 at ([world]166.87953154411787, 80.25521960176278, -467.71924819588344)
-[03:26:11] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Sweet Dreams]
-[03:26:12] [Server thread/INFO]: Agent_FFFF has made the advancement [Sweet Dreams]
-[03:26:35] [Server thread/INFO]: Grim » faturcop failed Reach (x20) 3.30693 blocks
-[03:26:36] [Server thread/INFO]: Luquitas_Alpha was slain by faturcop
-[03:26:48] [Server thread/INFO]: faturcop was slain by Zombie
-[03:27:33] [Server thread/INFO]: Teagokk_ issued server command: /kick Luquitas_Alpha
-[03:27:33] [Server thread/INFO]: Luquitas_Alpha lost connection: Kicked by an operator
-[03:27:33] [Server thread/INFO]: Luquitas_Alpha left the game
-[03:27:33] [Server thread/INFO]: [Teagokk_: Kicked Luquitas_Alpha: Kicked by an operator]
-[03:27:36] [User Authenticator #3/INFO]: UUID of player Luquitas_Alpha is e8a17eb8-cb33-41d7-b593-a0284eed9ea4
-[03:27:37] [Server thread/INFO]: Luquitas_Alpha joined the game
-[03:27:37] [Server thread/INFO]: Luquitas_Alpha[/127.31.93.45:37461] logged in with entity id 3719 at ([world]110.17151575719129, 83.0, -310.90751804708736)
-[03:28:59] [Server thread/INFO]: Teagokk_ issued server command: /tps
-[03:29:41] [Server thread/INFO]: Teagokk_ issued server command: /team add Usuario
-[03:29:41] [Server thread/INFO]: [Teagokk_: Created team [Usuario]]
-[03:29:41] [Server thread/INFO]: Luquitas_Alpha was slain by faturcop
-[03:31:15] [Server thread/INFO]: Luquitas_Alpha lost connection: Disconnected
-[03:31:15] [Server thread/INFO]: Luquitas_Alpha left the game
-[03:31:39] [Async Chat Thread - #5/INFO]: <faturcop> descansa en pas lebei y luquitas
-[03:31:47] [Async Chat Thread - #5/INFO]: <Teagokk_> noooooooooo
-[03:31:53] [Async Chat Thread - #5/INFO]: <Teagokk_> cara triste
-[03:31:56] [Async Chat Thread - #5/INFO]: <Teagokk_> tocar
-[03:32:02] [Async Chat Thread - #5/INFO]: <faturcop> tocar
-[03:32:13] [Server thread/INFO]: Villager Villager['Leatherworker'/190, uuid='d6e048ad-60a4-4bd5-9809-f3c43308f6db', l='ServerLevel[world]', x=158.92, y=77.94, z=-465.90, cpos=[9, -30], tl=19403, v=true] died, message: 'Leatherworker was slain by faturcop'
-[03:32:17] [Server thread/INFO]: Villager Villager['Leatherworker'/189, uuid='53b76131-b57f-4c02-9404-997917aec607', l='ServerLevel[world]', x=162.48, y=77.94, z=-467.70, cpos=[10, -30], tl=19752, v=true] died, message: 'Leatherworker was slain by faturcop'
-[03:32:20] [Server thread/INFO]: Villager Villager['Leatherworker'/193, uuid='9e9c1ec6-6055-4dcf-aa79-6c9b72ff64da', l='ServerLevel[world]', x=162.91, y=79.94, z=-469.24, cpos=[10, -30], tl=19831, v=true] died, message: 'Leatherworker was slain by faturcop'
-[03:32:32] [User Authenticator #4/INFO]: UUID of player Luquitas_Alpha is e8a17eb8-cb33-41d7-b593-a0284eed9ea4
-[03:32:34] [Server thread/INFO]: Luquitas_Alpha joined the game
-[03:32:34] [Server thread/INFO]: Luquitas_Alpha[/127.31.93.45:49251] logged in with entity id 4682 at ([world]170.5, 75.0, -183.5)
-[03:32:34] [Server thread/INFO]: Villager Villager['Villager'/206, uuid='7d662c4d-31f6-4d40-a098-e8b5350c6168', l='ServerLevel[world]', x=141.61, y=88.00, z=-530.27, cpos=[8, -34], tl=19603, v=true] died, message: 'Villager was slain by faturcop'
-[03:32:36] [Server thread/INFO]: Villager Villager['Villager'/245, uuid='2c4b71ed-cc7b-4573-a106-df97d4676a51', l='ServerLevel[world]', x=139.58, y=88.00, z=-530.75, cpos=[8, -34], tl=19764, v=true] died, message: 'Villager was slain by faturcop'
-[03:34:18] [Server thread/INFO]: Grim » faturcop failed FastBreak (x4) Delay=128.0
-[03:34:29] [Server thread/INFO]: Grim » faturcop failed FastBreak (x9) Delay=87.0
-[03:34:55] [Server thread/INFO]: Grim » faturcop failed FastBreak (x14) Delay=101.0
-[03:35:01] [Server thread/INFO]: Grim » faturcop failed FastBreak (x19) Delay=101.0
-[03:35:23] [Server thread/INFO]: Grim » faturcop failed AirLiquidBreak (x2) block=air, type=START_DIGGING
-[03:35:25] [Server thread/INFO]: Grim » faturcop failed AirLiquidBreak (x7) block=air, type=START_DIGGING
-[03:35:36] [Server thread/INFO]: Grim » faturcop failed FastBreak (x28) Delay=100.0
-[03:35:42] [Server thread/INFO]: Grim » faturcop failed FastBreak (x33) Delay=101.0
-[03:35:48] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x5) 3.97860 blocks, type=rabbit
-[03:35:49] [Server thread/INFO]: Grim » faturcop failed FastBreak (x38) Delay=100.0
-[03:35:50] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x10) 3.97476 blocks, type=rabbit
-[03:35:54] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x15) 4.02414 blocks, type=rabbit
-[03:35:57] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x20) 3.92355 blocks, type=rabbit
-[03:36:00] [Server thread/INFO]: Grim » faturcop failed FastBreak (x43) Delay=101.0
-[03:36:00] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x25) 3.94298 blocks, type=rabbit
-[03:36:04] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x30) 4.33755 blocks, type=rabbit
-[03:36:41] [Server thread/INFO]: Grim » faturcop failed FarPlace (x1) 
-[03:36:41] [Server thread/INFO]: Grim » faturcop failed RotationPlace (x4) pre-flying
-[03:36:48] [Server thread/INFO]: Grim » faturcop failed AirLiquidBreak (x9) block=air, type=START_DIGGING
-[03:36:54] [Server thread/INFO]: Grim » faturcop failed FastBreak (x52) Delay=52.0
-[03:36:57] [Server thread/INFO]: Grim » Agent_FFFF failed Simulation (x120) .010036 /gl 1
-[03:37:00] [Server thread/INFO]: Grim » faturcop failed FastBreak (x57) Delay=68.0
-[03:37:08] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x111) .005578 /gl 2
-[03:37:09] [Server thread/INFO]: Luquitas_Alpha was slain by Agent_FFFF
-[03:37:46] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x149) .627587 /gl 3
-[03:38:46] [Server thread/INFO]: Grim » faturcop failed FastBreak (x60) Delay=1.0
-[03:39:00] [Server thread/INFO]: faturcop was slain by Zombie
-[03:40:49] [Server thread/INFO]: Grim » Agent_FFFF failed Simulation (x160) .030177 /gl 4
-[03:41:06] [Server thread/INFO]: Teagokk_ has made the advancement [Monster Hunter]
-[03:41:21] [Server thread/INFO]: Villager Villager['Leatherworker'/214, uuid='08aad32b-5273-482a-92ba-de26832884e2', l='ServerLevel[world]', x=160.58, y=79.00, z=-463.51, cpos=[10, -29], tl=30259, v=true] died, message: 'Leatherworker was slain by Agent_FFFF'
-[03:41:25] [Server thread/INFO]: faturcop has made the advancement [Monster Hunter]
-[03:42:30] [Server thread/INFO]: Villager Villager['Leatherworker'/207, uuid='dff28d65-1017-4c53-8edf-ca401b8332a5', l='ServerLevel[world]', x=126.42, y=84.94, z=-527.04, cpos=[7, -33], tl=31729, v=true] died, message: 'Leatherworker was slain by Zombie'
-[03:42:50] [Async Chat Thread - #6/INFO]: <Agent_FFFF> zombies wop wop
-[03:43:50] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x5) 3.41309 blocks
-[03:43:56] [Server thread/INFO]: Agent_FFFF was slain by Luquitas_Alpha
-[03:44:10] [Netty Epoll Server IO #3/INFO]: [GrimAC] Disconnecting Agent_FFFF for spamming invalid packets, packets cancelled within a second 101
-[03:44:10] [Netty Epoll Server IO #3/INFO]: [GrimAC] Disconnecting Agent_FFFF for disconnect.closed
-[03:44:10] [Server thread/INFO]: Agent_FFFF lost connection: Disconnected
-[03:44:10] [Server thread/INFO]: Agent_FFFF left the game
-[03:44:14] [Server thread/INFO]: faturcop was slain by Luquitas_Alpha
-[03:44:16] [User Authenticator #5/INFO]: UUID of player Agent_FFFF is 85877a29-3809-40d5-ac54-89af91210b4d
-[03:44:17] [Server thread/INFO]: Agent_FFFF joined the game
-[03:44:17] [Server thread/INFO]: Agent_FFFF[/127.86.91.244:55009] logged in with entity id 8150 at ([world]180.68522132437505, 80.16477328182607, -465.9268557680648)
-[03:44:18] [Server thread/INFO]: Luquitas_Alpha was slain by Teagokk_
-[03:45:08] [Server thread/INFO]: Grim » Agent_FFFF failed Reach (x5) 4.67838 blocks, type=spider
-[03:45:19] [Async Chat Thread - #9/INFO]: <Luquitas_Alpha> What's 2+2? [2edff98265f096888084367e5dee9c95d]
-[03:45:26] [Async Chat Thread - #9/INFO]: <Agent_FFFF> otno
-[03:45:30] [Async Chat Thread - #9/INFO]: <Teagokk_> q
-[03:45:34] [Async Chat Thread - #9/INFO]: <Luquitas_Alpha> so
-[03:46:19] [Server thread/INFO]: Grim » Luquitas_Alpha failed RotationPlace (x1) post-flying
-[03:46:20] [Server thread/INFO]: Grim » Luquitas_Alpha failed FarPlace (x3) 
-[03:46:20] [Server thread/INFO]: Grim » Luquitas_Alpha failed RotationPlace (x5) pre-flying
-[03:46:26] [Server thread/INFO]: Grim » Luquitas_Alpha failed FarPlace (x3) 
-[03:46:26] [Server thread/INFO]: Grim » Luquitas_Alpha failed RotationPlace (x10) pre-flying
-[03:46:43] [Server thread/INFO]: Grim » Luquitas_Alpha failed FastBreak (x12) Delay=85.0
-[03:46:44] [Server thread/WARN]: Luquitas_Alpha moved wrongly!
-[03:47:29] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x2) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
-[03:47:29] [Server thread/INFO]: Grim » faturcop failed FastBreak (x3) Diff=348.0,Balance=1348.0
-[03:47:33] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x2) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
-[03:47:35] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x3) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
-[03:47:35] [Server thread/INFO]: Grim » faturcop failed FastBreak (x12) Diff=594.0,Balance=1594.0
-[03:47:38] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x3) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
-[03:47:38] [Server thread/INFO]: Grim » faturcop failed FastBreak (x17) Diff=599.0,Balance=1599.0
-[03:47:38] [Server thread/INFO]: Grim » faturcop failed FastBreak (x17) Delay=0.0
-[03:47:42] [Server thread/INFO]: Grim » Agent_FFFF failed Reach (x10) 3.41338 blocks, type=spider
-[03:47:42] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x3) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
-[03:47:42] [Server thread/INFO]: Grim » faturcop failed FastBreak (x22) Diff=600.0,Balance=1600.0
-[03:47:42] [Server thread/INFO]: Grim » faturcop failed FastBreak (x22) Delay=0.0
-[03:47:45] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x3) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
-[03:47:45] [Server thread/INFO]: Grim » faturcop failed FastBreak (x27) Diff=594.0,Balance=1594.0
-[03:47:48] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x3) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
-[03:47:48] [Server thread/INFO]: Grim » faturcop failed FastBreak (x32) Delay=0.0
-[03:47:48] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x3) action=FINISHED_DIGGING, last=null, pos=152, 84, -529
-[03:47:48] [Server thread/INFO]: Grim » faturcop failed FastBreak (x32) Diff=600.0,Balance=1500.0
-[03:47:50] [Server thread/INFO]: Grim » Agent_FFFF failed Simulation (x119) .006053 /gl 5
-[03:47:51] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x3) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
-[03:47:54] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x4) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
-[03:47:54] [Server thread/INFO]: Grim » faturcop failed FastBreak (x41) Diff=600.0,Balance=1600.0
-[03:47:56] [Server thread/INFO]: Grim » faturcop failed FastBreak (x46) Delay=1.0
-[03:48:00] [Server thread/INFO]: Grim » faturcop failed FastBreak (x49) Diff=594.0,Balance=1594.0
-[03:48:00] [Server thread/INFO]: Grim » faturcop failed FastBreak (x49) Delay=0.0
-[03:48:00] [Server thread/INFO]: Grim » Agent_FFFF failed Simulation (x159) .045150 /gl 6
-[03:48:04] [Server thread/INFO]: Grim » faturcop failed FastBreak (x53) Delay=1.0
-[03:48:07] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x9) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
-[03:48:07] [Server thread/INFO]: Grim » faturcop failed FastBreak (x56) Diff=600.0,Balance=1600.0
-[03:48:09] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x10) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
-[03:48:09] [Server thread/INFO]: Grim » faturcop failed FastBreak (x60) Diff=600.0,Balance=1600.0
-[03:48:09] [Server thread/INFO]: Grim » faturcop failed FastBreak (x60) Delay=0.0
-[03:48:10] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x10) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
-[03:48:10] [Server thread/INFO]: Grim » faturcop failed FastBreak (x65) Diff=348.0,Balance=1348.0
-[03:48:11] [Server thread/INFO]: Grim » faturcop failed FastBreak (x70) Delay=58.0
-[03:48:13] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x10) action=FINISHED_DIGGING, last=null, pos=152, 84, -529
-[03:48:13] [Server thread/INFO]: Grim » faturcop failed FastBreak (x75) Diff=350.0,Balance=1350.0
-[03:48:14] [Server thread/INFO]: Grim » faturcop failed FastBreak (x80) Delay=132.0
-[03:48:15] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x10) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
-[03:48:15] [Server thread/INFO]: Grim » faturcop failed FastBreak (x85) Diff=381.0,Balance=1381.0
-[03:48:16] [Server thread/INFO]: Grim » faturcop failed FastBreak (x90) Delay=65.0
-[03:48:17] [Server thread/INFO]: Grim » faturcop failed FastBreak (x95) Delay=101.0
-[03:48:18] [Server thread/INFO]: Grim » faturcop failed WrongBreak (x10) action=FINISHED_DIGGING, last=null, pos=152, 84, -530
-[03:48:18] [Server thread/INFO]: Grim » faturcop failed FastBreak (x100) Diff=349.0,Balance=1349.0
-[03:48:19] [Server thread/INFO]: Grim » faturcop failed FastBreak (x105) Delay=101.0
+[04:10:37] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[04:10:37] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[04:10:37] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:10:38] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[04:10:38] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - Essentials (2.21.0-dev+166-fb6edc0), GrimAC (2.3.69)
+[04:10:42] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:10:43] [ServerMain/INFO]: Loaded 1290 recipes
+[04:10:44] [ServerMain/INFO]: Loaded 1399 advancements
+[04:10:44] [Server thread/INFO]: Starting minecraft server version 1.21
+[04:10:44] [Server thread/INFO]: Loading properties
+[04:10:44] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[04:10:45] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:10:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:10:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:10:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[04:10:46] [Server thread/INFO]: Default game type: SURVIVAL
+[04:10:46] [Server thread/INFO]: Generating keypair
+[04:10:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:10:46] [Server thread/INFO]: Using epoll channel type
+[04:10:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:10:46] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:10:46] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+166-fb6edc0
+[04:10:46] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.69
+[04:10:46] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[04:10:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:10:51] [Server thread/INFO]: Preparing level "world"
+[04:10:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:10:53] [Server thread/INFO]: Time elapsed: 1800 ms
+[04:10:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:10:54] [Server thread/INFO]: Time elapsed: 350 ms
+[04:10:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:10:54] [Server thread/INFO]: Time elapsed: 225 ms
+[04:10:54] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+166-fb6edc0
+[04:10:54] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
+[04:10:55] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[04:10:55] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
+[04:10:55] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[04:10:55] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
+[04:10:55] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[04:10:55] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[04:10:55] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[04:10:55] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[04:10:55] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[04:10:55] [Server thread/INFO]: [Essentials] Done converting random teleport config.
+[04:10:55] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
+[04:10:55] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[04:10:55] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[04:10:56] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[04:10:56] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
+[04:10:56] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[04:10:56] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
+[04:10:56] [Server thread/INFO]: [Essentials] Using locale en
+[04:10:56] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[04:10:56] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[04:10:56] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[04:10:56] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.69
+[04:10:56] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[04:10:57] [Server thread/INFO]: [GrimAC] Registering packets...
+[04:10:57] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[04:10:57] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
+[04:10:57] [Server thread/INFO]: Grim Version: 2.3.69
+[04:10:57] [Server thread/INFO]: [spark] Starting background profiler...
+[04:10:58] [Server thread/INFO]: Done preparing level "world" (6.628s)
+[04:10:58] [Server thread/INFO]: Running delayed init tasks
+[04:10:58] [Server thread/INFO]: Done (21.299s)! For help, type "help"
+[04:10:58] [Server thread/INFO]: Timings Reset
+[04:10:58] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[04:10:58] [Server thread/INFO]: Luquitas_Alpha (/127.31.93.45:43047) lost connection: Disconnected
+[04:10:58] [Craft Scheduler Thread - 1 - GrimAC/INFO]: New GrimAC version found! Version 2.3.70 is available to be downloaded here: https://modrinth.com/plugin/grimac
+[04:11:01] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 5f3b4f9e-0a67-4dab-9cb0-f83a5e0eeb80
+[04:11:04] [Server thread/INFO]: Teagokk_ joined the game
+[04:11:04] [Server thread/INFO]: Teagokk_[/127.189.225.101:57483] logged in with entity id 31 at ([world]174.40087251981475, 105.0, -462.3603243889711)
+[04:11:04] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
+[04:11:05] [User Authenticator #0/INFO]: UUID of player Agent_FFFF is 85877a29-3809-40d5-ac54-89af91210b4d
+[04:11:07] [Server thread/INFO]: Agent_FFFF joined the game
+[04:11:07] [Server thread/INFO]: Agent_FFFF[/127.86.91.244:42113] logged in with entity id 203 at ([world]185.29923335938932, 91.83999997377396, -301.12860344839186)
+[04:11:07] [User Authenticator #0/INFO]: UUID of player Luquitas_Alpha is e8a17eb8-cb33-41d7-b593-a0284eed9ea4
+[04:11:09] [Server thread/INFO]: Luquitas_Alpha joined the game
+[04:11:09] [Server thread/INFO]: Luquitas_Alpha[/127.31.93.45:38143] logged in with entity id 312 at ([world]180.07276953670703, 106.0, -457.78126569120485)
+[04:11:10] [Server thread/INFO]: Teagokk_ issued server command: /fly
+[04:11:13] [Server thread/INFO]: Teagokk_ issued server command: /unfly
+[04:11:14] [Server thread/INFO]: Teagokk_ fell from a high place
+[04:11:25] [Server thread/INFO]: Teagokk_ issued server command: /tp Agent_FFFF
+[04:11:51] [Server thread/INFO]: Grim » Agent_FFFF failed Simulation (x99) .695736 /gl 1
+[04:12:01] [Server thread/INFO]: Teagokk_ issued server command: /fly
+[04:12:11] [Server thread/INFO]: Teagokk_ issued server command: /fly Agent_FFFF
+[04:12:19] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x98) .545616 /gl 2
+[04:12:42] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x136) .077282 /gl 3
+[04:12:46] [Server thread/INFO]: Teagokk_ issued server command: /fly Agent_FFFF
+[04:12:46] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Ol' Betsy]
+[04:12:51] [Server thread/INFO]: Grim » Luquitas_Alpha failed Reach (x5) 3.73530 blocks
+[04:12:52] [Server thread/INFO]: Teagokk_ issued server command: /fly Teagokk_
+[04:12:54] [Server thread/INFO]: Grim » Agent_FFFF failed Simulation (x135) .028763 /gl 4
+[04:12:55] [Server thread/INFO]: Luquitas_Alpha was slain by Agent_FFFF
+[04:13:11] [Server thread/INFO]: Grim » Luquitas_Alpha failed GroundSpoof (x6) claimed true
+[04:13:23] [Server thread/INFO]: Grim » Luquitas_Alpha failed Timer (x68) 
+[04:13:37] [Server thread/INFO]: Grim » Luquitas_Alpha failed Timer (x86) 
+[04:13:37] [Server thread/INFO]: Grim » Luquitas_Alpha failed Timer (x86) 
+[04:13:43] [Server thread/INFO]: Teagokk_ was slain by Luquitas_Alpha
+[04:13:44] [Server thread/INFO]: Grim » Luquitas_Alpha failed GroundSpoof (x12) claimed true
+[04:13:50] [Server thread/INFO]: Grim » Luquitas_Alpha failed Post (x20) interact entity v1.21
+[04:13:54] [Server thread/INFO]: Luquitas_Alpha was slain by Agent_FFFF
+[04:14:06] [Server thread/INFO]: Teagokk_ issued server command: /fly
+[04:14:14] [Server thread/INFO]: Teagokk_ issued server command: /fly Teagokk_
+[04:14:27] [Server thread/INFO]: Luquitas_Alpha issued server command: /invsee Teagokk_
+[04:14:27] [Server thread/INFO]: [Essentials] Luquitas_Alpha was denied access to command.
+[04:15:06] [Server thread/INFO]: Agent_FFFF was slain by Teagokk_
+[04:15:31] [Server thread/INFO]: Teagokk_ issued server command: /tps
+[04:15:42] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x241) .441549 /gl 5
+[04:15:49] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x281) .677749 /gl 6
+[04:15:51] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x321) .218631 /gl 7
+[04:16:00] [Server thread/INFO]: Teagokk_ issued server command: /tps
+[04:16:21] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x360) 1.094782 /gl 8
+[04:16:23] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x400) .451076 /gl 9
+[04:17:07] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x367) .317047 /gl 10
+[04:17:07] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x368) .647572 /gl 11
+[04:17:27] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x382) .116922 /gl 12
+[04:17:37] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x423) .116922 /gl 13
+[04:17:43] [Server thread/INFO]: Grim » Luquitas_Alpha failed Simulation (x464) .116922 /gl 14
+[04:18:23] [User Authenticator #1/INFO]: UUID of player faturcop is e742aa66-6cbf-4b68-9b0b-1681b3f65344
+[04:18:24] [Server thread/INFO]: faturcop joined the game
+[04:18:24] [Server thread/INFO]: faturcop[/127.64.227.9:40077] logged in with entity id 2012 at ([world]182.50028675904403, 75.0, -459.75069500654405)
+[04:18:37] [Server thread/INFO]: Grim » faturcop failed Reach (x5) 3.43955 blocks, type=skeleton
+[04:18:38] [Server thread/INFO]: faturcop was slain by Zombie
+[04:18:45] [Server thread/INFO]: Teagokk_ was slain by Luquitas_Alpha
+[04:18:59] [Server thread/INFO]: Luquitas_Alpha was doomed to fall by Teagokk_
+[04:19:05] [Server thread/INFO]: Grim » Luquitas_Alpha failed Timer (x7) 
+[04:19:05] [Server thread/INFO]: Grim » Luquitas_Alpha failed Timer (x7) 
+[04:19:06] [Server thread/INFO]: Luquitas_Alpha was slain by Agent_FFFF
+[04:19:12] [Netty Epoll Server IO #0/INFO]: [GrimAC] Disconnecting Luquitas_Alpha for spamming invalid packets, packets cancelled within a second 101
+[04:19:12] [Netty Epoll Server IO #0/INFO]: [GrimAC] Disconnecting Luquitas_Alpha for disconnect.closed
+[04:19:12] [Server thread/INFO]: Luquitas_Alpha lost connection: disconnect.closed
+[04:19:13] [Server thread/INFO]: Luquitas_Alpha left the game
+[04:19:14] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] times 2s 9999d 9999d
+[04:19:14] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] title {"text":"Raided By Faturcop", "bold":true, "italic":false, "color":"red"}
+[04:19:14] [Server thread/INFO]: faturcop issued server command: /title @a[name=!faturcop] subtitle {"text":"Raided", "bold":true, "italic":false, "color":"dark_red"}
+[04:19:20] [User Authenticator #1/INFO]: UUID of player Luquitas_Alpha is e8a17eb8-cb33-41d7-b593-a0284eed9ea4
+[04:19:22] [Server thread/INFO]: Luquitas_Alpha joined the game
+[04:19:22] [Server thread/INFO]: Luquitas_Alpha[/127.31.93.45:37987] logged in with entity id 2438 at ([world]170.09108203734752, 76.09986815340318, -180.62225834193273)
+[04:20:22] [Server thread/INFO]: faturcop was slain by Luquitas_Alpha
+[04:20:23] [Server thread/INFO]: Grim » faturcop failed Reach (x10) 4.43516 blocks
+[04:20:29] [Server thread/INFO]: Agent_FFFF was slain by Luquitas_Alpha
+[04:20:34] [Server thread/INFO]: Teagokk_ was slain by Luquitas_Alpha
