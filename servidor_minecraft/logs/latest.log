@@ -166,3 +166,91 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [19:57:54] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
 [19:57:54] [Server thread/INFO]: [TAB] Enabled in 17ms
 [19:57:56] [Server thread/WARN]: Teagokk_ moved wrongly!
+[19:58:09] [Server thread/INFO]: Teagokk_ issued server command: /tab reloaf
+[19:58:12] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[19:58:12] [Server thread/INFO]: [TAB] Disabled in 1ms
+[19:58:12] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[19:58:12] [Server thread/INFO]: [TAB] Enabled in 11ms
+[19:58:31] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[19:58:31] [Server thread/INFO]: [TAB] Disabled in 1ms
+[19:58:31] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[19:58:31] [Server thread/INFO]: [TAB] Enabled in 11ms
+[19:59:31] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[19:59:31] [Server thread/INFO]: [TAB] Disabled in 1ms
+[19:59:31] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[19:59:31] [Server thread/INFO]: [TAB] Enabled in 7ms
+[19:59:43] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[19:59:43] [Server thread/INFO]: [TAB] Disabled in 1ms
+[19:59:43] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[19:59:43] [Server thread/INFO]: [TAB] Enabled in 9ms
+[20:00:24] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:00:24] [Server thread/INFO]: [TAB] Disabled in 1ms
+[20:00:24] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:00:24] [Server thread/INFO]: [TAB] Enabled in 8ms
+[20:00:40] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:00:40] [Server thread/INFO]: [TAB] Disabled in 0ms
+[20:00:40] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:00:40] [Server thread/INFO]: [TAB] Enabled in 9ms
+[20:00:54] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:00:54] [Server thread/INFO]: [TAB] Disabled in 1ms
+[20:00:54] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:00:54] [Server thread/INFO]: [TAB] Enabled in 9ms
+[20:01:08] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:01:08] [Server thread/INFO]: [TAB] Disabled in 0ms
+[20:01:08] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:01:08] [Server thread/INFO]: [TAB] Enabled in 5ms
+[20:01:11] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
+[20:01:11] [Server thread/INFO]: Teagokk_ lost connection: Flying is not enabled on this server
+[20:01:11] [Server thread/INFO]: Teagokk_ left the game
+[20:01:15] [User Authenticator #1/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
+[20:01:17] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:01:17] [Server thread/INFO]: Teagokk_ joined the game
+[20:01:17] [Server thread/INFO]: Teagokk_[/127.189.225.101:58273] logged in with entity id 5136 at ([world]182.5762374632128, 100.56013269288916, 58.10051900222766)
+[20:02:02] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:02:02] [Server thread/INFO]: [TAB] Disabled in 1ms
+[20:02:02] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:02:02] [Server thread/INFO]: [TAB] Enabled in 8ms
+[20:02:10] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:02:10] [Server thread/INFO]: [TAB] Disabled in 1ms
+[20:02:10] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:02:10] [Server thread/INFO]: [TAB] Enabled in 6ms
+[20:02:32] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:02:32] [Server thread/INFO]: [TAB] Disabled in 1ms
+[20:02:32] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:02:32] [Server thread/INFO]: [TAB] Enabled in 6ms
+[20:02:45] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:02:45] [Server thread/INFO]: [TAB] Disabled in 1ms
+[20:02:45] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:02:45] [Server thread/INFO]: [TAB] Enabled in 5ms
+[20:03:40] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:03:40] [Server thread/INFO]: [TAB] Disabled in 1ms
+[20:03:40] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:03:40] [Server thread/INFO]: [TAB] Enabled in 7ms
+[20:04:08] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:04:08] [Server thread/INFO]: [TAB] Disabled in 1ms
+[20:04:08] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:04:08] [Server thread/INFO]: [TAB] Enabled in 5ms
+[20:04:20] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:04:20] [Server thread/INFO]: [TAB] Disabled in 1ms
+[20:04:20] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:04:20] [Server thread/INFO]: [TAB] Enabled in 5ms
+[20:04:30] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:04:30] [Server thread/INFO]: [TAB] Disabled in 1ms
+[20:04:30] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:04:30] [Server thread/INFO]: [TAB] Enabled in 5ms
+[20:04:58] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:04:58] [Server thread/INFO]: [TAB] Disabled in 0ms
+[20:04:58] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:04:58] [Server thread/INFO]: [TAB] Enabled in 6ms
+[20:05:19] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:05:19] [Server thread/INFO]: [TAB] Disabled in 1ms
+[20:05:19] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:05:19] [Server thread/INFO]: [TAB] Enabled in 6ms
+[20:07:20] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:07:20] [Server thread/INFO]: [TAB] Disabled in 1ms
+[20:07:20] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:07:20] [Server thread/INFO]: [TAB] Enabled in 5ms
+[20:07:49] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:07:49] [Server thread/INFO]: [TAB] Disabled in 1ms
+[20:07:49] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:07:49] [Server thread/INFO]: [TAB] Enabled in 4ms
