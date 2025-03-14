@@ -322,3 +322,8 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [20:27:14] [Server thread/INFO]: Teagokk_ issued server command: /team modify Usuario color green
 [20:27:14] [Server thread/INFO]: [Teagokk_: Updated the color for team [Usuario] to green]
 [20:27:21] [Server thread/INFO]: Teagokk_ issued server command: /team modify Usuario prefix {"text":"[MIEMBRO]","color":"green","bold":"true"}
+[20:28:57] [Server thread/INFO]: Teagokk_ issued server command: /team modify Usuario prefix {"text":" [Usuario] ","color":"green"}
+[20:29:15] [Server thread/INFO]: Teagokk_ issued server command: /team join Usuario Teagokk_
+[20:29:15] [Server thread/INFO]: [Teagokk_: Added  [Usuario] Teagokk_ to team [Usuario]]
+[20:29:33] [Server thread/INFO]: Teagokk_ issued server command: /team list
+[20:29:46] [Server thread/INFO]: Teagokk_ issued server command: /team join 7Teagokk_A Teagokk_
