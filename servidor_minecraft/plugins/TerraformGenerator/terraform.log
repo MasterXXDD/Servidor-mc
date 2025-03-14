@@ -468,3 +468,32 @@
 [2025-03-14 19:41:05] [INFO   ] Registered: org.terraform.structure.stronghold.HallwayPopulator at -69 25 -1405 in a room of size 26x25 
 [2025-03-14 19:41:05] [INFO   ] Registered: org.terraform.structure.stronghold.PrisonRoomPopulator at 25 25 -1395 in a room of size 19x19 
 [2025-03-14 19:41:05] [INFO   ] Registered: org.terraform.structure.stronghold.HallwayPopulator at -35 25 -1367 in a room of size 22x15 
+[2025-03-14 20:14:09] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 44,-13 
+[2025-03-14 20:14:09] [INFO   ] Spawning Underground Dungeon at 718,45,-195 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -190 28 858 in a room of size 14x13 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -172 28 841 in a room of size 15x13 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -239 28 878 in a room of size 13x14 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -243 28 898 in a room of size 14x14 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -199 28 800 in a room of size 15x14 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -176 28 761 in a room of size 14x14 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -208 28 869 in a room of size 14x13 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -210 28 891 in a room of size 14x14 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -134 28 813 in a room of size 13x13 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -149 28 874 in a room of size 15x13 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -192 43 882 in a room of size 13x13 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -149 43 781 in a room of size 13x14 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -122 43 865 in a room of size 14x13 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -230 43 864 in a room of size 15x13 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -227 43 907 in a room of size 14x13 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -265 43 826 in a room of size 15x13 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -207 43 817 in a room of size 14x13 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -208 43 869 in a room of size 14x7 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -190 43 858 in a room of size 14x6 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -141 43 859 in a room of size 14x13 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -161 43 847 in a room of size 15x14 
+[2025-03-14 20:14:58] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -262 43 890 in a room of size 14x14 
+[2025-03-14 20:14:58] [INFO   ] Calculated structure at -13,32 
+[2025-03-14 20:15:07] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -19,-12 
+[2025-03-14 20:15:07] [INFO   ] Spawning Drowned Dungeon at -302,-179 
+[2025-03-14 20:15:07] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -21,22 
+[2025-03-14 20:15:07] [INFO   ] Spawning Underground Dungeon at -327,9,364 

@@ -3,9 +3,9 @@ header-footer:
   enabled: true
   header:
     - "<#FFFFFF>&m                                                </#FFFF00>"
-    - "&5&lPates"
+    - "&5&lPates?"
     - "&r&5&l>> %animation:Welcome%&3 &r&5&l%player%&7&l! &5&l<<"
-    - "&r&7Online players: &f%online%
+    - "&r&7Gente online: &f%online%
     
     "
 

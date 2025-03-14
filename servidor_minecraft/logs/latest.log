@@ -254,3 +254,55 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [20:07:49] [Server thread/INFO]: [TAB] Disabled in 1ms
 [20:07:49] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
 [20:07:49] [Server thread/INFO]: [TAB] Enabled in 4ms
+[20:08:19] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:08:19] [Server thread/INFO]: [TAB] Disabled in 0ms
+[20:08:19] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:08:19] [Server thread/INFO]: [TAB] Enabled in 4ms
+[20:08:38] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[20:08:38] [Server thread/INFO]: [TAB] Disabled in 0ms
+[20:08:38] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:08:38] [Server thread/INFO]: [TAB] Enabled in 14ms
+[20:12:24] [User Authenticator #2/INFO]: UUID of player faturcop is dc018bcd-75e2-3af5-a13a-ffefe671d9ec
+[20:12:25] [Server thread/INFO]: faturcop joined the game
+[20:12:25] [Server thread/INFO]: faturcop[/127.64.227.9:55765] logged in with entity id 6824 at ([world]211.5, 80.0, 39.5)
+[20:12:25] [TAB Processing Thread/INFO]: [TAB] [WARN] Player faturcop's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:12:33] [Server thread/INFO]: Teagokk_ issued server command: /tp faturcop
+[20:13:27] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:13:52] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:13:56] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:14:05] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:15:07] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:15:08] [Server thread/INFO]: faturcop lost connection: Disconnected
+[20:15:08] [Server thread/INFO]: faturcop left the game
+[20:15:08] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:15:09] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:15:10] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:15:18] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:15:18] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:15:49] [Server thread/INFO]: Teagokk_ issued server command: /paper reload
+[20:15:49] [Server thread/INFO]: Teagokk_: Please note that this command is not supported and may cause issues.
+[20:15:49] [Server thread/INFO]: Teagokk_: If you encounter any issues please use the /stop command to restart your server.
+[20:15:49] [Server thread/INFO]: Teagokk_: Paper config reload complete.
+[20:15:49] [Server thread/INFO]: Timings Reset
+[20:16:00] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:16:01] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:16:02] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:16:02] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:16:03] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:16:04] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:16:06] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:16:07] [User Authenticator #3/INFO]: UUID of player Rise is ddb14edd-887d-3b49-a8e9-d82428beb64e
+[20:16:07] [Server thread/INFO]: Rise joined the game
+[20:16:07] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Rise's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[20:16:07] [Server thread/INFO]: Rise[/127.64.227.9:46273] logged in with entity id 9060 at ([world]204.5, 86.0, 49.5)
+[20:16:07] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[20:16:07] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.16.2->1.16.1) Biome with id terraformgenerator:muddy_bog has no legacy biome mapping (custom datapack?)
+[20:16:07] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.16.2->1.16.1) Biome with id terraformgenerator:cherry_grove has no legacy biome mapping (custom datapack?)
+[20:16:07] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.16.2->1.16.1) Biome with id terraformgenerator:scarlet_forest has no legacy biome mapping (custom datapack?)
+[20:16:07] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.16.2->1.16.1) Biome with id terraformgenerator:crystalline_cluster has no legacy biome mapping (custom datapack?)
+[20:16:16] [Async Chat Thread - #1/INFO]: [Not Secure] <Teagokk_> rise
+[20:16:21] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:16:32] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:16:50] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:17:02] [Server thread/INFO]: Teagokk_ issued server command: /plugins
+[20:17:03] [Server thread/WARN]: Teagokk_ moved wrongly!
