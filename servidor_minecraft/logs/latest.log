@@ -1,82 +1,57 @@
-[02:26:33] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[02:26:33] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[02:26:33] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[02:26:35] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[02:26:35] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
- - Essentials (2.21.0-dev+166-fb6edc0), GrimAC (2.3.69)
-[02:26:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:26:42] [ServerMain/INFO]: Loaded 1290 recipes
-[02:26:43] [ServerMain/INFO]: Loaded 1399 advancements
-[02:26:43] [Server thread/INFO]: Starting minecraft server version 1.21
-[02:26:43] [Server thread/INFO]: Loading properties
-[02:26:43] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[02:26:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[02:26:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:26:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:26:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[02:26:45] [Server thread/INFO]: Default game type: SURVIVAL
-[02:26:45] [Server thread/INFO]: Generating keypair
-[02:26:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:26:46] [Server thread/INFO]: Using epoll channel type
-[02:26:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[02:26:46] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[02:26:46] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+166-fb6edc0
-[02:26:46] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.69
-[02:26:46] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
-[02:26:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:26:53] [Server thread/INFO]: Preparing level "world"
-[02:26:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:26:55] [Server thread/INFO]: Time elapsed: 1939 ms
-[02:26:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:26:56] [Server thread/INFO]: Time elapsed: 481 ms
-[02:26:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:26:56] [Server thread/INFO]: Time elapsed: 427 ms
-[02:26:56] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+166-fb6edc0
-[02:26:58] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[02:26:58] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[02:26:58] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[02:26:59] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[02:26:59] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[02:26:59] [Server thread/INFO]: [Essentials] Using locale en
-[02:27:00] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[02:27:00] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[02:27:00] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[02:27:00] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.69
-[02:27:00] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
-[02:27:00] [Server thread/INFO]: [GrimAC] Registering packets...
-[02:27:00] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
-[02:27:01] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
-[02:27:01] [Server thread/INFO]: Grim Version: 2.3.69
-[02:27:01] [Server thread/INFO]: [spark] Starting background profiler...
-[02:27:02] [Server thread/INFO]: Done preparing level "world" (9.157s)
-[02:27:02] [Server thread/INFO]: Running delayed init tasks
-[02:27:02] [Server thread/INFO]: Done (33.953s)! For help, type "help"
-[02:27:02] [Server thread/INFO]: Timings Reset
-[02:27:02] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[02:27:02] [Craft Scheduler Thread - 1 - GrimAC/INFO]: New GrimAC version found! Version 2.3.70 is available to be downloaded here: https://modrinth.com/plugin/grimac
-[02:27:56] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 5f3b4f9e-0a67-4dab-9cb0-f83a5e0eeb80
-[02:27:59] [Server thread/INFO]: Teagokk_ joined the game
-[02:27:59] [Server thread/INFO]: Teagokk_[/127.189.225.101:41787] logged in with entity id 40 at ([world]57.703460905183626, 64.0, 71.99290141506283)
-[02:49:54] [Server thread/INFO]: Teagokk_ lost connection: Disconnected
-[02:49:54] [Server thread/INFO]: Teagokk_ left the game
+[16:49:17] [ServerMain/ERROR]: Failed to start the minecraft server
+java.lang.Exception: Failed to load configuration file: bukkit.yml
+	at io.papermc.paper.configuration.PaperConfigurations.loadLegacyConfigFile(PaperConfigurations.java:425) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.PluginInitializerManager.parse(PluginInitializerManager.java:40) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.PluginInitializerManager.init(PluginInitializerManager.java:78) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:98) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.Main.main(Main.java:137) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.Main.main(Main.java:324) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 35, column 5:
+        <world_name>: servidor_minecraft
+        ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 36, column 9:
+            generator: TerraformGenerator
+            ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.configuration.PaperConfigurations.loadLegacyConfigFile(PaperConfigurations.java:423) ~[paper-1.20.1.jar:git-Paper-196]
+	... 7 more
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 35, column 5:
+        <world_name>: servidor_minecraft
+        ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 36, column 9:
+            generator: TerraformGenerator
+            ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:656) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:162) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.0.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.configuration.PaperConfigurations.loadLegacyConfigFile(PaperConfigurations.java:423) ~[paper-1.20.1.jar:git-Paper-196]
+	... 7 more

@@ -5,7 +5,7 @@
 ############################################################
 
 # This is the config file for EssentialsX.
-# This config was generated for version 2.21.0-dev+166-fb6edc0.
+# This config was generated for version 2.21.0-dev+189-eab2201.
 
 # If you want to use special characters in this document, such as accented letters, you MUST save the file as UTF-8, not ANSI.
 # If you receive an error when Essentials loads, ensure that:
@@ -987,6 +987,12 @@ chat:
 
   # Whether chat questions should be enabled or not.
   question-enabled: true
+
+  # Whether EssentialsX should use Paper's modern chat event system in 1.16.5+.
+  # This is required for modern chat features such as hover events and click events.
+  # If you're experiencing issues with other plugins that use the chat event system, you can disable this.
+  # You must restart your server after changing this setting.
+  paper-chat-events: true
 
 ############################################################
 # +------------------------------------------------------+ #

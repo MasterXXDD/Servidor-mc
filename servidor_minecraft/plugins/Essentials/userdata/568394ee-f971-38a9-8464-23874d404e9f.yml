@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.189.225.101
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741970685919
+  login: 1741970531712
+money: '0'
+last-account-name: Teagokk_
+lastlocation:
+  world: 972b88a3-cd19-4dc4-8572-a7ebdf46e8e6
+  world-name: world
+  x: 55.790537262642594
+  y: 82.78259676674664
+  z: -475.9681933882268
+  yaw: 174.11224365234375
+  pitch: 65.36652374267578
+logoutlocation:
+  world: 972b88a3-cd19-4dc4-8572-a7ebdf46e8e6
+  world-name: world
+  x: 847.4933111766446
+  y: 126.81444376259681
+  z: 41.256249994039536
+  yaw: 14.09876823425293
+  pitch: 28.27093505859375
