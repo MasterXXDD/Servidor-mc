@@ -2,101 +2,6 @@ isEnabled: true
 mean: 4.0
 standardDeviation: 3.0
 items:
-  epic:
-    weight: 10
-    items:
-    - amount: 1-1
-      material: KNOWLEDGE_BOOK
-      weight: 1.0
-    - amount: 1-1
-      material: TNT_MINECART
-      weight: 6.0
-    - amount: 1-6
-      material: SCULK
-      weight: 6.0
-    - amount: 1-1
-      material: TOTEM_OF_UNDYING
-      weight: 6.0
-    - amount: 1-1
-      material: DIAMOND_AXE
-      weight: 6.0
-    - amount: 1-1
-      material: DIAMOND_BOOTS
-      weight: 6.0
-    - amount: 1-1
-      material: DIAMOND_HELMET
-      weight: 6.0
-    - amount: 1-1
-      material: DIAMOND_HOE
-      weight: 6.0
-    - amount: 1-1
-      material: DIAMOND_LEGGINGS
-      weight: 6.0
-    - amount: 1-1
-      material: DIAMOND_SWORD
-      weight: 6.0
-    - amount: 1-1
-      material: DIAMOND_PICKAXE
-      weight: 6.0
-    - amount: 1-1
-      material: DIAMOND_SHOVEL
-      weight: 6.0
-    - amount: 2-10
-      material: DIAMOND
-      weight: 1.0
-    - amount: 1-1
-      material: DIAMOND_AXE
-      procedurallyGenerateEnchantments: true
-      weight: 6.0
-    - amount: 1-1
-      material: DIAMOND_BOOTS
-      procedurallyGenerateEnchantments: true
-      weight: 6.0
-    - amount: 1-1
-      material: DIAMOND_HELMET
-      procedurallyGenerateEnchantments: true
-      weight: 6.0
-    - amount: 1-1
-      material: DIAMOND_HOE
-      procedurallyGenerateEnchantments: true
-      weight: 6.0
-    - amount: 1-1
-      material: DIAMOND_LEGGINGS
-      procedurallyGenerateEnchantments: true
-      weight: 6.0
-    - amount: 1-1
-      material: DIAMOND_SWORD
-      procedurallyGenerateEnchantments: true
-      weight: 6.0
-    - amount: 1-1
-      material: DIAMOND_PICKAXE
-      procedurallyGenerateEnchantments: true
-      weight: 6.0
-    - amount: 1-1
-      material: DIAMOND_SHOVEL
-      procedurallyGenerateEnchantments: true
-      weight: 6.0
-    - amount: 8-16
-      material: SPECTRAL_ARROW
-      procedurallyGenerateEnchantments: true
-      weight: 6.0
-    - amount: 16-32
-      material: SLIME_BALL
-      procedurallyGenerateEnchantments: true
-      weight: 6.0
-    - amount: 1-6
-      material: ENCHANTED_GOLDEN_APPLE
-      weight: 1.0
-    - amount: 3-9
-      material: PUMPKIN_PIE
-      weight: 6.0
-    - amount: 1-1
-      material: TOTEM_OF_UNDYING
-      weight: 1.0
-    - amount: 1-1
-      material: TRIDENT
-      procedurallyGenerateEnchantments: true
-      weight: 6.0
   common:
     weight: 60
     items:
@@ -314,6 +219,101 @@ items:
     - amount: 1-1
       material: TURTLE_HELMET
       weight: 6.0
+  epic:
+    weight: 10
+    items:
+    - amount: 1-1
+      material: KNOWLEDGE_BOOK
+      weight: 1.0
+    - amount: 1-1
+      material: TNT_MINECART
+      weight: 6.0
+    - amount: 1-6
+      material: SCULK
+      weight: 6.0
+    - amount: 1-1
+      material: TOTEM_OF_UNDYING
+      weight: 6.0
+    - amount: 1-1
+      material: DIAMOND_AXE
+      weight: 6.0
+    - amount: 1-1
+      material: DIAMOND_BOOTS
+      weight: 6.0
+    - amount: 1-1
+      material: DIAMOND_HELMET
+      weight: 6.0
+    - amount: 1-1
+      material: DIAMOND_HOE
+      weight: 6.0
+    - amount: 1-1
+      material: DIAMOND_LEGGINGS
+      weight: 6.0
+    - amount: 1-1
+      material: DIAMOND_SWORD
+      weight: 6.0
+    - amount: 1-1
+      material: DIAMOND_PICKAXE
+      weight: 6.0
+    - amount: 1-1
+      material: DIAMOND_SHOVEL
+      weight: 6.0
+    - amount: 2-10
+      material: DIAMOND
+      weight: 1.0
+    - amount: 1-1
+      material: DIAMOND_AXE
+      procedurallyGenerateEnchantments: true
+      weight: 6.0
+    - amount: 1-1
+      material: DIAMOND_BOOTS
+      procedurallyGenerateEnchantments: true
+      weight: 6.0
+    - amount: 1-1
+      material: DIAMOND_HELMET
+      procedurallyGenerateEnchantments: true
+      weight: 6.0
+    - amount: 1-1
+      material: DIAMOND_HOE
+      procedurallyGenerateEnchantments: true
+      weight: 6.0
+    - amount: 1-1
+      material: DIAMOND_LEGGINGS
+      procedurallyGenerateEnchantments: true
+      weight: 6.0
+    - amount: 1-1
+      material: DIAMOND_SWORD
+      procedurallyGenerateEnchantments: true
+      weight: 6.0
+    - amount: 1-1
+      material: DIAMOND_PICKAXE
+      procedurallyGenerateEnchantments: true
+      weight: 6.0
+    - amount: 1-1
+      material: DIAMOND_SHOVEL
+      procedurallyGenerateEnchantments: true
+      weight: 6.0
+    - amount: 8-16
+      material: SPECTRAL_ARROW
+      procedurallyGenerateEnchantments: true
+      weight: 6.0
+    - amount: 16-32
+      material: SLIME_BALL
+      procedurallyGenerateEnchantments: true
+      weight: 6.0
+    - amount: 1-6
+      material: ENCHANTED_GOLDEN_APPLE
+      weight: 1.0
+    - amount: 3-9
+      material: PUMPKIN_PIE
+      weight: 6.0
+    - amount: 1-1
+      material: TOTEM_OF_UNDYING
+      weight: 1.0
+    - amount: 1-1
+      material: TRIDENT
+      procedurallyGenerateEnchantments: true
+      weight: 6.0
   rare:
     weight: 30
     items:
@@ -485,19 +485,19 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
-    sharpness:
-      minLevel: 1
-      maxLevel: 5
-      chance: 0.2
     knockback:
       minLevel: 1
       maxLevel: 2
+      chance: 0.2
+    sharpness:
+      minLevel: 1
+      maxLevel: 5
       chance: 0.2
     fire_aspect:
       minLevel: 1
       maxLevel: 2
       chance: 0.2
-    sweeping:
+    sweeping_edge:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
@@ -518,13 +518,13 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
-    mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
     feather_falling:
       minLevel: 1
       maxLevel: 4
+      chance: 0.2
+    mending:
+      minLevel: 1
+      maxLevel: 1
       chance: 0.2
     protection:
       minLevel: 1
@@ -719,15 +719,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -752,15 +752,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -789,15 +789,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -830,19 +830,19 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
-    sharpness:
-      minLevel: 1
-      maxLevel: 5
-      chance: 0.2
     knockback:
       minLevel: 1
       maxLevel: 2
+      chance: 0.2
+    sharpness:
+      minLevel: 1
+      maxLevel: 5
       chance: 0.2
     fire_aspect:
       minLevel: 1
       maxLevel: 2
       chance: 0.2
-    sweeping:
+    sweeping_edge:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
@@ -871,19 +871,19 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
-    sharpness:
-      minLevel: 1
-      maxLevel: 5
-      chance: 0.2
     knockback:
       minLevel: 1
       maxLevel: 2
+      chance: 0.2
+    sharpness:
+      minLevel: 1
+      maxLevel: 5
       chance: 0.2
     fire_aspect:
       minLevel: 1
       maxLevel: 2
       chance: 0.2
-    sweeping:
+    sweeping_edge:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
@@ -904,13 +904,13 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
-    mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
     feather_falling:
       minLevel: 1
       maxLevel: 4
+      chance: 0.2
+    mending:
+      minLevel: 1
+      maxLevel: 1
       chance: 0.2
     protection:
       minLevel: 1
@@ -957,13 +957,13 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
-    mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
     feather_falling:
       minLevel: 1
       maxLevel: 4
+      chance: 0.2
+    mending:
+      minLevel: 1
+      maxLevel: 1
       chance: 0.2
     protection:
       minLevel: 1
@@ -1002,11 +1002,11 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 4
       chance: 0.2
-    unbreaking:
+    swift_sneak:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
-    swift_sneak:
+    unbreaking:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
@@ -1047,15 +1047,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -1084,19 +1084,19 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
-    sharpness:
-      minLevel: 1
-      maxLevel: 5
-      chance: 0.2
     knockback:
       minLevel: 1
       maxLevel: 2
+      chance: 0.2
+    sharpness:
+      minLevel: 1
+      maxLevel: 5
       chance: 0.2
     fire_aspect:
       minLevel: 1
       maxLevel: 2
       chance: 0.2
-    sweeping:
+    sweeping_edge:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
@@ -1113,15 +1113,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -1146,15 +1146,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -1187,19 +1187,19 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
-    sharpness:
-      minLevel: 1
-      maxLevel: 5
-      chance: 0.2
     knockback:
       minLevel: 1
       maxLevel: 2
+      chance: 0.2
+    sharpness:
+      minLevel: 1
+      maxLevel: 5
       chance: 0.2
     fire_aspect:
       minLevel: 1
       maxLevel: 2
       chance: 0.2
-    sweeping:
+    sweeping_edge:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
@@ -1216,15 +1216,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -1282,11 +1282,11 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 4
       chance: 0.2
-    unbreaking:
+    swift_sneak:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
-    swift_sneak:
+    unbreaking:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
@@ -1327,15 +1327,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -1405,15 +1405,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -1447,15 +1447,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -1472,15 +1472,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -1534,15 +1534,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -1600,19 +1600,19 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
-    sharpness:
-      minLevel: 1
-      maxLevel: 5
-      chance: 0.2
     knockback:
       minLevel: 1
       maxLevel: 2
+      chance: 0.2
+    sharpness:
+      minLevel: 1
+      maxLevel: 5
       chance: 0.2
     fire_aspect:
       minLevel: 1
       maxLevel: 2
       chance: 0.2
-    sweeping:
+    sweeping_edge:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
@@ -1633,13 +1633,13 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
-    mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
     feather_falling:
       minLevel: 1
       maxLevel: 4
+      chance: 0.2
+    mending:
+      minLevel: 1
+      maxLevel: 1
       chance: 0.2
     protection:
       minLevel: 1
@@ -1678,11 +1678,11 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 4
       chance: 0.2
-    unbreaking:
+    swift_sneak:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
-    swift_sneak:
+    unbreaking:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
@@ -1772,13 +1772,13 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
-    mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
     feather_falling:
       minLevel: 1
       maxLevel: 4
+      chance: 0.2
+    mending:
+      minLevel: 1
+      maxLevel: 1
       chance: 0.2
     protection:
       minLevel: 1
@@ -1821,15 +1821,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -1854,15 +1854,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -1965,15 +1965,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -2072,15 +2072,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -2093,11 +2093,11 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 4
       chance: 0.2
-    unbreaking:
+    swift_sneak:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
-    swift_sneak:
+    unbreaking:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
@@ -2138,15 +2138,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -2184,15 +2184,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -2250,13 +2250,13 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
-    mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
     feather_falling:
       minLevel: 1
       maxLevel: 4
+      chance: 0.2
+    mending:
+      minLevel: 1
+      maxLevel: 1
       chance: 0.2
     protection:
       minLevel: 1
@@ -2307,15 +2307,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -2365,15 +2365,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -2390,15 +2390,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -2411,11 +2411,11 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 4
       chance: 0.2
-    unbreaking:
+    swift_sneak:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
-    swift_sneak:
+    unbreaking:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
@@ -2489,11 +2489,11 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 4
       chance: 0.2
-    unbreaking:
+    swift_sneak:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
-    swift_sneak:
+    unbreaking:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
@@ -2534,15 +2534,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -2559,15 +2559,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
@@ -2584,15 +2584,15 @@ procedurallyGeneratedItemSettings:
       minLevel: 1
       maxLevel: 3
       chance: 0.2
+    silk_touch:
+      minLevel: 1
+      maxLevel: 1
+      chance: 0.2
     vanishing_curse:
       minLevel: 1
       maxLevel: 1
       chance: 0.2
     mending:
-      minLevel: 1
-      maxLevel: 1
-      chance: 0.2
-    silk_touch:
       minLevel: 1
       maxLevel: 1
       chance: 0.2

@@ -30,7 +30,6 @@ ticks-per:
   ambient-spawns: 1
   autosave: 6000
 aliases: now-in-commands.yml
-
 worlds:
-    <world_name>: servidor_minecraft
-        generator: TerraformGenerator
+  world:
+    generator: TerraformGenerator
