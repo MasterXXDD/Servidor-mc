@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1741983764109
   login: 1741983367260
 money: '0'
 last-account-name: Rise
+logoutlocation:
+  world: 69768638-d0b1-4e78-aebc-6069a2d764d9
+  world-name: world
+  x: 165.3522534618242
+  y: 120.0
+  z: 376.6786713840867
+  yaw: 177.75149536132812
+  pitch: 47.39997863769531

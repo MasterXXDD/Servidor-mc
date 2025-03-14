@@ -497,3 +497,6 @@
 [2025-03-14 20:15:07] [INFO   ] Spawning Drowned Dungeon at -302,-179 
 [2025-03-14 20:15:07] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -21,22 
 [2025-03-14 20:15:07] [INFO   ] Spawning Underground Dungeon at -327,9,364 
+[2025-03-14 20:19:40] [INFO   ] Generating org.terraform.structure.small.shipwreck.ShipwreckPopulator at chunk: 4,40 
+[2025-03-14 20:19:40] [INFO   ] Spawning shipwreck at 65, 43, 649 with rotation of NORTH 
+[2025-03-14 20:19:42] [INFO   ] 20,52 will spawn a vanilla structure, with tryGenerateStructure == true 

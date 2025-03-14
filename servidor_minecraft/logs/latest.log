@@ -306,3 +306,19 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [20:16:50] [Server thread/WARN]: Teagokk_ moved wrongly!
 [20:17:02] [Server thread/INFO]: Teagokk_ issued server command: /plugins
 [20:17:03] [Server thread/WARN]: Teagokk_ moved wrongly!
+[20:18:23] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[20:22:01] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[20:22:08] [Server thread/INFO]: Teagokk_ issued server command: /scoreboard objectives add vida health
+[20:22:08] [Server thread/INFO]: [Teagokk_: Created new objective [vida]]
+[20:22:16] [Server thread/INFO]: Teagokk_ issued server command: /scoreboard objectives setdisplay list vida
+[20:22:16] [Server thread/INFO]: [Teagokk_: Set display slot list to show objective vida]
+[20:22:24] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival
+[20:22:44] [Server thread/INFO]: Rise lost connection: Disconnected
+[20:22:44] [Server thread/INFO]: Rise left the game
+[20:22:46] [Server thread/INFO]: Teagokk_ fell from a high place
+[20:26:15] [Server thread/INFO]: Teagokk_ issued server command: /team add Usuario
+[20:26:15] [Server thread/INFO]: [Teagokk_: Created team [Usuario]]
+[20:27:07] [Server thread/INFO]: Teagokk_ issued server command: /team modify Usuarii
+[20:27:14] [Server thread/INFO]: Teagokk_ issued server command: /team modify Usuario color green
+[20:27:14] [Server thread/INFO]: [Teagokk_: Updated the color for team [Usuario] to green]
+[20:27:21] [Server thread/INFO]: Teagokk_ issued server command: /team modify Usuario prefix {"text":"[MIEMBRO]","color":"green","bold":"true"}
