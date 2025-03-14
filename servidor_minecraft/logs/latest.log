@@ -1,329 +1,213 @@
-[19:37:39] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[19:37:39] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[19:37:39] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:37:42] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/TAB v5.0.7.jar'...
-[19:37:43] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/TAB v5.0.7.jar' in 1123ms.
-[19:37:43] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[19:37:43] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
- - BetterStructures (1.7.8), Essentials (2.21.0-dev+189-eab2201), LoginSecurity (3.3.0), SkinsRestorer (15.6.0), TAB (5.0.7), TerraformGenerator (18.1.2), ViaBackwards (5.2.1), ViaVersion (5.2.1)
-[19:37:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:37:51] [ServerMain/INFO]: Loaded 1290 recipes
-[19:37:51] [ServerMain/INFO]: Loaded 1399 advancements
-[19:37:51] [Server thread/INFO]: Starting minecraft server version 1.21
-[19:37:51] [Server thread/INFO]: Loading properties
-[19:37:51] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[19:37:52] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:37:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:37:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:37:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[19:37:53] [Server thread/INFO]: Default game type: SURVIVAL
-[19:37:53] [Server thread/INFO]: Generating keypair
-[19:37:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:37:54] [Server thread/INFO]: Using epoll channel type
-[19:37:54] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:37:54] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[19:37:54] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/BetterStructures.jar' in 'plugins/.paper-remapped'
-org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [WorldEdit]. Please download and install these plugins to run 'BetterStructures'.
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[19:37:55] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[19:37:55] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[19:37:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[19:37:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[19:37:59] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[19:37:59] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[19:38:01] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[19:38:01] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[19:38:01] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
-[19:38:01] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v18.1.2
-[19:38:01] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
-[19:38:01] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
-[19:38:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:38:01] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v18.1.2
-[19:38:02] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
-[19:38:02] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
-[19:38:03] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21, number: 21.0
-[19:38:03] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
-[19:38:05] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[19:38:06] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[19:38:07] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[19:38:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:38:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:38:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:38:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:38:07] [Server thread/INFO]: Preparing level "world"
-[19:38:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:38:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[19:38:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[19:38:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[19:38:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[19:38:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[19:38:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:38:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.0
-[19:38:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dec2ffc
-[19:38:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[19:38:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:38:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[19:38:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[19:38:07] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
-[19:38:07] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
-[19:38:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:38:09] [Server thread/INFO]: Time elapsed: 1229 ms
-[19:38:09] [Server thread/INFO]: [TerraformGenerator] world loaded.
-[19:38:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:38:09] [Server thread/INFO]: Time elapsed: 241 ms
-[19:38:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:38:09] [Server thread/INFO]: Time elapsed: 113 ms
-[19:38:09] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[19:38:09] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[19:38:09] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[19:38:09] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[19:38:10] [Server thread/INFO]: [TAB] Loaded NMS hook in 155ms
-[19:38:11] [Server thread/INFO]: [TAB] Enabled in 1072ms
-[19:38:11] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[19:38:11] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[19:38:11] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[19:38:11] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[19:38:11] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[19:38:11] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[19:38:11] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
-[19:38:13] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[19:38:13] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[19:38:13] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[19:38:13] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[19:38:13] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[19:38:14] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[19:38:14] [Server thread/INFO]: [Essentials] Using locale en
-[19:38:14] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[19:38:14] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[19:38:14] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[19:38:14] [Server thread/INFO]: [spark] Starting background profiler...
-[19:38:15] [Server thread/INFO]: Done preparing level "world" (7.901s)
-[19:38:15] [Server thread/INFO]: Running delayed init tasks
-[19:38:15] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[19:38:15] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
-[19:38:15] [Server thread/INFO]: Done (38.395s)! For help, type "help"
-[19:38:15] [Server thread/INFO]: Timings Reset
-[19:38:28] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
-[19:38:29] [Server thread/INFO]: Teagokk_ joined the game
-[19:38:29] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[19:38:30] [Server thread/INFO]: Teagokk_[/127.189.225.101:40137] logged in with entity id 34 at ([world]494.32630953617326, 71.0, 255.62635808154002)
-[19:38:38] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
-[19:38:59] [Server thread/INFO]: Made Teagokk_ a server operator
-[19:39:22] [Server thread/INFO]: Teagokk_ issued server command: /locate structure minecraft:village_plains
-[19:39:40] [Server thread/INFO]: Teagokk_ issued server command: /terra locate VillageHousePopulator
-[19:39:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5198ms or 103 ticks behind
-[19:39:48] [Server thread/INFO]: Teagokk_ issued server command: /tp 1344 86 320
-[19:39:48] [Server thread/INFO]: Teagokk_ issued server command: /tp 1344 86 320
-[19:40:17] [Server thread/INFO]: Teagokk_ issued server command: /terra locate VillagePopulator
-[19:40:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4377ms or 87 ticks behind
-[19:40:24] [Server thread/WARN]: Teagokk_ moved wrongly!
-[19:40:27] [Server thread/INFO]: Teagokk_ issued server command: /tp -192 85 -1216
-[19:40:56] [Server thread/WARN]: Teagokk_ moved wrongly!
-[19:40:57] [Server thread/WARN]: Teagokk_ moved wrongly!
-[19:41:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4196ms or 83 ticks behind
-[19:41:10] [Server thread/INFO]: Teagokk_ issued server command: /tp Teagokk_ 100 100 0
-[19:41:28] [Server thread/INFO]: Teagokk_ issued server command: /setworldspawn
-[19:41:28] [Server thread/INFO]: [Teagokk_: Set the world spawn point to 201, 90, 45 [0.0]]
-[19:41:54] [Server thread/INFO]: Teagokk_ issued server command: /worldborder set 15000 1
-[19:41:54] [Server thread/INFO]: [Teagokk_: Shrinking the world border to 15000.0 block(s) wide over 1 second(s)]
-[19:42:04] [Server thread/WARN]: Teagokk_ moved wrongly!
-[19:56:22] [Server thread/WARN]: Teagokk_ moved wrongly!
-[19:56:22] [Server thread/WARN]: Teagokk_ moved wrongly!
-[19:56:29] [Async Chat Thread - #0/INFO]: [Not Secure] <Teagokk_> a
-[19:56:52] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[19:56:52] [Server thread/INFO]: [TAB] Disabled in 1ms
-[19:56:52] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[19:56:52] [Server thread/INFO]: [TAB] Enabled in 30ms
-[19:57:54] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[19:57:54] [Server thread/INFO]: [TAB] Disabled in 1ms
-[19:57:54] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[19:57:54] [Server thread/INFO]: [TAB] Enabled in 17ms
-[19:57:56] [Server thread/WARN]: Teagokk_ moved wrongly!
-[19:58:09] [Server thread/INFO]: Teagokk_ issued server command: /tab reloaf
-[19:58:12] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[19:58:12] [Server thread/INFO]: [TAB] Disabled in 1ms
-[19:58:12] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[19:58:12] [Server thread/INFO]: [TAB] Enabled in 11ms
-[19:58:31] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[19:58:31] [Server thread/INFO]: [TAB] Disabled in 1ms
-[19:58:31] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[19:58:31] [Server thread/INFO]: [TAB] Enabled in 11ms
-[19:59:31] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[19:59:31] [Server thread/INFO]: [TAB] Disabled in 1ms
-[19:59:31] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[19:59:31] [Server thread/INFO]: [TAB] Enabled in 7ms
-[19:59:43] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[19:59:43] [Server thread/INFO]: [TAB] Disabled in 1ms
-[19:59:43] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[19:59:43] [Server thread/INFO]: [TAB] Enabled in 9ms
-[20:00:24] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:00:24] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:00:24] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:00:24] [Server thread/INFO]: [TAB] Enabled in 8ms
-[20:00:40] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:00:40] [Server thread/INFO]: [TAB] Disabled in 0ms
-[20:00:40] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:00:40] [Server thread/INFO]: [TAB] Enabled in 9ms
-[20:00:54] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:00:54] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:00:54] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:00:54] [Server thread/INFO]: [TAB] Enabled in 9ms
-[20:01:08] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:01:08] [Server thread/INFO]: [TAB] Disabled in 0ms
-[20:01:08] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:01:08] [Server thread/INFO]: [TAB] Enabled in 5ms
-[20:01:11] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[20:01:11] [Server thread/INFO]: Teagokk_ lost connection: Flying is not enabled on this server
-[20:01:11] [Server thread/INFO]: Teagokk_ left the game
-[20:01:15] [User Authenticator #1/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
-[20:01:17] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:01:17] [Server thread/INFO]: Teagokk_ joined the game
-[20:01:17] [Server thread/INFO]: Teagokk_[/127.189.225.101:58273] logged in with entity id 5136 at ([world]182.5762374632128, 100.56013269288916, 58.10051900222766)
-[20:02:02] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:02:02] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:02:02] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:02:02] [Server thread/INFO]: [TAB] Enabled in 8ms
-[20:02:10] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:02:10] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:02:10] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:02:10] [Server thread/INFO]: [TAB] Enabled in 6ms
-[20:02:32] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:02:32] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:02:32] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:02:32] [Server thread/INFO]: [TAB] Enabled in 6ms
-[20:02:45] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:02:45] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:02:45] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:02:45] [Server thread/INFO]: [TAB] Enabled in 5ms
-[20:03:40] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:03:40] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:03:40] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:03:40] [Server thread/INFO]: [TAB] Enabled in 7ms
-[20:04:08] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:04:08] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:04:08] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:04:08] [Server thread/INFO]: [TAB] Enabled in 5ms
-[20:04:20] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:04:20] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:04:20] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:04:20] [Server thread/INFO]: [TAB] Enabled in 5ms
-[20:04:30] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:04:30] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:04:30] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:04:30] [Server thread/INFO]: [TAB] Enabled in 5ms
-[20:04:58] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:04:58] [Server thread/INFO]: [TAB] Disabled in 0ms
-[20:04:58] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:04:58] [Server thread/INFO]: [TAB] Enabled in 6ms
-[20:05:19] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:05:19] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:05:19] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:05:19] [Server thread/INFO]: [TAB] Enabled in 6ms
-[20:07:20] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:07:20] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:07:20] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:07:20] [Server thread/INFO]: [TAB] Enabled in 5ms
-[20:07:49] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:07:49] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:07:49] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:07:49] [Server thread/INFO]: [TAB] Enabled in 4ms
-[20:08:19] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:08:19] [Server thread/INFO]: [TAB] Disabled in 0ms
-[20:08:19] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:08:19] [Server thread/INFO]: [TAB] Enabled in 4ms
-[20:08:38] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
-[20:08:38] [Server thread/INFO]: [TAB] Disabled in 0ms
-[20:08:38] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:08:38] [Server thread/INFO]: [TAB] Enabled in 14ms
-[20:12:24] [User Authenticator #2/INFO]: UUID of player faturcop is dc018bcd-75e2-3af5-a13a-ffefe671d9ec
-[20:12:25] [Server thread/INFO]: faturcop joined the game
-[20:12:25] [Server thread/INFO]: faturcop[/127.64.227.9:55765] logged in with entity id 6824 at ([world]211.5, 80.0, 39.5)
-[20:12:25] [TAB Processing Thread/INFO]: [TAB] [WARN] Player faturcop's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:12:33] [Server thread/INFO]: Teagokk_ issued server command: /tp faturcop
-[20:13:27] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:13:52] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:13:56] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:14:05] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:15:07] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:15:08] [Server thread/INFO]: faturcop lost connection: Disconnected
-[20:15:08] [Server thread/INFO]: faturcop left the game
-[20:15:08] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:15:09] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:15:10] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:15:18] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:15:18] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:15:49] [Server thread/INFO]: Teagokk_ issued server command: /paper reload
-[20:15:49] [Server thread/INFO]: Teagokk_: Please note that this command is not supported and may cause issues.
-[20:15:49] [Server thread/INFO]: Teagokk_: If you encounter any issues please use the /stop command to restart your server.
-[20:15:49] [Server thread/INFO]: Teagokk_: Paper config reload complete.
-[20:15:49] [Server thread/INFO]: Timings Reset
-[20:16:00] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:16:01] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:16:02] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:16:02] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:16:03] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:16:04] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:16:06] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:16:07] [User Authenticator #3/INFO]: UUID of player Rise is ddb14edd-887d-3b49-a8e9-d82428beb64e
-[20:16:07] [Server thread/INFO]: Rise joined the game
-[20:16:07] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Rise's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:16:07] [Server thread/INFO]: Rise[/127.64.227.9:46273] logged in with entity id 9060 at ([world]204.5, 86.0, 49.5)
-[20:16:07] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[20:16:07] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.16.2->1.16.1) Biome with id terraformgenerator:muddy_bog has no legacy biome mapping (custom datapack?)
-[20:16:07] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.16.2->1.16.1) Biome with id terraformgenerator:cherry_grove has no legacy biome mapping (custom datapack?)
-[20:16:07] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.16.2->1.16.1) Biome with id terraformgenerator:scarlet_forest has no legacy biome mapping (custom datapack?)
-[20:16:07] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.16.2->1.16.1) Biome with id terraformgenerator:crystalline_cluster has no legacy biome mapping (custom datapack?)
-[20:16:16] [Async Chat Thread - #1/INFO]: [Not Secure] <Teagokk_> rise
-[20:16:21] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:16:32] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:16:50] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:17:02] [Server thread/INFO]: Teagokk_ issued server command: /plugins
-[20:17:03] [Server thread/WARN]: Teagokk_ moved wrongly!
-[20:18:23] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
-[20:22:01] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
-[20:22:08] [Server thread/INFO]: Teagokk_ issued server command: /scoreboard objectives add vida health
-[20:22:08] [Server thread/INFO]: [Teagokk_: Created new objective [vida]]
-[20:22:16] [Server thread/INFO]: Teagokk_ issued server command: /scoreboard objectives setdisplay list vida
-[20:22:16] [Server thread/INFO]: [Teagokk_: Set display slot list to show objective vida]
-[20:22:24] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival
-[20:22:44] [Server thread/INFO]: Rise lost connection: Disconnected
-[20:22:44] [Server thread/INFO]: Rise left the game
-[20:22:46] [Server thread/INFO]: Teagokk_ fell from a high place
-[20:26:15] [Server thread/INFO]: Teagokk_ issued server command: /team add Usuario
-[20:26:15] [Server thread/INFO]: [Teagokk_: Created team [Usuario]]
-[20:27:07] [Server thread/INFO]: Teagokk_ issued server command: /team modify Usuarii
-[20:27:14] [Server thread/INFO]: Teagokk_ issued server command: /team modify Usuario color green
-[20:27:14] [Server thread/INFO]: [Teagokk_: Updated the color for team [Usuario] to green]
-[20:27:21] [Server thread/INFO]: Teagokk_ issued server command: /team modify Usuario prefix {"text":"[MIEMBRO]","color":"green","bold":"true"}
-[20:28:57] [Server thread/INFO]: Teagokk_ issued server command: /team modify Usuario prefix {"text":" [Usuario] ","color":"green"}
-[20:29:15] [Server thread/INFO]: Teagokk_ issued server command: /team join Usuario Teagokk_
-[20:29:15] [Server thread/INFO]: [Teagokk_: Added  [Usuario] Teagokk_ to team [Usuario]]
-[20:29:33] [Server thread/INFO]: Teagokk_ issued server command: /team list
-[20:29:46] [Server thread/INFO]: Teagokk_ issued server command: /team join 7Teagokk_A Teagokk_
+[23:09:01] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[23:09:01] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[23:09:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:09:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[23:09:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - BetterStructures (1.7.8), Essentials (2.21.0-dev+189-eab2201), LoginSecurity (3.3.0), LuckPerms (5.4.156), SkinsRestorer (15.6.0), TAB (5.0.7), TerraformGenerator (18.1.2), ViaBackwards (5.2.1), ViaVersion (5.2.1), WorldEdit (7.3.10-beta-01+cb9fd58)
+[23:09:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:09:10] [ServerMain/INFO]: Loaded 1290 recipes
+[23:09:10] [ServerMain/INFO]: Loaded 1399 advancements
+[23:09:10] [Server thread/INFO]: Starting minecraft server version 1.21
+[23:09:10] [Server thread/INFO]: Loading properties
+[23:09:10] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[23:09:11] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:09:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:09:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:09:12] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[23:09:12] [Server thread/INFO]: Default game type: SURVIVAL
+[23:09:12] [Server thread/INFO]: Generating keypair
+[23:09:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:09:13] [Server thread/INFO]: Using epoll channel type
+[23:09:13] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[23:09:13] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[23:09:14] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[23:09:14] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[23:09:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[23:09:19] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[23:09:20] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[23:09:20] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[23:09:22] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
+[23:09:23] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v18.1.2
+[23:09:23] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
+[23:09:25] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6f0adfb1]
+[23:09:25] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[23:09:25] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[23:09:25] [Server thread/INFO]: [BetterStructures] Loading server plugin BetterStructures v1.7.8
+[23:09:25] [Server thread/INFO]: [BetterStructures] MagmaCore v1.7 initialized!
+[23:09:25] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
+[23:09:25] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[23:09:25] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
+[23:09:25] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
+[23:09:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:09:25] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[23:09:25] [Server thread/INFO]:         __    
+[23:09:25] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[23:09:25] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[23:09:25] [Server thread/INFO]: 
+[23:09:25] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[23:09:25] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[23:09:26] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[23:09:26] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[23:09:26] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1435ms)
+[23:09:26] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v18.1.2
+[23:09:27] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[23:09:27] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[23:09:27] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21, number: 21.0
+[23:09:28] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
+[23:09:28] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[23:09:28] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[23:09:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[23:09:31] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
+[23:09:32] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[23:09:33] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[23:09:34] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[23:09:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:09:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:09:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:09:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:09:34] [Server thread/INFO]: Preparing level "world"
+[23:09:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:09:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[23:09:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[23:09:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[23:09:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[23:09:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[23:09:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:09:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.0
+[23:09:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dec2ffc
+[23:09:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[23:09:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:09:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[23:09:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[23:09:35] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[23:09:35] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[23:09:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:09:37] [Server thread/INFO]: Time elapsed: 1634 ms
+[23:09:37] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[23:09:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:09:38] [Server thread/INFO]: Time elapsed: 687 ms
+[23:09:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:09:38] [Server thread/INFO]: Time elapsed: 250 ms
+[23:09:38] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[23:09:38] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[23:09:38] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[23:09:38] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[23:09:39] [Server thread/INFO]: [TAB] Loaded NMS hook in 141ms
+[23:09:39] [Server thread/INFO]: [TAB] Enabled in 816ms
+[23:09:39] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v1.7.8
+[23:09:39] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
+[23:09:39] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
+[23:09:39] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
+[23:09:39] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
+[23:09:39] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
+[23:09:39] [Server thread/INFO]: [BetterStructures] Initialized version 1.7.8!
+[23:09:40] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 222 ms to scan 1 urls, producing 1 keys and 5 values
+[23:09:40] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 9 ms to scan 1 urls, producing 1 keys and 29 values
+[23:09:41] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 1 values
+[23:09:41] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 8 values
+[23:09:41] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[23:09:41] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[23:09:41] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[23:09:41] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[23:09:41] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[23:09:41] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[23:09:41] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
+[23:09:42] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[23:09:43] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[23:09:43] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[23:09:43] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[23:09:43] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[23:09:43] [Server thread/INFO]: [Essentials] Using locale en
+[23:09:43] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[23:09:44] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[23:09:44] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[23:09:44] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[23:09:44] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[23:09:44] [Server thread/INFO]: [spark] Starting background profiler...
+[23:09:45] [Server thread/INFO]: Done preparing level "world" (10.802s)
+[23:09:45] [Server thread/INFO]: Running delayed init tasks
+[23:09:45] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[23:09:45] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
+[23:09:45] [Server thread/INFO]: Done (45.395s)! For help, type "help"
+[23:09:45] [Server thread/INFO]: Timings Reset
+[23:09:45] [Craft Scheduler Thread - 6 - BetterStructures/INFO]: [BetterStructures] Latest public release is 1.7.8
+[23:09:45] [Craft Scheduler Thread - 6 - BetterStructures/INFO]: [BetterStructures] Your version is 1.7.8
+[23:09:45] [Craft Scheduler Thread - 6 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
+[23:10:57] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
+[23:10:59] [Server thread/INFO]:  [Usuario] Teagokk_ joined the game
+[23:10:59] [Server thread/INFO]: Teagokk_[/127.189.225.101:41847] logged in with entity id 99 at ([world]202.45986955736223, 90.0, 45.73196950026516)
+[23:11:20] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures initialize
+[23:11:20] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:13:11] [User Authenticator #1/INFO]: UUID of player BritaininFacu is bcb262e5-8359-33ca-94da-f08f710268d6
+[23:13:11] [Server thread/INFO]: BritaininFacu joined the game
+[23:13:11] [Server thread/INFO]: BritaininFacu[/127.64.227.9:40787] logged in with entity id 737 at ([world]201.5, 85.0, 51.5)
+[23:13:24] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:13:25] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:13:26] [Server thread/WARN]: BritaininFacu moved too quickly! 0.0,-0.7126234747658344,0.0
+[23:13:29] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:13:47] [Server thread/INFO]: BritaininFacu fell from a high place
+[23:13:57] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:13:57] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:13:57] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:13:57] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:13:58] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:13:58] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:13:58] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:13:59] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:13:59] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:13:59] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:14:00] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:14:00] [Server thread/INFO]:  [Usuario] Teagokk_ was slain by BritaininFacu
+[23:14:00] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:14:00] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:14:01] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:14:01] [Server thread/WARN]: BritaininFacu moved wrongly!
+[23:14:19] [Server thread/WARN]: BritaininFacu was kicked for floating too long!
+[23:14:19] [Server thread/INFO]: BritaininFacu lost connection: Flying is not enabled on this server
+[23:14:19] [Server thread/INFO]: BritaininFacu left the game
+[23:14:25] [User Authenticator #2/INFO]: UUID of player BritaininFacu is bcb262e5-8359-33ca-94da-f08f710268d6
+[23:14:26] [Server thread/INFO]: BritaininFacu joined the game
+[23:14:26] [Server thread/INFO]: BritaininFacu[/127.64.227.9:34585] logged in with entity id 950 at ([world]195.8357339088301, 104.83752903192993, 44.5031744600736)
+[23:14:30] [Server thread/WARN]: BritaininFacu was kicked for floating too long!
+[23:14:30] [Server thread/INFO]: BritaininFacu lost connection: Flying is not enabled on this server
+[23:14:30] [Server thread/INFO]: BritaininFacu left the game
+[23:14:30] [Server thread/WARN]: BritaininFacu was kicked for floating too long!
+[23:14:57] [User Authenticator #2/INFO]: UUID of player BritaininFacu is bcb262e5-8359-33ca-94da-f08f710268d6
+[23:14:57] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[23:14:57] [Server thread/INFO]: BritaininFacu joined the game
+[23:14:57] [Server thread/INFO]: BritaininFacu[/127.64.227.9:45413] logged in with entity id 1089 at ([world]195.8357339088301, 101.68065658539635, 44.5031744600736)
+[23:14:57] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.16.2->1.16.1) Biome with id terraformgenerator:muddy_bog has no legacy biome mapping (custom datapack?)
+[23:14:57] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.16.2->1.16.1) Biome with id terraformgenerator:cherry_grove has no legacy biome mapping (custom datapack?)
+[23:14:57] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.16.2->1.16.1) Biome with id terraformgenerator:scarlet_forest has no legacy biome mapping (custom datapack?)
+[23:14:57] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.16.2->1.16.1) Biome with id terraformgenerator:crystalline_cluster has no legacy biome mapping (custom datapack?)
+[23:15:01] [Server thread/WARN]: BritaininFacu was kicked for floating too long!
+[23:15:01] [Server thread/INFO]: BritaininFacu lost connection: Flying is not enabled on this server
+[23:15:01] [Server thread/INFO]: BritaininFacu left the game
+[23:15:01] [Server thread/WARN]: BritaininFacu was kicked for floating too long!
+[23:16:51] [Server thread/WARN]: Teagokk_ moved wrongly!
+[23:16:55] [Server thread/WARN]: Teagokk_ moved wrongly!
+[23:16:58] [Server thread/WARN]: Teagokk_ moved wrongly!
+[23:16:59] [Server thread/WARN]: Teagokk_ moved wrongly!
+[23:17:41] [Server thread/WARN]: Teagokk_ moved wrongly!
+[23:18:20] [Server thread/WARN]: Teagokk_ moved wrongly!

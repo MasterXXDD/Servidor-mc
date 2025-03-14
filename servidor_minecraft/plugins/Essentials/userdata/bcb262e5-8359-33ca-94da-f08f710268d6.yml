@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.64.227.9
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741994101575
+  login: 1741994097120
+money: '0'
+last-account-name: BritaininFacu
+logoutlocation:
+  world: 69768638-d0b1-4e78-aebc-6069a2d764d9
+  world-name: world
+  x: 195.5
+  y: 101.0
+  z: 44.5
+  yaw: -83.849853515625
+  pitch: 59.55002975463867
