@@ -154,3 +154,15 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [19:41:54] [Server thread/INFO]: Teagokk_ issued server command: /worldborder set 15000 1
 [19:41:54] [Server thread/INFO]: [Teagokk_: Shrinking the world border to 15000.0 block(s) wide over 1 second(s)]
 [19:42:04] [Server thread/WARN]: Teagokk_ moved wrongly!
+[19:56:22] [Server thread/WARN]: Teagokk_ moved wrongly!
+[19:56:22] [Server thread/WARN]: Teagokk_ moved wrongly!
+[19:56:29] [Async Chat Thread - #0/INFO]: [Not Secure] <Teagokk_> a
+[19:56:52] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[19:56:52] [Server thread/INFO]: [TAB] Disabled in 1ms
+[19:56:52] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[19:56:52] [Server thread/INFO]: [TAB] Enabled in 30ms
+[19:57:54] [Server thread/INFO]: Teagokk_ issued server command: /tab reload
+[19:57:54] [Server thread/INFO]: [TAB] Disabled in 1ms
+[19:57:54] [Server thread/INFO]: [TAB] [WARN] Player Teagokk_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[19:57:54] [Server thread/INFO]: [TAB] Enabled in 17ms
+[19:57:56] [Server thread/WARN]: Teagokk_ moved wrongly!

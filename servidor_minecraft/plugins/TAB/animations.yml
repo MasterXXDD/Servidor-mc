@@ -33,7 +33,7 @@ MyAnimation1:
 ServerName:
   change-interval: 300
   texts:
-  - '&c&lServerName'
+  - '&c&lPates'
   - '&c&n&lServerName'
   - '&b&lServerName'
   - '&b&l&nServerName'
@@ -78,7 +78,7 @@ vote:
 Welcome:
   change-interval: 400
   texts:
-  - '&7&lW_'
+  - '&7&lB_'
   - '&7&lW_'
   - '&7&lWe_'
   - '&7&lWel_'
