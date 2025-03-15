@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1741994101575
-  login: 1741994097120
+  logout: 1741995214290
+  login: 1741994726358
 money: '0'
 last-account-name: BritaininFacu
 logoutlocation:
   world: 69768638-d0b1-4e78-aebc-6069a2d764d9
   world-name: world
-  x: 195.5
-  y: 101.0
-  z: 44.5
-  yaw: -83.849853515625
-  pitch: 59.55002975463867
+  x: 61.11517539836301
+  y: 63.0
+  z: 200.06387137624196
+  yaw: -121.49837493896484
+  pitch: 25.199913024902344
