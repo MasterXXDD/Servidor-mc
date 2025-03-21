@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1742054284854
   login: 1742053759217
 money: '0'
 last-account-name: IMMRPO
+logoutlocation:
+  world: 69768638-d0b1-4e78-aebc-6069a2d764d9
+  world-name: world
+  x: 200.69169492127898
+  y: 84.24918707874468
+  z: 37.06699855322069
+  yaw: 86.67280578613281
+  pitch: 7.689209938049316
