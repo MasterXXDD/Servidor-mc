@@ -1,251 +1,298 @@
-[00:14:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[00:14:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[00:14:12] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:14:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
-[00:14:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+[17:57:16] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[17:57:16] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[17:57:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:57:17] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[17:57:17] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
  - BetterStructures (1.7.8), EliteMobs (9.3.2), Essentials (2.21.0-dev+189-eab2201), GrimAC (2.3.69), LoginSecurity (3.3.0), LuckPerms (5.4.156), SkinsRestorer (15.6.0), TAB (5.0.7), TerraformGenerator (18.1.2), ViaBackwards (5.2.1), ViaVersion (5.2.1), WorldEdit (7.3.10-beta-01+cb9fd58)
-[00:14:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:14:17] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[00:14:17] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[00:14:17] [ServerMain/INFO]: No existing world data, creating new world
-[00:14:18] [ServerMain/INFO]: Loaded 1290 recipes
-[00:14:18] [ServerMain/INFO]: Loaded 1399 advancements
-[00:14:19] [Server thread/INFO]: Starting minecraft server version 1.21
-[00:14:19] [Server thread/INFO]: Loading properties
-[00:14:19] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[00:14:19] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[00:14:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:14:19] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:14:20] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[00:14:20] [Server thread/INFO]: Default game type: SURVIVAL
-[00:14:20] [Server thread/INFO]: Generating keypair
-[00:14:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:14:21] [Server thread/INFO]: Using epoll channel type
-[00:14:21] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:14:21] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:14:22] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[00:14:22] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[00:14:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[00:14:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[00:14:25] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[00:14:25] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[00:14:26] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
-[00:14:27] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
-[00:14:27] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[00:14:27] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.3.2
-[00:14:27] [Server thread/INFO]: [EliteMobs] MagmaCore v1.7 initialized!
-[00:14:27] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
-[00:14:27] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v18.1.2
-[00:14:27] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
-[00:14:28] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@67b601f4]
-[00:14:28] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.69
-[00:14:28] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
-[00:14:31] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[00:14:31] [Server thread/INFO]: [BetterStructures] Loading server plugin BetterStructures v1.7.8
-[00:14:31] [Server thread/INFO]: [BetterStructures] MagmaCore v1.7 initialized!
-[00:14:31] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
-[00:14:31] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
-[00:14:31] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
-[00:14:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:14:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[00:14:32] [Server thread/INFO]:         __    
-[00:14:32] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[00:14:32] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[00:14:32] [Server thread/INFO]: 
-[00:14:32] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[00:14:32] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[00:14:33] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[00:14:33] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[00:14:33] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1518ms)
-[00:14:33] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v18.1.2
-[00:14:33] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
-[00:14:34] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
-[00:14:34] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21, number: 21.0
-[00:14:34] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
-[00:14:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[00:14:34] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[00:14:35] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
-[00:14:36] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
-[00:14:37] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[00:14:37] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[00:14:38] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[00:14:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:14:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:14:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:14:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:14:38] [Server thread/INFO]: Preparing level "world"
-[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.0
-[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dec2ffc
-[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[00:14:39] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
-[00:14:39] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
-[00:14:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:14:41] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
-[00:14:51] [Server thread/INFO]: Time elapsed: 11542 ms
-[00:14:51] [Server thread/INFO]: [TerraformGenerator] world loaded.
-[00:14:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:14:52] [Server thread/INFO]: Time elapsed: 535 ms
-[00:14:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:14:52] [Server thread/INFO]: Time elapsed: 85 ms
-[00:14:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[00:14:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[00:14:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
-[00:14:53] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[00:14:53] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[00:14:53] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[00:14:53] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[00:14:53] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[00:14:53] [Server thread/INFO]: [Essentials] Using locale en
-[00:14:53] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:14:54] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[00:14:54] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[00:14:54] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[00:14:54] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[00:14:54] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[00:14:54] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.3.2
-[00:14:54] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
-[00:14:54] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
-[00:14:54] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
-[00:14:54] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
-[00:14:54] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
-[00:14:54] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
-[00:14:54] [Server thread/INFO]: By MagmaGuy - v. 9.3.2
-[00:14:54] [Server thread/INFO]: [EliteMobs] Supported server version detected: v1_21_R1
-[00:14:54] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 145 ms to scan 1 urls, producing 1 keys and 14 values
-[00:14:54] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 13 ms to scan 1 urls, producing 1 keys and 59 values
-[00:14:54] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 15 ms to scan 1 urls, producing 1 keys and 16 values
-[00:14:55] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:14:57] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 9 ms to scan 1 urls, producing 1 keys and 71 values
-[00:14:57] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 27 ms to scan 1 urls, producing 10 keys and 219 values
-[00:14:57] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 15 values
-[00:14:57] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is not enabled!
-[00:14:57] [Server thread/WARN]: [EliteMobs] "EliteMobs v9.3.2" has registered a listener for org.bukkit.event.entity.EntityRemoveEvent on method "public void com.magmaguy.elitemobs.entitytracker.EntityTracker.onRemove(org.bukkit.event.entity.EntityRemoveEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [MagmaGuy].
-[00:14:58] [Server thread/INFO]: [EliteMobs] Opened database successfully
-[00:14:58] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 7 ms to scan 1 urls, producing 1 keys and 116 values
-[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 1 keys and 71 values
-[00:15:00] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_primis_wormhole does not exist!
-[00:15:00] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_oasis_wormhole does not exist!
-[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 7 ms to scan 1 urls, producing 1 keys and 134 values
-[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 33 values
-[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 22 values
-[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 1 values
-[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 8 values
-[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
-[00:15:00] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.69
-[00:15:00] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
-[00:15:00] [Server thread/INFO]: [GrimAC] Registering packets...
-[00:15:00] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
-[00:15:01] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
-[00:15:01] [Server thread/INFO]: Grim Version: 2.3.69
-[00:15:01] [Server thread/ERROR]: [GrimAC] GrimAC has detected that you are using ViaVersion with the `fix-1_21-placement-rotation` option enabled.
-[00:15:01] [Server thread/ERROR]: [GrimAC] This option is known to cause issues with GrimAC and may result in false positives and bypasses.
-[00:15:01] [Server thread/ERROR]: [GrimAC] Please disable this option in your ViaVersion configuration to prevent these issues.
-[00:15:01] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed TAB with ViaVersion.
-[00:15:01] [Server thread/WARN]: [GrimAC] Please note that currently, TAB is incompatible as it sends illegal packets to players using versions newer than your server version.
-[00:15:01] [Server thread/WARN]: [GrimAC] You may be able to remedy this by setting `compensate-for-packetevents-bug` to true in the TAB config.
-[00:15:01] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[00:15:01] [Server thread/INFO]: [TAB] Loaded NMS hook in 77ms
-[00:15:02] [Server thread/INFO]: [TAB] Enabled in 532ms
-[00:15:02] [Server thread/WARN]: Plugin BetterStructures v1.7.8 tried to register permission 'logify.*' but it's already registered
-[00:15:02] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v1.7.8
-[00:15:02] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
-[00:15:02] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
-[00:15:02] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
-[00:15:02] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
-[00:15:02] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
-[00:15:02] [Server thread/INFO]: [BetterStructures] Initialized version 1.7.8!
-[00:15:02] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 104 ms to scan 1 urls, producing 1 keys and 5 values
-[00:15:02] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 1 keys and 29 values
-[00:15:02] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
-[00:15:09] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 8 values
-[00:15:09] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[00:15:09] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[00:15:09] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[00:15:09] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[00:15:09] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[00:15:09] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[00:15:09] [Server thread/INFO]: [spark] Starting background profiler...
-[00:15:10] [Server thread/INFO]: Done preparing level "world" (31.220s)
-[00:15:10] [Server thread/INFO]: Running delayed init tasks
-[00:15:10] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[00:15:10] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
-[00:15:10] [Server thread/INFO]: Done (59.153s)! For help, type "help"
-[00:15:10] [Server thread/INFO]: Timings Reset
-[00:15:10] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] Latest public release is 9.3.2
-[00:15:10] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] Your version is 9.3.2
-[00:15:10] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Latest public release is 1.7.8
-[00:15:10] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Your version is 1.7.8
-[00:15:10] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] You are running the latest version!
-[00:15:10] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
-[00:15:10] [Craft Scheduler Thread - 10 - GrimAC/INFO]: New GrimAC version found! Version 2.3.70 is available to be downloaded here: https://modrinth.com/plugin/grimac
-[00:15:10] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
-[00:15:10] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[00:15:11] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
-[00:15:13] [Server thread/INFO]: Teagokk_ joined the game
-[00:15:13] [Server thread/INFO]: Teagokk_[/127.189.225.101:52023] logged in with entity id 29 at ([world]-9.5, 74.0, -4.5)
-[00:15:14] [Craft Scheduler Thread - 7 - EliteMobs/INFO]: [EliteMobs] User 568394ee-f971-38a9-8464-23874d404e9f data successfully read!
-[00:15:43] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
-[00:15:54] [Server thread/WARN]: [BetterStructures] You are not using WorldGuard, so BetterStructures could not protect a boss arena! Using WorldGuard is recommended to guarantee a fair combat experience.
-[00:16:13] [Server thread/INFO]: Teagokk_ issued server command: /setworldspawn
-[00:16:13] [Server thread/INFO]: [Teagokk_: Set the world spawn point to 202, 90, 45 [0.0]]
-[00:16:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7162ms or 143 ticks behind
-[00:16:34] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
-[00:16:34] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 472 -3 168
-[00:16:34] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
-[00:16:34] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
-[00:16:34] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
-[00:16:34] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
-[00:16:34] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
-[00:16:36] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
-[00:16:36] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
-[00:16:36] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
-[00:16:36] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
-[00:16:36] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
-[00:16:37] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
-[00:20:17] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml has been queued!
-[00:20:17] [Server thread/INFO]: A Treasure Goblin has been sighted!
-[00:20:22] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs track boss f472ddb1-b225-491e-88b6-859cc8dfdfd4
-[00:20:57] [Server thread/INFO]: ---------------------------------------------
-[00:20:57] [Server thread/INFO]: The Treasure Goblin has been pillaged!
-[00:20:57] [Server thread/INFO]:     1st Damager: Teagokk_ with 97.67 damage!
-[00:20:57] [Server thread/INFO]: 
-[00:20:57] [Server thread/INFO]: 
-[00:20:57] [Server thread/INFO]: Slayers: Teagokk_
-[00:20:57] [Server thread/INFO]: ---------------------------------------------
-[00:20:57] [Server thread/INFO]: Teagokk_ has made the advancement [Monster Hunter]
-[00:20:57] [Server thread/INFO]: Named entity Zombie['「1」 Treasure Goblin'/1886, uuid='ad7338ce-1176-4b4b-8d87-77026eebe370', l='ServerLevel[world]', x=406.26, y=74.00, z=262.85, cpos=[25, 16], tl=813, v=true] died: 「1」 Treasure Goblin was slain by Teagokk_
-[00:20:58] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml ended!
-[00:23:04] [Server thread/INFO]: Teagokk_ has made the advancement [Stone Age]
-[00:23:53] [Server thread/INFO]: Teagokk_ has made the advancement [Acquire Hardware]
+[17:57:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:57:22] [ServerMain/INFO]: Loaded 1290 recipes
+[17:57:22] [ServerMain/INFO]: Loaded 1399 advancements
+[17:57:23] [Server thread/INFO]: Starting minecraft server version 1.21
+[17:57:23] [Server thread/INFO]: Loading properties
+[17:57:23] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[17:57:23] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:57:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:57:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:57:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[17:57:24] [Server thread/INFO]: Default game type: SURVIVAL
+[17:57:24] [Server thread/INFO]: Generating keypair
+[17:57:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:57:24] [Server thread/INFO]: Using epoll channel type
+[17:57:24] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:57:24] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[17:57:25] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[17:57:25] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[17:57:28] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:57:28] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:57:29] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[17:57:29] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[17:57:30] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
+[17:57:30] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
+[17:57:30] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[17:57:30] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.3.2
+[17:57:30] [Server thread/INFO]: [EliteMobs] MagmaCore v1.7 initialized!
+[17:57:30] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
+[17:57:30] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v18.1.2
+[17:57:30] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
+[17:57:32] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@557eaef2]
+[17:57:32] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.69
+[17:57:32] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[17:57:35] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[17:57:35] [Server thread/INFO]: [BetterStructures] Loading server plugin BetterStructures v1.7.8
+[17:57:35] [Server thread/INFO]: [BetterStructures] MagmaCore v1.7 initialized!
+[17:57:35] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
+[17:57:35] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[17:57:35] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
+[17:57:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:57:35] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[17:57:36] [Server thread/INFO]:         __    
+[17:57:36] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[17:57:36] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[17:57:36] [Server thread/INFO]: 
+[17:57:36] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:57:36] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:57:36] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:57:37] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:57:37] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1496ms)
+[17:57:37] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v18.1.2
+[17:57:37] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[17:57:38] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[17:57:38] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21, number: 21.0
+[17:57:38] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
+[17:57:38] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:57:38] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:57:39] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[17:57:40] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
+[17:57:41] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[17:57:41] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[17:57:42] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[17:57:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:57:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:57:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:57:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:57:42] [Server thread/INFO]: Preparing level "world"
+[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.0
+[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dec2ffc
+[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[17:57:43] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[17:57:43] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[17:57:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:57:45] [Server thread/INFO]: Time elapsed: 1257 ms
+[17:57:45] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[17:57:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:57:45] [Server thread/INFO]: Time elapsed: 272 ms
+[17:57:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:57:45] [Server thread/INFO]: Time elapsed: 180 ms
+[17:57:45] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[17:57:45] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[17:57:45] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
+[17:57:46] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[17:57:46] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[17:57:46] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[17:57:46] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[17:57:47] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[17:57:47] [Server thread/INFO]: [Essentials] Using locale en
+[17:57:47] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:57:47] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:57:47] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[17:57:47] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[17:57:47] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[17:57:47] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[17:57:47] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.3.2
+[17:57:47] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
+[17:57:47] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
+[17:57:47] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
+[17:57:47] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
+[17:57:47] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
+[17:57:47] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
+[17:57:47] [Server thread/INFO]: By MagmaGuy - v. 9.3.2
+[17:57:47] [Server thread/INFO]: [EliteMobs] Supported server version detected: v1_21_R1
+[17:57:48] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 188 ms to scan 1 urls, producing 1 keys and 14 values
+[17:57:48] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 35 ms to scan 1 urls, producing 1 keys and 59 values
+[17:57:48] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 19 ms to scan 1 urls, producing 1 keys and 16 values
+[17:57:49] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:57:51] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 9 ms to scan 1 urls, producing 1 keys and 71 values
+[17:57:52] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 32 ms to scan 1 urls, producing 10 keys and 219 values
+[17:57:52] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 1 keys and 15 values
+[17:57:52] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is not enabled!
+[17:57:52] [Server thread/WARN]: [EliteMobs] "EliteMobs v9.3.2" has registered a listener for org.bukkit.event.entity.EntityRemoveEvent on method "public void com.magmaguy.elitemobs.entitytracker.EntityTracker.onRemove(org.bukkit.event.entity.EntityRemoveEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [MagmaGuy].
+[17:57:52] [Server thread/INFO]: [EliteMobs] Opened database successfully
+[17:57:53] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 11 ms to scan 1 urls, producing 1 keys and 116 values
+[17:57:54] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 8 ms to scan 1 urls, producing 1 keys and 71 values
+[17:57:54] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_primis_wormhole does not exist!
+[17:57:54] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_oasis_wormhole does not exist!
+[17:57:54] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 10 ms to scan 1 urls, producing 1 keys and 134 values
+[17:57:55] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[17:57:55] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 33 values
+[17:57:55] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 22 values
+[17:57:55] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[17:57:55] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 8 values
+[17:57:55] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[17:57:55] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.69
+[17:57:55] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[17:57:55] [Server thread/INFO]: [GrimAC] Registering packets...
+[17:57:55] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[17:57:55] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
+[17:57:56] [Server thread/INFO]: Grim Version: 2.3.69
+[17:57:56] [Server thread/ERROR]: [GrimAC] GrimAC has detected that you are using ViaVersion with the `fix-1_21-placement-rotation` option enabled.
+[17:57:56] [Server thread/ERROR]: [GrimAC] This option is known to cause issues with GrimAC and may result in false positives and bypasses.
+[17:57:56] [Server thread/ERROR]: [GrimAC] Please disable this option in your ViaVersion configuration to prevent these issues.
+[17:57:56] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed TAB with ViaVersion.
+[17:57:56] [Server thread/WARN]: [GrimAC] Please note that currently, TAB is incompatible as it sends illegal packets to players using versions newer than your server version.
+[17:57:56] [Server thread/WARN]: [GrimAC] You may be able to remedy this by setting `compensate-for-packetevents-bug` to true in the TAB config.
+[17:57:56] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[17:57:56] [Server thread/INFO]: [TAB] Loaded NMS hook in 90ms
+[17:57:56] [Server thread/INFO]: [TAB] Enabled in 599ms
+[17:57:56] [Server thread/WARN]: Plugin BetterStructures v1.7.8 tried to register permission 'logify.*' but it's already registered
+[17:57:56] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v1.7.8
+[17:57:56] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
+[17:57:56] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
+[17:57:56] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
+[17:57:56] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
+[17:57:56] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
+[17:57:56] [Server thread/INFO]: [BetterStructures] Initialized version 1.7.8!
+[17:57:57] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 111 ms to scan 1 urls, producing 1 keys and 5 values
+[17:57:57] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 1 keys and 29 values
+[17:57:57] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 1 values
+[17:58:04] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 8 values
+[17:58:04] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[17:58:05] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[17:58:05] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[17:58:05] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[17:58:05] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[17:58:05] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[17:58:05] [Server thread/INFO]: [spark] Starting background profiler...
+[17:58:05] [Server thread/INFO]: Done preparing level "world" (22.943s)
+[17:58:05] [Server thread/INFO]: Running delayed init tasks
+[17:58:05] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[17:58:05] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[17:58:05] [Server thread/INFO]: Done (50.096s)! For help, type "help"
+[17:58:05] [Server thread/INFO]: Timings Reset
+[17:58:05] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Latest public release is 1.7.8
+[17:58:05] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Your version is 1.7.8
+[17:58:05] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] Latest public release is 9.3.2
+[17:58:05] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] Your version is 9.3.2
+[17:58:05] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
+[17:58:05] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] You are running the latest version!
+[17:58:06] [Craft Scheduler Thread - 10 - GrimAC/INFO]: New GrimAC version found! Version 2.3.70 is available to be downloaded here: https://modrinth.com/plugin/grimac
+[17:58:06] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[17:58:06] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[17:58:07] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
+[17:58:10] [Server thread/INFO]: Teagokk_ joined the game
+[17:58:10] [Server thread/INFO]: Teagokk_[/127.189.225.101:57523] logged in with entity id 21 at ([world]350.01848155995094, 158.0435977921871, 228.33156050898225)
+[17:58:11] [Craft Scheduler Thread - 7 - EliteMobs/INFO]: [EliteMobs] User 568394ee-f971-38a9-8464-23874d404e9f data successfully read!
+[17:58:27] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
+[17:59:48] [Server thread/INFO]: Named entity CaveSpider['〖1〗 Silk Queen'/785, uuid='7a000330-0208-422e-9c59-0240bd14e9ed', l='ServerLevel[world]', x=616.61, y=23.00, z=452.76, cpos=[38, 28], tl=1649, v=true] died: 〖1〗 Silk Queen fell from a high place
+[18:00:15] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival
+[18:00:26] [Server thread/INFO]: Teagokk_ issued server command: /team list
+[18:00:40] [Server thread/INFO]: Named entity Spider['〖1〗 Tarantula'/29, uuid='d88f4c55-8e0e-4edb-90ac-0e41bd79ae51', l='ServerLevel[world]', x=340.50, y=182.00, z=215.51, cpos=[21, 13], tl=3002, v=true] died: 〖1〗 Tarantula suffocated in a wall
+[18:02:03] [User Authenticator #1/INFO]: UUID of player ImPipeOk is 01e15a49-ba1b-3be7-b0bf-c02af89997dc
+[18:02:04] [Server thread/INFO]: ImPipeOk joined the game
+[18:02:04] [Server thread/INFO]: ImPipeOk[/127.51.61.125:45719] logged in with entity id 1534 at ([world]212.5, 79.0, 41.5)
+[18:02:05] [Craft Scheduler Thread - 28 - EliteMobs/INFO]: [EliteMobs] No player entry detected, generating new entry!
+[18:02:13] [Async Chat Thread - #0/INFO]: [Not Secure] <Teagokk_> pipe
+[18:02:17] [Async Chat Thread - #0/INFO]: [Not Secure] <Teagokk_> call o no podes
+[18:02:20] [Async Chat Thread - #1/INFO]: [Not Secure] <Teagokk_> estamos en pat
+[18:02:51] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk Teagokk_
+[18:02:51] [Async Chat Thread - #0/INFO]: [Not Secure] <ImPipeOk> espera
+[18:02:56] [Async Chat Thread - #1/INFO]: [Not Secure] <Teagokk_> ok
+[18:03:01] [User Authenticator #1/INFO]: UUID of player Agent_FFFF is 5003d087-3c58-3d48-8014-35634b71c835
+[18:03:02] [Server thread/INFO]: Agent_FFFF joined the game
+[18:03:02] [Server thread/INFO]: Agent_FFFF[/127.86.91.244:37675] logged in with entity id 2118 at ([world]197.5, 76.0, 54.5)
+[18:03:04] [Craft Scheduler Thread - 31 - EliteMobs/INFO]: [EliteMobs] No player entry detected, generating new entry!
+[18:03:05] [Server thread/INFO]: [EliteMobs] Event armor_goblin.yml has been queued!
+[18:03:05] [Server thread/INFO]: An Armor Goblin has been sighted!
+[18:04:06] [Server thread/INFO]: Teagokk_ issued server command: /time set day
+[18:04:55] [User Authenticator #2/INFO]: UUID of player IMMRPO is 04725d8c-84b4-3767-a858-462dfa20f6c8
+[18:04:57] [Server thread/INFO]: IMMRPO joined the game
+[18:04:57] [Server thread/INFO]: IMMRPO[/127.175.68.75:40795] logged in with entity id 3075 at ([world]203.5, 82.0, 42.5)
+[18:04:58] [Craft Scheduler Thread - 37 - EliteMobs/INFO]: [EliteMobs] User 04725d8c-84b4-3767-a858-462dfa20f6c8 data successfully read!
+[18:05:13] [Server thread/INFO]: IMMRPO issued server command: /spawn
+[18:05:23] [Async Chat Thread - #2/INFO]: [Not Secure] <ImPipeOk> se me escucha
+[18:05:26] [Async Chat Thread - #2/INFO]: [Not Secure] <ImPipeOk> ??
+[18:05:51] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[18:06:12] [User Authenticator #3/INFO]: UUID of player ENZOPRIVGOAT is c7d4cf03-efec-34e6-ae52-67b7bd3a5b67
+[18:06:14] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[18:06:14] [Server thread/INFO]: ENZOPRIVGOAT joined the game
+[18:06:14] [Server thread/INFO]: ENZOPRIVGOAT[/127.56.111.119:40741] logged in with entity id 3727 at ([world]209.5, 80.0, 37.5)
+[18:06:15] [Craft Scheduler Thread - 39 - EliteMobs/INFO]: [EliteMobs] No player entry detected, generating new entry!
+[18:06:17] [Server thread/INFO]: ImPipeOk has made the advancement [Stone Age]
+[18:07:11] [Server thread/INFO]: ImPipeOk has made the advancement [Getting an Upgrade]
+[18:07:15] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[18:07:56] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk
+[18:08:06] [Server thread/INFO]: IMMRPO has made the advancement [Stone Age]
+[18:08:14] [User Authenticator #4/INFO]: UUID of player Luquitas_Alpha is 9882081b-f022-33f4-b841-d21d6ecb8350
+[18:08:16] [Server thread/INFO]: Luquitas_Alpha joined the game
+[18:08:16] [Server thread/INFO]: Luquitas_Alpha[/127.31.93.45:50755] logged in with entity id 4932 at ([world]211.5, 80.0, 37.5)
+[18:08:17] [Craft Scheduler Thread - 49 - EliteMobs/INFO]: [EliteMobs] No player entry detected, generating new entry!
+[18:08:22] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[18:08:29] [Server thread/INFO]: Agent_FFFF has made the advancement [Stone Age]
+[18:08:29] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[18:09:05] [Server thread/INFO]: [EliteMobs] Event dead_moon.yml has been queued!
+[18:09:14] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk
+[18:09:26] [Server thread/INFO]: Teagokk_ issued server command: /tp Agent_FFFF
+[18:09:45] [Server thread/INFO]: Agent_FFFF has made the advancement [Getting an Upgrade]
+[18:09:48] [Server thread/INFO]: ENZOPRIVGOAT has made the advancement [Stone Age]
+[18:09:56] [Server thread/INFO]: Teagokk_ issued server command: /tp Luquitas_Alpha
+[18:10:00] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Stone Age]
+[18:10:06] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Getting an Upgrade]
+[18:10:29] [Server thread/INFO]: ImPipeOk has made the advancement [Acquire Hardware]
+[18:10:43] [Server thread/INFO]: Teagokk_ issued server command: /tps
+[18:11:13] [Server thread/INFO]: ENZOPRIVGOAT has made the advancement [Getting an Upgrade]
+[18:11:15] [Server thread/INFO]: ImPipeOk has made the advancement [Suit Up]
+[18:11:18] [Server thread/INFO]: IMMRPO issued server command: /spawn
+[18:11:27] [Server thread/INFO]: ImPipeOk has made the advancement [Isn't It Iron Pick]
+[18:11:42] [Async Chat Thread - #4/INFO]: [Not Secure] <IMMRPO> ./gamemode creative
+[18:11:55] [Async Chat Thread - #5/INFO]: [Not Secure] <Luquitas_Alpha> ./xrah
+[18:12:04] [Async Chat Thread - #5/INFO]: [Not Secure] <Teagokk_> ya tamos con lo chits lukitas
+[18:12:07] [Server thread/INFO]: Teagokk_ issued server command: /tp Luquitas_Alpha
+[18:12:11] [Async Chat Thread - #5/INFO]: [Not Secure] <Luquitas_Alpha> xd?
+[18:13:00] [Server thread/INFO]: Teagokk_ issued server command: /broadcast Acuerdense de la isla op del spawn! el primero que vaya va a tener loot un pcoo op
+[18:13:08] [Server thread/INFO]: IMMRPO has made the advancement [Getting an Upgrade]
+[18:13:12] [Server thread/INFO]: ENZOPRIVGOAT has made the advancement [Acquire Hardware]
+[18:13:24] [Server thread/INFO]: ENZOPRIVGOAT has made the advancement [Isn't It Iron Pick]
+[18:13:26] [Server thread/INFO]: Teagokk_ issued server command: /setworldspawn
+[18:13:26] [Server thread/INFO]: [Teagokk_: Set the world spawn point to 201, 90, 46 [0.0]]
+[18:14:38] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[18:15:26] [Server thread/INFO]: Agent_FFFF has made the advancement [Sweet Dreams]
+[18:15:38] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[18:16:36] [Server thread/INFO]: IMMRPO has made the advancement [Acquire Hardware]
+[18:16:38] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[18:16:47] [Async Chat Thread - #6/INFO]: [Not Secure] <Luquitas_Alpha> che una pregunta deja unirse gente de otros paises?
+[18:16:48] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[18:16:53] [Async Chat Thread - #6/INFO]: [Not Secure] <Teagokk_> si
+[18:17:02] [Async Chat Thread - #6/INFO]: [Not Secure] <Luquitas_Alpha> mi team tiene problemas xd
+[18:17:02] [Server thread/INFO]: ENZOPRIVGOAT has made the advancement [Suit Up]
+[18:17:05] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Monster Hunter]
+[18:17:10] [Async Chat Thread - #6/INFO]: [Not Secure] <Luquitas_Alpha> mentales tmb

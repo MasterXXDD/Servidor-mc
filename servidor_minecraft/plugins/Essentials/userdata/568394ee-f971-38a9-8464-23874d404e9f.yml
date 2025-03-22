@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1742054123125
+  lastteleport: 1742667127686
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742602381232
-  login: 1742602513877
+  logout: 1742603166042
+  login: 1742666290638
 money: '0'
 last-account-name: Teagokk_
 logoutlocation:
-  world: 69768638-d0b1-4e78-aebc-6069a2d764d9
+  world: aee96b02-67ff-42b3-a727-214310d307b1
   world-name: world
-  x: 201.49492429169428
-  y: 90.0
-  z: 45.16251614802855
-  yaw: -109.90592956542969
-  pitch: 33.01005554199219
+  x: 350.01848155995094
+  y: 160.14441316887843
+  z: 228.33156050898225
+  yaw: -46.919921875
+  pitch: 42.92969512939453
 lastlocation:
-  world: 69768638-d0b1-4e78-aebc-6069a2d764d9
+  world: aee96b02-67ff-42b3-a727-214310d307b1
   world-name: world
-  x: 1061.6228284779017
-  y: 182.50479806581257
-  z: 78.69999998807907
-  yaw: -20.597900390625
-  pitch: 9.451309204101562
+  x: 352.4406371652953
+  y: 162.8640637717647
+  z: 288.1401496696533
+  yaw: 154.21484375
+  pitch: -43.184898376464844

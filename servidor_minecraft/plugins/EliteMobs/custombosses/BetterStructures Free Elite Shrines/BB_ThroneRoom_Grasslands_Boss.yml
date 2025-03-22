@@ -20,6 +20,5 @@ removeAfterDeath: true
 uniqueLootList:
 - filename: throneroom_grassland_talisman.yml
   chance: 1
-spawnLocations:
-- world,612.5,24.0,456.5,0.0,0.0
+spawnLocations: []
 # Generated with https://magmaguy.com/webapp/webapp.html !

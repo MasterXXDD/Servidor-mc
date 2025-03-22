@@ -19,6 +19,5 @@ removeAfterDeath: true
 uniqueLootList:
 - filename: floatingcave_grassland_tarantula_boots.yml
   chance: 1
-spawnLocations:
-- world,340.5,182.0,215.5,0.0,0.0
+spawnLocations: []
 # Generated with https://magmaguy.com/webapp/webapp.html !
