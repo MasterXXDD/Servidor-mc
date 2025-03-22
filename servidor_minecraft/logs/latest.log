@@ -370,3 +370,60 @@
 [21:11:59] [Server thread/INFO]: Yago1721 was slain by ImPipeOk
 [21:12:05] [Server thread/INFO]: Teagokk_ issued server command: /tp Yago1721 Teagokk_
 [21:12:13] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
+[21:14:00] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss balrog.yml 1
+[21:14:06] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss balrog.yml 1
+[21:14:07] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss balrog.yml 1
+[21:14:08] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss balrog.yml 1
+[21:14:08] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss balrog.yml 1
+[21:14:10] [Server thread/INFO]: Named entity Silverfish['「1」 Balrog'/10048, uuid='e6d3c9a0-88f0-4f2b-a6f3-a84377dfe2c9', l='ServerLevel[world]', x=274.90, y=162.00, z=840.20, cpos=[17, 52], tl=213, v=true] died: 「1」 Balrog was slain by ImPipeOk
+[21:14:12] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss balrog.yml 1
+[21:14:13] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss balrog.yml 10
+[21:14:17] [Server thread/INFO]: Named entity Silverfish['〔8〕 Raug'/10158, uuid='58b6580f-e21e-48cf-9a82-f92325c8a5ef', l='ServerLevel[world]', x=274.31, y=162.00, z=842.37, cpos=[17, 52], tl=22, v=true] died: 〔8〕 Raug was slain by ImPipeOk
+[21:14:19] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss balrog.yml 10
+[21:14:19] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss balrog.yml 10
+[21:14:20] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss balrog.yml 10
+[21:14:20] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss balrog.yml 10
+[21:14:41] [Server thread/INFO]: Named entity Silverfish['〔7〕 Raug'/10307, uuid='6139c483-f8ba-4a76-914c-bc027cac6f6a', l='ServerLevel[world]', x=270.04, y=166.00, z=845.60, cpos=[16, 52], tl=49, v=true] died: 〔7〕 Raug was slain by Yago1721
+[21:14:48] [Server thread/INFO]: Teagokk_ issued server command: /heal Teagokk_
+[21:14:52] [Server thread/INFO]: Teagokk_ issued server command: /heal Yago1721
+[21:15:00] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss balrog.yml 100
+[21:15:04] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss balrog.yml 100
+[21:15:22] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss balrog.yml 10
+[21:15:44] [Server thread/INFO]: Named entity Silverfish['〔7〕 Raug'/10716, uuid='21d7c415-c53a-4826-b992-8c586a9706c1', l='ServerLevel[world]', x=268.33, y=166.00, z=848.35, cpos=[16, 53], tl=73, v=true] died: 〔7〕 Raug was slain by Teagokk_
+[21:15:44] [Server thread/INFO]: Teagokk_ mistook 「1」 Balrog for a stone block!
+[21:15:51] [Server thread/INFO]: Teagokk_ issued server command: /heal Yago1721
+[21:15:55] [Server thread/INFO]: Teagokk_ issued server command: /tp Yago1721
+[21:15:56] [Server thread/INFO]: Named entity Silverfish['「10」 Balrog'/10594, uuid='c737cee7-3007-4e54-b130-f4f797529972', l='ServerLevel[world]', x=269.24, y=166.00, z=847.17, cpos=[16, 52], tl=686, v=true] died: 「10」 Balrog was slain by Yago1721
+[21:16:03] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival
+[21:16:11] [Server thread/INFO]: Named entity Silverfish['〔8〕 Raug'/10977, uuid='5b5fae5d-43a3-495f-b41b-f2930ff8e3a3', l='ServerLevel[world]', x=270.07, y=166.00, z=847.66, cpos=[16, 52], tl=204, v=true] died: 〔8〕 Raug was slain by Yago1721
+[21:16:13] [Server thread/INFO]: Named entity Silverfish['「1」 Balrog'/10102, uuid='e49b183e-8c67-4f30-9171-e94209c2de6f', l='ServerLevel[world]', x=271.25, y=166.00, z=846.91, cpos=[16, 52], tl=2505, v=true] died: 「1」 Balrog was slain by Yago1721
+[21:16:24] [Server thread/INFO]: [EliteMobs] Event beast_master.yml has been queued!
+[21:16:25] [Server thread/INFO]: The Beast Master has been sighted!
+[21:16:39] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss armor_goblin.yml 10
+[21:16:39] [Server thread/INFO]: An Armor Goblin has been sighted!
+[21:16:41] [Server thread/INFO]: Yago1721 was devoured by 「10」 Armor Goblin!
+[21:16:48] [Server thread/INFO]: Yago1721 lost connection: Timed out
+[21:16:48] [Server thread/INFO]: Yago1721 left the game
+[21:17:11] [Server thread/INFO]: Teagokk_ issued server command: /give Teagokk_ totems
+[21:17:13] [Server thread/INFO]: Teagokk_ issued server command: /give Teagokk_ totem
+[21:17:30] [Server thread/INFO]: Teagokk_ issued server command: /clearinventory
+[21:17:47] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk Teagokk_
+[21:18:37] [Server thread/INFO]: Named entity Silverfish['「1」 Balrog'/10090, uuid='e854c81b-3c9c-484b-bcbe-965534cc8f29', l='ServerLevel[world]', x=262.45, y=162.00, z=831.77, cpos=[16, 51], tl=5417, v=true] died: 「1」 Balrog was slain by Teagokk_ using [Beffiting Transforming Sword]
+[21:19:18] [Server thread/INFO]: Named entity Silverfish['〔8〕 Raug'/12833, uuid='e090d261-aaab-470d-a950-24dff0119d6d', l='ServerLevel[world]', x=270.99, y=162.00, z=840.65, cpos=[16, 52], tl=56, v=true] died: 〔8〕 Raug was slain by Teagokk_ using [Beffiting Transforming Sword]
+[21:19:22] [Server thread/INFO]: Teagokk_ mistook 「100」 Balrog for a stone block!
+[21:19:32] [Server thread/INFO]: Teagokk_ issued server command: /tp Teagokk_ ImPipeOk
+[21:19:37] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival
+[21:19:49] [Server thread/INFO]: Teagokk_ issued server command: /give Teagokk_ totem
+[21:20:26] [Server thread/INFO]: Named entity Silverfish['〔8〕 Raug'/13630, uuid='5c3dd726-35de-4db9-b7d6-6d60bd66ac53', l='ServerLevel[world]', x=269.56, y=162.50, z=836.30, cpos=[16, 52], tl=90, v=true] died: 〔8〕 Raug was slain by ImPipeOk
+[21:20:43] [Server thread/INFO]: Teagokk_ issued server command: /clearinventory
+[21:21:03] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss armor_goblin.yml 10
+[21:21:03] [Server thread/INFO]: An Armor Goblin has been sighted!
+[21:21:12] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs spawn boss armor_goblin.yml 10
+[21:21:12] [Server thread/INFO]: An Armor Goblin has been sighted!
+[21:21:19] [Server thread/INFO]: ImPipeOk was devoured by 「10」 Armor Goblin!
+[21:21:33] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk Teagokk_
+[21:21:38] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival ImPipeOk
+[21:21:53] [Server thread/INFO]: Teagokk_ was devoured by 「10」 Armor Goblin!
+[21:21:58] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk Teagokk_
+[21:22:24] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml has been queued!
+[21:22:25] [Server thread/INFO]: A Treasure Goblin has been sighted!

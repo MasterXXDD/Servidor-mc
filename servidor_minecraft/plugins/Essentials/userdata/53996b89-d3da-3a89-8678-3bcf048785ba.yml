@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742677511292
+  logout: 1742678208219
   login: 1742677519563
 money: '0'
 last-account-name: Yago1721
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: aee96b02-67ff-42b3-a727-214310d307b1
   world-name: world
-  x: 334.28473804607586
-  y: 89.0
-  z: 763.073777852541
-  yaw: -37.39118576049805
-  pitch: 84.89997100830078
+  x: 272.47814625333217
+  y: 166.0
+  z: 846.3444326932794
+  yaw: 62.204833984375
+  pitch: 40.19999694824219
