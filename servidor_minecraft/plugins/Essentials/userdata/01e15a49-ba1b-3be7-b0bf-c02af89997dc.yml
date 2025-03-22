@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1742674499776
   lastheal: 0
   mute: 0
   jail: 0
@@ -23,8 +23,8 @@ last-account-name: ImPipeOk
 lastlocation:
   world: aee96b02-67ff-42b3-a727-214310d307b1
   world-name: world
-  x: 173.9665603625899
-  y: 73.0
-  z: 7.214525166839084
-  yaw: -14.143524169921875
-  pitch: 16.259445190429688
+  x: 87.16862929765217
+  y: 67.0
+  z: -1339.6698166431952
+  yaw: 92.9091796875
+  pitch: 14.09321117401123

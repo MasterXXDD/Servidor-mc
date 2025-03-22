@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742671808309
+  logout: 1742674414584
   login: 1742671815841
 money: '0'
 last-account-name: Ane_Freak
 logoutlocation:
-  world: 4fc11778-cde7-4dab-b54c-42615bfea961
-  world-name: world_nether
-  x: 159.45118753122583
-  y: 9.0
-  z: -116.56226261332645
-  yaw: 51.782806396484375
-  pitch: -45.958377838134766
+  world: aee96b02-67ff-42b3-a727-214310d307b1
+  world-name: world
+  x: 207.5
+  y: 80.0
+  z: 42.5
+  yaw: 0.0
+  pitch: 0.0
 lastlocation:
   world: 4fc11778-cde7-4dab-b54c-42615bfea961
   world-name: world_nether

@@ -374,3 +374,24 @@
 [20:11:55] [Server thread/INFO]: Named entity Creeper['Lvl 11 Elite Creeper'/93169, uuid='036044e1-eab0-4c44-83d8-c682e3a2d5bc', l='ServerLevel[world_the_end]', x=18.58, y=63.00, z=-7.87, cpos=[1, -1], tl=1042, v=true] died: Lvl 11 Elite Creeper was slain by Warden
 [20:12:20] [Server thread/INFO]: Teagokk_ issued server command: /tp Ane_Freak
 [20:12:35] [Server thread/INFO]: Named entity Vindicator['Lvl 10 Elite Vindicator'/92832, uuid='8e709320-49e2-4a24-9ece-3b8283b39974', l='ServerLevel[world_the_end]', x=-24.04, y=64.18, z=20.27, cpos=[-2, 1], tl=1953, v=true] died: Lvl 10 Elite Vindicator was slain by Warden
+[20:13:27] [Server thread/INFO]: Ane_Freak was fireballed by Blaze
+[20:13:31] [Async Chat Thread - #0/INFO]: [Not Secure] <Teagokk_> GG
+[20:13:34] [Server thread/INFO]: Ane_Freak lost connection: Disconnected
+[20:13:34] [Server thread/INFO]: Ane_Freak left the game
+[20:13:41] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[20:14:56] [Server thread/INFO]: ImPipeOk issued server command: /tpa Agent_FFFF
+[20:14:59] [Server thread/INFO]: Agent_FFFF issued server command: /tpaccept
+[20:15:12] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[20:16:53] [Server thread/INFO]: Named entity EnderMan['Lvl 8 Elite Enderman'/97093, uuid='55816ff8-65e7-4ae2-8c61-6c423125ed1f', l='ServerLevel[world_the_end]', x=16.91, y=63.00, z=-8.62, cpos=[1, -1], tl=5402, v=true] died: Lvl 8 Elite Enderman was slain by Warden
+[20:18:40] [Server thread/INFO]: Named entity EnderMan['Lvl 10 Elite Enderman'/96886, uuid='34b12c01-c20b-43a5-9358-49dcf71c497d', l='ServerLevel[world_the_end]', x=30.34, y=62.00, z=2.47, cpos=[1, 0], tl=7604, v=true] died: Lvl 10 Elite Enderman was slain by Warden
+[20:20:06] [Server thread/INFO]: Agent_FFFF lost connection: Disconnected
+[20:20:06] [Server thread/INFO]: Agent_FFFF left the game
+[20:22:00] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml ended!
+[20:28:23] [Server thread/INFO]: ImPipeOk issued server command: /sit
+[20:28:33] [Server thread/INFO]: [EliteMobs] Event armor_goblin.yml ended!
+[20:29:15] [Async Chat Thread - #1/INFO]: [Not Secure] <Teagokk_> ahi ca
+[20:29:17] [Async Chat Thread - #1/INFO]: [Not Secure] <Teagokk_> va
+[20:29:19] [Async Chat Thread - #1/INFO]: [Not Secure] <Teagokk_> dam 1s
+[20:30:28] [Server thread/INFO]: [EliteMobs] Event charms_goblin.yml has been queued!
+[20:30:28] [Server thread/INFO]: A Charms Goblin has been sighted!
+[20:30:32] [Server thread/INFO]: ImPipeOk issued server command: /elitemobs track boss 3c68ff8d-db53-463f-a102-a442992200ae
