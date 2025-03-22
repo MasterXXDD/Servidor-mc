@@ -17,6 +17,7 @@
       "minecraft:dripstone_caves": "2025-03-22 18:46:56 +0000",
       "minecraft:desert": "2025-03-22 18:52:00 +0000",
       "minecraft:jungle": "2025-03-22 00:15:54 +0000",
+      "minecraft:ocean": "2025-03-22 19:26:23 +0000",
       "minecraft:swamp": "2025-03-22 18:13:05 +0000",
       "minecraft:birch_forest": "2025-03-22 18:52:46 +0000",
       "minecraft:savanna": "2025-03-22 00:15:14 +0000",
@@ -677,6 +678,44 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2025-03-22 19:01:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-03-22 19:12:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-03-22 19:12:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-03-22 19:26:14 +0000",
+      "minecraft:nether_wastes": "2025-03-22 19:12:09 +0000",
+      "minecraft:basalt_deltas": "2025-03-22 19:12:14 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-03-22 19:13:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-03-22 19:13:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-03-22 19:13:30 +0000"
     },
     "done": true
   },

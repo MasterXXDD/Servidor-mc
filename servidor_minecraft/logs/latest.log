@@ -1,552 +1,286 @@
-[17:57:16] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[17:57:16] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[17:57:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:57:17] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
-[17:57:17] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+[19:21:40] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[19:21:41] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[19:21:41] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:21:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[19:21:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
  - BetterStructures (1.7.8), EliteMobs (9.3.2), Essentials (2.21.0-dev+189-eab2201), GrimAC (2.3.69), LoginSecurity (3.3.0), LuckPerms (5.4.156), SkinsRestorer (15.6.0), TAB (5.0.7), TerraformGenerator (18.1.2), ViaBackwards (5.2.1), ViaVersion (5.2.1), WorldEdit (7.3.10-beta-01+cb9fd58)
-[17:57:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:57:22] [ServerMain/INFO]: Loaded 1290 recipes
-[17:57:22] [ServerMain/INFO]: Loaded 1399 advancements
-[17:57:23] [Server thread/INFO]: Starting minecraft server version 1.21
-[17:57:23] [Server thread/INFO]: Loading properties
-[17:57:23] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[17:57:23] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:57:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:57:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:57:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[17:57:24] [Server thread/INFO]: Default game type: SURVIVAL
-[17:57:24] [Server thread/INFO]: Generating keypair
-[17:57:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:57:24] [Server thread/INFO]: Using epoll channel type
-[17:57:24] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:57:24] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[17:57:25] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[17:57:25] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[17:57:28] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[17:57:28] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[17:57:29] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[17:57:29] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[17:57:30] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
-[17:57:30] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
-[17:57:30] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[17:57:30] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.3.2
-[17:57:30] [Server thread/INFO]: [EliteMobs] MagmaCore v1.7 initialized!
-[17:57:30] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
-[17:57:30] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v18.1.2
-[17:57:30] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
-[17:57:32] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@557eaef2]
-[17:57:32] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.69
-[17:57:32] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
-[17:57:35] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[17:57:35] [Server thread/INFO]: [BetterStructures] Loading server plugin BetterStructures v1.7.8
-[17:57:35] [Server thread/INFO]: [BetterStructures] MagmaCore v1.7 initialized!
-[17:57:35] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
-[17:57:35] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
-[17:57:35] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
-[17:57:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:57:35] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[17:57:36] [Server thread/INFO]:         __    
-[17:57:36] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[17:57:36] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[17:57:36] [Server thread/INFO]: 
-[17:57:36] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[17:57:36] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[17:57:36] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[17:57:37] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[17:57:37] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1496ms)
-[17:57:37] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v18.1.2
-[17:57:37] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
-[17:57:38] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
-[17:57:38] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21, number: 21.0
-[17:57:38] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
-[17:57:38] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:57:38] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[17:57:39] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
-[17:57:40] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
-[17:57:41] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[17:57:41] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[17:57:42] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[17:57:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:57:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:57:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:57:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:57:42] [Server thread/INFO]: Preparing level "world"
-[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.0
-[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dec2ffc
-[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[17:57:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[17:57:43] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
-[17:57:43] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
-[17:57:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:57:45] [Server thread/INFO]: Time elapsed: 1257 ms
-[17:57:45] [Server thread/INFO]: [TerraformGenerator] world loaded.
-[17:57:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:57:45] [Server thread/INFO]: Time elapsed: 272 ms
-[17:57:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:57:45] [Server thread/INFO]: Time elapsed: 180 ms
-[17:57:45] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[17:57:45] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[17:57:45] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
-[17:57:46] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[17:57:46] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[17:57:46] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[17:57:46] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[17:57:46] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[17:57:47] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[17:57:47] [Server thread/INFO]: [Essentials] Using locale en
-[17:57:47] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[17:57:47] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[17:57:47] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[17:57:47] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[17:57:47] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[17:57:47] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[17:57:47] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.3.2
-[17:57:47] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
-[17:57:47] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
-[17:57:47] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
-[17:57:47] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
-[17:57:47] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
-[17:57:47] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
-[17:57:47] [Server thread/INFO]: By MagmaGuy - v. 9.3.2
-[17:57:47] [Server thread/INFO]: [EliteMobs] Supported server version detected: v1_21_R1
-[17:57:48] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 188 ms to scan 1 urls, producing 1 keys and 14 values
-[17:57:48] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 35 ms to scan 1 urls, producing 1 keys and 59 values
-[17:57:48] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 19 ms to scan 1 urls, producing 1 keys and 16 values
-[17:57:49] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:57:51] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 9 ms to scan 1 urls, producing 1 keys and 71 values
-[17:57:52] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 32 ms to scan 1 urls, producing 10 keys and 219 values
-[17:57:52] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 1 keys and 15 values
-[17:57:52] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is not enabled!
-[17:57:52] [Server thread/WARN]: [EliteMobs] "EliteMobs v9.3.2" has registered a listener for org.bukkit.event.entity.EntityRemoveEvent on method "public void com.magmaguy.elitemobs.entitytracker.EntityTracker.onRemove(org.bukkit.event.entity.EntityRemoveEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [MagmaGuy].
-[17:57:52] [Server thread/INFO]: [EliteMobs] Opened database successfully
-[17:57:53] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 11 ms to scan 1 urls, producing 1 keys and 116 values
-[17:57:54] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 8 ms to scan 1 urls, producing 1 keys and 71 values
-[17:57:54] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_primis_wormhole does not exist!
-[17:57:54] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_oasis_wormhole does not exist!
-[17:57:54] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 10 ms to scan 1 urls, producing 1 keys and 134 values
-[17:57:55] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[17:57:55] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 33 values
-[17:57:55] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 22 values
-[17:57:55] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
-[17:57:55] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 8 values
-[17:57:55] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[17:57:55] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.69
-[17:57:55] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
-[17:57:55] [Server thread/INFO]: [GrimAC] Registering packets...
-[17:57:55] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
-[17:57:55] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
-[17:57:56] [Server thread/INFO]: Grim Version: 2.3.69
-[17:57:56] [Server thread/ERROR]: [GrimAC] GrimAC has detected that you are using ViaVersion with the `fix-1_21-placement-rotation` option enabled.
-[17:57:56] [Server thread/ERROR]: [GrimAC] This option is known to cause issues with GrimAC and may result in false positives and bypasses.
-[17:57:56] [Server thread/ERROR]: [GrimAC] Please disable this option in your ViaVersion configuration to prevent these issues.
-[17:57:56] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed TAB with ViaVersion.
-[17:57:56] [Server thread/WARN]: [GrimAC] Please note that currently, TAB is incompatible as it sends illegal packets to players using versions newer than your server version.
-[17:57:56] [Server thread/WARN]: [GrimAC] You may be able to remedy this by setting `compensate-for-packetevents-bug` to true in the TAB config.
-[17:57:56] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[17:57:56] [Server thread/INFO]: [TAB] Loaded NMS hook in 90ms
-[17:57:56] [Server thread/INFO]: [TAB] Enabled in 599ms
-[17:57:56] [Server thread/WARN]: Plugin BetterStructures v1.7.8 tried to register permission 'logify.*' but it's already registered
-[17:57:56] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v1.7.8
-[17:57:56] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
-[17:57:56] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
-[17:57:56] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
-[17:57:56] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
-[17:57:56] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
-[17:57:56] [Server thread/INFO]: [BetterStructures] Initialized version 1.7.8!
-[17:57:57] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 111 ms to scan 1 urls, producing 1 keys and 5 values
-[17:57:57] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 1 keys and 29 values
-[17:57:57] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 1 values
-[17:58:04] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 8 values
-[17:58:04] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[17:58:05] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[17:58:05] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[17:58:05] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[17:58:05] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[17:58:05] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[17:58:05] [Server thread/INFO]: [spark] Starting background profiler...
-[17:58:05] [Server thread/INFO]: Done preparing level "world" (22.943s)
-[17:58:05] [Server thread/INFO]: Running delayed init tasks
-[17:58:05] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[17:58:05] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
-[17:58:05] [Server thread/INFO]: Done (50.096s)! For help, type "help"
-[17:58:05] [Server thread/INFO]: Timings Reset
-[17:58:05] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Latest public release is 1.7.8
-[17:58:05] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Your version is 1.7.8
-[17:58:05] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] Latest public release is 9.3.2
-[17:58:05] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] Your version is 9.3.2
-[17:58:05] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
-[17:58:05] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] You are running the latest version!
-[17:58:06] [Craft Scheduler Thread - 10 - GrimAC/INFO]: New GrimAC version found! Version 2.3.70 is available to be downloaded here: https://modrinth.com/plugin/grimac
-[17:58:06] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
-[17:58:06] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[17:58:07] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
-[17:58:10] [Server thread/INFO]: Teagokk_ joined the game
-[17:58:10] [Server thread/INFO]: Teagokk_[/127.189.225.101:57523] logged in with entity id 21 at ([world]350.01848155995094, 158.0435977921871, 228.33156050898225)
-[17:58:11] [Craft Scheduler Thread - 7 - EliteMobs/INFO]: [EliteMobs] User 568394ee-f971-38a9-8464-23874d404e9f data successfully read!
-[17:58:27] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
-[17:59:48] [Server thread/INFO]: Named entity CaveSpider['〖1〗 Silk Queen'/785, uuid='7a000330-0208-422e-9c59-0240bd14e9ed', l='ServerLevel[world]', x=616.61, y=23.00, z=452.76, cpos=[38, 28], tl=1649, v=true] died: 〖1〗 Silk Queen fell from a high place
-[18:00:15] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival
-[18:00:26] [Server thread/INFO]: Teagokk_ issued server command: /team list
-[18:00:40] [Server thread/INFO]: Named entity Spider['〖1〗 Tarantula'/29, uuid='d88f4c55-8e0e-4edb-90ac-0e41bd79ae51', l='ServerLevel[world]', x=340.50, y=182.00, z=215.51, cpos=[21, 13], tl=3002, v=true] died: 〖1〗 Tarantula suffocated in a wall
-[18:02:03] [User Authenticator #1/INFO]: UUID of player ImPipeOk is 01e15a49-ba1b-3be7-b0bf-c02af89997dc
-[18:02:04] [Server thread/INFO]: ImPipeOk joined the game
-[18:02:04] [Server thread/INFO]: ImPipeOk[/127.51.61.125:45719] logged in with entity id 1534 at ([world]212.5, 79.0, 41.5)
-[18:02:05] [Craft Scheduler Thread - 28 - EliteMobs/INFO]: [EliteMobs] No player entry detected, generating new entry!
-[18:02:13] [Async Chat Thread - #0/INFO]: [Not Secure] <Teagokk_> pipe
-[18:02:17] [Async Chat Thread - #0/INFO]: [Not Secure] <Teagokk_> call o no podes
-[18:02:20] [Async Chat Thread - #1/INFO]: [Not Secure] <Teagokk_> estamos en pat
-[18:02:51] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk Teagokk_
-[18:02:51] [Async Chat Thread - #0/INFO]: [Not Secure] <ImPipeOk> espera
-[18:02:56] [Async Chat Thread - #1/INFO]: [Not Secure] <Teagokk_> ok
-[18:03:01] [User Authenticator #1/INFO]: UUID of player Agent_FFFF is 5003d087-3c58-3d48-8014-35634b71c835
-[18:03:02] [Server thread/INFO]: Agent_FFFF joined the game
-[18:03:02] [Server thread/INFO]: Agent_FFFF[/127.86.91.244:37675] logged in with entity id 2118 at ([world]197.5, 76.0, 54.5)
-[18:03:04] [Craft Scheduler Thread - 31 - EliteMobs/INFO]: [EliteMobs] No player entry detected, generating new entry!
-[18:03:05] [Server thread/INFO]: [EliteMobs] Event armor_goblin.yml has been queued!
-[18:03:05] [Server thread/INFO]: An Armor Goblin has been sighted!
-[18:04:06] [Server thread/INFO]: Teagokk_ issued server command: /time set day
-[18:04:55] [User Authenticator #2/INFO]: UUID of player IMMRPO is 04725d8c-84b4-3767-a858-462dfa20f6c8
-[18:04:57] [Server thread/INFO]: IMMRPO joined the game
-[18:04:57] [Server thread/INFO]: IMMRPO[/127.175.68.75:40795] logged in with entity id 3075 at ([world]203.5, 82.0, 42.5)
-[18:04:58] [Craft Scheduler Thread - 37 - EliteMobs/INFO]: [EliteMobs] User 04725d8c-84b4-3767-a858-462dfa20f6c8 data successfully read!
-[18:05:13] [Server thread/INFO]: IMMRPO issued server command: /spawn
-[18:05:23] [Async Chat Thread - #2/INFO]: [Not Secure] <ImPipeOk> se me escucha
-[18:05:26] [Async Chat Thread - #2/INFO]: [Not Secure] <ImPipeOk> ??
-[18:05:51] [Server thread/INFO]: Teagokk_ issued server command: /spectator
-[18:06:12] [User Authenticator #3/INFO]: UUID of player ENZOPRIVGOAT is c7d4cf03-efec-34e6-ae52-67b7bd3a5b67
-[18:06:14] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
-[18:06:14] [Server thread/INFO]: ENZOPRIVGOAT joined the game
-[18:06:14] [Server thread/INFO]: ENZOPRIVGOAT[/127.56.111.119:40741] logged in with entity id 3727 at ([world]209.5, 80.0, 37.5)
-[18:06:15] [Craft Scheduler Thread - 39 - EliteMobs/INFO]: [EliteMobs] No player entry detected, generating new entry!
-[18:06:17] [Server thread/INFO]: ImPipeOk has made the advancement [Stone Age]
-[18:07:11] [Server thread/INFO]: ImPipeOk has made the advancement [Getting an Upgrade]
-[18:07:15] [Server thread/INFO]: Teagokk_ issued server command: /spectator
-[18:07:56] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk
-[18:08:06] [Server thread/INFO]: IMMRPO has made the advancement [Stone Age]
-[18:08:14] [User Authenticator #4/INFO]: UUID of player Luquitas_Alpha is 9882081b-f022-33f4-b841-d21d6ecb8350
-[18:08:16] [Server thread/INFO]: Luquitas_Alpha joined the game
-[18:08:16] [Server thread/INFO]: Luquitas_Alpha[/127.31.93.45:50755] logged in with entity id 4932 at ([world]211.5, 80.0, 37.5)
-[18:08:17] [Craft Scheduler Thread - 49 - EliteMobs/INFO]: [EliteMobs] No player entry detected, generating new entry!
-[18:08:22] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
-[18:08:29] [Server thread/INFO]: Agent_FFFF has made the advancement [Stone Age]
-[18:08:29] [Server thread/INFO]: Teagokk_ issued server command: /spectator
-[18:09:05] [Server thread/INFO]: [EliteMobs] Event dead_moon.yml has been queued!
-[18:09:14] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk
-[18:09:26] [Server thread/INFO]: Teagokk_ issued server command: /tp Agent_FFFF
-[18:09:45] [Server thread/INFO]: Agent_FFFF has made the advancement [Getting an Upgrade]
-[18:09:48] [Server thread/INFO]: ENZOPRIVGOAT has made the advancement [Stone Age]
-[18:09:56] [Server thread/INFO]: Teagokk_ issued server command: /tp Luquitas_Alpha
-[18:10:00] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Stone Age]
-[18:10:06] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Getting an Upgrade]
-[18:10:29] [Server thread/INFO]: ImPipeOk has made the advancement [Acquire Hardware]
-[18:10:43] [Server thread/INFO]: Teagokk_ issued server command: /tps
-[18:11:13] [Server thread/INFO]: ENZOPRIVGOAT has made the advancement [Getting an Upgrade]
-[18:11:15] [Server thread/INFO]: ImPipeOk has made the advancement [Suit Up]
-[18:11:18] [Server thread/INFO]: IMMRPO issued server command: /spawn
-[18:11:27] [Server thread/INFO]: ImPipeOk has made the advancement [Isn't It Iron Pick]
-[18:11:42] [Async Chat Thread - #4/INFO]: [Not Secure] <IMMRPO> ./gamemode creative
-[18:11:55] [Async Chat Thread - #5/INFO]: [Not Secure] <Luquitas_Alpha> ./xrah
-[18:12:04] [Async Chat Thread - #5/INFO]: [Not Secure] <Teagokk_> ya tamos con lo chits lukitas
-[18:12:07] [Server thread/INFO]: Teagokk_ issued server command: /tp Luquitas_Alpha
-[18:12:11] [Async Chat Thread - #5/INFO]: [Not Secure] <Luquitas_Alpha> xd?
-[18:13:00] [Server thread/INFO]: Teagokk_ issued server command: /broadcast Acuerdense de la isla op del spawn! el primero que vaya va a tener loot un pcoo op
-[18:13:08] [Server thread/INFO]: IMMRPO has made the advancement [Getting an Upgrade]
-[18:13:12] [Server thread/INFO]: ENZOPRIVGOAT has made the advancement [Acquire Hardware]
-[18:13:24] [Server thread/INFO]: ENZOPRIVGOAT has made the advancement [Isn't It Iron Pick]
-[18:13:26] [Server thread/INFO]: Teagokk_ issued server command: /setworldspawn
-[18:13:26] [Server thread/INFO]: [Teagokk_: Set the world spawn point to 201, 90, 46 [0.0]]
-[18:14:38] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
-[18:15:26] [Server thread/INFO]: Agent_FFFF has made the advancement [Sweet Dreams]
-[18:15:38] [Server thread/INFO]: Teagokk_ issued server command: /spectator
-[18:16:36] [Server thread/INFO]: IMMRPO has made the advancement [Acquire Hardware]
-[18:16:38] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
-[18:16:47] [Async Chat Thread - #6/INFO]: [Not Secure] <Luquitas_Alpha> che una pregunta deja unirse gente de otros paises?
-[18:16:48] [Server thread/INFO]: Teagokk_ issued server command: /spectator
-[18:16:53] [Async Chat Thread - #6/INFO]: [Not Secure] <Teagokk_> si
-[18:17:02] [Async Chat Thread - #6/INFO]: [Not Secure] <Luquitas_Alpha> mi team tiene problemas xd
-[18:17:02] [Server thread/INFO]: ENZOPRIVGOAT has made the advancement [Suit Up]
-[18:17:05] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Monster Hunter]
-[18:17:10] [Async Chat Thread - #6/INFO]: [Not Secure] <Luquitas_Alpha> mentales tmb
-[18:17:24] [Server thread/INFO]: Agent_FFFF has made the advancement [Monster Hunter]
-[18:17:27] [Server thread/INFO]: IMMRPO has made the advancement [Suit Up]
-[18:18:37] [Server thread/INFO]: IMMRPO has made the advancement [Isn't It Iron Pick]
-[18:19:03] [Server thread/INFO]: IMMRPO has made the advancement [Monster Hunter]
-[18:19:03] [Server thread/INFO]: IMMRPO has made the advancement [Not Today, Thank You]
-[18:19:24] [Server thread/INFO]: Named entity Bogged['Lvl 10 Elite Bogged'/10326, uuid='64185c1c-7527-47c2-84c5-585ebd8d2025', l='ServerLevel[world]', x=351.70, y=84.00, z=222.88, cpos=[21, 13], tl=5117, v=true] died: Lvl 10 Elite Bogged fell from a high place
-[18:19:27] [Server thread/INFO]: IMMRPO was doomed to fall by Zombie
-[18:19:31] [Server thread/INFO]: IMMRPO lost connection: Disconnected
-[18:19:31] [Server thread/INFO]: IMMRPO left the game
-[18:21:10] [User Authenticator #5/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
-[18:21:10] [Server thread/INFO]: M4N14K0 joined the game
-[18:21:10] [Server thread/INFO]: M4N14K0[/127.175.68.75:36259] logged in with entity id 21802 at ([world]203.5, 82.0, 36.5)
-[18:21:11] [Craft Scheduler Thread - 79 - EliteMobs/INFO]: [EliteMobs] No player entry detected, generating new entry!
-[18:21:18] [Async Chat Thread - #8/INFO]: [Not Secure] <Agent_FFFF> mugre
-[18:21:54] [User Authenticator #5/INFO]: [LuckPerms] Another plugin has cancelled the connection for c21ba410-d372-3aa4-9cd9-19d264bd835a - M4N14K0. No permissions data will be loaded.
-[18:21:54] [User Authenticator #5/INFO]: Disconnecting M4N14K0 (/127.175.101.28:46201): [LoginSecurity] This player is already online!
-[18:21:54] [User Authenticator #5/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
-[18:21:54] [Server thread/INFO]: M4N14K0 (/127.175.101.28:46201) lost connection: [LoginSecurity] This player is already online!
-[18:21:58] [User Authenticator #5/INFO]: [LuckPerms] Another plugin has cancelled the connection for c21ba410-d372-3aa4-9cd9-19d264bd835a - M4N14K0. No permissions data will be loaded.
-[18:21:58] [User Authenticator #5/INFO]: Disconnecting M4N14K0 (/127.175.101.28:59869): [LoginSecurity] This player is already online!
-[18:21:58] [User Authenticator #5/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
-[18:21:58] [Server thread/INFO]: M4N14K0 (/127.175.101.28:59869) lost connection: [LoginSecurity] This player is already online!
-[18:22:05] [User Authenticator #5/INFO]: [LuckPerms] Another plugin has cancelled the connection for c21ba410-d372-3aa4-9cd9-19d264bd835a - M4N14K0. No permissions data will be loaded.
-[18:22:05] [User Authenticator #5/INFO]: Disconnecting M4N14K0 (/127.175.101.28:57583): [LoginSecurity] This player is already online!
-[18:22:05] [User Authenticator #5/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
-[18:22:05] [Server thread/INFO]: M4N14K0 (/127.175.101.28:57583) lost connection: [LoginSecurity] This player is already online!
-[18:22:19] [Async Chat Thread - #10/INFO]: [Not Secure] <M4N14K0> Tefa
-[18:22:21] [Async Chat Thread - #10/INFO]: [Not Secure] <M4N14K0> Que es eso?
-[18:22:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3253ms or 65 ticks behind
-[18:22:23] [Server thread/WARN]: Teagokk_ moved too quickly! -10.632620400653082,-16.98960067510606,16.79754557118298
-[18:22:24] [Async Chat Thread - #10/INFO]: [Not Secure] <Teagokk_> q
-[18:22:27] [Async Chat Thread - #10/INFO]: [Not Secure] <Teagokk_> cosa
-[18:22:29] [Async Chat Thread - #10/INFO]: [Not Secure] <M4N14K0> Arriba
-[18:22:32] [Server thread/INFO]: M4N14K0 has made the advancement [Getting an Upgrade]
-[18:22:34] [Server thread/INFO]: M4N14K0 has made the advancement [Suit Up]
-[18:22:36] [Async Chat Thread - #10/INFO]: [Not Secure] <Teagokk_> una isla con loot op
-[18:22:42] [Server thread/INFO]: M4N14K0 has made the advancement [Stone Age]
-[18:22:42] [Server thread/INFO]: M4N14K0 has made the advancement [Acquire Hardware]
-[18:22:43] [Server thread/INFO]: M4N14K0 has made the advancement [Isn't It Iron Pick]
-[18:22:45] [Async Chat Thread - #10/INFO]: [Not Secure] <Teagokk_> el ivo se murio por intentar subir
-[18:22:46] [User Authenticator #5/INFO]: [LuckPerms] Another plugin has cancelled the connection for c21ba410-d372-3aa4-9cd9-19d264bd835a - M4N14K0. No permissions data will be loaded.
-[18:22:46] [User Authenticator #5/INFO]: Disconnecting M4N14K0 (/127.175.101.28:42527): [LoginSecurity] This player is already online!
-[18:22:46] [User Authenticator #5/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
-[18:22:46] [Server thread/INFO]: M4N14K0 (/127.175.101.28:42527) lost connection: [LoginSecurity] This player is already online!
-[18:23:05] [User Authenticator #5/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
-[18:23:07] [Server thread/INFO]: M4N14K0_01 joined the game
-[18:23:07] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:52385] logged in with entity id 25525 at ([world]211.5, 78.0, 46.5)
-[18:23:08] [Craft Scheduler Thread - 81 - EliteMobs/INFO]: [EliteMobs] No player entry detected, generating new entry!
-[18:23:47] [Server thread/INFO]: ImPipeOk has made the advancement [Diamonds!]
-[18:23:52] [Async Chat Thread - #12/INFO]: [Not Secure] <Luquitas_Alpha> eee xrat
-[18:24:03] [Async Chat Thread - #12/INFO]: [Not Secure] <Teagokk_> no pvp
-[18:24:14] [Craft Scheduler Thread - 79 - GrimAC/INFO]: [GrimAC] Disconnecting M4N14K0_01 for disconnect.timeout
-[18:24:14] [Server thread/INFO]: M4N14K0_01 lost connection: Disconnected
-[18:24:14] [Server thread/INFO]: M4N14K0_01 left the game
-[18:24:35] [User Authenticator #6/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
-[18:24:36] [Server thread/INFO]: M4N14K0_01 joined the game
-[18:24:36] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:33817] logged in with entity id 29104 at ([world]249.85237709239513, 70.0, 15.710679507471422)
-[18:24:37] [Craft Scheduler Thread - 81 - EliteMobs/INFO]: [EliteMobs] User 816aa35d-6390-3dbc-8985-5b063e17c91f data successfully read!
-[18:24:43] [Server thread/INFO]: Teagokk_ has made the advancement [Minecraft: Trial(s) Edition]
-[18:25:24] [Server thread/WARN]: Jungle Boat (vehicle of Luquitas_Alpha) moved wrongly! 0.3879806422289107
-[18:25:24] [Server thread/WARN]: Jungle Boat (vehicle of Luquitas_Alpha) moved wrongly! 0.5432206331639122
-[18:25:24] [Server thread/WARN]: Jungle Boat (vehicle of Luquitas_Alpha) moved wrongly! 0.7121965680030087
-[18:25:42] [Craft Scheduler Thread - 84 - GrimAC/INFO]: [GrimAC] Disconnecting M4N14K0_01 for disconnect.timeout
-[18:25:43] [Server thread/INFO]: M4N14K0_01 lost connection: Disconnected
-[18:25:43] [Server thread/INFO]: M4N14K0_01 left the game
-[18:25:44] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
-[18:25:55] [Server thread/INFO]: M4N14K0 has made the advancement [Monster Hunter]
-[18:26:20] [Server thread/INFO]: Teagokk_ issued server command: /spectator
-[18:26:24] [Server thread/INFO]: M4N14K0 has made the advancement [Not Today, Thank You]
-[18:26:32] [Server thread/INFO]: ImPipeOk has made the advancement [Cover Me with Diamonds]
-[18:26:38] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Diamonds!]
-[18:26:41] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Acquire Hardware]
-[18:26:42] [Server thread/INFO]: ENZOPRIVGOAT has made the advancement [Diamonds!]
-[18:26:43] [User Authenticator #7/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
-[18:26:44] [Server thread/INFO]: M4N14K0_01 joined the game
-[18:26:44] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:49135] logged in with entity id 34229 at ([world]251.61182652815432, 71.0, 17.055839535658244)
-[18:26:45] [Craft Scheduler Thread - 84 - EliteMobs/INFO]: [EliteMobs] User 816aa35d-6390-3dbc-8985-5b063e17c91f data successfully read!
-[18:27:01] [Server thread/INFO]: M4N14K0_01 lost connection: Disconnected
-[18:27:01] [Server thread/INFO]: M4N14K0_01 left the game
-[18:27:12] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Isn't It Iron Pick]
-[18:27:26] [Server thread/INFO]: Agent_FFFF has made the advancement [Acquire Hardware]
-[18:27:56] [Server thread/INFO]: Agent_FFFF has made the advancement [Isn't It Iron Pick]
-[18:28:00] [User Authenticator #8/INFO]: [LuckPerms] Another plugin has cancelled the connection for c21ba410-d372-3aa4-9cd9-19d264bd835a - M4N14K0. No permissions data will be loaded.
-[18:28:00] [User Authenticator #8/INFO]: Disconnecting M4N14K0 (/127.175.101.28:41621): [LoginSecurity] This player is already online!
-[18:28:00] [User Authenticator #8/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
-[18:28:00] [Server thread/INFO]: M4N14K0 (/127.175.101.28:41621) lost connection: [LoginSecurity] This player is already online!
-[18:28:06] [User Authenticator #8/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
-[18:28:08] [Server thread/INFO]: M4N14K0_01 joined the game
-[18:28:08] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:37817] logged in with entity id 36822 at ([world]249.09121858539072, 70.0, 17.059289048854133)
-[18:28:09] [Craft Scheduler Thread - 80 - EliteMobs/INFO]: [EliteMobs] User 816aa35d-6390-3dbc-8985-5b063e17c91f data successfully read!
-[18:28:18] [Server thread/INFO]: M4N14K0 tried to swim in lava
-[18:28:21] [Server thread/INFO]: M4N14K0 lost connection: Disconnected
-[18:28:21] [Server thread/INFO]: M4N14K0 left the game
-[18:28:22] [Server thread/INFO]: ImPipeOk has made the advancement [Monster Hunter]
-[18:28:25] [Server thread/INFO]: Agent_FFFF has made the advancement [Suit Up]
-[18:28:39] [Server thread/INFO]: M4N14K0_01 lost connection: Disconnected
-[18:28:39] [Server thread/INFO]: M4N14K0_01 left the game
-[18:29:02] [Server thread/INFO]: Teagokk_ issued server command: /spectator
-[18:29:06] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
-[18:29:08] [Server thread/INFO]: ENZOPRIVGOAT has made the advancement [Not Today, Thank You]
-[18:30:06] [Server thread/INFO]: Teagokk_ issued server command: /ban-ip M4N14K0_01
-[18:30:20] [Server thread/INFO]: Agent_FFFF has made the advancement [Not Today, Thank You]
-[18:30:49] [Server thread/INFO]: Lvl 1 Elite Skeleton wanted to see Luquitas_Alpha's bones!
-[18:30:56] [Async Chat Thread - #14/INFO]: [Not Secure] <Luquitas_Alpha> CUENTA VIDA TIENE UN ESKELETO xd?
-[18:31:02] [Async Chat Thread - #15/INFO]: [Not Secure] <Luquitas_Alpha> XDDD
-[18:31:32] [Async Chat Thread - #15/INFO]: [Not Secure] <Teagokk_> jaaj
-[18:31:46] [Async Chat Thread - #15/INFO]: [Not Secure] <Luquitas_Alpha> igual mi team no se podia unir
-[18:31:51] [Server thread/INFO]: Teagokk_ issued server command: /spectator
-[18:32:28] [Server thread/INFO]: Luquitas_Alpha lost connection: Disconnected
-[18:32:28] [Server thread/INFO]: Luquitas_Alpha left the game
-[18:32:45] [Server thread/INFO]: [EliteMobs] Event armor_goblin.yml ended!
-[18:33:53] [Async Chat Thread - #16/INFO]: [Not Secure] <Teagokk_> Jaja murio la mayoria ya
-[18:34:08] [Server thread/INFO]: [EliteMobs] Event charms_goblin.yml has been queued!
-[18:34:08] [Server thread/INFO]: A Charms Goblin has been sighted!
-[18:34:13] [Server thread/INFO]: Agent_FFFF issued server command: /elitemobs track boss ed215b1a-59ac-4159-9251-b5fc6a9e2f86
-[18:34:46] [Server thread/INFO]: ImPipeOk has made the advancement [Not Today, Thank You]
-[18:35:20] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
-[18:35:25] [Server thread/INFO]: Teagokk_ lost connection: Disconnected
-[18:35:25] [Server thread/INFO]: Teagokk_ left the game
-[18:35:28] [User Authenticator #9/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
-[18:35:29] [Server thread/INFO]: Teagokk_ joined the game
-[18:35:29] [Server thread/INFO]: Teagokk_[/127.189.225.101:52299] logged in with entity id 51264 at ([world]348.5915887980527, 180.17240482377966, 228.4201685248979)
-[18:35:30] [Craft Scheduler Thread - 96 - EliteMobs/INFO]: [EliteMobs] User 568394ee-f971-38a9-8464-23874d404e9f data successfully read!
-[18:35:59] [Server thread/INFO]: Lvl 13 Elite Skeleton wanted to see ENZOPRIVGOAT's bones!
-[18:37:47] [Server thread/INFO]: ENZOPRIVGOAT lost connection: Disconnected
-[18:37:47] [Server thread/INFO]: ENZOPRIVGOAT left the game
-[18:39:37] [User Authenticator #10/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
-[18:39:39] [Server thread/INFO]: M4N14K0 joined the game
-[18:39:39] [Server thread/INFO]: M4N14K0[/127.175.101.28:52099] logged in with entity id 58723 at ([world]208.13346397355983, 86.80219540328146, 60.00989221630582)
-[18:39:40] [Craft Scheduler Thread - 100 - EliteMobs/INFO]: [EliteMobs] User c21ba410-d372-3aa4-9cd9-19d264bd835a data successfully read!
-[18:39:44] [User Authenticator #10/INFO]: UUID of player ENZOPRIVGOAT is c7d4cf03-efec-34e6-ae52-67b7bd3a5b67
-[18:39:48] [Server thread/INFO]: ENZOPRIVGOAT joined the game
-[18:39:48] [Server thread/INFO]: ENZOPRIVGOAT[/127.56.111.119:59089] logged in with entity id 58935 at ([world]249.62684366300562, -25.70982303666131, 258.59930771941566)
-[18:39:49] [Craft Scheduler Thread - 99 - EliteMobs/INFO]: [EliteMobs] User c7d4cf03-efec-34e6-ae52-67b7bd3a5b67 data successfully read!
-[18:39:50] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival M4N14K0
-[18:39:53] [Server thread/INFO]: M4N14K0 lost connection: Disconnected
-[18:39:53] [Server thread/INFO]: M4N14K0 left the game
-[18:39:54] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival ENZOPRIVGOAT
-[18:39:58] [User Authenticator #10/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
-[18:40:00] [Server thread/INFO]: M4N14K0_01 joined the game
-[18:40:00] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:47801] logged in with entity id 59463 at ([world]250.92487203778248, 71.0, 16.4559726822699)
-[18:40:01] [Craft Scheduler Thread - 98 - EliteMobs/INFO]: [EliteMobs] User 816aa35d-6390-3dbc-8985-5b063e17c91f data successfully read!
-[18:40:08] [Server thread/INFO]: [EliteMobs] Event beast_master.yml has been queued!
-[18:40:08] [Server thread/INFO]: The Beast Master has been sighted!
-[18:40:10] [Server thread/INFO]: ENZOPRIVGOAT lost connection: Disconnected
-[18:40:10] [Server thread/INFO]: ENZOPRIVGOAT left the game
-[18:40:25] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
-[18:40:25] [User Authenticator #10/INFO]: UUID of player ENZOPRIVGOAT is c7d4cf03-efec-34e6-ae52-67b7bd3a5b67
-[18:40:28] [Server thread/INFO]: M4N14K0_01 lost connection: Disconnected
-[18:40:28] [Server thread/INFO]: M4N14K0_01 left the game
-[18:40:29] [Server thread/INFO]: ENZOPRIVGOAT joined the game
-[18:40:29] [Server thread/INFO]: ENZOPRIVGOAT[/127.56.111.119:46765] logged in with entity id 60510 at ([world]249.30000001192093, -26.0, 258.30000001192093)
-[18:40:30] [User Authenticator #10/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
-[18:40:30] [Craft Scheduler Thread - 102 - EliteMobs/INFO]: [EliteMobs] User c7d4cf03-efec-34e6-ae52-67b7bd3a5b67 data successfully read!
-[18:40:31] [Server thread/INFO]: M4N14K0_01 joined the game
-[18:40:31] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:33605] logged in with entity id 60673 at ([world]250.92487203778248, 71.00000019999999, 16.4559726822699)
-[18:40:31] [Server thread/INFO]: Teagokk_ issued server command: /spectator
-[18:40:32] [Craft Scheduler Thread - 102 - EliteMobs/INFO]: [EliteMobs] User 816aa35d-6390-3dbc-8985-5b063e17c91f data successfully read!
-[18:40:37] [Server thread/INFO]: ENZOPRIVGOAT suffocated in a wall
-[18:40:39] [Server thread/INFO]: Grim » M4N14K0_01 failed AirLiquidPlace (x10) 
-[18:40:44] [Server thread/INFO]: M4N14K0_01 lost connection: Disconnected
-[18:40:44] [Server thread/INFO]: M4N14K0_01 left the game
-[18:40:45] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival ENZOPRIVGOAT
-[18:40:46] [User Authenticator #10/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
-[18:40:47] [Server thread/INFO]: M4N14K0_01 joined the game
-[18:40:47] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:44679] logged in with entity id 61291 at ([world]250.92487203778248, 71.00000029999998, 16.4559726822699)
-[18:40:48] [Craft Scheduler Thread - 98 - EliteMobs/INFO]: [EliteMobs] User 816aa35d-6390-3dbc-8985-5b063e17c91f data successfully read!
-[18:41:09] [Server thread/INFO]: M4N14K0_01 lost connection: Disconnected
-[18:41:09] [Server thread/INFO]: M4N14K0_01 left the game
-[18:41:17] [User Authenticator #10/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
-[18:41:18] [Server thread/INFO]: M4N14K0 joined the game
-[18:41:18] [Server thread/INFO]: M4N14K0[/127.175.101.28:59159] logged in with entity id 62448 at ([world]208.13346397355983, 84.25320866848324, 60.00989221630582)
-[18:41:19] [Craft Scheduler Thread - 100 - EliteMobs/INFO]: [EliteMobs] User c21ba410-d372-3aa4-9cd9-19d264bd835a data successfully read!
-[18:41:39] [Server thread/INFO]: Named entity Skeleton['Lvl 7 Elite Skeleton'/59972, uuid='07db84e4-9b26-4d1f-934e-3524491c5bc0', l='ServerLevel[world]', x=404.32, y=-2.00, z=541.70, cpos=[25, 33], tl=1775, v=true] died: Lvl 7 Elite Skeleton was slain by Agent_FFFF
-[18:41:57] [Server thread/INFO]: ENZOPRIVGOAT lost connection: Disconnected
-[18:41:57] [Server thread/INFO]: ENZOPRIVGOAT left the game
-[18:42:02] [Server thread/INFO]: Teagokk_ issued server command: /broadcast Pa que no se mueran tan rapido les dejo 1 life extra de inicio
-[18:42:07] [Server thread/INFO]: Agent_FFFF has made the advancement [Diamonds!]
-[18:42:25] [Craft Scheduler Thread - 100 - GrimAC/INFO]: [GrimAC] Disconnecting M4N14K0 for disconnect.timeout
-[18:42:25] [Server thread/INFO]: M4N14K0 lost connection: Disconnected
-[18:42:25] [Server thread/INFO]: M4N14K0 left the game
-[18:42:32] [Server thread/INFO]: Teagokk_ issued server command: /spectator
-[18:42:45] [User Authenticator #11/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
-[18:42:46] [Server thread/INFO]: M4N14K0 joined the game
-[18:42:46] [Server thread/INFO]: M4N14K0[/127.175.101.28:59129] logged in with entity id 65007 at ([world]208.13346397355983, 62.632559276413794, 60.00989221630582)
-[18:42:47] [Craft Scheduler Thread - 102 - EliteMobs/INFO]: [EliteMobs] User c21ba410-d372-3aa4-9cd9-19d264bd835a data successfully read!
-[18:43:10] [Server thread/INFO]: M4N14K0 lost connection: Disconnected
-[18:43:10] [Server thread/INFO]: M4N14K0 left the game
-[18:43:15] [User Authenticator #11/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
-[18:43:17] [Server thread/INFO]: M4N14K0_01 joined the game
-[18:43:17] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:45095] logged in with entity id 65956 at ([world]250.9764212451726, 70.0, 16.03260538757735)
-[18:43:18] [Craft Scheduler Thread - 100 - EliteMobs/INFO]: [EliteMobs] User 816aa35d-6390-3dbc-8985-5b063e17c91f data successfully read!
-[18:43:24] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival M4N14K0_01
-[18:43:48] [Server thread/INFO]: M4N14K0_01 lost connection: Disconnected
-[18:43:48] [Server thread/INFO]: M4N14K0_01 left the game
-[18:45:25] [Server thread/INFO]: ImPipeOk has made the advancement [Ice Bucket Challenge]
-[18:46:08] [Server thread/INFO]: [EliteMobs] Event coins_goblin.yml has been queued!
-[18:46:08] [Server thread/INFO]: A Coins Goblin has been sighted!
-[18:46:40] [User Authenticator #12/INFO]: UUID of player Ane_Freak is b3fd00ee-4e5f-39cc-9d69-a8fed4e10aa7
-[18:46:40] [Server thread/INFO]: Ane_Freak joined the game
-[18:46:40] [Server thread/INFO]: Ane_Freak[/127.175.68.75:59647] logged in with entity id 72415 at ([world]208.5, 86.0, 46.5)
-[18:46:41] [Craft Scheduler Thread - 112 - EliteMobs/INFO]: [EliteMobs] No player entry detected, generating new entry!
-[18:46:51] [Async Chat Thread - #19/INFO]: [Not Secure] <Ane_Freak> Hola Chicos!
-[18:46:58] [Async Chat Thread - #19/INFO]: [Not Secure] <Ane_Freak> ☆*: .｡. o(≧▽≦)o .｡.:*☆
-[18:47:05] [Async Chat Thread - #19/INFO]: [Not Secure] <Ane_Freak> Como les esta llendo?!
-[18:47:11] [Async Chat Thread - #19/INFO]: [Not Secure] <Ane_Freak> Dios los ama!
-[18:47:13] [Server thread/INFO]: Teagokk_ issued server command: /tp Ane_Freak
-[18:47:26] [Async Chat Thread - #19/INFO]: [Not Secure] <Ane_Freak> Im so sorry your brother passed away
-[18:47:31] [Async Chat Thread - #19/INFO]: [Not Secure] <Ane_Freak> He gets 5 big booms
-[18:47:33] [Server thread/WARN]: [BetterStructures] You are not using WorldGuard, so BetterStructures could not protect a boss arena! Using WorldGuard is recommended to guarantee a fair combat experience.
-[18:47:37] [Async Chat Thread - #19/INFO]: [Not Secure] <Ane_Freak> BOOM BOOM BOOM BOOM BOOOOOOM
-[18:48:06] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk
-[18:48:56] [Server thread/INFO]: Teagokk_ issued server command: /tp Ane_Freak
-[18:49:19] [Server thread/INFO]: Ane_Freak has made the advancement [Stone Age]
-[18:49:29] [Server thread/INFO]: Ane_Freak has made the advancement [Getting an Upgrade]
-[18:50:50] [Server thread/INFO]: Ane_Freak has made the advancement [Monster Hunter]
-[18:51:10] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:51:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8941ms or 178 ticks behind
-[18:51:14] [Server thread/WARN]: ImPipeOk moved too quickly! -25.013650413826696,1.504799122994072,3.1084439266041954
-[18:51:14] [Server thread/WARN]: Agent_FFFF moved too quickly! -34.41377694744841,1.7967356006686934,23.763168892054125
-[18:51:17] [Server thread/INFO]: [EliteMobs] Event full_moon.yml has been queued!
-[18:54:00] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk
-[18:54:03] [Server thread/INFO]: Ane_Freak has made the advancement [Acquire Hardware]
-[18:55:45] [Server thread/INFO]: Ane_Freak has made the advancement [Isn't It Iron Pick]
-[18:55:48] [Server thread/INFO]: Ane_Freak has made the advancement [Suit Up]
-[18:56:13] [Server thread/INFO]: Ane_Freak has made the advancement [Not Today, Thank You]
-[18:56:26] [Server thread/INFO]: Teagokk_ issued server command: /tp Ane_Freak
-[18:56:41] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk
-[18:56:48] [Server thread/INFO]: Ane_Freak has made the advancement [Diamonds!]
-[18:57:01] [Server thread/WARN]: ImPipeOk moved too quickly! -13.142839610078227,-1.4707767887922358,2.26320636739797
-[18:57:01] [Server thread/WARN]: Ane_Freak moved too quickly! 9.107057700049424,4.0,-2.0336205253233572
-[18:57:01] [Server thread/WARN]: Agent_FFFF moved too quickly! -0.9595569935293042,-10.575531296918136,11.849403606098235
-[18:57:09] [Server thread/INFO]: Teagokk_ issued server command: /tp Agent_FFFF
-[18:59:08] [Server thread/WARN]: Teagokk_ moved too quickly! -8.080697726147264,0.0,-23.48583323228695
-[18:59:31] [Async Chat Thread - #20/INFO]: [Not Secure] <Teagokk_> f
-[18:59:32] [Async Chat Thread - #20/INFO]: [Not Secure] <Teagokk_> v
-[18:59:53] [Server thread/INFO]: Teagokk_ lost connection: Disconnected
-[18:59:53] [Server thread/INFO]: Teagokk_ left the game
-[18:59:56] [User Authenticator #13/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
-[18:59:57] [Server thread/INFO]: Teagokk_ joined the game
-[18:59:57] [Server thread/INFO]: Teagokk_[/127.189.225.101:52991] logged in with entity id 101018 at ([world]276.15263496808467, 97.40571658572604, 836.1863512638981)
-[18:59:58] [Craft Scheduler Thread - 140 - EliteMobs/INFO]: [EliteMobs] User 568394ee-f971-38a9-8464-23874d404e9f data successfully read!
-[19:01:05] [Server thread/INFO]: ImPipeOk has made the advancement [Enchanter]
-[19:01:50] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival
-[19:02:25] [Server thread/INFO]: ImPipeOk has made the advancement [Sweet Dreams]
-[19:03:21] [Server thread/INFO]: [EliteMobs] Event charms_goblin.yml ended!
-[19:04:07] [Server thread/INFO]: Named entity Zombie['Lvl 7 Elite Zombie'/109687, uuid='5a0d9202-9232-4d2a-8a5e-f5269135d3b5', l='ServerLevel[world]', x=238.10, y=73.50, z=819.14, cpos=[14, 51], tl=1881, v=true] died: Lvl 7 Elite Zombie was slain by Agent_FFFF
-[19:04:38] [Server thread/INFO]: Teagokk_ issued server command: /spectate
-[19:04:42] [Server thread/INFO]: Teagokk_ issued server command: /spectator
-[19:05:00] [Server thread/INFO]: Ane_Freak has made the advancement [Cover Me with Diamonds]
-[19:05:43] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
-[19:05:56] [Server thread/INFO]: Teagokk_ issued server command: /spectator
-[19:07:53] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
-[19:07:54] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[19:21:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:21:52] [ServerMain/INFO]: Loaded 1290 recipes
+[19:21:52] [ServerMain/INFO]: Loaded 1399 advancements
+[19:21:53] [Server thread/INFO]: Starting minecraft server version 1.21
+[19:21:53] [Server thread/INFO]: Loading properties
+[19:21:53] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[19:21:53] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:21:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:21:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:21:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[19:21:55] [Server thread/INFO]: Default game type: SURVIVAL
+[19:21:55] [Server thread/INFO]: Generating keypair
+[19:21:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:21:55] [Server thread/INFO]: Using epoll channel type
+[19:21:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:21:55] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[19:21:57] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[19:21:57] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[19:22:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:22:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:22:02] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[19:22:02] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[19:22:04] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
+[19:22:05] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
+[19:22:05] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[19:22:05] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.3.2
+[19:22:05] [Server thread/INFO]: [EliteMobs] MagmaCore v1.7 initialized!
+[19:22:05] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
+[19:22:05] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v18.1.2
+[19:22:05] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
+[19:22:07] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@557eaef2]
+[19:22:07] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.69
+[19:22:07] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[19:22:13] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[19:22:13] [Server thread/INFO]: [BetterStructures] Loading server plugin BetterStructures v1.7.8
+[19:22:13] [Server thread/INFO]: [BetterStructures] MagmaCore v1.7 initialized!
+[19:22:13] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
+[19:22:13] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[19:22:13] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
+[19:22:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:22:13] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[19:22:13] [Server thread/INFO]:         __    
+[19:22:13] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[19:22:13] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[19:22:13] [Server thread/INFO]: 
+[19:22:13] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:22:14] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:22:14] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:22:15] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:22:15] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1898ms)
+[19:22:15] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v18.1.2
+[19:22:15] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[19:22:16] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[19:22:16] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21, number: 21.0
+[19:22:17] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
+[19:22:17] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:22:17] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:22:17] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[19:22:19] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
+[19:22:20] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[19:22:21] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[19:22:22] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[19:22:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:22:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:22:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:22:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:22:22] [Server thread/INFO]: Preparing level "world"
+[19:22:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:22:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:22:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[19:22:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[19:22:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[19:22:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:22:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:22:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.0
+[19:22:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dec2ffc
+[19:22:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[19:22:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:22:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[19:22:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[19:22:24] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[19:22:24] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[19:22:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:22:25] [Server thread/INFO]: Time elapsed: 1587 ms
+[19:22:25] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[19:22:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:22:26] [Server thread/INFO]: Time elapsed: 409 ms
+[19:22:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:22:26] [Server thread/INFO]: Time elapsed: 205 ms
+[19:22:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[19:22:26] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[19:22:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
+[19:22:27] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[19:22:28] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[19:22:28] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[19:22:28] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[19:22:28] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[19:22:28] [Server thread/INFO]: [Essentials] Using locale en
+[19:22:29] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[19:22:29] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[19:22:29] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[19:22:29] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[19:22:29] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[19:22:29] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[19:22:30] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.3.2
+[19:22:30] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
+[19:22:30] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
+[19:22:30] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
+[19:22:30] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
+[19:22:30] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
+[19:22:30] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
+[19:22:30] [Server thread/INFO]: By MagmaGuy - v. 9.3.2
+[19:22:30] [Server thread/INFO]: [EliteMobs] Supported server version detected: v1_21_R1
+[19:22:30] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 313 ms to scan 1 urls, producing 1 keys and 14 values
+[19:22:31] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 16 ms to scan 1 urls, producing 1 keys and 59 values
+[19:22:31] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 15 ms to scan 1 urls, producing 1 keys and 16 values
+[19:22:31] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:22:34] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 11 ms to scan 1 urls, producing 1 keys and 71 values
+[19:22:34] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 29 ms to scan 1 urls, producing 10 keys and 219 values
+[19:22:34] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 15 values
+[19:22:34] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is not enabled!
+[19:22:35] [Server thread/WARN]: [EliteMobs] "EliteMobs v9.3.2" has registered a listener for org.bukkit.event.entity.EntityRemoveEvent on method "public void com.magmaguy.elitemobs.entitytracker.EntityTracker.onRemove(org.bukkit.event.entity.EntityRemoveEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [MagmaGuy].
+[19:22:35] [Server thread/INFO]: [EliteMobs] Opened database successfully
+[19:22:35] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 8 ms to scan 1 urls, producing 1 keys and 116 values
+[19:22:38] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 7 ms to scan 1 urls, producing 1 keys and 71 values
+[19:22:38] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_primis_wormhole does not exist!
+[19:22:38] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_oasis_wormhole does not exist!
+[19:22:38] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 9 ms to scan 1 urls, producing 1 keys and 134 values
+[19:22:38] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[19:22:38] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 33 values
+[19:22:38] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 22 values
+[19:22:38] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[19:22:38] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 8 values
+[19:22:38] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[19:22:39] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.69
+[19:22:39] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[19:22:39] [Server thread/INFO]: [GrimAC] Registering packets...
+[19:22:39] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[19:22:39] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
+[19:22:39] [Server thread/INFO]: Grim Version: 2.3.69
+[19:22:39] [Server thread/ERROR]: [GrimAC] GrimAC has detected that you are using ViaVersion with the `fix-1_21-placement-rotation` option enabled.
+[19:22:39] [Server thread/ERROR]: [GrimAC] This option is known to cause issues with GrimAC and may result in false positives and bypasses.
+[19:22:39] [Server thread/ERROR]: [GrimAC] Please disable this option in your ViaVersion configuration to prevent these issues.
+[19:22:39] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed TAB with ViaVersion.
+[19:22:39] [Server thread/WARN]: [GrimAC] Please note that currently, TAB is incompatible as it sends illegal packets to players using versions newer than your server version.
+[19:22:39] [Server thread/WARN]: [GrimAC] You may be able to remedy this by setting `compensate-for-packetevents-bug` to true in the TAB config.
+[19:22:39] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[19:22:40] [Server thread/INFO]: [TAB] Loaded NMS hook in 128ms
+[19:22:41] [Server thread/INFO]: [TAB] Enabled in 841ms
+[19:22:41] [Server thread/WARN]: Plugin BetterStructures v1.7.8 tried to register permission 'logify.*' but it's already registered
+[19:22:41] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v1.7.8
+[19:22:41] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
+[19:22:41] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
+[19:22:41] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
+[19:22:41] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
+[19:22:41] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
+[19:22:41] [Server thread/INFO]: [BetterStructures] Initialized version 1.7.8!
+[19:22:41] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 189 ms to scan 1 urls, producing 1 keys and 5 values
+[19:22:41] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 29 values
+[19:22:42] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[19:22:53] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 8 values
+[19:22:53] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[19:22:53] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[19:22:53] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[19:22:53] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[19:22:53] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[19:22:53] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[19:22:53] [Server thread/INFO]: [spark] Starting background profiler...
+[19:22:55] [Server thread/INFO]: Done preparing level "world" (32.129s)
+[19:22:55] [Server thread/INFO]: Running delayed init tasks
+[19:22:55] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[19:22:55] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] Latest public release is 9.3.2
+[19:22:55] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] Your version is 9.3.2
+[19:22:55] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Latest public release is 1.7.8
+[19:22:55] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Your version is 1.7.8
+[19:22:55] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] You are running the latest version!
+[19:22:55] [Server thread/INFO]: Done (76.253s)! For help, type "help"
+[19:22:55] [Server thread/INFO]: Timings Reset
+[19:22:55] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
+[19:22:55] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[19:22:55] [Craft Scheduler Thread - 10 - GrimAC/INFO]: New GrimAC version found! Version 2.3.70 is available to be downloaded here: https://modrinth.com/plugin/grimac
+[19:22:55] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[19:22:55] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[19:22:56] [Server thread/INFO]: Teagokk_ (/127.189.225.101:55291) lost connection: Disconnected
+[19:22:56] [Server thread/INFO]: Agent_FFFF (/127.86.91.244:50683) lost connection: Disconnected
+[19:22:56] [User Authenticator #2/INFO]: UUID of player ImPipeOk is 01e15a49-ba1b-3be7-b0bf-c02af89997dc
+[19:22:56] [User Authenticator #1/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
+[19:22:56] [User Authenticator #0/INFO]: UUID of player Agent_FFFF is 5003d087-3c58-3d48-8014-35634b71c835
+[19:22:59] [Server thread/INFO]: ImPipeOk joined the game
+[19:23:00] [Server thread/INFO]: ImPipeOk[/127.51.61.125:39623] logged in with entity id 36 at ([world]-1215.997984312152, 75.0, 829.4105773217756)
+[19:23:00] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 97435d30-228a-4885-8f0a-f4c7f3762d9b, mapped to Bat['Bat'/91, uuid='97435d30-228a-4885-8f0a-f4c7f3762d9b', l='ServerLevel[world]', x=-1253.73, y=-0.04, z=823.28, cpos=[-79, 51], tl=1385, v=true], can't add Bat['Bat'/107, uuid='97435d30-228a-4885-8f0a-f4c7f3762d9b', l='ServerLevel[world]', x=-1274.67, y=0.61, z=829.69, cpos=[-80, 51], tl=1621, v=false]
+[19:23:00] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 20f2631d-a2df-4509-ac69-33f2c27bbd81, mapped to Bat['Bat'/104, uuid='20f2631d-a2df-4509-ac69-33f2c27bbd81', l='ServerLevel[world]', x=-1258.13, y=43.30, z=807.62, cpos=[-79, 50], tl=657, v=true], can't add Bat['Bat'/124, uuid='20f2631d-a2df-4509-ac69-33f2c27bbd81', l='ServerLevel[world]', x=-1265.60, y=39.35, z=802.71, cpos=[-80, 50], tl=975, v=false]
+[19:23:01] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 69e48d56-dcb3-40d1-8f7b-018254855ff7, mapped to Spider['Spider'/126, uuid='69e48d56-dcb3-40d1-8f7b-018254855ff7', l='ServerLevel[world]', x=-1277.23, y=39.92, z=800.16, cpos=[-80, 50], tl=47, v=true], can't add Spider['Spider'/137, uuid='69e48d56-dcb3-40d1-8f7b-018254855ff7', l='ServerLevel[world]', x=-1273.90, y=38.00, z=795.90, cpos=[-80, 49], tl=108, v=false]
+[19:23:01] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 90e61e64-04ec-48a0-928e-93ced1ea1333, mapped to Squid['Squid'/138, uuid='90e61e64-04ec-48a0-928e-93ced1ea1333', l='ServerLevel[world]', x=-1147.05, y=57.29, z=855.52, cpos=[-72, 53], tl=9499, v=true], can't add Squid['Squid'/139, uuid='90e61e64-04ec-48a0-928e-93ced1ea1333', l='ServerLevel[world]', x=-1133.50, y=56.10, z=834.32, cpos=[-71, 52], tl=6092, v=false]
+[19:23:01] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: ed00c96e-5125-4eec-8ce9-318e1f16edf8, mapped to Creeper['Creeper'/133, uuid='ed00c96e-5125-4eec-8ce9-318e1f16edf8', l='ServerLevel[world]', x=-1280.50, y=69.00, z=802.50, cpos=[-81, 50], tl=64, v=true], can't add Creeper['Creeper'/145, uuid='ed00c96e-5125-4eec-8ce9-318e1f16edf8', l='ServerLevel[world]', x=-1282.51, y=70.00, z=799.50, cpos=[-81, 49], tl=125, v=false]
+[19:23:01] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d7172a10-7f7c-416b-a546-c796d37dddaa, mapped to Cow['Cow'/135, uuid='d7172a10-7f7c-416b-a546-c796d37dddaa', l='ServerLevel[world]', x=-1311.48, y=65.00, z=822.15, cpos=[-82, 51], tl=5650, v=true], can't add Cow['Cow'/170, uuid='d7172a10-7f7c-416b-a546-c796d37dddaa', l='ServerLevel[world]', x=-1319.72, y=63.00, z=832.81, cpos=[-83, 52], tl=8882, v=false]
+[19:23:01] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: bd3121c0-ccf3-48b9-a4c0-e3d5ae1b3993, mapped to Squid['Squid'/128, uuid='bd3121c0-ccf3-48b9-a4c0-e3d5ae1b3993', l='ServerLevel[world]', x=-1140.82, y=56.90, z=844.18, cpos=[-72, 52], tl=5415, v=true], can't add Squid['Squid'/175, uuid='bd3121c0-ccf3-48b9-a4c0-e3d5ae1b3993', l='ServerLevel[world]', x=-1131.60, y=48.33, z=873.40, cpos=[-71, 54], tl=8822, v=false]
+[19:23:01] [User Authenticator #0/INFO]: UUID of player Ane_Freak is b3fd00ee-4e5f-39cc-9d69-a8fed4e10aa7
+[19:23:02] [Server thread/INFO]: Ane_Freak joined the game
+[19:23:02] [Server thread/INFO]: Ane_Freak[/127.175.68.75:54235] logged in with entity id 192 at ([world_nether]82.1857115001559, 41.0, -115.45638655006358)
+[19:23:02] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
+[19:23:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2761ms or 55 ticks behind
+[19:23:03] [Craft Scheduler Thread - 8 - EliteMobs/INFO]: [EliteMobs] User 01e15a49-ba1b-3be7-b0bf-c02af89997dc data successfully read!
+[19:23:03] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f90795b9-50b5-45a7-939f-32f416c6db5f, mapped to Cod['Cod'/267, uuid='f90795b9-50b5-45a7-939f-32f416c6db5f', l='ServerLevel[world]', x=-1072.31, y=51.12, z=894.27, cpos=[-68, 55], tl=9194, v=true], can't add Cod['Cod'/308, uuid='f90795b9-50b5-45a7-939f-32f416c6db5f', l='ServerLevel[world]', x=-1079.01, y=50.79, z=901.71, cpos=[-68, 56], tl=9001, v=false]
+[19:23:03] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 79e7a7ed-628f-4ceb-94d8-45724d7c38a7, mapped to Cod['Cod'/265, uuid='79e7a7ed-628f-4ceb-94d8-45724d7c38a7', l='ServerLevel[world]', x=-1073.39, y=49.88, z=894.36, cpos=[-68, 55], tl=9194, v=true], can't add Cod['Cod'/309, uuid='79e7a7ed-628f-4ceb-94d8-45724d7c38a7', l='ServerLevel[world]', x=-1079.54, y=49.18, z=901.50, cpos=[-68, 56], tl=9001, v=false]
+[19:23:03] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 983bb0f1-b986-4c55-a384-bef39f62bdb1, mapped to Cod['Cod'/264, uuid='983bb0f1-b986-4c55-a384-bef39f62bdb1', l='ServerLevel[world]', x=-1072.26, y=50.55, z=895.52, cpos=[-68, 55], tl=9194, v=true], can't add Cod['Cod'/310, uuid='983bb0f1-b986-4c55-a384-bef39f62bdb1', l='ServerLevel[world]', x=-1076.46, y=50.09, z=899.46, cpos=[-68, 56], tl=9001, v=false]
+[19:23:03] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 27f43d1e-5971-4f37-84c0-318b1ab41959, mapped to Cod['Cod'/266, uuid='27f43d1e-5971-4f37-84c0-318b1ab41959', l='ServerLevel[world]', x=-1073.97, y=50.25, z=895.46, cpos=[-68, 55], tl=9194, v=true], can't add Cod['Cod'/311, uuid='27f43d1e-5971-4f37-84c0-318b1ab41959', l='ServerLevel[world]', x=-1078.64, y=50.63, z=900.08, cpos=[-68, 56], tl=9001, v=false]
+[19:23:04] [Server thread/INFO]: Teagokk_ joined the game
+[19:23:04] [Server thread/INFO]: Teagokk_[/127.189.225.101:50637] logged in with entity id 244 at ([world]-1215.857284493898, 84.06394832284515, 835.9974351817369)
+[19:23:05] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 484f551a-ecf9-4bca-886d-fec7da574b90, mapped to Squid['Squid'/361, uuid='484f551a-ecf9-4bca-886d-fec7da574b90', l='ServerLevel[world]', x=-1124.13, y=54.15, z=990.04, cpos=[-71, 61], tl=9825, v=true], can't add Squid['Squid'/368, uuid='484f551a-ecf9-4bca-886d-fec7da574b90', l='ServerLevel[world]', x=-1136.64, y=48.95, z=992.25, cpos=[-72, 62], tl=9641, v=false]
+[19:23:05] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e4305ab6-fd5e-4189-9603-ba11f8bd8b58, mapped to Dolphin['Dolphin'/373, uuid='e4305ab6-fd5e-4189-9603-ba11f8bd8b58', l='ServerLevel[world]', x=-1004.13, y=53.82, z=805.27, cpos=[-63, 50], tl=5231, v=true], can't add Dolphin['Dolphin'/374, uuid='e4305ab6-fd5e-4189-9603-ba11f8bd8b58', l='ServerLevel[world]', x=-1004.31, y=55.24, z=798.91, cpos=[-63, 49], tl=5292, v=false]
+[19:23:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 4f189532-dfa5-42b1-89ea-89054b9205d8, mapped to Squid['Squid'/389, uuid='4f189532-dfa5-42b1-89ea-89054b9205d8', l='ServerLevel[world]', x=-1020.81, y=29.49, z=892.76, cpos=[-64, 55], tl=8969, v=true], can't add Squid['Squid'/408, uuid='4f189532-dfa5-42b1-89ea-89054b9205d8', l='ServerLevel[world]', x=-1023.66, y=28.87, z=897.12, cpos=[-64, 56], tl=8779, v=false]
+[19:23:06] [Craft Scheduler Thread - 7 - EliteMobs/INFO]: [EliteMobs] User b3fd00ee-4e5f-39cc-9d69-a8fed4e10aa7 data successfully read!
+[19:23:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 69ad7a5f-f86c-409e-818e-93d661b98bec, mapped to Squid['Squid'/431, uuid='69ad7a5f-f86c-409e-818e-93d661b98bec', l='ServerLevel[world]', x=-1076.82, y=51.79, z=991.11, cpos=[-68, 61], tl=9424, v=true], can't add Squid['Squid'/444, uuid='69ad7a5f-f86c-409e-818e-93d661b98bec', l='ServerLevel[world]', x=-1080.61, y=53.03, z=994.08, cpos=[-68, 62], tl=9240, v=false]
+[19:23:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 597136c1-b2e0-44a3-84eb-0cf42e6a53d6, mapped to Squid['Squid'/398, uuid='597136c1-b2e0-44a3-84eb-0cf42e6a53d6', l='ServerLevel[world]', x=-1026.05, y=31.14, z=918.74, cpos=[-65, 57], tl=9133, v=true], can't add Squid['Squid'/457, uuid='597136c1-b2e0-44a3-84eb-0cf42e6a53d6', l='ServerLevel[world]', x=-1015.82, y=31.33, z=928.17, cpos=[-64, 58], tl=8208, v=false]
+[19:23:07] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [EliteMobs] User 568394ee-f971-38a9-8464-23874d404e9f data successfully read!
+[19:23:14] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[19:23:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2505ms or 50 ticks behind
+[19:23:38] [Server thread/INFO]: Teagokk_ issued server command: /tp Ane_Freak Teagokk_
+[19:23:50] [Server thread/WARN]: Teagokk_ moved too quickly! 3.241330055189124,-0.038020433070691695,-32.39397907678969
+[19:23:50] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
+[19:23:51] [User Authenticator #0/INFO]: UUID of player Agent_FFFF is 5003d087-3c58-3d48-8014-35634b71c835
+[19:23:53] [Server thread/INFO]: Agent_FFFF joined the game
+[19:23:53] [Server thread/INFO]: Agent_FFFF[/127.86.91.244:60273] logged in with entity id 1015 at ([world]271.71874403871794, 162.0, 842.2358494638329)
+[19:23:54] [Craft Scheduler Thread - 7 - EliteMobs/INFO]: [EliteMobs] User 5003d087-3c58-3d48-8014-35634b71c835 data successfully read!
+[19:23:55] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 34a68e7a-7881-4fa2-9f52-ca89eb733796, mapped to Sheep['Sheep'/1040, uuid='34a68e7a-7881-4fa2-9f52-ca89eb733796', l='ServerLevel[world]', x=259.27, y=73.00, z=822.78, cpos=[16, 51], tl=28199, v=true], can't add Sheep['Sheep'/1064, uuid='34a68e7a-7881-4fa2-9f52-ca89eb733796', l='ServerLevel[world]', x=265.15, y=73.00, z=811.21, cpos=[16, 50], tl=33580, v=false]
+[19:23:56] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f9c7d77d-a6c7-4b76-9e76-61cd5f89b232, mapped to Bat['Bat'/1045, uuid='f9c7d77d-a6c7-4b76-9e76-61cd5f89b232', l='ServerLevel[world]', x=300.51, y=45.67, z=835.91, cpos=[18, 52], tl=1606, v=true], can't add Bat['Bat'/1084, uuid='f9c7d77d-a6c7-4b76-9e76-61cd5f89b232', l='ServerLevel[world]', x=310.16, y=46.00, z=822.93, cpos=[19, 51], tl=1319, v=false]
+[19:23:56] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: cb66fa3c-45bd-4577-a301-6a999e9a6b04, mapped to Bat['Bat'/1046, uuid='cb66fa3c-45bd-4577-a301-6a999e9a6b04', l='ServerLevel[world]', x=303.42, y=46.70, z=836.61, cpos=[18, 52], tl=1185, v=true], can't add Bat['Bat'/1091, uuid='cb66fa3c-45bd-4577-a301-6a999e9a6b04', l='ServerLevel[world]', x=304.83, y=45.54, z=831.54, cpos=[19, 51], tl=898, v=false]
+[19:23:56] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 34a68e7a-7881-4fa2-9f52-ca89eb733796, mapped to Sheep['Sheep'/1040, uuid='34a68e7a-7881-4fa2-9f52-ca89eb733796', l='ServerLevel[world]', x=259.27, y=73.00, z=822.78, cpos=[16, 51], tl=28199, v=true], can't add Sheep['Sheep'/1095, uuid='34a68e7a-7881-4fa2-9f52-ca89eb733796', l='ServerLevel[world]', x=254.45, y=65.00, z=798.19, cpos=[15, 49], tl=33262, v=false]
+[19:23:56] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 18add6c0-2e7f-4afa-ad3c-ab35279e6062, mapped to Sheep['Sheep'/1086, uuid='18add6c0-2e7f-4afa-ad3c-ab35279e6062', l='ServerLevel[world]', x=313.75, y=73.00, z=829.84, cpos=[19, 51], tl=40301, v=true], can't add Sheep['Sheep'/1127, uuid='18add6c0-2e7f-4afa-ad3c-ab35279e6062', l='ServerLevel[world]', x=327.53, y=73.00, z=809.81, cpos=[20, 50], tl=45682, v=false]
+[19:23:56] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: cd5239c5-1c2c-4ed3-9344-0c3f91fa4e17, mapped to Sheep['Sheep'/1138, uuid='cd5239c5-1c2c-4ed3-9344-0c3f91fa4e17', l='ServerLevel[world]', x=166.73, y=69.00, z=860.78, cpos=[10, 53], tl=31059, v=true], can't add Sheep['Sheep'/1159, uuid='cd5239c5-1c2c-4ed3-9344-0c3f91fa4e17', l='ServerLevel[world]', x=171.18, y=69.00, z=868.24, cpos=[10, 54], tl=30714, v=false]
+[19:23:56] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: cd5239c5-1c2c-4ed3-9344-0c3f91fa4e17, mapped to Sheep['Sheep'/1138, uuid='cd5239c5-1c2c-4ed3-9344-0c3f91fa4e17', l='ServerLevel[world]', x=166.73, y=69.00, z=860.78, cpos=[10, 53], tl=31059, v=true], can't add Sheep['Sheep'/1163, uuid='cd5239c5-1c2c-4ed3-9344-0c3f91fa4e17', l='ServerLevel[world]', x=159.22, y=68.50, z=856.63, cpos=[9, 53], tl=33188, v=false]
+[19:23:57] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 4e960752-4ae6-4aa0-a7eb-9b284ab232c7, mapped to Cow['Cow'/1161, uuid='4e960752-4ae6-4aa0-a7eb-9b284ab232c7', l='ServerLevel[world]', x=388.16, y=94.00, z=845.86, cpos=[24, 52], tl=25680, v=true], can't add Cow['Cow'/1182, uuid='4e960752-4ae6-4aa0-a7eb-9b284ab232c7', l='ServerLevel[world]', x=386.37, y=92.00, z=850.72, cpos=[24, 53], tl=27931, v=false]
+[19:23:57] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 379896df-a9da-4d91-8417-bef270214d11, mapped to Creeper['Creeper'/1192, uuid='379896df-a9da-4d91-8417-bef270214d11', l='ServerLevel[world]', x=375.50, y=49.00, z=879.50, cpos=[23, 54], tl=26, v=true], can't add Creeper['Creeper'/1213, uuid='379896df-a9da-4d91-8417-bef270214d11', l='ServerLevel[world]', x=376.47, y=50.00, z=880.07, cpos=[23, 55], tl=121, v=false]
+[19:23:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 1643df75-951f-4068-848a-62d2aa531ebd, mapped to Cow['Cow'/1190, uuid='1643df75-951f-4068-848a-62d2aa531ebd', l='ServerLevel[world]', x=229.88, y=70.00, z=723.12, cpos=[14, 45], tl=47775, v=true], can't add Cow['Cow'/1240, uuid='1643df75-951f-4068-848a-62d2aa531ebd', l='ServerLevel[world]', x=218.85, y=71.00, z=714.22, cpos=[13, 44], tl=50160, v=false]
+[19:23:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 5fd5102a-069d-415c-97f2-636ae1ece745, mapped to Cow['Cow'/1276, uuid='5fd5102a-069d-415c-97f2-636ae1ece745', l='ServerLevel[world]', x=446.58, y=121.00, z=819.79, cpos=[27, 51], tl=34660, v=true], can't add Cow['Cow'/1299, uuid='5fd5102a-069d-415c-97f2-636ae1ece745', l='ServerLevel[world]', x=440.72, y=113.00, z=813.55, cpos=[27, 50], tl=40037, v=false]
+[19:23:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e9aa4fcf-05ee-4ed1-93a5-cff9426674b1, mapped to Sheep['Sheep'/1283, uuid='e9aa4fcf-05ee-4ed1-93a5-cff9426674b1', l='ServerLevel[world]', x=439.48, y=109.00, z=860.71, cpos=[27, 53], tl=23339, v=true], can't add Sheep['Sheep'/1301, uuid='e9aa4fcf-05ee-4ed1-93a5-cff9426674b1', l='ServerLevel[world]', x=438.55, y=106.00, z=866.55, cpos=[27, 54], tl=20874, v=false]
+[19:23:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 7e584ce2-955f-4181-9cb3-a4b70270d37e, mapped to Cow['Cow'/1315, uuid='7e584ce2-955f-4181-9cb3-a4b70270d37e', l='ServerLevel[world]', x=151.64, y=74.00, z=727.46, cpos=[9, 45], tl=41216, v=true], can't add Cow['Cow'/1326, uuid='7e584ce2-955f-4181-9cb3-a4b70270d37e', l='ServerLevel[world]', x=145.78, y=73.00, z=719.80, cpos=[9, 44], tl=43913, v=false]
+[19:23:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d08074b2-9ba4-45d7-8138-98ed04ec93ce, mapped to Cow['Cow'/1293, uuid='d08074b2-9ba4-45d7-8138-98ed04ec93ce', l='ServerLevel[world]', x=163.86, y=73.00, z=725.19, cpos=[10, 45], tl=40618, v=true], can't add Cow['Cow'/1327, uuid='d08074b2-9ba4-45d7-8138-98ed04ec93ce', l='ServerLevel[world]', x=153.78, y=73.00, z=717.51, cpos=[9, 44], tl=43315, v=false]
+[19:23:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 84aa4a3a-0ff2-4348-b250-953bc12c3b87, mapped to Donkey['Donkey'/1313, uuid='84aa4a3a-0ff2-4348-b250-953bc12c3b87', l='ServerLevel[world]', x=264.21, y=64.00, z=1068.23, cpos=[16, 66], tl=18729, v=true], can't add Donkey['Donkey'/1328, uuid='84aa4a3a-0ff2-4348-b250-953bc12c3b87', l='ServerLevel[world]', x=267.88, y=66.00, z=1074.83, cpos=[16, 67], tl=19393, v=false]
+[19:23:59] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 41eb489b-3035-4558-a5cf-a7b6302b84e0, mapped to Witch['Witch'/1321, uuid='41eb489b-3035-4558-a5cf-a7b6302b84e0', l='ServerLevel[world]', x=500.80, y=23.06, z=846.41, cpos=[31, 52], tl=18284, v=true], can't add Witch['Witch'/1354, uuid='41eb489b-3035-4558-a5cf-a7b6302b84e0', l='ServerLevel[world]', x=513.50, y=24.00, z=862.25, cpos=[32, 53], tl=20776, v=false]
+[19:23:59] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 3326116a-69b6-4d4f-a60d-98c3021e503c, mapped to Sheep['Sheep'/1342, uuid='3326116a-69b6-4d4f-a60d-98c3021e503c', l='ServerLevel[world]', x=211.17, y=67.00, z=622.83, cpos=[13, 38], tl=63883, v=true], can't add Sheep['Sheep'/1362, uuid='3326116a-69b6-4d4f-a60d-98c3021e503c', l='ServerLevel[world]', x=207.81, y=67.00, z=626.68, cpos=[12, 39], tl=62774, v=false]
+[19:24:00] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: b23ae755-6127-4290-b68a-955b4d27efa7, mapped to Cow['Cow'/1360, uuid='b23ae755-6127-4290-b68a-955b4d27efa7', l='ServerLevel[world]', x=397.21, y=67.00, z=691.13, cpos=[24, 43], tl=48402, v=true], can't add Cow['Cow'/1373, uuid='b23ae755-6127-4290-b68a-955b4d27efa7', l='ServerLevel[world]', x=393.52, y=67.00, z=683.78, cpos=[24, 42], tl=46425, v=false]
+[19:24:01] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e98653cc-c346-4709-ad7a-46eda6301238, mapped to Sheep['Sheep'/1367, uuid='e98653cc-c346-4709-ad7a-46eda6301238', l='ServerLevel[world]', x=181.87, y=68.00, z=625.64, cpos=[11, 39], tl=56127, v=true], can't add Sheep['Sheep'/1425, uuid='e98653cc-c346-4709-ad7a-46eda6301238', l='ServerLevel[world]', x=171.78, y=69.00, z=622.77, cpos=[10, 38], tl=57236, v=false]
+[19:24:01] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 830e37ed-2913-4b8b-b49b-f1539b133726, mapped to Sheep['Sheep'/1396, uuid='830e37ed-2913-4b8b-b49b-f1539b133726', l='ServerLevel[world]', x=434.51, y=74.00, z=972.14, cpos=[27, 60], tl=19551, v=true], can't add Sheep['Sheep'/1435, uuid='830e37ed-2913-4b8b-b49b-f1539b133726', l='ServerLevel[world]', x=435.48, y=74.00, z=976.32, cpos=[27, 61], tl=19590, v=false]
+[19:24:02] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 15b74b44-fd8b-4b4d-bda7-d2e3d9a5b311, mapped to Pig['Pig'/1430, uuid='15b74b44-fd8b-4b4d-bda7-d2e3d9a5b311', l='ServerLevel[world]', x=479.34, y=67.00, z=732.16, cpos=[29, 45], tl=39675, v=true], can't add Pig['Pig'/1456, uuid='15b74b44-fd8b-4b4d-bda7-d2e3d9a5b311', l='ServerLevel[world]', x=478.13, y=67.00, z=714.43, cpos=[29, 44], tl=36868, v=false]
+[19:24:04] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: b3607ee5-5b88-4013-8cbb-c16cb9318972, mapped to Sheep['Sheep'/1509, uuid='b3607ee5-5b88-4013-8cbb-c16cb9318972', l='ServerLevel[world]', x=431.77, y=70.00, z=626.19, cpos=[26, 39], tl=71536, v=true], can't add Sheep['Sheep'/1539, uuid='b3607ee5-5b88-4013-8cbb-c16cb9318972', l='ServerLevel[world]', x=435.41, y=70.00, z=622.59, cpos=[27, 38], tl=72673, v=false]
+[19:24:07] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 0456edcb-91c4-4ece-afa4-330709f82bb2, mapped to Cow['Cow'/1628, uuid='0456edcb-91c4-4ece-afa4-330709f82bb2', l='ServerLevel[world]', x=30.74, y=73.00, z=1082.19, cpos=[1, 67], tl=21974, v=true], can't add Cow['Cow'/1665, uuid='0456edcb-91c4-4ece-afa4-330709f82bb2', l='ServerLevel[world]', x=24.49, y=72.00, z=1088.01, cpos=[1, 68], tl=22793, v=false]
+[19:24:14] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 82ceedaa-4727-4324-b050-ddabe111f8ac, mapped to Chicken['Chicken'/1769, uuid='82ceedaa-4727-4324-b050-ddabe111f8ac', l='ServerLevel[world]', x=580.91, y=75.00, z=816.08, cpos=[36, 51], tl=2718, v=true], can't add Chicken['Chicken'/1770, uuid='82ceedaa-4727-4324-b050-ddabe111f8ac', l='ServerLevel[world]', x=576.08, y=75.00, z=809.51, cpos=[36, 50], tl=1103, v=false]
+[19:24:44] [Server thread/INFO]: Teagokk_ issued server command: /tp Ane_Freak Teagokk_
+[19:25:27] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 49a9244f-1a3f-42a9-9ce0-8c3dcad34ff1, mapped to Sheep['Sheep'/1556, uuid='49a9244f-1a3f-42a9-9ce0-8c3dcad34ff1', l='ServerLevel[world]', x=159.50, y=69.00, z=535.74, cpos=[9, 33], tl=43287, v=true], can't add Sheep['Sheep'/2323, uuid='49a9244f-1a3f-42a9-9ce0-8c3dcad34ff1', l='ServerLevel[world]', x=151.94, y=67.00, z=527.94, cpos=[9, 32], tl=44616, v=false]
+[19:28:00] [Server thread/INFO]: [EliteMobs] Event full_moon.yml has been queued!
+[19:29:34] [Server thread/INFO]: Ane_Freak has made the advancement [Into Fire]
+[19:30:08] [Server thread/INFO]: Ane_Freak lost connection: Disconnected
+[19:30:08] [Server thread/INFO]: Ane_Freak left the game
+[19:30:15] [User Authenticator #3/INFO]: UUID of player Ane_Freak is b3fd00ee-4e5f-39cc-9d69-a8fed4e10aa7
+[19:30:15] [Server thread/INFO]: Ane_Freak joined the game
+[19:30:15] [Server thread/INFO]: Ane_Freak[/127.175.68.75:43365] logged in with entity id 8609 at ([world_nether]159.45118753122583, 9.0, -116.56226261332645)
+[19:30:16] [Craft Scheduler Thread - 23 - EliteMobs/INFO]: [EliteMobs] User b3fd00ee-4e5f-39cc-9d69-a8fed4e10aa7 data successfully read!
