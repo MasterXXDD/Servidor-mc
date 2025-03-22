@@ -1,13 +1,13 @@
 entityType: HUSK
-name: "$minibossLevel &6Infected Villager"
+name: $minibossLevel &6Infected Villager
 level: dynamic
 healthMultiplier: 4
 damageMultiplier: 2
 powers:
-- "invulnerability_fire.yml"
-- "firestorm.yml"
-- "shield_wall.yml"
-- "BB_TeethArena_Desert_FireRing.yml"
+- invulnerability_fire.yml
+- firestorm.yml
+- shield_wall.yml
+- BB_TeethArena_Desert_FireRing.yml
 normalizedCombat: true
 dropsEliteMobsLoot: true
 dropsVanillaLoot: false
@@ -19,4 +19,6 @@ removeAfterDeath: true
 uniqueLootList:
 - filename: teetharena_desert_cloak.yml
   chance: 1
+spawnLocations:
+- world,-167.5,64.0,-151.5,0.0,0.0
 # Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,5 +1,5 @@
 entityType: STRAY
-name: "$minibossLevel &9Chamber Guardian"
+name: $minibossLevel &9Chamber Guardian
 level: dynamic
 healthMultiplier: 3
 damageMultiplier: 2
@@ -10,9 +10,9 @@ leggings: CHAINMAIL_LEGGINGS
 boots: CHAINMAIL_BOOTS
 mainHand: BOW
 powers:
-- "lightning_bolts.yml"
-- "arrow_fireworks.yml"
-- "BB_HiddenChamber_Tundra_DreamTeam.yml"
+- lightning_bolts.yml
+- arrow_fireworks.yml
+- BB_HiddenChamber_Tundra_DreamTeam.yml
 normalizedCombat: true
 dropsEliteMobsLoot: true
 dropsVanillaLoot: false
@@ -30,4 +30,7 @@ uniqueLootList:
   chance: 0.25
 - filename: hiddenchamber_tundra_guardian_chestplate.yml
   chance: 0.25
+spawnLocations:
+- world,8.5,-48.0,280.5,0.0,0.0
+- world,616.5,-27.0,440.5,0.0,0.0
 # Generated with https://magmaguy.com/webapp/webapp.html !

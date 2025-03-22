@@ -1,479 +1,251 @@
-[23:38:27] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[23:38:27] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[23:38:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[23:38:28] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
-[23:38:28] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+[00:14:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[00:14:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[00:14:12] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:14:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[00:14:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
  - BetterStructures (1.7.8), EliteMobs (9.3.2), Essentials (2.21.0-dev+189-eab2201), GrimAC (2.3.69), LoginSecurity (3.3.0), LuckPerms (5.4.156), SkinsRestorer (15.6.0), TAB (5.0.7), TerraformGenerator (18.1.2), ViaBackwards (5.2.1), ViaVersion (5.2.1), WorldEdit (7.3.10-beta-01+cb9fd58)
-[23:38:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:38:34] [ServerMain/INFO]: Loaded 1290 recipes
-[23:38:34] [ServerMain/INFO]: Loaded 1399 advancements
-[23:38:34] [Server thread/INFO]: Starting minecraft server version 1.21
-[23:38:34] [Server thread/INFO]: Loading properties
-[23:38:34] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[23:38:35] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[23:38:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:38:35] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:38:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[23:38:36] [Server thread/INFO]: Default game type: SURVIVAL
-[23:38:36] [Server thread/INFO]: Generating keypair
-[23:38:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:38:36] [Server thread/INFO]: Using epoll channel type
-[23:38:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[23:38:36] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[23:38:37] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[23:38:37] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[23:38:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[23:38:39] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[23:38:40] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[23:38:40] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[23:38:41] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
-[23:38:41] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
-[23:38:41] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[23:38:41] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.3.2
-[23:38:41] [Server thread/INFO]: [EliteMobs] MagmaCore v1.7 initialized!
-[23:38:41] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
-[23:38:41] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v18.1.2
-[23:38:41] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
-[23:38:42] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@f5737b6]
-[23:38:42] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.69
-[23:38:42] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
-[23:38:46] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[23:38:46] [Server thread/INFO]: [BetterStructures] Loading server plugin BetterStructures v1.7.8
-[23:38:46] [Server thread/INFO]: [BetterStructures] MagmaCore v1.7 initialized!
-[23:38:46] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
-[23:38:46] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
-[23:38:46] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
-[23:38:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:38:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[23:38:46] [Server thread/INFO]:         __    
-[23:38:46] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[23:38:46] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[23:38:46] [Server thread/INFO]: 
-[23:38:46] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[23:38:46] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[23:38:47] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[23:38:47] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[23:38:47] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1423ms)
-[23:38:47] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v18.1.2
-[23:38:47] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
-[23:38:48] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
-[23:38:48] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21, number: 21.0
-[23:38:49] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
-[23:38:49] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[23:38:49] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[23:38:49] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
-[23:38:51] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
-[23:38:51] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[23:38:52] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[23:38:53] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[23:38:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:38:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:38:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:38:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:38:53] [Server thread/INFO]: Preparing level "world"
-[23:38:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[23:38:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[23:38:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[23:38:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[23:38:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[23:38:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[23:38:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[23:38:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.0
-[23:38:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dec2ffc
-[23:38:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[23:38:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[23:38:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[23:38:53] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[23:38:53] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
-[23:38:53] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
-[23:38:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:38:55] [Server thread/INFO]: Time elapsed: 1107 ms
-[23:38:55] [Server thread/INFO]: [TerraformGenerator] world loaded.
-[23:38:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[23:38:55] [Server thread/INFO]: Time elapsed: 301 ms
-[23:38:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[23:38:55] [Server thread/INFO]: Time elapsed: 179 ms
-[23:38:55] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[23:38:55] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[23:38:55] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
-[23:38:56] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[23:38:56] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[23:38:56] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[23:38:56] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[23:38:56] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[23:38:57] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[23:38:57] [Server thread/INFO]: [Essentials] Using locale en
-[23:38:57] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[23:38:57] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[23:38:57] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[23:38:57] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[23:38:57] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[23:38:57] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[23:38:57] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.3.2
-[23:38:57] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
-[23:38:57] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
-[23:38:57] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
-[23:38:57] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
-[23:38:57] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
-[23:38:57] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
-[23:38:57] [Server thread/INFO]: By MagmaGuy - v. 9.3.2
-[23:38:57] [Server thread/INFO]: [EliteMobs] Supported server version detected: v1_21_R1
-[23:38:58] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 197 ms to scan 1 urls, producing 1 keys and 14 values
-[23:38:58] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 23 ms to scan 1 urls, producing 1 keys and 59 values
-[23:38:58] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 21 ms to scan 1 urls, producing 1 keys and 16 values
-[23:38:58] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:39:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 16 ms to scan 1 urls, producing 1 keys and 71 values
-[23:39:01] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 34 ms to scan 1 urls, producing 10 keys and 219 values
-[23:39:01] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 15 values
-[23:39:01] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is not enabled!
-[23:39:01] [Server thread/WARN]: [EliteMobs] "EliteMobs v9.3.2" has registered a listener for org.bukkit.event.entity.EntityRemoveEvent on method "public void com.magmaguy.elitemobs.entitytracker.EntityTracker.onRemove(org.bukkit.event.entity.EntityRemoveEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [MagmaGuy].
-[23:39:02] [Server thread/INFO]: [EliteMobs] Opened database successfully
-[23:39:02] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 12 ms to scan 1 urls, producing 1 keys and 116 values
-[23:39:03] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 1 keys and 71 values
-[23:39:04] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_primis_wormhole does not exist!
-[23:39:04] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_oasis_wormhole does not exist!
-[23:39:04] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 11 ms to scan 1 urls, producing 1 keys and 134 values
-[23:39:04] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
-[23:39:04] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 33 values
-[23:39:04] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 22 values
-[23:39:04] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
-[23:39:04] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 8 values
-[23:39:04] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[23:39:04] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.69
-[23:39:04] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
-[23:39:04] [Server thread/INFO]: [GrimAC] Registering packets...
-[23:39:04] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
-[23:39:04] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
-[23:39:05] [Server thread/INFO]: Grim Version: 2.3.69
-[23:39:05] [Server thread/ERROR]: [GrimAC] GrimAC has detected that you are using ViaVersion with the `fix-1_21-placement-rotation` option enabled.
-[23:39:05] [Server thread/ERROR]: [GrimAC] This option is known to cause issues with GrimAC and may result in false positives and bypasses.
-[23:39:05] [Server thread/ERROR]: [GrimAC] Please disable this option in your ViaVersion configuration to prevent these issues.
-[23:39:05] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed TAB with ViaVersion.
-[23:39:05] [Server thread/WARN]: [GrimAC] Please note that currently, TAB is incompatible as it sends illegal packets to players using versions newer than your server version.
-[23:39:05] [Server thread/WARN]: [GrimAC] You may be able to remedy this by setting `compensate-for-packetevents-bug` to true in the TAB config.
-[23:39:05] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[23:39:05] [Server thread/INFO]: [TAB] Loaded NMS hook in 78ms
-[23:39:06] [Server thread/INFO]: [TAB] Enabled in 526ms
-[23:39:06] [Server thread/WARN]: Plugin BetterStructures v1.7.8 tried to register permission 'logify.*' but it's already registered
-[23:39:06] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v1.7.8
-[23:39:06] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
-[23:39:06] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
-[23:39:06] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
-[23:39:06] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
-[23:39:06] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
-[23:39:06] [Server thread/INFO]: [BetterStructures] Initialized version 1.7.8!
-[23:39:06] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 120 ms to scan 1 urls, producing 1 keys and 5 values
-[23:39:06] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 1 keys and 29 values
-[23:39:06] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 1 values
-[23:39:13] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 1 ms to scan 1 urls, producing 1 keys and 8 values
-[23:39:13] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[23:39:13] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[23:39:13] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[23:39:13] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[23:39:13] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[23:39:13] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[23:39:13] [Server thread/INFO]: [spark] Starting background profiler...
-[23:39:14] [Server thread/INFO]: Done preparing level "world" (20.867s)
-[23:39:14] [Server thread/INFO]: Running delayed init tasks
-[23:39:14] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[23:39:14] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
-[23:39:14] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] Latest public release is 9.3.2
-[23:39:14] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] Your version is 9.3.2
-[23:39:14] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Latest public release is 1.7.8
-[23:39:14] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Your version is 1.7.8
-[23:39:14] [Server thread/INFO]: Done (47.270s)! For help, type "help"
-[23:39:14] [Server thread/INFO]: Timings Reset
-[23:39:14] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] You are running the latest version!
-[23:39:14] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
-[23:39:14] [Craft Scheduler Thread - 10 - GrimAC/INFO]: New GrimAC version found! Version 2.3.70 is available to be downloaded here: https://modrinth.com/plugin/grimac
-[23:39:14] [Server thread/INFO]: Teagokk_ (/127.189.225.101:51297) lost connection: Disconnected
-[23:39:14] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
-[23:39:14] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[23:39:15] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
-[23:39:22] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
-[23:39:25] [Server thread/INFO]:  [Usuario] Teagokk_ joined the game
-[23:39:25] [Server thread/INFO]: Teagokk_[/127.189.225.101:36843] logged in with entity id 108 at ([world]201.63119997224777, 96.55792512870711, 40.28244385309491)
-[23:39:26] [Craft Scheduler Thread - 7 - EliteMobs/INFO]: [EliteMobs] User 568394ee-f971-38a9-8464-23874d404e9f data successfully read!
-[23:39:36] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival
-[23:39:40] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:40] [Server thread/INFO]: Teagokk_ lost connection: Flying is not enabled on this server
-[23:39:40] [Server thread/INFO]:  [Usuario] Teagokk_ left the game
-[23:39:40] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:40] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:40] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:40] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:40] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:40] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:41] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:42] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:43] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:44] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:45] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:46] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:47] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:48] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:49] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:50] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:51] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:52] [Server thread/WARN]: Teagokk_ was kicked for floating too long!
-[23:39:58] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
-[23:40:00] [Server thread/INFO]:  [Usuario] Teagokk_ joined the game
-[23:40:00] [Server thread/INFO]: Teagokk_[/127.189.225.101:44229] logged in with entity id 519 at ([world]206.7430603710711, 93.35617469461187, 41.69343077627402)
-[23:40:01] [Craft Scheduler Thread - 7 - EliteMobs/INFO]: [EliteMobs] User 568394ee-f971-38a9-8464-23874d404e9f data successfully read!
-[23:40:09] [Async Chat Thread - #0/INFO]: [Not Secure] <Teagokk_> tf
-[23:40:12] [Async Chat Thread - #1/INFO]: [Not Secure] <Teagokk_> frff
-[23:40:21] [Async Chat Thread - #1/INFO]: [Not Secure] <Teagokk_> hola
-[23:40:25] [Async Chat Thread - #0/INFO]: [Not Secure] <Teagokk_> bueno
-[23:43:18] [Async Chat Thread - #2/INFO]: [Not Secure] <Teagokk_> h
-[23:44:13] [Server thread/INFO]: [EliteMobs] Event full_moon.yml has been queued!
-[23:44:14] [Server thread/INFO]: The howls of an Alpha Werewolf are heard!
-[23:44:20] [Server thread/INFO]: [EliteMobs] Event full_moon.yml ended!
-[23:48:10] [Async Chat Thread - #4/INFO]: [Not Secure] <Teagokk_> r
+[00:14:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:14:17] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[00:14:17] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[00:14:17] [ServerMain/INFO]: No existing world data, creating new world
+[00:14:18] [ServerMain/INFO]: Loaded 1290 recipes
+[00:14:18] [ServerMain/INFO]: Loaded 1399 advancements
+[00:14:19] [Server thread/INFO]: Starting minecraft server version 1.21
+[00:14:19] [Server thread/INFO]: Loading properties
+[00:14:19] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[00:14:19] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:14:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:14:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:14:20] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[00:14:20] [Server thread/INFO]: Default game type: SURVIVAL
+[00:14:20] [Server thread/INFO]: Generating keypair
+[00:14:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:14:21] [Server thread/INFO]: Using epoll channel type
+[00:14:21] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:14:21] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[00:14:22] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[00:14:22] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[00:14:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:14:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:14:25] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[00:14:25] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[00:14:26] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
+[00:14:27] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
+[00:14:27] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[00:14:27] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.3.2
+[00:14:27] [Server thread/INFO]: [EliteMobs] MagmaCore v1.7 initialized!
+[00:14:27] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
+[00:14:27] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v18.1.2
+[00:14:27] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
+[00:14:28] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@67b601f4]
+[00:14:28] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.69
+[00:14:28] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[00:14:31] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[00:14:31] [Server thread/INFO]: [BetterStructures] Loading server plugin BetterStructures v1.7.8
+[00:14:31] [Server thread/INFO]: [BetterStructures] MagmaCore v1.7 initialized!
+[00:14:31] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
+[00:14:31] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[00:14:31] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
+[00:14:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:14:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[00:14:32] [Server thread/INFO]:         __    
+[00:14:32] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[00:14:32] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[00:14:32] [Server thread/INFO]: 
+[00:14:32] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[00:14:32] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[00:14:33] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[00:14:33] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[00:14:33] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1518ms)
+[00:14:33] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v18.1.2
+[00:14:33] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[00:14:34] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[00:14:34] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21, number: 21.0
+[00:14:34] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
+[00:14:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:14:34] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:14:35] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[00:14:36] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
+[00:14:37] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[00:14:37] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[00:14:38] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[00:14:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:14:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:14:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:14:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:14:38] [Server thread/INFO]: Preparing level "world"
+[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.0
+[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dec2ffc
+[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[00:14:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[00:14:39] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[00:14:39] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[00:14:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:14:41] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
+[00:14:51] [Server thread/INFO]: Time elapsed: 11542 ms
+[00:14:51] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[00:14:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:14:52] [Server thread/INFO]: Time elapsed: 535 ms
+[00:14:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:14:52] [Server thread/INFO]: Time elapsed: 85 ms
+[00:14:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[00:14:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[00:14:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
+[00:14:53] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[00:14:53] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:14:53] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:14:53] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[00:14:53] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[00:14:53] [Server thread/INFO]: [Essentials] Using locale en
+[00:14:53] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:14:54] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:14:54] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[00:14:54] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[00:14:54] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[00:14:54] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[00:14:54] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.3.2
+[00:14:54] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
+[00:14:54] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
+[00:14:54] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
+[00:14:54] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
+[00:14:54] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
+[00:14:54] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
+[00:14:54] [Server thread/INFO]: By MagmaGuy - v. 9.3.2
+[00:14:54] [Server thread/INFO]: [EliteMobs] Supported server version detected: v1_21_R1
+[00:14:54] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 145 ms to scan 1 urls, producing 1 keys and 14 values
+[00:14:54] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 13 ms to scan 1 urls, producing 1 keys and 59 values
+[00:14:54] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 15 ms to scan 1 urls, producing 1 keys and 16 values
+[00:14:55] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:14:57] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 9 ms to scan 1 urls, producing 1 keys and 71 values
+[00:14:57] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 27 ms to scan 1 urls, producing 10 keys and 219 values
+[00:14:57] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 15 values
+[00:14:57] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is not enabled!
+[00:14:57] [Server thread/WARN]: [EliteMobs] "EliteMobs v9.3.2" has registered a listener for org.bukkit.event.entity.EntityRemoveEvent on method "public void com.magmaguy.elitemobs.entitytracker.EntityTracker.onRemove(org.bukkit.event.entity.EntityRemoveEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [MagmaGuy].
+[00:14:58] [Server thread/INFO]: [EliteMobs] Opened database successfully
+[00:14:58] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 7 ms to scan 1 urls, producing 1 keys and 116 values
+[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 1 keys and 71 values
+[00:15:00] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_primis_wormhole does not exist!
+[00:15:00] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_oasis_wormhole does not exist!
+[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 7 ms to scan 1 urls, producing 1 keys and 134 values
+[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 33 values
+[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 22 values
+[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 1 values
+[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 8 values
+[00:15:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[00:15:00] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.69
+[00:15:00] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[00:15:00] [Server thread/INFO]: [GrimAC] Registering packets...
+[00:15:00] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[00:15:01] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
+[00:15:01] [Server thread/INFO]: Grim Version: 2.3.69
+[00:15:01] [Server thread/ERROR]: [GrimAC] GrimAC has detected that you are using ViaVersion with the `fix-1_21-placement-rotation` option enabled.
+[00:15:01] [Server thread/ERROR]: [GrimAC] This option is known to cause issues with GrimAC and may result in false positives and bypasses.
+[00:15:01] [Server thread/ERROR]: [GrimAC] Please disable this option in your ViaVersion configuration to prevent these issues.
+[00:15:01] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed TAB with ViaVersion.
+[00:15:01] [Server thread/WARN]: [GrimAC] Please note that currently, TAB is incompatible as it sends illegal packets to players using versions newer than your server version.
+[00:15:01] [Server thread/WARN]: [GrimAC] You may be able to remedy this by setting `compensate-for-packetevents-bug` to true in the TAB config.
+[00:15:01] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[00:15:01] [Server thread/INFO]: [TAB] Loaded NMS hook in 77ms
+[00:15:02] [Server thread/INFO]: [TAB] Enabled in 532ms
+[00:15:02] [Server thread/WARN]: Plugin BetterStructures v1.7.8 tried to register permission 'logify.*' but it's already registered
+[00:15:02] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v1.7.8
+[00:15:02] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
+[00:15:02] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
+[00:15:02] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
+[00:15:02] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
+[00:15:02] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
+[00:15:02] [Server thread/INFO]: [BetterStructures] Initialized version 1.7.8!
+[00:15:02] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 104 ms to scan 1 urls, producing 1 keys and 5 values
+[00:15:02] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 1 keys and 29 values
+[00:15:02] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[00:15:09] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 8 values
+[00:15:09] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[00:15:09] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[00:15:09] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[00:15:09] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[00:15:09] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[00:15:09] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[00:15:09] [Server thread/INFO]: [spark] Starting background profiler...
+[00:15:10] [Server thread/INFO]: Done preparing level "world" (31.220s)
+[00:15:10] [Server thread/INFO]: Running delayed init tasks
+[00:15:10] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:15:10] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[00:15:10] [Server thread/INFO]: Done (59.153s)! For help, type "help"
+[00:15:10] [Server thread/INFO]: Timings Reset
+[00:15:10] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] Latest public release is 9.3.2
+[00:15:10] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] Your version is 9.3.2
+[00:15:10] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Latest public release is 1.7.8
+[00:15:10] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Your version is 1.7.8
+[00:15:10] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] You are running the latest version!
+[00:15:10] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
+[00:15:10] [Craft Scheduler Thread - 10 - GrimAC/INFO]: New GrimAC version found! Version 2.3.70 is available to be downloaded here: https://modrinth.com/plugin/grimac
+[00:15:10] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[00:15:10] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[00:15:11] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
+[00:15:13] [Server thread/INFO]: Teagokk_ joined the game
+[00:15:13] [Server thread/INFO]: Teagokk_[/127.189.225.101:52023] logged in with entity id 29 at ([world]-9.5, 74.0, -4.5)
+[00:15:14] [Craft Scheduler Thread - 7 - EliteMobs/INFO]: [EliteMobs] User 568394ee-f971-38a9-8464-23874d404e9f data successfully read!
+[00:15:43] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[00:15:54] [Server thread/WARN]: [BetterStructures] You are not using WorldGuard, so BetterStructures could not protect a boss arena! Using WorldGuard is recommended to guarantee a fair combat experience.
+[00:16:13] [Server thread/INFO]: Teagokk_ issued server command: /setworldspawn
+[00:16:13] [Server thread/INFO]: [Teagokk_: Set the world spawn point to 202, 90, 45 [0.0]]
+[00:16:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7162ms or 143 ticks behind
+[00:16:34] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
+[00:16:34] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 472 -3 168
+[00:16:34] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
+[00:16:34] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
+[00:16:34] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
+[00:16:34] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
+[00:16:34] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
+[00:16:36] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
+[00:16:36] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
+[00:16:36] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
+[00:16:36] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
+[00:16:36] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
+[00:16:37] [Server thread/INFO]: Teagokk_ issued server command: /betterstructures teleport world 344 172 216
+[00:20:17] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml has been queued!
+[00:20:17] [Server thread/INFO]: A Treasure Goblin has been sighted!
+[00:20:22] [Server thread/INFO]: Teagokk_ issued server command: /elitemobs track boss f472ddb1-b225-491e-88b6-859cc8dfdfd4
+[00:20:57] [Server thread/INFO]: ---------------------------------------------
+[00:20:57] [Server thread/INFO]: The Treasure Goblin has been pillaged!
+[00:20:57] [Server thread/INFO]:     1st Damager: Teagokk_ with 97.67 damage!
+[00:20:57] [Server thread/INFO]: 
+[00:20:57] [Server thread/INFO]: 
+[00:20:57] [Server thread/INFO]: Slayers: Teagokk_
+[00:20:57] [Server thread/INFO]: ---------------------------------------------
+[00:20:57] [Server thread/INFO]: Teagokk_ has made the advancement [Monster Hunter]
+[00:20:57] [Server thread/INFO]: Named entity Zombie['「1」 Treasure Goblin'/1886, uuid='ad7338ce-1176-4b4b-8d87-77026eebe370', l='ServerLevel[world]', x=406.26, y=74.00, z=262.85, cpos=[25, 16], tl=813, v=true] died: 「1」 Treasure Goblin was slain by Teagokk_
+[00:20:58] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml ended!
+[00:23:04] [Server thread/INFO]: Teagokk_ has made the advancement [Stone Age]
+[00:23:53] [Server thread/INFO]: Teagokk_ has made the advancement [Acquire Hardware]
