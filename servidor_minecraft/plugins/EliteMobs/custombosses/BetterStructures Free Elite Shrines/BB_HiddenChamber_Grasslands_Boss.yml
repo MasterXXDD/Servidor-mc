@@ -23,4 +23,7 @@ uniqueLootList:
 spawnLocations:
 - world,1656.5,14.0,-151.5,0.0,0.0
 - world,-743.5,49.0,936.5,0.0,0.0
+- world,392.5,4.0,-647.5,0.0,0.0
+- world,2344.5,1.0,1000.5,0.0,0.0
+- world,2664.5,3.0,952.5,0.0,0.0
 # Generated with https://magmaguy.com/webapp/webapp.html !

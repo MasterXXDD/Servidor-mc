@@ -8,15 +8,21 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:badlands": "2025-03-22 18:53:53 +0000",
+      "minecraft:cold_ocean": "2025-03-22 19:45:54 +0000",
       "minecraft:snowy_slopes": "2025-03-22 18:46:48 +0000",
       "minecraft:beach": "2025-03-22 18:08:07 +0000",
+      "minecraft:forest": "2025-03-22 19:42:33 +0000",
       "minecraft:taiga": "2025-03-22 18:14:15 +0000",
+      "minecraft:mangrove_swamp": "2025-03-22 19:41:18 +0000",
+      "minecraft:deep_ocean": "2025-03-22 19:28:17 +0000",
       "minecraft:river": "2025-03-22 18:08:08 +0000",
       "minecraft:stony_shore": "2025-03-22 18:15:09 +0000",
       "minecraft:lush_caves": "2025-03-22 18:23:25 +0000",
       "minecraft:dripstone_caves": "2025-03-22 18:23:24 +0000",
+      "minecraft:deep_cold_ocean": "2025-03-22 19:45:15 +0000",
       "minecraft:desert": "2025-03-22 18:52:55 +0000",
       "minecraft:ocean": "2025-03-22 19:26:16 +0000",
+      "minecraft:jungle": "2025-03-22 19:37:11 +0000",
       "minecraft:swamp": "2025-03-22 18:15:11 +0000",
       "minecraft:meadow": "2025-03-22 19:04:11 +0000",
       "minecraft:birch_forest": "2025-03-22 18:49:08 +0000",
@@ -575,6 +581,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "bread": "2025-03-22 19:28:14 +0000",
       "cooked_beef": "2025-03-22 18:13:30 +0000",
       "beef": "2025-03-22 18:12:40 +0000"
     },
@@ -928,7 +935,8 @@
       "minecraft:skeleton": "2025-03-22 18:34:56 +0000",
       "minecraft:spider": "2025-03-22 18:41:27 +0000",
       "minecraft:zombie": "2025-03-22 18:28:22 +0000",
-      "minecraft:creeper": "2025-03-22 18:36:48 +0000"
+      "minecraft:creeper": "2025-03-22 18:36:48 +0000",
+      "minecraft:husk": "2025-03-22 19:39:28 +0000"
     },
     "done": false
   },
@@ -1307,6 +1315,54 @@
   "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
     "criteria": {
       "has_netherite_upgrade_smithing_template": "2025-03-22 19:16:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-03-22 19:49:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-03-22 19:49:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-03-22 19:49:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-03-22 19:55:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-03-22 19:55:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-03-22 19:55:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-03-22 19:55:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-03-22 19:55:39 +0000"
     },
     "done": true
   },

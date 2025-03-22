@@ -284,3 +284,67 @@
 [19:30:15] [Server thread/INFO]: Ane_Freak joined the game
 [19:30:15] [Server thread/INFO]: Ane_Freak[/127.175.68.75:43365] logged in with entity id 8609 at ([world_nether]159.45118753122583, 9.0, -116.56226261332645)
 [19:30:16] [Craft Scheduler Thread - 23 - EliteMobs/INFO]: [EliteMobs] User b3fd00ee-4e5f-39cc-9d69-a8fed4e10aa7 data successfully read!
+[19:31:56] [Server thread/INFO]: Named entity Hoglin['Lvl 8 Elite Hoglin'/10124, uuid='b871965a-f90c-41fc-a058-2820d1d3ab90', l='ServerLevel[world_nether]', x=122.02, y=27.84, z=-125.19, cpos=[7, -8], tl=995, v=true] died: Lvl 8 Elite Hoglin tried to swim in lava
+[19:32:13] [Server thread/WARN]: [BetterStructures] You are not using WorldGuard, so BetterStructures could not protect a boss arena! Using WorldGuard is recommended to guarantee a fair combat experience.
+[19:32:21] [Server thread/WARN]: ImPipeOk moved too quickly! 1.2380820432663313,-1.0,-11.277496190784518
+[19:33:26] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[19:36:02] [Server thread/INFO]: Teagokk_ issued server command: /invsee
+[19:36:11] [Server thread/INFO]: Teagokk_ issued server command: /invsee Ane_Freak
+[19:36:18] [Server thread/INFO]: Teagokk_ issued server command: /spectate
+[19:36:22] [Server thread/INFO]: Teagokk_ issued server command: /spectate
+[19:36:24] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[19:37:48] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[19:38:02] [Server thread/INFO]: Teagokk_ issued server command: /invsee Ane_Freak
+[19:38:12] [Server thread/INFO]: Teagokk_ issued server command: /invsee Ane_Freak
+[19:38:23] [Server thread/INFO]: Teagokk_ issued server command: /invsee Ane_Freak
+[19:38:40] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[19:39:07] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[19:39:14] [Server thread/INFO]: Teagokk_ has made the advancement [Diamonds!]
+[19:39:28] [Server thread/INFO]: Named entity Husk['〖7〗 Infected Villager'/14505, uuid='900e7960-ae3f-4646-bb17-16cb2bf0c940', l='ServerLevel[world]', x=-156.70, y=62.00, z=-157.52, cpos=[-10, -10], tl=3469, v=true] died: 〖7〗 Infected Villager was slain by ImPipeOk
+[19:39:52] [Server thread/INFO]: Teagokk_ issued server command: /invsee ImPipeOk
+[19:40:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3953ms or 79 ticks behind
+[19:40:14] [Server thread/WARN]: Teagokk_ moved too quickly! -15.168033974359133,-6.561210351114994,-19.42654857493244
+[19:40:14] [Server thread/WARN]: ImPipeOk moved too quickly! 10.332554484967233,0.7508129212553172,5.358490009041162
+[19:40:25] [Server thread/INFO]: Teagokk_ issued server command: /tp Agent_FFFF
+[19:40:40] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[19:41:00] [Server thread/INFO]: Teagokk_ has made the advancement [A Terrible Fortress]
+[19:41:23] [Server thread/INFO]: Named entity Hoglin['Lvl 7 Elite Hoglin'/18854, uuid='09967e1d-4304-4174-a79f-6dfd3d17fae1', l='ServerLevel[world_nether]', x=147.03, y=31.00, z=-151.39, cpos=[9, -10], tl=324, v=true] died: Lvl 7 Elite Hoglin tried to swim in lava
+[19:42:33] [Server thread/INFO]: Teagokk_ has completed the challenge [Hot Tourist Destinations]
+[19:43:56] [Server thread/WARN]: Teagokk_ moved too quickly! -9.846934874644404,2.9263634172320394,-2.432751994107761
+[19:45:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3779ms or 75 ticks behind
+[19:45:42] [Server thread/WARN]: ImPipeOk moved too quickly! -2.0726546337561302,0.0,-10.578867610205407
+[19:46:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2532ms or 50 ticks behind
+[19:46:01] [Server thread/WARN]: Ane_Freak moved too quickly! -11.227421810109377,2.252203340253729,5.044414499566372
+[19:46:01] [Server thread/WARN]: ImPipeOk moved too quickly! -0.29662954880689085,0.0,-10.187670672736886
+[19:46:19] [Server thread/WARN]: ImPipeOk moved too quickly! 4.02117156223953,0.0,-18.976865714084397
+[19:46:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5172ms or 103 ticks behind
+[19:47:19] [Server thread/INFO]: Teagokk_ issued server command: /creative
+[19:47:31] [Server thread/INFO]: Teagokk_ issued server command: /gamerule announceAdvancements false
+[19:47:31] [Server thread/INFO]: [Teagokk_: Gamerule announceAdvancements is now set to: false]
+[19:50:13] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[19:50:18] [Server thread/INFO]: Villager Villager['Farmer'/28272, uuid='a06f168c-ef41-4b17-8fe4-b2c61d35696e', l='ServerLevel[world]', x=-198.25, y=62.80, z=-1198.99, cpos=[-13, -75], tl=3978, v=true] died, message: 'Farmer was slain by Drowned'
+[19:50:32] [Server thread/INFO]: Teagokk_ issued server command: /creative
+[19:51:31] [Server thread/WARN]: Agent_FFFF moved too quickly! 1.5329802006290265,-27.635659745101236,-3.6035652352261422
+[19:52:30] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[19:53:15] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml has been queued!
+[19:53:15] [Server thread/INFO]: A Treasure Goblin has been sighted!
+[19:53:23] [Server thread/INFO]: Ane_Freak issued server command: /elitemobs track boss 5a0dec58-94fb-45b3-a3f9-2e14185f1465
+[19:53:25] [Server thread/INFO]: Agent_FFFF issued server command: /elitemobs track boss 5a0dec58-94fb-45b3-a3f9-2e14185f1465
+[19:54:24] [Server thread/INFO]: Named entity Spider['Lvl 0 Elite Spider'/31778, uuid='296a07c8-9607-43a4-8746-480f1a774667', l='ServerLevel[world]', x=-311.23, y=-4.00, z=-1400.61, cpos=[-20, -88], tl=8363, v=true] died: Lvl 0 Elite Spider fell from a high place
+[19:56:46] [Server thread/WARN]: Ane_Freak moved too quickly! 9.975747362590027,-1.1621414210270018,8.595863023085485
+[19:57:29] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[19:57:52] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[19:58:16] [Server thread/INFO]: Teagokk_ issued server command: /invsee Ane_Freak
+[19:59:08] [Server thread/WARN]: Ane_Freak moved too quickly! 8.614284958516237,2.243240711822736,4.960143518755785
+[19:59:15] [Server thread/INFO]: [EliteMobs] Event armor_goblin.yml has been queued!
+[19:59:15] [Server thread/INFO]: An Armor Goblin has been sighted!
+[19:59:19] [Server thread/INFO]: Agent_FFFF issued server command: /elitemobs track boss b1c812ba-b400-4bd4-9429-1da9294b1d4f
+[19:59:42] [Server thread/INFO]: Teagokk_ issued server command: /locate structure minecraft:stronghold
+[19:59:42] [Server thread/INFO]: Locating element minecraft:stronghold took 0 ms
+[19:59:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12613ms or 252 ticks behind
+[19:59:56] [Server thread/WARN]: Teagokk_ moved too quickly! 11.631821280135682,0.0,44.88531338184748
+[19:59:56] [Server thread/WARN]: Ane_Freak moved too quickly! 10.068849869055157,12.581335992225164,19.542274874491113
+[20:01:03] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[20:01:25] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[20:01:52] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[20:01:55] [Server thread/INFO]: Teagokk_ issued server command: /spectator
