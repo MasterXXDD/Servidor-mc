@@ -2122,3 +2122,14 @@
 [2025-03-22 20:00:50] [INFO   ] Generating org.terraform.structure.caves.LargeCavePopulator at chunk: 244,148 
 [2025-03-22 20:01:01] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 228,152 
 [2025-03-22 20:01:01] [INFO   ] Spawning Underground Dungeon at 3652,27,2439 
+[2025-03-22 20:05:30] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: -21,-108 
+[2025-03-22 20:05:33] [INFO   ] Generating org.terraform.structure.villagehouse.VillageHousePopulator at chunk: -12,-108 
+[2025-03-22 20:05:33] [INFO   ] Spawning farmhouse at -192,77,-1728 with rotation of SOUTH 
+[2025-03-22 20:05:39] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -27,-111 
+[2025-03-22 20:05:39] [INFO   ] Spawning Underground Dungeon at -432,25,-1769 
+[2025-03-22 20:06:15] [INFO   ] Generating org.terraform.structure.small.igloo.IglooPopulator at chunk: -19,-119 
+[2025-03-22 20:06:15] [INFO   ] Placing igloo of size 6 
+[2025-03-22 20:06:19] [INFO   ] Generating org.terraform.structure.small.igloo.IglooPopulator at chunk: 19,-112 
+[2025-03-22 20:06:19] [INFO   ] Placing igloo of size 6 
+[2025-03-22 20:06:24] [INFO   ] Generating org.terraform.structure.villagehouse.VillageHousePopulator at chunk: 20,-108 
+[2025-03-22 20:06:24] [INFO   ] Spawning farmhouse at 320,73,-1728 with rotation of WEST 

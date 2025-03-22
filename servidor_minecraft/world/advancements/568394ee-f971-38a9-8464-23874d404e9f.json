@@ -7,29 +7,31 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:badlands": "2025-03-22 18:53:41 +0000",
       "minecraft:snowy_slopes": "2025-03-22 18:46:41 +0000",
-      "minecraft:beach": "2025-03-22 18:10:35 +0000",
       "minecraft:forest": "2025-03-22 19:42:40 +0000",
       "minecraft:taiga": "2025-03-22 00:15:59 +0000",
       "minecraft:deep_ocean": "2025-03-22 19:28:21 +0000",
-      "minecraft:river": "2025-03-22 00:15:53 +0000",
-      "minecraft:stony_shore": "2025-03-22 00:21:17 +0000",
       "minecraft:lush_caves": "2025-03-22 18:24:40 +0000",
-      "minecraft:dripstone_caves": "2025-03-22 18:46:56 +0000",
-      "minecraft:snowy_taiga": "2025-03-22 19:57:59 +0000",
+      "minecraft:ice_spikes": "2025-03-22 20:00:20 +0000",
       "minecraft:desert": "2025-03-22 18:52:00 +0000",
       "minecraft:frozen_river": "2025-03-22 19:57:57 +0000",
       "minecraft:jungle": "2025-03-22 00:15:54 +0000",
       "minecraft:ocean": "2025-03-22 19:26:23 +0000",
-      "minecraft:swamp": "2025-03-22 18:13:05 +0000",
-      "minecraft:meadow": "2025-03-22 19:29:22 +0000",
       "minecraft:birch_forest": "2025-03-22 18:52:46 +0000",
       "minecraft:snowy_beach": "2025-03-22 19:57:56 +0000",
+      "minecraft:warm_ocean": "2025-03-22 18:49:42 +0000",
+      "minecraft:badlands": "2025-03-22 18:53:41 +0000",
+      "minecraft:beach": "2025-03-22 18:10:35 +0000",
+      "minecraft:river": "2025-03-22 00:15:53 +0000",
+      "minecraft:stony_shore": "2025-03-22 00:21:17 +0000",
+      "minecraft:snowy_plains": "2025-03-22 19:59:09 +0000",
+      "minecraft:dripstone_caves": "2025-03-22 18:46:56 +0000",
+      "minecraft:snowy_taiga": "2025-03-22 19:57:59 +0000",
+      "minecraft:swamp": "2025-03-22 18:13:05 +0000",
+      "minecraft:meadow": "2025-03-22 19:29:22 +0000",
       "minecraft:savanna": "2025-03-22 00:15:14 +0000",
       "minecraft:plains": "2025-03-22 00:16:00 +0000",
-      "minecraft:jagged_peaks": "2025-03-22 18:09:39 +0000",
-      "minecraft:warm_ocean": "2025-03-22 18:49:42 +0000"
+      "minecraft:jagged_peaks": "2025-03-22 18:09:39 +0000"
     },
     "done": false
   },
@@ -817,6 +819,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-03-22 20:04:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2025-03-22 19:39:14 +0000"
@@ -898,6 +906,12 @@
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2025-03-22 19:49:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-03-22 20:04:17 +0000"
     },
     "done": true
   },
@@ -985,6 +999,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-03-22 20:04:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2025-03-22 19:39:14 +0000"
@@ -1036,6 +1056,12 @@
   "minecraft:recipes/building_blocks/dye_green_wool": {
     "criteria": {
       "has_needed_dye": "2025-03-22 19:48:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-03-22 20:04:17 +0000"
     },
     "done": true
   },

@@ -348,3 +348,29 @@
 [20:01:25] [Server thread/INFO]: Teagokk_ issued server command: /spectator
 [20:01:52] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
 [20:01:55] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[20:02:29] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[20:02:41] [Server thread/INFO]: Teagokk_ issued server command: /invsee ImPipeOk
+[20:03:20] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[20:03:24] [Server thread/INFO]: Teagokk_ issued server command: /tp Ane_Freak
+[20:03:51] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[20:04:02] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[20:04:08] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[20:04:15] [Server thread/INFO]: Ane_Freak has made the advancement [The End?]
+[20:04:17] [Server thread/INFO]: Teagokk_ has made the advancement [The End?]
+[20:04:17] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[20:04:17] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[20:04:23] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[20:04:28] [Server thread/INFO]: [EliteMobs] Event dead_moon.yml has been queued!
+[20:05:26] [Server thread/INFO]: Teagokk_ issued server command: /invsee ImPipeOk
+[20:05:35] [Server thread/WARN]: ImPipeOk moved too quickly! 5.788662743353001,-1.0,-8.239419752742378
+[20:05:35] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[20:05:49] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[20:06:26] [Server thread/WARN]: Teagokk_ moved too quickly! -11.828619869824298,-14.819755286227988,-12.40843774970239
+[20:06:46] [Server thread/INFO]: Named entity EnderMan['Lvl 10 Elite Enderman'/77481, uuid='7e7b3e04-5bec-4b1e-8f0b-810e8e7f6a0f', l='ServerLevel[world_the_end]', x=34.73, y=60.00, z=29.59, cpos=[2, 1], tl=926, v=true] died: Lvl 10 Elite Enderman was slain by Warden
+[20:09:16] [Server thread/INFO]: Named entity Zombie['Lvl 7 Elite Zombie'/82058, uuid='d993af1a-b0e9-4b26-9b0b-6d9ab845a9cf', l='ServerLevel[world_the_end]', x=-54.31, y=58.00, z=34.06, cpos=[-4, 2], tl=2309, v=true] died: Lvl 7 Elite Zombie was slain by Warden
+[20:09:45] [Server thread/INFO]: Teagokk_ has made the advancement [Sneak 100]
+[20:09:51] [Server thread/INFO]: Named entity Vindicator['Lvl 11 Elite Vindicator'/83879, uuid='f9df7295-27d4-46d7-9d5a-daaefdf2a17b', l='ServerLevel[world_the_end]', x=7.79, y=64.00, z=-14.57, cpos=[0, -1], tl=2313, v=true] died: Lvl 11 Elite Vindicator was slain by Lvl 7 Elite Warden
+[20:10:01] [Server thread/INFO]: Named entity Vindicator['Lvl 7 Elite Vindicator'/83835, uuid='743dd2a5-22f5-4270-ae17-2fc918cef5be', l='ServerLevel[world_the_end]', x=-39.05, y=62.00, z=-6.03, cpos=[-3, -1], tl=2529, v=true] died: Lvl 7 Elite Vindicator was slain by Warden
+[20:11:55] [Server thread/INFO]: Named entity Creeper['Lvl 11 Elite Creeper'/93169, uuid='036044e1-eab0-4c44-83d8-c682e3a2d5bc', l='ServerLevel[world_the_end]', x=18.58, y=63.00, z=-7.87, cpos=[1, -1], tl=1042, v=true] died: Lvl 11 Elite Creeper was slain by Warden
+[20:12:20] [Server thread/INFO]: Teagokk_ issued server command: /tp Ane_Freak
+[20:12:35] [Server thread/INFO]: Named entity Vindicator['Lvl 10 Elite Vindicator'/92832, uuid='8e709320-49e2-4a24-9ece-3b8283b39974', l='ServerLevel[world_the_end]', x=-24.04, y=64.18, z=20.27, cpos=[-2, 1], tl=1953, v=true] died: Lvl 10 Elite Vindicator was slain by Warden
