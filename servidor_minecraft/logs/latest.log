@@ -377,3 +377,46 @@
 [18:27:01] [Server thread/INFO]: M4N14K0_01 left the game
 [18:27:12] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Isn't It Iron Pick]
 [18:27:26] [Server thread/INFO]: Agent_FFFF has made the advancement [Acquire Hardware]
+[18:27:56] [Server thread/INFO]: Agent_FFFF has made the advancement [Isn't It Iron Pick]
+[18:28:00] [User Authenticator #8/INFO]: [LuckPerms] Another plugin has cancelled the connection for c21ba410-d372-3aa4-9cd9-19d264bd835a - M4N14K0. No permissions data will be loaded.
+[18:28:00] [User Authenticator #8/INFO]: Disconnecting M4N14K0 (/127.175.101.28:41621): [LoginSecurity] This player is already online!
+[18:28:00] [User Authenticator #8/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
+[18:28:00] [Server thread/INFO]: M4N14K0 (/127.175.101.28:41621) lost connection: [LoginSecurity] This player is already online!
+[18:28:06] [User Authenticator #8/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
+[18:28:08] [Server thread/INFO]: M4N14K0_01 joined the game
+[18:28:08] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:37817] logged in with entity id 36822 at ([world]249.09121858539072, 70.0, 17.059289048854133)
+[18:28:09] [Craft Scheduler Thread - 80 - EliteMobs/INFO]: [EliteMobs] User 816aa35d-6390-3dbc-8985-5b063e17c91f data successfully read!
+[18:28:18] [Server thread/INFO]: M4N14K0 tried to swim in lava
+[18:28:21] [Server thread/INFO]: M4N14K0 lost connection: Disconnected
+[18:28:21] [Server thread/INFO]: M4N14K0 left the game
+[18:28:22] [Server thread/INFO]: ImPipeOk has made the advancement [Monster Hunter]
+[18:28:25] [Server thread/INFO]: Agent_FFFF has made the advancement [Suit Up]
+[18:28:39] [Server thread/INFO]: M4N14K0_01 lost connection: Disconnected
+[18:28:39] [Server thread/INFO]: M4N14K0_01 left the game
+[18:29:02] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[18:29:06] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[18:29:08] [Server thread/INFO]: ENZOPRIVGOAT has made the advancement [Not Today, Thank You]
+[18:30:06] [Server thread/INFO]: Teagokk_ issued server command: /ban-ip M4N14K0_01
+[18:30:20] [Server thread/INFO]: Agent_FFFF has made the advancement [Not Today, Thank You]
+[18:30:49] [Server thread/INFO]: Lvl 1 Elite Skeleton wanted to see Luquitas_Alpha's bones!
+[18:30:56] [Async Chat Thread - #14/INFO]: [Not Secure] <Luquitas_Alpha> CUENTA VIDA TIENE UN ESKELETO xd?
+[18:31:02] [Async Chat Thread - #15/INFO]: [Not Secure] <Luquitas_Alpha> XDDD
+[18:31:32] [Async Chat Thread - #15/INFO]: [Not Secure] <Teagokk_> jaaj
+[18:31:46] [Async Chat Thread - #15/INFO]: [Not Secure] <Luquitas_Alpha> igual mi team no se podia unir
+[18:31:51] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[18:32:28] [Server thread/INFO]: Luquitas_Alpha lost connection: Disconnected
+[18:32:28] [Server thread/INFO]: Luquitas_Alpha left the game
+[18:32:45] [Server thread/INFO]: [EliteMobs] Event armor_goblin.yml ended!
+[18:33:53] [Async Chat Thread - #16/INFO]: [Not Secure] <Teagokk_> Jaja murio la mayoria ya
+[18:34:08] [Server thread/INFO]: [EliteMobs] Event charms_goblin.yml has been queued!
+[18:34:08] [Server thread/INFO]: A Charms Goblin has been sighted!
+[18:34:13] [Server thread/INFO]: Agent_FFFF issued server command: /elitemobs track boss ed215b1a-59ac-4159-9251-b5fc6a9e2f86
+[18:34:46] [Server thread/INFO]: ImPipeOk has made the advancement [Not Today, Thank You]
+[18:35:20] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[18:35:25] [Server thread/INFO]: Teagokk_ lost connection: Disconnected
+[18:35:25] [Server thread/INFO]: Teagokk_ left the game
+[18:35:28] [User Authenticator #9/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
+[18:35:29] [Server thread/INFO]: Teagokk_ joined the game
+[18:35:29] [Server thread/INFO]: Teagokk_[/127.189.225.101:52299] logged in with entity id 51264 at ([world]348.5915887980527, 180.17240482377966, 228.4201685248979)
+[18:35:30] [Craft Scheduler Thread - 96 - EliteMobs/INFO]: [EliteMobs] User 568394ee-f971-38a9-8464-23874d404e9f data successfully read!
+[18:35:59] [Server thread/INFO]: Lvl 13 Elite Skeleton wanted to see ENZOPRIVGOAT's bones!
