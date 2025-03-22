@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1742666774681
+  logout: 1742668917635
+  login: 1742668829322
 money: '0'
 last-account-name: ENZOPRIVGOAT
+logoutlocation:
+  world: aee96b02-67ff-42b3-a727-214310d307b1
+  world-name: world
+  x: 113.69999998807907
+  y: 63.0
+  z: 20.69999998807907
+  yaw: 53.25017547607422
+  pitch: 29.09998893737793

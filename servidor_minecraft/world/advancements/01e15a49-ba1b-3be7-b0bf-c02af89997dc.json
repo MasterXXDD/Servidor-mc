@@ -149,6 +149,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-03-22 18:39:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2025-03-22 18:05:53 +0000"
@@ -326,6 +332,12 @@
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2025-03-22 18:23:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-03-22 18:45:25 +0000"
     },
     "done": true
   },
@@ -539,6 +551,12 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-03-22 18:45:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2025-03-22 18:12:54 +0000"
@@ -647,6 +665,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-03-22 18:42:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-03-22 18:06:17 +0000"
@@ -698,6 +722,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-03-22 18:34:56 +0000",
+      "minecraft:spider": "2025-03-22 18:41:27 +0000",
       "minecraft:zombie": "2025-03-22 18:28:22 +0000",
       "minecraft:creeper": "2025-03-22 18:36:48 +0000"
     },
@@ -724,6 +749,12 @@
   "minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-03-22 18:32:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-03-22 18:39:41 +0000"
     },
     "done": true
   },
@@ -787,6 +818,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-03-22 18:39:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-03-22 18:32:49 +0000"
@@ -831,13 +868,17 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:badlands": "2025-03-22 18:53:53 +0000",
+      "minecraft:snowy_slopes": "2025-03-22 18:46:48 +0000",
       "minecraft:beach": "2025-03-22 18:08:07 +0000",
       "minecraft:taiga": "2025-03-22 18:14:15 +0000",
       "minecraft:river": "2025-03-22 18:08:08 +0000",
-      "minecraft:swamp": "2025-03-22 18:15:11 +0000",
       "minecraft:stony_shore": "2025-03-22 18:15:09 +0000",
       "minecraft:lush_caves": "2025-03-22 18:23:25 +0000",
       "minecraft:dripstone_caves": "2025-03-22 18:23:24 +0000",
+      "minecraft:desert": "2025-03-22 18:52:55 +0000",
+      "minecraft:swamp": "2025-03-22 18:15:11 +0000",
+      "minecraft:birch_forest": "2025-03-22 18:49:08 +0000",
       "minecraft:savanna": "2025-03-22 18:15:51 +0000",
       "minecraft:plains": "2025-03-22 18:02:05 +0000",
       "minecraft:jagged_peaks": "2025-03-22 18:13:58 +0000",
@@ -993,6 +1034,12 @@
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2025-03-22 18:08:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-03-22 18:45:25 +0000"
     },
     "done": true
   },
