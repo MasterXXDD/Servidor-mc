@@ -1,575 +1,266 @@
-[21:31:21] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[21:31:21] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[21:31:21] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[21:31:22] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
-[21:31:22] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+[22:24:10] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[22:24:10] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[22:24:10] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:24:11] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[22:24:11] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
  - BetterStructures (1.7.8), EliteMobs (9.3.2), Essentials (2.21.0-dev+189-eab2201), GrimAC (2.3.69), LoginSecurity (3.3.0), LuckPerms (5.4.156), SkinsRestorer (15.6.0), TAB (5.0.7), TerraformGenerator (18.1.2), ViaBackwards (5.2.1), ViaVersion (5.2.1), WorldEdit (7.3.10-beta-01+cb9fd58)
-[21:31:29] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:31:31] [ServerMain/INFO]: Loaded 1290 recipes
-[21:31:31] [ServerMain/INFO]: Loaded 1399 advancements
-[21:31:32] [Server thread/INFO]: Starting minecraft server version 1.21
-[21:31:32] [Server thread/INFO]: Loading properties
-[21:31:32] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[21:31:33] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[21:31:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:31:33] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:31:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[21:31:34] [Server thread/INFO]: Default game type: SURVIVAL
-[21:31:34] [Server thread/INFO]: Generating keypair
-[21:31:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:31:34] [Server thread/INFO]: Using epoll channel type
-[21:31:34] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:31:34] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[21:31:36] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[21:31:36] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[21:31:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[21:31:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[21:31:40] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[21:31:40] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[21:31:41] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
-[21:31:42] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
-[21:31:42] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[21:31:42] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.3.2
-[21:31:42] [Server thread/INFO]: [EliteMobs] MagmaCore v1.7 initialized!
-[21:31:42] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
-[21:31:42] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v18.1.2
-[21:31:42] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
-[21:31:44] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@51af1ae2]
-[21:31:44] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.69
-[21:31:44] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
-[21:31:49] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[21:31:49] [Server thread/INFO]: [BetterStructures] Loading server plugin BetterStructures v1.7.8
-[21:31:49] [Server thread/INFO]: [BetterStructures] MagmaCore v1.7 initialized!
-[21:31:49] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
-[21:31:49] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
-[21:31:49] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
-[21:31:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:31:49] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[21:31:49] [Server thread/INFO]:         __    
-[21:31:49] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[21:31:49] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[21:31:49] [Server thread/INFO]: 
-[21:31:49] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[21:31:50] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[21:31:50] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[21:31:50] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[21:31:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1773ms)
-[21:31:51] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v18.1.2
-[21:31:51] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
-[21:31:52] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
-[21:31:52] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21, number: 21.0
-[21:31:53] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
-[21:31:53] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:31:53] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:31:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
-[21:31:55] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
-[21:31:56] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[21:31:57] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[21:31:58] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[21:31:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:31:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:31:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:31:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:31:58] [Server thread/INFO]: Preparing level "world"
-[21:31:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[21:31:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[21:31:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[21:31:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[21:31:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[21:31:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[21:31:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[21:31:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.0
-[21:31:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dec2ffc
-[21:31:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[21:31:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[21:31:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[21:31:58] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[21:31:59] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
-[21:31:59] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
-[21:32:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:32:01] [Server thread/INFO]: Time elapsed: 1342 ms
-[21:32:01] [Server thread/INFO]: [TerraformGenerator] world loaded.
-[21:32:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:32:01] [Server thread/INFO]: Time elapsed: 370 ms
-[21:32:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:32:02] [Server thread/INFO]: Time elapsed: 489 ms
-[21:32:02] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[21:32:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[21:32:02] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
-[21:32:03] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[21:32:03] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[21:32:03] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[21:32:04] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[21:32:04] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[21:32:04] [Server thread/INFO]: [Essentials] Using locale en
-[21:32:04] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[21:32:05] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[21:32:05] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[21:32:05] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[21:32:05] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[21:32:05] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[21:32:05] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.3.2
-[21:32:05] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
-[21:32:05] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
-[21:32:05] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
-[21:32:05] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
-[21:32:05] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
-[21:32:05] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
-[21:32:05] [Server thread/INFO]: By MagmaGuy - v. 9.3.2
-[21:32:05] [Server thread/INFO]: [EliteMobs] Supported server version detected: v1_21_R1
-[21:32:05] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 303 ms to scan 1 urls, producing 1 keys and 14 values
-[21:32:06] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 18 ms to scan 1 urls, producing 1 keys and 59 values
-[21:32:06] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 18 ms to scan 1 urls, producing 1 keys and 16 values
-[21:32:07] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:32:09] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 13 ms to scan 1 urls, producing 1 keys and 71 values
-[21:32:10] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 42 ms to scan 1 urls, producing 10 keys and 219 values
-[21:32:10] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 8 ms to scan 1 urls, producing 1 keys and 15 values
-[21:32:10] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is not enabled!
-[21:32:10] [Server thread/WARN]: [EliteMobs] "EliteMobs v9.3.2" has registered a listener for org.bukkit.event.entity.EntityRemoveEvent on method "public void com.magmaguy.elitemobs.entitytracker.EntityTracker.onRemove(org.bukkit.event.entity.EntityRemoveEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [MagmaGuy].
-[21:32:11] [Server thread/INFO]: [EliteMobs] Opened database successfully
-[21:32:11] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 12 ms to scan 1 urls, producing 1 keys and 116 values
-[21:32:14] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 9 ms to scan 1 urls, producing 1 keys and 71 values
-[21:32:14] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_primis_wormhole does not exist!
-[21:32:14] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_oasis_wormhole does not exist!
-[21:32:14] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 9 ms to scan 1 urls, producing 1 keys and 134 values
-[21:32:15] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[21:32:15] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 33 values
-[21:32:15] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 22 values
-[21:32:15] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[21:32:15] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 8 values
-[21:32:15] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
-[21:32:15] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.69
-[21:32:15] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
-[21:32:15] [Server thread/INFO]: [GrimAC] Registering packets...
-[21:32:15] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
-[21:32:15] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
-[21:32:16] [Server thread/INFO]: Grim Version: 2.3.69
-[21:32:16] [Server thread/ERROR]: [GrimAC] GrimAC has detected that you are using ViaVersion with the `fix-1_21-placement-rotation` option enabled.
-[21:32:16] [Server thread/ERROR]: [GrimAC] This option is known to cause issues with GrimAC and may result in false positives and bypasses.
-[21:32:16] [Server thread/ERROR]: [GrimAC] Please disable this option in your ViaVersion configuration to prevent these issues.
-[21:32:16] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed TAB with ViaVersion.
-[21:32:16] [Server thread/WARN]: [GrimAC] Please note that currently, TAB is incompatible as it sends illegal packets to players using versions newer than your server version.
-[21:32:16] [Server thread/WARN]: [GrimAC] You may be able to remedy this by setting `compensate-for-packetevents-bug` to true in the TAB config.
-[21:32:16] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[21:32:16] [Server thread/INFO]: [TAB] Loaded NMS hook in 185ms
-[21:32:17] [Server thread/INFO]: [TAB] Enabled in 754ms
-[21:32:17] [Server thread/WARN]: Plugin BetterStructures v1.7.8 tried to register permission 'logify.*' but it's already registered
-[21:32:17] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v1.7.8
-[21:32:17] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
-[21:32:17] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
-[21:32:17] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
-[21:32:17] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
-[21:32:17] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
-[21:32:17] [Server thread/INFO]: [BetterStructures] Initialized version 1.7.8!
-[21:32:17] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 171 ms to scan 1 urls, producing 1 keys and 5 values
-[21:32:18] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 6 ms to scan 1 urls, producing 1 keys and 29 values
-[21:32:18] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[21:32:28] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 8 values
-[21:32:28] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[21:32:28] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[21:32:28] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[21:32:28] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[21:32:28] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[21:32:28] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[21:32:29] [Server thread/INFO]: [spark] Starting background profiler...
-[21:32:29] [Server thread/INFO]: Done preparing level "world" (30.757s)
-[21:32:29] [Server thread/INFO]: Running delayed init tasks
-[21:32:29] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[21:32:29] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
-[21:32:29] [Server thread/INFO]: Done (69.386s)! For help, type "help"
-[21:32:29] [Server thread/INFO]: Timings Reset
-[21:32:29] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] Latest public release is 9.3.2
-[21:32:29] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] Your version is 9.3.2
-[21:32:29] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Latest public release is 1.7.8
-[21:32:29] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Your version is 1.7.8
-[21:32:29] [Craft Scheduler Thread - 5 - EliteMobs/INFO]: [EliteMobs] You are running the latest version!
-[21:32:29] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
-[21:32:29] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 3 EssentialsX dev build(s) out of date!
-[21:32:29] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[21:32:29] [Craft Scheduler Thread - 10 - GrimAC/INFO]: New GrimAC version found! Version 2.3.70 is available to be downloaded here: https://modrinth.com/plugin/grimac
-[21:32:29] [Server thread/INFO]: Yago1721 (/127.105.148.14:49909) lost connection: Disconnected
-[21:32:30] [User Authenticator #1/INFO]: UUID of player Yago1721 is 53996b89-d3da-3a89-8678-3bcf048785ba
-[21:32:30] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
-[21:32:34] [Server thread/INFO]: Teagokk_ joined the game
-[21:32:34] [Server thread/INFO]: Teagokk_[/127.189.225.101:59633] logged in with entity id 2333 at ([world]334.57646838978394, 205.33182514799392, 222.98588578108763)
-[21:32:35] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 7b9ee06e-9159-4065-8ae0-ca3bb5666a0e, mapped to EnderMan['Enderman'/2338, uuid='7b9ee06e-9159-4065-8ae0-ca3bb5666a0e', l='ServerLevel[world]', x=335.74, y=202.00, z=217.38, cpos=[20, 13], tl=241, v=true], can't add EnderMan['Enderman'/2358, uuid='7b9ee06e-9159-4065-8ae0-ca3bb5666a0e', l='ServerLevel[world]', x=338.88, y=203.00, z=217.51, cpos=[21, 13], tl=258, v=false]
-[21:32:35] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: ac74a3d8-26c2-4607-b980-f8609064ab7a, mapped to Cow['Cow'/2379, uuid='ac74a3d8-26c2-4607-b980-f8609064ab7a', l='ServerLevel[world]', x=309.20, y=74.00, z=275.14, cpos=[19, 17], tl=87989, v=true], can't add Cow['Cow'/2387, uuid='ac74a3d8-26c2-4607-b980-f8609064ab7a', l='ServerLevel[world]', x=303.13, y=75.00, z=268.87, cpos=[18, 16], tl=87289, v=false]
-[21:32:35] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: b4cf3b57-2e5c-48b9-b877-819533538b27, mapped to EnderMan['Enderman'/2345, uuid='b4cf3b57-2e5c-48b9-b877-819533538b27', l='ServerLevel[world]', x=339.13, y=201.00, z=223.85, cpos=[21, 13], tl=235, v=true], can't add EnderMan['Enderman'/2389, uuid='b4cf3b57-2e5c-48b9-b877-819533538b27', l='ServerLevel[world]', x=353.33, y=41.00, z=266.98, cpos=[22, 16], tl=965, v=false]
-[21:32:35] [Craft Scheduler Thread - 10 - EliteMobs/INFO]: [EliteMobs] User 568394ee-f971-38a9-8464-23874d404e9f data successfully read!
-[21:32:36] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: b654a8e2-6a52-4888-b449-8475060d9e79, mapped to EnderMan['Enderman'/2352, uuid='b654a8e2-6a52-4888-b449-8475060d9e79', l='ServerLevel[world]', x=342.71, y=203.00, z=213.56, cpos=[21, 13], tl=305, v=true], can't add EnderMan['Enderman'/2414, uuid='b654a8e2-6a52-4888-b449-8475060d9e79', l='ServerLevel[world]', x=420.07, y=68.00, z=246.66, cpos=[26, 15], tl=1066, v=false]
-[21:32:36] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 614ce2be-1629-4e4c-8dce-fd47151793e7, mapped to EnderMan['Enderman'/2335, uuid='614ce2be-1629-4e4c-8dce-fd47151793e7', l='ServerLevel[world]', x=332.16, y=200.00, z=212.69, cpos=[20, 13], tl=239, v=true], can't add EnderMan['Enderman'/2432, uuid='614ce2be-1629-4e4c-8dce-fd47151793e7', l='ServerLevel[world]', x=380.84, y=74.00, z=291.74, cpos=[23, 18], tl=1015, v=false]
-[21:32:38] [User Authenticator #0/INFO]: UUID of player Yago1721 is 53996b89-d3da-3a89-8678-3bcf048785ba
-[21:32:40] [Server thread/INFO]: Yago1721 joined the game
-[21:32:40] [Server thread/INFO]: Yago1721[/127.105.148.14:60979] logged in with entity id 2510 at ([world]272.47814625333217, 166.0, 846.3444326932794)
-[21:32:41] [Craft Scheduler Thread - 10 - EliteMobs/INFO]: [EliteMobs] User 53996b89-d3da-3a89-8678-3bcf048785ba data successfully read!
-[21:32:56] [Server thread/INFO]: ImPipeOk (/127.51.61.125:44831) lost connection: Disconnected
-[21:32:56] [User Authenticator #0/INFO]: UUID of player ImPipeOk is 01e15a49-ba1b-3be7-b0bf-c02af89997dc
-[21:33:12] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
-[21:33:13] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
-[21:33:14] [Server thread/INFO]: Yago1721 fell from a high place
-[21:33:16] [Server thread/INFO]: Teagokk_ issued server command: /tp Yago1721 Teagokk_
-[21:33:17] [User Authenticator #0/INFO]: UUID of player ImPipeOk is 01e15a49-ba1b-3be7-b0bf-c02af89997dc
-[21:33:18] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
-[21:33:19] [Server thread/INFO]: ImPipeOk joined the game
-[21:33:19] [Server thread/INFO]: ImPipeOk[/127.51.61.125:37539] logged in with entity id 3378 at ([world]341.4186548932019, 204.0625, 217.16894989180736)
-[21:33:20] [Craft Scheduler Thread - 15 - EliteMobs/INFO]: [EliteMobs] User 01e15a49-ba1b-3be7-b0bf-c02af89997dc data successfully read!
-[21:34:17] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:17] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:20] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:20] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:20] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:20] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:21] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:21] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:21] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:21] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:22] [Server thread/INFO]: Yago1721 was struck by lightning
-[21:34:22] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:22] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:22] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:22] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:23] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
-[21:34:23] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
-[21:34:24] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
-[21:34:24] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
-[21:34:33] [Server thread/INFO]: Teagokk_ issued server command: /tp Yago1721 Teagokk_
-[21:34:42] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:42] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:42] [Server thread/INFO]: Yago1721 was struck by lightning while fighting ImPipeOk
-[21:34:43] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:43] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:43] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:43] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:44] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:44] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:44] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:44] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:46] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:46] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:47] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:47] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:48] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:48] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:48] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt
-[21:34:48] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:34:56] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
-[21:34:58] [Server thread/INFO]: Teagokk_ issued server command: /tp Yago1721 Teagokk_
-[21:35:12] [Server thread/INFO]: Yago1721 was slain by ImPipeOk
-[21:35:15] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
-[21:35:16] [Server thread/INFO]: Teagokk_ issued server command: /tp Yago1721 Teagokk_
-[21:35:44] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:35:44] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:35:44] [Server thread/INFO]: Yago1721 was struck by lightning
-[21:35:47] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:35:47] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:35:47] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:35:47] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:35:48] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:35:48] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:35:49] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:35:49] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:35:49] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:35:49] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:35:50] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:35:50] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:35:50] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:35:50] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:35:51] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:35:51] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:35:51] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:35:51] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:35:59] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:35:59] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:36:01] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:36:01] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:36:01] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:36:01] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:36:02] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:36:02] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:36:03] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:36:03] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:36:13] [Server thread/INFO]: Teagokk_ issued server command: /rain
-[21:36:14] [Server thread/INFO]: Teagokk_ issued server command: /rain
-[21:36:15] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:36:15] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:36:16] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:36:16] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:36:17] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:36:17] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:36:17] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:36:17] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:36:18] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08t
-[21:36:19] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08t
-[21:36:20] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:36:20] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:36:21] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:36:21] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:36:21] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:36:21] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:36:33] [Server thread/INFO]: Teagokk_ issued server command: /time set day
-[21:36:42] [Server thread/INFO]: Teagokk_ issued server command: /sun
-[21:36:45] [Server thread/INFO]: Teagokk_ issued server command: /sun
-[21:36:49] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
-[21:36:52] [Server thread/INFO]: Teagokk_ issued server command: /tp Yago1721 Teagokk_
-[21:37:13] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:37:13] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:37:15] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:37:15] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:37:15] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:37:15] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:37:17] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:37:17] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:37:18] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:37:18] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:37:18] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:37:18] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:37:19] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:37:19] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:37:19] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:37:19] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:37:20] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:37:20] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:37:21] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08t
-[21:37:21] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08tt
-[21:37:23] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:37:23] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:37:25] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:37:25] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:37:26] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:37:26] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:37:29] [Server thread/INFO]: [EliteMobs] Event beast_master.yml has been queued!
-[21:37:29] [Server thread/INFO]: The Beast Master has been sighted!
-[21:37:33] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:37:33] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:38:05] [Server thread/INFO]: Teagokk_ issued server command: /tp Teagokk_ 1
-[21:38:08] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:38:08] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:38:09] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:38:09] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:38:09] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:38:09] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:38:10] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:38:10] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:38:10] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:38:10] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:38:18] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:blaze
-[21:38:18] [Server thread/INFO]: [Teagokk_: Summoned new Blaze]
-[21:38:20] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:blaze
-[21:38:20] [Server thread/INFO]: [Teagokk_: Summoned new Blaze]
-[21:38:21] [Server thread/INFO]: Yago1721 was slain by Blaze
-[21:38:21] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:blaze
-[21:38:21] [Server thread/INFO]: [Teagokk_: Summoned new Blaze]
-[21:38:25] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:38:25] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:38:27] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:38:27] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:38:28] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:38:28] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:38:28] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:38:28] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:38:29] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:38:29] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:38:29] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:38:29] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:38:30] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:38:30] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:38:30] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:38:30] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:38:39] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
-[21:38:41] [Server thread/INFO]: Yago1721 fell from a high place
-[21:38:43] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
-[21:38:46] [Server thread/INFO]: Teagokk_ issued server command: /tp Yago1721 Teagokk_
-[21:39:51] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:39:51] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:39:51] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:39:51] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:39:52] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:39:52] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:39:52] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:39:52] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:39:53] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:39:53] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:39:53] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:39:53] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:39:54] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:39:54] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:39:54] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:39:54] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:39:55] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:39:55] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:39:55] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:39:55] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:39:56] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:39:56] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:40:01] [Server thread/INFO]: Teagokk_ issued server command: /rain
-[21:40:02] [Server thread/INFO]: Teagokk_ issued server command: /rain
-[21:40:03] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:40:03] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:40:04] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:40:04] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:40:04] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:40:04] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:40:05] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:40:05] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:40:05] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08t
-[21:40:06] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08t
-[21:40:08] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:40:08] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:40:09] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:40:09] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:40:09] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:40:09] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:40:10] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:40:10] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:40:11] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08t
-[21:40:12] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:40:12] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:40:13] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:40:13] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:40:34] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:40:34] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:40:36] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:40:36] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:03] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:03] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:04] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:04] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:04] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:04] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:11] [Server thread/INFO]: Yago1721 was killed by Teagokk_ using magic
-[21:41:32] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:32] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:33] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:33] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:33] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:33] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:34] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:34] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:34] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:34] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:34] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:34] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:35] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:35] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:35] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:35] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:36] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:36] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:37] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:37] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:37] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:37] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:37] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:37] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:38] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:38] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:38] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08t
-[21:41:38] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08t
-[21:41:38] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08t
-[21:41:39] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08tt
-[21:41:45] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:45] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:46] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:41:46] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:41:54] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
-[21:41:58] [Server thread/INFO]: Teagokk_ issued server command: /tp Yago1721 Teagokk_
-[21:42:56] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:42:56] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:42:57] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:42:57] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:42:57] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:42:57] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:42:58] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:42:58] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:42:58] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:42:58] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:42:59] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:42:59] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:42:59] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:42:59] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:42:59] [Server thread/INFO]: Yago1721 was doomed to fall by ImPipeOk
-[21:43:00] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:43:00] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:43:00] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:43:00] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:43:03] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:43:03] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:43:03] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:43:03] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:43:04] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:43:04] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:43:04] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:43:04] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:43:05] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:43:05] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:43:05] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:43:05] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:43:06] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:43:06] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:43:06] [Server thread/INFO]: Teagokk_ issued server command: /summon minecraft:lightning_bolt 341.36 204.00 218.08
-[21:43:06] [Server thread/INFO]: [Teagokk_: Summoned new Lightning Bolt]
-[21:43:09] [Server thread/INFO]: Teagokk_ issued server command: /SUN
-[21:43:11] [Server thread/INFO]: Teagokk_ issued server command: /sun
-[21:43:17] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
-[21:43:18] [Server thread/INFO]: Yago1721 fell from a high place
-[21:43:18] [Server thread/INFO]: Teagokk_ issued server command: /tp Yago1721 Teagokk_
-[21:43:22] [Server thread/INFO]: Teagokk_ issued server command: /tp Yago1721 Teagokk_
-[21:43:23] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
-[21:43:29] [Server thread/INFO]: [EliteMobs] Event full_moon.yml has been queued!
-[21:44:14] [Server thread/INFO]: ImPipeOk was killed by Evoker using magic
-[21:44:16] [Server thread/INFO]: Yago1721 was slain by Vex
-[21:44:25] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
-[21:44:27] [Server thread/INFO]: Yago1721 fell from a high place
-[21:44:27] [Server thread/INFO]: Teagokk_ issued server command: /tp Yago1721 Teagokk_
-[21:45:10] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk Teagokk_
-[21:45:17] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival ImPipeOk
-[21:45:20] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk Teagokk_
-[21:45:20] [Server thread/INFO]: ImPipeOk fell from a high place
-[21:45:23] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival ImPipeOk
-[21:45:24] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk Teagokk_
-[21:46:59] [Server thread/INFO]: Named entity Vex['Lvl 13 Elite Vex'/6735, uuid='cbaa8ac4-6aa7-43e6-b442-0aed3f10241e', l='ServerLevel[world]', x=343.48, y=201.52, z=202.99, cpos=[21, 12], tl=3320, v=true] died: Lvl 13 Elite Vex starved to death
-[21:47:11] [Server thread/INFO]: ImPipeOk lost connection: Disconnected
-[21:47:11] [Server thread/INFO]: ImPipeOk left the game
-[21:47:11] [Server thread/INFO]: Teagokk_ lost connection: Disconnected
-[21:47:11] [Server thread/INFO]: Teagokk_ left the game
-[21:47:51] [Server thread/INFO]: Yago1721 lost connection: Disconnected
-[21:47:51] [Server thread/INFO]: Yago1721 left the game
-[21:47:57] [Server thread/INFO]: [EliteMobs] Event full_moon.yml ended!
-[21:55:21] [User Authenticator #2/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
-[21:55:23] [Server thread/INFO]: M4N14K0 joined the game
-[21:55:23] [Server thread/INFO]: M4N14K0[/127.175.101.28:34533] logged in with entity id 9114 at ([world]208.13346397355983, 61.14404067856904, 60.00989221630582)
-[21:55:24] [Craft Scheduler Thread - 89 - EliteMobs/INFO]: [EliteMobs] User c21ba410-d372-3aa4-9cd9-19d264bd835a data successfully read!
-[21:55:31] [Server thread/INFO]: M4N14K0 lost connection: Disconnected
-[21:55:31] [Server thread/INFO]: M4N14K0 left the game
-[21:55:37] [User Authenticator #2/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
-[21:55:38] [Server thread/INFO]: M4N14K0_01 joined the game
-[21:55:38] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:52895] logged in with entity id 9281 at ([world]250.9764212451726, 70.0000001, 16.03260538757735)
-[21:55:39] [Craft Scheduler Thread - 92 - EliteMobs/INFO]: [EliteMobs] User 816aa35d-6390-3dbc-8985-5b063e17c91f data successfully read!
-[21:57:23] [Server thread/WARN]: [BetterStructures] You are not using WorldGuard, so BetterStructures could not protect a boss arena! Using WorldGuard is recommended to guarantee a fair combat experience.
-[22:06:51] [Server thread/INFO]: [EliteMobs] Event beast_master.yml ended!
-[22:08:17] [Server thread/INFO]: Named entity Silverfish['「2」 Balrog'/11998, uuid='32f53aad-ebae-44e3-af1f-af820854a30b', l='ServerLevel[world]', x=467.12, y=39.00, z=-249.41, cpos=[29, -16], tl=304, v=true] died: 「2」 Balrog was slain by M4N14K0_01
-[22:08:18] [Server thread/INFO]: [EliteMobs] Event balrog.yml ended!
-[22:09:29] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml has been queued!
-[22:09:29] [Server thread/INFO]: A Treasure Goblin has been sighted!
-[22:09:35] [Server thread/INFO]: M4N14K0_01 issued server command: /elitemobs track boss 2a612691-e9d7-4b02-b607-25b128153a33
+[22:24:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:24:20] [ServerMain/INFO]: Loaded 1290 recipes
+[22:24:21] [ServerMain/INFO]: Loaded 1399 advancements
+[22:24:21] [Server thread/INFO]: Starting minecraft server version 1.21
+[22:24:21] [Server thread/INFO]: Loading properties
+[22:24:21] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[22:24:22] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:24:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:24:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:24:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[22:24:23] [Server thread/INFO]: Default game type: SURVIVAL
+[22:24:23] [Server thread/INFO]: Generating keypair
+[22:24:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:24:23] [Server thread/INFO]: Using epoll channel type
+[22:24:23] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:24:23] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[22:24:25] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[22:24:25] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[22:24:27] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[22:24:28] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[22:24:29] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[22:24:29] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[22:24:31] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
+[22:24:31] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
+[22:24:31] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[22:24:31] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v9.3.2
+[22:24:31] [Server thread/INFO]: [EliteMobs] MagmaCore v1.7 initialized!
+[22:24:31] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
+[22:24:31] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v18.1.2
+[22:24:31] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
+[22:24:33] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3ed362f2]
+[22:24:33] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.69
+[22:24:33] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[22:24:38] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[22:24:38] [Server thread/INFO]: [BetterStructures] Loading server plugin BetterStructures v1.7.8
+[22:24:38] [Server thread/INFO]: [BetterStructures] MagmaCore v1.7 initialized!
+[22:24:38] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
+[22:24:38] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[22:24:38] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
+[22:24:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:24:38] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[22:24:38] [Server thread/INFO]:         __    
+[22:24:38] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[22:24:38] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[22:24:38] [Server thread/INFO]: 
+[22:24:38] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[22:24:39] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[22:24:39] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[22:24:39] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[22:24:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1690ms)
+[22:24:39] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v18.1.2
+[22:24:40] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[22:24:41] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[22:24:41] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21, number: 21.0
+[22:24:42] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
+[22:24:42] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:24:42] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:24:42] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[22:24:44] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
+[22:24:45] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[22:24:46] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[22:24:47] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[22:24:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:24:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:24:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:24:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:24:47] [Server thread/INFO]: Preparing level "world"
+[22:24:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:24:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[22:24:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[22:24:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[22:24:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[22:24:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[22:24:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:24:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.0
+[22:24:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dec2ffc
+[22:24:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[22:24:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:24:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[22:24:47] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[22:24:48] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[22:24:48] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[22:24:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:24:50] [Server thread/INFO]: Time elapsed: 1368 ms
+[22:24:50] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[22:24:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:24:50] [Server thread/INFO]: Time elapsed: 309 ms
+[22:24:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:24:51] [Server thread/INFO]: Time elapsed: 475 ms
+[22:24:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[22:24:51] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[22:24:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
+[22:24:52] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[22:24:53] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:24:53] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:24:53] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[22:24:53] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[22:24:53] [Server thread/INFO]: [Essentials] Using locale en
+[22:24:54] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:24:54] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:24:54] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[22:24:54] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[22:24:54] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[22:24:54] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[22:24:54] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.3.2
+[22:24:54] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
+[22:24:54] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
+[22:24:54] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
+[22:24:54] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
+[22:24:54] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
+[22:24:54] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
+[22:24:54] [Server thread/INFO]: By MagmaGuy - v. 9.3.2
+[22:24:54] [Server thread/INFO]: [EliteMobs] Supported server version detected: v1_21_R1
+[22:24:55] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 221 ms to scan 1 urls, producing 1 keys and 14 values
+[22:24:55] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 18 ms to scan 1 urls, producing 1 keys and 59 values
+[22:24:55] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 19 ms to scan 1 urls, producing 1 keys and 16 values
+[22:24:56] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:24:58] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 12 ms to scan 1 urls, producing 1 keys and 71 values
+[22:24:58] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 31 ms to scan 1 urls, producing 10 keys and 219 values
+[22:24:58] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 15 values
+[22:24:59] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is not enabled!
+[22:24:59] [Server thread/WARN]: [EliteMobs] "EliteMobs v9.3.2" has registered a listener for org.bukkit.event.entity.EntityRemoveEvent on method "public void com.magmaguy.elitemobs.entitytracker.EntityTracker.onRemove(org.bukkit.event.entity.EntityRemoveEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [MagmaGuy].
+[22:24:59] [Server thread/INFO]: [EliteMobs] Opened database successfully
+[22:25:00] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 11 ms to scan 1 urls, producing 1 keys and 116 values
+[22:25:02] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 7 ms to scan 1 urls, producing 1 keys and 71 values
+[22:25:02] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_primis_wormhole does not exist!
+[22:25:02] [Server thread/WARN]: [EliteMobs] File  /workspaces/Servidor-mc/servidor_minecraft/./em_oasis_wormhole does not exist!
+[22:25:02] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 8 ms to scan 1 urls, producing 1 keys and 134 values
+[22:25:03] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[22:25:03] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 33 values
+[22:25:03] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 22 values
+[22:25:03] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 1 values
+[22:25:03] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 8 values
+[22:25:03] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
+[22:25:04] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.69
+[22:25:04] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[22:25:04] [Server thread/INFO]: [GrimAC] Registering packets...
+[22:25:04] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[22:25:04] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
+[22:25:04] [Server thread/INFO]: Grim Version: 2.3.69
+[22:25:04] [Server thread/ERROR]: [GrimAC] GrimAC has detected that you are using ViaVersion with the `fix-1_21-placement-rotation` option enabled.
+[22:25:04] [Server thread/ERROR]: [GrimAC] This option is known to cause issues with GrimAC and may result in false positives and bypasses.
+[22:25:04] [Server thread/ERROR]: [GrimAC] Please disable this option in your ViaVersion configuration to prevent these issues.
+[22:25:04] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed TAB with ViaVersion.
+[22:25:04] [Server thread/WARN]: [GrimAC] Please note that currently, TAB is incompatible as it sends illegal packets to players using versions newer than your server version.
+[22:25:04] [Server thread/WARN]: [GrimAC] You may be able to remedy this by setting `compensate-for-packetevents-bug` to true in the TAB config.
+[22:25:04] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[22:25:05] [Server thread/INFO]: [TAB] Loaded NMS hook in 120ms
+[22:25:05] [Server thread/INFO]: [TAB] Enabled in 828ms
+[22:25:05] [Server thread/WARN]: Plugin BetterStructures v1.7.8 tried to register permission 'logify.*' but it's already registered
+[22:25:05] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v1.7.8
+[22:25:05] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
+[22:25:05] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
+[22:25:05] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
+[22:25:05] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
+[22:25:05] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
+[22:25:05] [Server thread/INFO]: [BetterStructures] Initialized version 1.7.8!
+[22:25:06] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 142 ms to scan 1 urls, producing 1 keys and 5 values
+[22:25:06] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 29 values
+[22:25:06] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[22:25:17] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 8 values
+[22:25:17] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[22:25:17] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[22:25:17] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[22:25:17] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[22:25:17] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[22:25:17] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[22:25:17] [Server thread/INFO]: [spark] Starting background profiler...
+[22:25:18] [Server thread/INFO]: Done preparing level "world" (30.883s)
+[22:25:18] [Server thread/INFO]: Running delayed init tasks
+[22:25:18] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[22:25:18] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:25:18] [Server thread/INFO]: Done (69.543s)! For help, type "help"
+[22:25:18] [Server thread/INFO]: Timings Reset
+[22:25:18] [Craft Scheduler Thread - 11 - BetterStructures/INFO]: [BetterStructures] Latest public release is 1.7.8
+[22:25:18] [Craft Scheduler Thread - 11 - BetterStructures/INFO]: [BetterStructures] Your version is 1.7.8
+[22:25:18] [Craft Scheduler Thread - 8 - EliteMobs/INFO]: [EliteMobs] Latest public release is 9.3.2
+[22:25:18] [Craft Scheduler Thread - 8 - EliteMobs/INFO]: [EliteMobs] Your version is 9.3.2
+[22:25:18] [Craft Scheduler Thread - 11 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
+[22:25:18] [Craft Scheduler Thread - 8 - EliteMobs/INFO]: [EliteMobs] You are running the latest version!
+[22:25:18] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 3 EssentialsX dev build(s) out of date!
+[22:25:18] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[22:25:18] [Craft Scheduler Thread - 10 - GrimAC/INFO]: New GrimAC version found! Version 2.3.70 is available to be downloaded here: https://modrinth.com/plugin/grimac
+[22:25:18] [Server thread/INFO]: M4N14K0_01 (/127.175.101.28:39101) lost connection: Disconnected
+[22:25:19] [User Authenticator #0/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
+[22:25:26] [User Authenticator #0/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
+[22:25:28] [Server thread/INFO]: M4N14K0_01 joined the game
+[22:25:29] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:47925] logged in with entity id 2333 at ([world]580.7376845141098, 10.0, -186.74503240903192)
+[22:25:29] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: cc37fbd8-f5dc-4050-b281-b23d14f11d11, mapped to Cow['Cow'/2341, uuid='cc37fbd8-f5dc-4050-b281-b23d14f11d11', l='ServerLevel[world]', x=561.68, y=80.00, z=-192.67, cpos=[35, -13], tl=30620, v=true], can't add Cow['Cow'/2346, uuid='cc37fbd8-f5dc-4050-b281-b23d14f11d11', l='ServerLevel[world]', x=557.55, y=83.00, z=-186.84, cpos=[34, -12], tl=30236, v=false]
+[22:25:29] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 386dd067-9d6b-49db-8131-00128b08b160, mapped to Cow['Cow'/2357, uuid='386dd067-9d6b-49db-8131-00128b08b160', l='ServerLevel[world]', x=560.18, y=72.00, z=-208.76, cpos=[35, -14], tl=29819, v=true], can't add Cow['Cow'/2379, uuid='386dd067-9d6b-49db-8131-00128b08b160', l='ServerLevel[world]', x=551.97, y=74.00, z=-213.57, cpos=[34, -14], tl=29446, v=false]
+[22:25:29] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [EliteMobs] User 816aa35d-6390-3dbc-8985-5b063e17c91f data successfully read!
+[22:25:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 365173d2-567d-4caf-82cf-c145609e9375, mapped to Bat['Bat'/2402, uuid='365173d2-567d-4caf-82cf-c145609e9375', l='ServerLevel[world]', x=605.00, y=12.98, z=-253.58, cpos=[37, -16], tl=861, v=true], can't add Bat['Bat'/2414, uuid='365173d2-567d-4caf-82cf-c145609e9375', l='ServerLevel[world]', x=614.24, y=15.79, z=-251.04, cpos=[38, -16], tl=919, v=false]
+[22:25:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 6493ab93-49e4-499c-a426-d831c2032f01, mapped to Bat['Bat'/2427, uuid='6493ab93-49e4-499c-a426-d831c2032f01', l='ServerLevel[world]', x=654.19, y=-39.93, z=-154.13, cpos=[40, -10], tl=583, v=true], can't add Bat['Bat'/2448, uuid='6493ab93-49e4-499c-a426-d831c2032f01', l='ServerLevel[world]', x=656.56, y=-38.88, z=-148.44, cpos=[41, -10], tl=650, v=false]
+[22:25:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d2d3aa36-6f92-4769-aad6-e22ce75be5b1, mapped to Axolotl['Axolotl'/2442, uuid='d2d3aa36-6f92-4769-aad6-e22ce75be5b1', l='ServerLevel[world]', x=532.20, y=26.00, z=-112.97, cpos=[33, -8], tl=350, v=true], can't add Axolotl['Axolotl'/2454, uuid='d2d3aa36-6f92-4769-aad6-e22ce75be5b1', l='ServerLevel[world]', x=532.62, y=26.00, z=-111.89, cpos=[33, -7], tl=341, v=false]
+[22:25:31] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 6b4ccabd-2ef8-4c3c-a373-9cbe8a45c4db, mapped to Cow['Cow'/2528, uuid='6b4ccabd-2ef8-4c3c-a373-9cbe8a45c4db', l='ServerLevel[world]', x=576.17, y=81.00, z=-1.60, cpos=[36, -1], tl=49790, v=true], can't add Cow['Cow'/2549, uuid='6b4ccabd-2ef8-4c3c-a373-9cbe8a45c4db', l='ServerLevel[world]', x=575.72, y=81.00, z=-2.45, cpos=[35, -1], tl=49695, v=false]
+[22:25:31] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 219be546-564c-46c4-8752-beb3e37742a8, mapped to Cow['Cow'/2540, uuid='219be546-564c-46c4-8752-beb3e37742a8', l='ServerLevel[world]', x=687.84, y=70.00, z=-92.16, cpos=[42, -6], tl=21784, v=true], can't add Cow['Cow'/2554, uuid='219be546-564c-46c4-8752-beb3e37742a8', l='ServerLevel[world]', x=692.58, y=71.00, z=-91.38, cpos=[43, -6], tl=21874, v=false]
+[22:25:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 1481862a-dc6d-4b57-b633-8760b5fd13b0, mapped to Salmon['Salmon'/2561, uuid='1481862a-dc6d-4b57-b633-8760b5fd13b0', l='ServerLevel[world]', x=707.70, y=60.94, z=-271.99, cpos=[44, -17], tl=21576, v=true], can't add Salmon['Salmon'/2583, uuid='1481862a-dc6d-4b57-b633-8760b5fd13b0', l='ServerLevel[world]', x=707.67, y=60.97, z=-272.06, cpos=[44, -18], tl=21577, v=false]
+[22:25:34] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 3e8b2111-4877-4edc-86ea-cb2881e2e0cf, mapped to Cow['Cow'/2605, uuid='3e8b2111-4877-4edc-86ea-cb2881e2e0cf', l='ServerLevel[world]', x=638.64, y=80.00, z=-361.32, cpos=[39, -23], tl=28189, v=true], can't add Cow['Cow'/2642, uuid='3e8b2111-4877-4edc-86ea-cb2881e2e0cf', l='ServerLevel[world]', x=641.12, y=80.00, z=-369.88, cpos=[40, -24], tl=22652, v=false]
+[22:25:39] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
+[22:25:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 31b84a03-a8f1-40f5-9157-3438bd7f621c, mapped to Chicken['Chicken'/2801, uuid='31b84a03-a8f1-40f5-9157-3438bd7f621c', l='ServerLevel[world]', x=435.76, y=81.00, z=-443.51, cpos=[27, -28], tl=22530, v=true], can't add Chicken['Chicken'/2803, uuid='31b84a03-a8f1-40f5-9157-3438bd7f621c', l='ServerLevel[world]', x=440.08, y=78.00, z=-452.06, cpos=[27, -29], tl=22830, v=false]
+[22:25:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2825ms or 56 ticks behind
+[22:27:19] [Server thread/INFO]: Named entity Creeper['Lvl 5 Elite Creeper'/3030, uuid='0c97c638-2f08-457b-8984-63490bc66877', l='ServerLevel[world]', x=578.50, y=2.00, z=-156.81, cpos=[36, -10], tl=1235, v=true] died: Lvl 5 Elite Creeper was blown up by Creeper
+[22:28:29] [Server thread/INFO]: Named entity Zombie['Lvl 7 Elite Zombie'/3234, uuid='5e0f1abd-21ec-4764-bcdc-ce1494f8a78c', l='ServerLevel[world]', x=594.73, y=-8.00, z=-154.50, cpos=[37, -10], tl=1313, v=true] died: Lvl 7 Elite Zombie was slain by M4N14K0_01
+[22:29:04] [Server thread/INFO]: Unknown or incomplete command, see below for error
+o<--[HERE]
+[22:30:21] [Server thread/INFO]: [EliteMobs] Event coins_goblin.yml has been queued!
+[22:30:21] [Server thread/INFO]: A Coins Goblin has been sighted!
+[22:30:46] [User Authenticator #1/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
+[22:30:48] [Server thread/INFO]: Teagokk_ joined the game
+[22:30:48] [Server thread/INFO]: Teagokk_[/127.189.225.101:59963] logged in with entity id 3791 at ([world]352.30000001192093, 191.09342093424002, 222.25937229028196)
+[22:30:49] [Craft Scheduler Thread - 30 - EliteMobs/INFO]: [EliteMobs] User 568394ee-f971-38a9-8464-23874d404e9f data successfully read!
+[22:30:55] [Async Chat Thread - #1/INFO]: [Not Secure] <M4N14K0_01> hola tefa
+[22:31:23] [Server thread/INFO]: Teagokk_ lost connection: Timed out
+[22:31:23] [Server thread/INFO]: Teagokk_ left the game
+[22:31:33] [User Authenticator #1/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
+[22:31:35] [Server thread/INFO]: Teagokk_ joined the game
+[22:31:35] [Server thread/INFO]: Teagokk_[/127.189.225.101:49389] logged in with entity id 4449 at ([world]350.30000001192093, 191.09342093424002, 222.75616089930568)
+[22:31:36] [Craft Scheduler Thread - 30 - EliteMobs/INFO]: [EliteMobs] User 568394ee-f971-38a9-8464-23874d404e9f data successfully read!
+[22:31:41] [Async Chat Thread - #1/INFO]: [Not Secure] <Teagokk_> f
+[22:31:42] [Async Chat Thread - #1/INFO]: [Not Secure] <Teagokk_> b
+[22:31:43] [Async Chat Thread - #1/INFO]: [Not Secure] <Teagokk_> n
+[22:31:52] [Async Chat Thread - #1/INFO]: [Not Secure] <M4N14K0_01> ?
+[22:32:06] [Server thread/INFO]: Teagokk_ issued server command: /plugins
+[22:32:13] [Server thread/INFO]: Teagokk_ issued server command: /plugins
+[22:32:26] [Server thread/INFO]: Named entity Zombie['Lvl 8 Elite Zombie'/4360, uuid='1b9f8088-4f9e-44db-b040-08877f1c2f31', l='ServerLevel[world]', x=584.52, y=19.23, z=-167.51, cpos=[36, -11], tl=1401, v=true] died: Lvl 8 Elite Zombie was slain by M4N14K0_01
+[22:32:35] [Server thread/INFO]: Teagokk_ lost connection: Timed out
+[22:32:35] [Server thread/INFO]: Teagokk_ left the game
+[22:33:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast guma salite del server y volve a entrar
+[22:33:13] [Async Chat Thread - #2/INFO]: [Not Secure] <M4N14K0_01> oka
+[22:33:14] [Server thread/INFO]: M4N14K0_01 lost connection: Disconnected
+[22:33:14] [Server thread/INFO]: M4N14K0_01 left the game
+[22:33:18] [User Authenticator #2/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
+[22:33:19] [Server thread/INFO]: M4N14K0_01 joined the game
+[22:33:19] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:44997] logged in with entity id 5389 at ([world]601.0857955761813, 20.0, -189.69324277601442)
+[22:33:20] [Craft Scheduler Thread - 37 - EliteMobs/INFO]: [EliteMobs] User 816aa35d-6390-3dbc-8985-5b063e17c91f data successfully read!
+[22:33:23] [Async Chat Thread - #2/INFO]: [Not Secure] <M4N14K0_01> listo
+[22:33:30] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast pero por 30s o algo asi
+[22:33:43] [Async Chat Thread - #2/INFO]: [Not Secure] <M4N14K0_01> ok
+[22:34:00] [Async Chat Thread - #2/INFO]: [Not Secure] <M4N14K0_01> a ver pera q configuro el auto reconect a 30 s
