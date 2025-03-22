@@ -11,6 +11,7 @@
       "minecraft:taiga": "2025-03-22 21:56:19 +0000",
       "minecraft:river": "2025-03-22 18:23:53 +0000",
       "minecraft:stony_shore": "2025-03-22 18:23:57 +0000",
+      "minecraft:lush_caves": "2025-03-22 22:41:56 +0000",
       "minecraft:plains": "2025-03-22 18:23:08 +0000",
       "minecraft:jagged_peaks": "2025-03-22 18:23:58 +0000"
     },
@@ -204,6 +205,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "rotten_flesh": "2025-03-22 22:38:05 +0000",
       "sweet_berries": "2025-03-22 21:57:01 +0000",
       "cooked_beef": "2025-03-22 22:06:57 +0000"
     },
@@ -1273,6 +1275,18 @@
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2025-03-22 22:31:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-03-22 22:43:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-03-22 22:43:52 +0000"
     },
     "done": true
   },
