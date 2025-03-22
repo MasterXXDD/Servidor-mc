@@ -2239,3 +2239,22 @@
 [2025-03-22 21:33:14] [INFO   ] Spawning MossyCavePopulator at 578,-28,-256 
 [2025-03-22 21:33:14] [INFO   ] Spawning CaveFluidClusterPopulator at 601,41,-248 
 [2025-03-22 21:33:15] [INFO   ] Will spawn stronghold at: 75, 1405 
+[2025-03-22 21:41:55] [INFO   ] Spawning DripstoneClusterCavePopulator at 626,-23,-210 
+[2025-03-22 21:41:56] [INFO   ] Spawning FrozenCavePopulator at 652,17,-204 
+[2025-03-22 21:41:57] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 44,-13 
+[2025-03-22 21:41:57] [INFO   ] Spawning Underground Dungeon at 718,45,-195 
+[2025-03-22 21:42:00] [INFO   ] Spawning ancient city at: 832,-15,320 
+[2025-03-22 21:42:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityAltarPopulator at 887 -15 301 in a room of size 23x20 
+[2025-03-22 21:42:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityRuinsPlatform at 835 -15 373 in a room of size 17x18 
+[2025-03-22 21:42:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityRuinsPlatform at 826 -15 273 in a room of size 20x17 
+[2025-03-22 21:42:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityRuinsPlatform at 888 -15 276 in a room of size 16x25 
+[2025-03-22 21:42:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at 858 -15 379 in a room of size 19x23 
+[2025-03-22 21:42:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at 841 -15 294 in a room of size 26x16 
+[2025-03-22 21:42:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityRuinsPlatform at 800 -15 357 in a room of size 17x20 
+[2025-03-22 21:42:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityCenterPlatformPopulator at 840 -15 328 in a room of size 46x46 
+[2025-03-22 21:42:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityAltarPopulator at 790 -15 290 in a room of size 19x26 
+[2025-03-22 21:42:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityAltarPopulator at 886 -15 363 in a room of size 24x23 
+[2025-03-22 21:42:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityAltarPopulator at 805 -15 333 in a room of size 16x25 
+[2025-03-22 21:42:00] [INFO   ] Calculated structure at 52,3 
+[2025-03-22 21:42:00] [INFO   ] Spawning CrystallineClusterCavePopulator at 844,0,27 
+[2025-03-22 21:42:01] [INFO   ] Spawning LushClusterCavePopulator at 825,42,-21 

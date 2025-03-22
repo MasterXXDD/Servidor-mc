@@ -7,15 +7,19 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-03-22 21:47:21 +0000",
       "minecraft:beach": "2025-03-22 21:02:29 +0000",
+      "minecraft:dark_forest": "2025-03-22 21:43:17 +0000",
       "minecraft:taiga": "2025-03-22 21:03:50 +0000",
-      "minecraft:jungle": "2025-03-22 21:34:53 +0000",
       "minecraft:river": "2025-03-22 21:02:57 +0000",
-      "minecraft:birch_forest": "2025-03-22 21:06:22 +0000",
       "minecraft:stony_shore": "2025-03-22 21:04:13 +0000",
+      "minecraft:jungle": "2025-03-22 21:34:53 +0000",
+      "minecraft:swamp": "2025-03-22 21:38:32 +0000",
+      "minecraft:birch_forest": "2025-03-22 21:06:22 +0000",
       "minecraft:savanna": "2025-03-22 21:36:42 +0000",
       "minecraft:plains": "2025-03-22 21:01:35 +0000",
-      "minecraft:jagged_peaks": "2025-03-22 21:03:25 +0000"
+      "minecraft:jagged_peaks": "2025-03-22 21:03:25 +0000",
+      "minecraft:warm_ocean": "2025-03-22 21:46:49 +0000"
     },
     "done": false
   },
