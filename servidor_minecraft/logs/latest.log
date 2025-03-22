@@ -328,3 +328,45 @@
 [21:01:53] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk Teagokk_
 [21:01:55] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival ImPipeOk
 [21:02:05] [Server thread/INFO]: 「7」 Zombie King got to ImPipeOk's brains!
+[21:02:08] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival ImPipeOk
+[21:02:10] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk Teagokk_
+[21:02:19] [Server thread/INFO]: Named entity Husk['〔7〕 The Returned'/7230, uuid='97a02774-c88d-4ee6-b338-7b8aed6f9fb7', l='ServerLevel[world]', x=347.87, y=78.31, z=770.98, cpos=[21, 48], tl=13, v=true] died: 〔7〕 The Returned was slain by 「7」 Zombie King
+[21:02:19] [Server thread/INFO]: 「7」 Zombie King got to ImPipeOk's brains!
+[21:02:27] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival ImPipeOk
+[21:02:28] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk Teagokk_
+[21:02:55] [Server thread/INFO]: Teagokk_ issued server command: /give @p minecraft:diamond_sword{HideFlags:0,display:{Lore:["This item is overpowered"]},Enchantments:[{id:"minecraft:aqua_affinity",lvl:10},{id:"minecraft:bane_of_arthropods",lvl:10},{id:"minecraft:blast_protection",lvl:10},{id:"minecraft:channeling",lvl:
+[21:03:06] [Server thread/INFO]: Teagokk_ issued server command: /give Teagokk_ minecraft:diamond_sword{HideFlags:0,display:{Lore:["This item is overpowered"]},Enchantments:[{id:"minecraft:aqua_affinity",lvl:10},{id:"minecraft:bane_of_arthropods",lvl:10},{id:"minecraft:blast_protection",lvl:10},{id:"minecraft:channeling
+[21:03:15] [Server thread/INFO]: Teagokk_ issued server command: /give Teagokk_ minecraft:diamond_sword{HideFlags:0,display:{Lore:["This item is overpowered"]},Enchantments:[{id:"minecraft:aqua_affinity",lvl:10},{id:"minecraft:bane_of_arthropods",lvl:10},{id:"minecraft:blast_protection",lvl:10}
+[21:03:42] [Server thread/INFO]: Teagokk_ issued server command: /time set day
+[21:04:24] [Server thread/INFO]: [EliteMobs] Event pillager_caravan.yml has been queued!
+[21:04:25] [Server thread/INFO]: A pillager caravan has been sighted!
+[21:04:39] [Server thread/INFO]: Named entity Husk['〔8〕 The Living Dead'/7275, uuid='daccdefb-0ebc-4f0d-8ff0-1f94e5f86a83', l='ServerLevel[world]', x=364.97, y=74.00, z=786.54, cpos=[22, 49], tl=2747, v=true] died: 〔8〕 The Living Dead fell from a high place
+[21:04:41] [Server thread/INFO]: Teagokk_ issued server command: /tp Yago1721 Teagokk_
+[21:05:10] [Server thread/INFO]: Named entity Husk['〔1〕 The Returned'/6048, uuid='5eb9bdc8-2390-4e80-b55c-c62906e74f18', l='ServerLevel[world]', x=342.46, y=85.00, z=764.91, cpos=[21, 47], tl=6325, v=true] died: 〔1〕 The Returned was doomed to fall by Teagokk_
+[21:05:11] [Server thread/INFO]: Yago1721 lost connection: Disconnected
+[21:05:11] [Server thread/INFO]: Yago1721 left the game
+[21:05:17] [User Authenticator #3/INFO]: UUID of player Yago1721 is 53996b89-d3da-3a89-8678-3bcf048785ba
+[21:05:19] [Server thread/INFO]: Yago1721 joined the game
+[21:05:19] [Server thread/INFO]: Yago1721[/127.105.148.14:38291] logged in with entity id 8122 at ([world]334.28473804607586, 89.0, 763.073777852541)
+[21:05:20] [Craft Scheduler Thread - 25 - EliteMobs/INFO]: [EliteMobs] User 53996b89-d3da-3a89-8678-3bcf048785ba data successfully read!
+[21:05:46] [Server thread/INFO]: Teagokk_ issued server command: /tp ImPipeOk Teagokk_
+[21:05:57] [Server thread/INFO]: Named entity Husk['〔8〕 The Living Dead'/8039, uuid='6286fc5c-952f-4bae-85cc-fd4ab3dd5dd5', l='ServerLevel[world]', x=270.47, y=162.00, z=833.03, cpos=[16, 52], tl=1256, v=true] died: 〔8〕 The Living Dead was slain by ImPipeOk
+[21:06:14] [Server thread/INFO]: Teagokk_ issued server command: /tp Yago1721 Teagokk_
+[21:06:31] [Server thread/INFO]: Teagokk_ issued server command: /give Teagokk_ minecraft:diamond_sword{HideFlags:0,display:{Lore:["This item is overpowered"]},Enchantments:[{id:"minecraft:aqua_affinity",lvl:10},{id:"minecraft:bane_of_arthropods",lvl:10},{id:"minecraft:blast_protection",lvl:10},{id:"minecraft:channeling
+[21:06:35] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival
+[21:07:02] [Server thread/INFO]: Teagokk_ issued server command: /heal Yago1721
+[21:07:39] [Server thread/INFO]: Teagokk_ issued server command: /invsee ImPipeOk
+[21:07:48] [Server thread/INFO]: Named entity Zombie['「7」 Totem Zombie'/4462, uuid='fa5ecce3-63d8-465a-8a53-7a6b7c869a46', l='ServerLevel[world]', x=308.26, y=74.31, z=812.26, cpos=[19, 50], tl=11278, v=true] died: 「7」 Totem Zombie burned to death
+[21:08:03] [Server thread/INFO]: Teagokk_ issued server command: /clearinventory Teagokk_
+[21:08:09] [Server thread/INFO]: Teagokk_ issued server command: /invsee Yago1721
+[21:08:34] [Server thread/INFO]: Teagokk_ issued server command: /give ImPipeOk totem_of_undying 2
+[21:08:41] [Server thread/INFO]: Teagokk_ issued server command: /invsee ImPipeOk
+[21:08:54] [Server thread/INFO]: Teagokk_ issued server command: /clearinventory Teagokk_
+[21:10:24] [Server thread/INFO]: [EliteMobs] Event charms_goblin.yml has been queued!
+[21:10:25] [Server thread/INFO]: A Charms Goblin has been sighted!
+[21:10:28] [Server thread/INFO]: Teagokk_ issued server command: /invsee ImPipeOk
+[21:10:55] [Server thread/INFO]: Teagokk_ issued server command: /invsee Yago1721
+[21:10:58] [Server thread/INFO]: Teagokk_ issued server command: /invsee Yago1721
+[21:11:59] [Server thread/INFO]: Yago1721 was slain by ImPipeOk
+[21:12:05] [Server thread/INFO]: Teagokk_ issued server command: /tp Yago1721 Teagokk_
+[21:12:13] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival Yago1721
