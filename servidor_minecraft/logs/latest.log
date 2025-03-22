@@ -264,3 +264,55 @@ o<--[HERE]
 [22:33:30] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast pero por 30s o algo asi
 [22:33:43] [Async Chat Thread - #2/INFO]: [Not Secure] <M4N14K0_01> ok
 [22:34:00] [Async Chat Thread - #2/INFO]: [Not Secure] <M4N14K0_01> a ver pera q configuro el auto reconect a 30 s
+[22:34:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /kill @e
+[22:34:09] [Server thread/INFO]: Error: Player not found.
+[22:34:16] [Async Chat Thread - #2/INFO]: [Not Secure] <M4N14K0_01> va
+[22:34:19] [Server thread/INFO]: M4N14K0_01 lost connection: Disconnected
+[22:34:19] [Server thread/INFO]: M4N14K0_01 left the game
+[22:34:26] [Server thread/INFO]: Stopping server
+[22:34:26] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.0
+[22:34:26] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[22:34:26] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[22:34:26] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[22:34:26] [Server thread/INFO]: [BetterStructures] Disabling BetterStructures v1.7.8
+[22:34:26] [Server thread/INFO]: [BetterStructures] Shutdown!
+[22:34:26] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
+[22:34:26] [Server thread/INFO]: [TAB] Disabled in 0ms
+[22:34:26] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.69
+[22:34:26] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
+[22:34:26] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10-beta-01+cb9fd58
+[22:34:26] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:34:26] [Server thread/INFO]: [TerraformGenerator] Disabling TerraformGenerator v18.1.2
+[22:34:26] [Server thread/INFO]: [EliteMobs] Disabling EliteMobs v9.3.2
+[22:34:26] [Server thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
+[22:34:26] [Server thread/INFO]: [EliteMobs] Saving EliteMobs databases...
+[22:34:26] [Server thread/INFO]: [EliteMobs] All done! Good night.
+[22:34:26] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[22:34:26] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+189-eab2201
+[22:34:26] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
+[22:34:26] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[22:34:26] [Server thread/INFO]: [LuckPerms] Closing storage...
+[22:34:26] [Server thread/INFO]: [LuckPerms] Goodbye!
+[22:34:26] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[22:34:26] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[22:34:26] [Server thread/INFO]: Saving players
+[22:34:27] [Server thread/INFO]: Saving worlds
+[22:34:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:34:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:34:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:34:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:34:27] [Server thread/INFO]: [ChunkHolderManager] Saved 556 block chunks, 572 entity chunks, 0 poi chunks in world 'world' in 0.94s
+[22:34:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:34:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:34:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:34:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:34:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[22:34:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:34:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:34:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:34:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:34:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 30 entity chunks, 0 poi chunks in world 'world_the_end' in 0.05s
+[22:34:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:34:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:34:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:34:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
