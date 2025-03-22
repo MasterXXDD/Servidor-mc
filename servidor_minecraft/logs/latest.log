@@ -556,3 +556,20 @@
 [21:47:51] [Server thread/INFO]: Yago1721 lost connection: Disconnected
 [21:47:51] [Server thread/INFO]: Yago1721 left the game
 [21:47:57] [Server thread/INFO]: [EliteMobs] Event full_moon.yml ended!
+[21:55:21] [User Authenticator #2/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
+[21:55:23] [Server thread/INFO]: M4N14K0 joined the game
+[21:55:23] [Server thread/INFO]: M4N14K0[/127.175.101.28:34533] logged in with entity id 9114 at ([world]208.13346397355983, 61.14404067856904, 60.00989221630582)
+[21:55:24] [Craft Scheduler Thread - 89 - EliteMobs/INFO]: [EliteMobs] User c21ba410-d372-3aa4-9cd9-19d264bd835a data successfully read!
+[21:55:31] [Server thread/INFO]: M4N14K0 lost connection: Disconnected
+[21:55:31] [Server thread/INFO]: M4N14K0 left the game
+[21:55:37] [User Authenticator #2/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
+[21:55:38] [Server thread/INFO]: M4N14K0_01 joined the game
+[21:55:38] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:52895] logged in with entity id 9281 at ([world]250.9764212451726, 70.0000001, 16.03260538757735)
+[21:55:39] [Craft Scheduler Thread - 92 - EliteMobs/INFO]: [EliteMobs] User 816aa35d-6390-3dbc-8985-5b063e17c91f data successfully read!
+[21:57:23] [Server thread/WARN]: [BetterStructures] You are not using WorldGuard, so BetterStructures could not protect a boss arena! Using WorldGuard is recommended to guarantee a fair combat experience.
+[22:06:51] [Server thread/INFO]: [EliteMobs] Event beast_master.yml ended!
+[22:08:17] [Server thread/INFO]: Named entity Silverfish['「2」 Balrog'/11998, uuid='32f53aad-ebae-44e3-af1f-af820854a30b', l='ServerLevel[world]', x=467.12, y=39.00, z=-249.41, cpos=[29, -16], tl=304, v=true] died: 「2」 Balrog was slain by M4N14K0_01
+[22:08:18] [Server thread/INFO]: [EliteMobs] Event balrog.yml ended!
+[22:09:29] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml has been queued!
+[22:09:29] [Server thread/INFO]: A Treasure Goblin has been sighted!
+[22:09:35] [Server thread/INFO]: M4N14K0_01 issued server command: /elitemobs track boss 2a612691-e9d7-4b02-b607-25b128153a33

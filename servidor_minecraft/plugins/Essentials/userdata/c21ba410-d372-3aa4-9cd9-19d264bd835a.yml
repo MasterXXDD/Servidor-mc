@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742668990185
-  login: 1742668966422
+  logout: 1742680531783
+  login: 1742680523346
 money: '0'
 last-account-name: M4N14K0
 logoutlocation:
   world: aee96b02-67ff-42b3-a727-214310d307b1
   world-name: world
   x: 208.13346397355983
-  y: 61.169040680059155
+  y: 61.0
   z: 60.00989221630582
-  yaw: -179.36045837402344
-  pitch: 16.77617645263672
+  yaw: -107.66044616699219
+  pitch: 1.3261746168136597

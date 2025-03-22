@@ -2258,3 +2258,5 @@
 [2025-03-22 21:42:00] [INFO   ] Calculated structure at 52,3 
 [2025-03-22 21:42:00] [INFO   ] Spawning CrystallineClusterCavePopulator at 844,0,27 
 [2025-03-22 21:42:01] [INFO   ] Spawning LushClusterCavePopulator at 825,42,-21 
+[2025-03-22 21:59:34] [INFO   ] Large Cave at 832,3,-704 has water level > -26 with populator LargeLushCavePopulator 
+[2025-03-22 21:59:34] [INFO   ] Calculated structure at 34,-33 
