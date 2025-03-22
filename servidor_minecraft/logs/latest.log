@@ -296,3 +296,84 @@
 [18:17:02] [Server thread/INFO]: ENZOPRIVGOAT has made the advancement [Suit Up]
 [18:17:05] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Monster Hunter]
 [18:17:10] [Async Chat Thread - #6/INFO]: [Not Secure] <Luquitas_Alpha> mentales tmb
+[18:17:24] [Server thread/INFO]: Agent_FFFF has made the advancement [Monster Hunter]
+[18:17:27] [Server thread/INFO]: IMMRPO has made the advancement [Suit Up]
+[18:18:37] [Server thread/INFO]: IMMRPO has made the advancement [Isn't It Iron Pick]
+[18:19:03] [Server thread/INFO]: IMMRPO has made the advancement [Monster Hunter]
+[18:19:03] [Server thread/INFO]: IMMRPO has made the advancement [Not Today, Thank You]
+[18:19:24] [Server thread/INFO]: Named entity Bogged['Lvl 10 Elite Bogged'/10326, uuid='64185c1c-7527-47c2-84c5-585ebd8d2025', l='ServerLevel[world]', x=351.70, y=84.00, z=222.88, cpos=[21, 13], tl=5117, v=true] died: Lvl 10 Elite Bogged fell from a high place
+[18:19:27] [Server thread/INFO]: IMMRPO was doomed to fall by Zombie
+[18:19:31] [Server thread/INFO]: IMMRPO lost connection: Disconnected
+[18:19:31] [Server thread/INFO]: IMMRPO left the game
+[18:21:10] [User Authenticator #5/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
+[18:21:10] [Server thread/INFO]: M4N14K0 joined the game
+[18:21:10] [Server thread/INFO]: M4N14K0[/127.175.68.75:36259] logged in with entity id 21802 at ([world]203.5, 82.0, 36.5)
+[18:21:11] [Craft Scheduler Thread - 79 - EliteMobs/INFO]: [EliteMobs] No player entry detected, generating new entry!
+[18:21:18] [Async Chat Thread - #8/INFO]: [Not Secure] <Agent_FFFF> mugre
+[18:21:54] [User Authenticator #5/INFO]: [LuckPerms] Another plugin has cancelled the connection for c21ba410-d372-3aa4-9cd9-19d264bd835a - M4N14K0. No permissions data will be loaded.
+[18:21:54] [User Authenticator #5/INFO]: Disconnecting M4N14K0 (/127.175.101.28:46201): [LoginSecurity] This player is already online!
+[18:21:54] [User Authenticator #5/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
+[18:21:54] [Server thread/INFO]: M4N14K0 (/127.175.101.28:46201) lost connection: [LoginSecurity] This player is already online!
+[18:21:58] [User Authenticator #5/INFO]: [LuckPerms] Another plugin has cancelled the connection for c21ba410-d372-3aa4-9cd9-19d264bd835a - M4N14K0. No permissions data will be loaded.
+[18:21:58] [User Authenticator #5/INFO]: Disconnecting M4N14K0 (/127.175.101.28:59869): [LoginSecurity] This player is already online!
+[18:21:58] [User Authenticator #5/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
+[18:21:58] [Server thread/INFO]: M4N14K0 (/127.175.101.28:59869) lost connection: [LoginSecurity] This player is already online!
+[18:22:05] [User Authenticator #5/INFO]: [LuckPerms] Another plugin has cancelled the connection for c21ba410-d372-3aa4-9cd9-19d264bd835a - M4N14K0. No permissions data will be loaded.
+[18:22:05] [User Authenticator #5/INFO]: Disconnecting M4N14K0 (/127.175.101.28:57583): [LoginSecurity] This player is already online!
+[18:22:05] [User Authenticator #5/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
+[18:22:05] [Server thread/INFO]: M4N14K0 (/127.175.101.28:57583) lost connection: [LoginSecurity] This player is already online!
+[18:22:19] [Async Chat Thread - #10/INFO]: [Not Secure] <M4N14K0> Tefa
+[18:22:21] [Async Chat Thread - #10/INFO]: [Not Secure] <M4N14K0> Que es eso?
+[18:22:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3253ms or 65 ticks behind
+[18:22:23] [Server thread/WARN]: Teagokk_ moved too quickly! -10.632620400653082,-16.98960067510606,16.79754557118298
+[18:22:24] [Async Chat Thread - #10/INFO]: [Not Secure] <Teagokk_> q
+[18:22:27] [Async Chat Thread - #10/INFO]: [Not Secure] <Teagokk_> cosa
+[18:22:29] [Async Chat Thread - #10/INFO]: [Not Secure] <M4N14K0> Arriba
+[18:22:32] [Server thread/INFO]: M4N14K0 has made the advancement [Getting an Upgrade]
+[18:22:34] [Server thread/INFO]: M4N14K0 has made the advancement [Suit Up]
+[18:22:36] [Async Chat Thread - #10/INFO]: [Not Secure] <Teagokk_> una isla con loot op
+[18:22:42] [Server thread/INFO]: M4N14K0 has made the advancement [Stone Age]
+[18:22:42] [Server thread/INFO]: M4N14K0 has made the advancement [Acquire Hardware]
+[18:22:43] [Server thread/INFO]: M4N14K0 has made the advancement [Isn't It Iron Pick]
+[18:22:45] [Async Chat Thread - #10/INFO]: [Not Secure] <Teagokk_> el ivo se murio por intentar subir
+[18:22:46] [User Authenticator #5/INFO]: [LuckPerms] Another plugin has cancelled the connection for c21ba410-d372-3aa4-9cd9-19d264bd835a - M4N14K0. No permissions data will be loaded.
+[18:22:46] [User Authenticator #5/INFO]: Disconnecting M4N14K0 (/127.175.101.28:42527): [LoginSecurity] This player is already online!
+[18:22:46] [User Authenticator #5/INFO]: UUID of player M4N14K0 is c21ba410-d372-3aa4-9cd9-19d264bd835a
+[18:22:46] [Server thread/INFO]: M4N14K0 (/127.175.101.28:42527) lost connection: [LoginSecurity] This player is already online!
+[18:23:05] [User Authenticator #5/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
+[18:23:07] [Server thread/INFO]: M4N14K0_01 joined the game
+[18:23:07] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:52385] logged in with entity id 25525 at ([world]211.5, 78.0, 46.5)
+[18:23:08] [Craft Scheduler Thread - 81 - EliteMobs/INFO]: [EliteMobs] No player entry detected, generating new entry!
+[18:23:47] [Server thread/INFO]: ImPipeOk has made the advancement [Diamonds!]
+[18:23:52] [Async Chat Thread - #12/INFO]: [Not Secure] <Luquitas_Alpha> eee xrat
+[18:24:03] [Async Chat Thread - #12/INFO]: [Not Secure] <Teagokk_> no pvp
+[18:24:14] [Craft Scheduler Thread - 79 - GrimAC/INFO]: [GrimAC] Disconnecting M4N14K0_01 for disconnect.timeout
+[18:24:14] [Server thread/INFO]: M4N14K0_01 lost connection: Disconnected
+[18:24:14] [Server thread/INFO]: M4N14K0_01 left the game
+[18:24:35] [User Authenticator #6/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
+[18:24:36] [Server thread/INFO]: M4N14K0_01 joined the game
+[18:24:36] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:33817] logged in with entity id 29104 at ([world]249.85237709239513, 70.0, 15.710679507471422)
+[18:24:37] [Craft Scheduler Thread - 81 - EliteMobs/INFO]: [EliteMobs] User 816aa35d-6390-3dbc-8985-5b063e17c91f data successfully read!
+[18:24:43] [Server thread/INFO]: Teagokk_ has made the advancement [Minecraft: Trial(s) Edition]
+[18:25:24] [Server thread/WARN]: Jungle Boat (vehicle of Luquitas_Alpha) moved wrongly! 0.3879806422289107
+[18:25:24] [Server thread/WARN]: Jungle Boat (vehicle of Luquitas_Alpha) moved wrongly! 0.5432206331639122
+[18:25:24] [Server thread/WARN]: Jungle Boat (vehicle of Luquitas_Alpha) moved wrongly! 0.7121965680030087
+[18:25:42] [Craft Scheduler Thread - 84 - GrimAC/INFO]: [GrimAC] Disconnecting M4N14K0_01 for disconnect.timeout
+[18:25:43] [Server thread/INFO]: M4N14K0_01 lost connection: Disconnected
+[18:25:43] [Server thread/INFO]: M4N14K0_01 left the game
+[18:25:44] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[18:25:55] [Server thread/INFO]: M4N14K0 has made the advancement [Monster Hunter]
+[18:26:20] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[18:26:24] [Server thread/INFO]: M4N14K0 has made the advancement [Not Today, Thank You]
+[18:26:32] [Server thread/INFO]: ImPipeOk has made the advancement [Cover Me with Diamonds]
+[18:26:38] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Diamonds!]
+[18:26:41] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Acquire Hardware]
+[18:26:42] [Server thread/INFO]: ENZOPRIVGOAT has made the advancement [Diamonds!]
+[18:26:43] [User Authenticator #7/INFO]: UUID of player M4N14K0_01 is 816aa35d-6390-3dbc-8985-5b063e17c91f
+[18:26:44] [Server thread/INFO]: M4N14K0_01 joined the game
+[18:26:44] [Server thread/INFO]: M4N14K0_01[/127.175.101.28:49135] logged in with entity id 34229 at ([world]251.61182652815432, 71.0, 17.055839535658244)
+[18:26:45] [Craft Scheduler Thread - 84 - EliteMobs/INFO]: [EliteMobs] User 816aa35d-6390-3dbc-8985-5b063e17c91f data successfully read!
+[18:27:01] [Server thread/INFO]: M4N14K0_01 lost connection: Disconnected
+[18:27:01] [Server thread/INFO]: M4N14K0_01 left the game
+[18:27:12] [Server thread/INFO]: Luquitas_Alpha has made the advancement [Isn't It Iron Pick]
+[18:27:26] [Server thread/INFO]: Agent_FFFF has made the advancement [Acquire Hardware]

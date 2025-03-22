@@ -1443,3 +1443,53 @@
 [2025-03-22 18:12:03] [INFO   ] Spawning Underground Dungeon at -414,76,345 
 [2025-03-22 18:13:39] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -4,-28 
 [2025-03-22 18:13:39] [INFO   ] Spawning Underground Dungeon at -54,41,-435 
+[2025-03-22 18:17:43] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -13,45 
+[2025-03-22 18:17:43] [INFO   ] Spawning Drowned Dungeon at -205,733 
+[2025-03-22 18:17:49] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 3,47 
+[2025-03-22 18:17:49] [INFO   ] Spawning Drowned Dungeon at 55,754 
+[2025-03-22 18:17:52] [INFO   ] Minecart with chest at: -174, 23, 779 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -736 15 270 in a room of size 13x14 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -653 15 359 in a room of size 14x14 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -642 15 287 in a room of size 15x13 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -721 15 252 in a room of size 15x14 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -727 15 303 in a room of size 14x15 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -722 15 392 in a room of size 14x13 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -685 15 380 in a room of size 15x13 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -682 15 248 in a room of size 13x14 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -669 15 326 in a room of size 15x13 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -653 30 375 in a room of size 15x15 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -736 30 270 in a room of size 13x5 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -738 30 367 in a room of size 14x13 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -716 30 301 in a room of size 14x14 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -683 30 338 in a room of size 15x14 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -755 30 377 in a room of size 13x13 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -683 30 283 in a room of size 13x13 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -646 30 341 in a room of size 13x14 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -645 30 266 in a room of size 14x13 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -642 30 287 in a room of size 15x5 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -767 30 363 in a room of size 13x14 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -705 30 277 in a room of size 15x14 
+[2025-03-22 18:21:22] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -721 30 252 in a room of size 15x7 
+[2025-03-22 18:21:22] [INFO   ] Calculated structure at -33,20 
+[2025-03-22 18:21:22] [INFO   ] Large Cave at -704,25,832 has water level > -16 with populator LargeLushCavePopulator 
+[2025-03-22 18:21:23] [INFO   ] Calculated structure at -33,32 
+[2025-03-22 18:22:19] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure invoked. 
+[2025-03-22 18:22:30] [INFO   ] -44,-12 will spawn a vanilla structure, with tryGenerateStructure == true 
+[2025-03-22 18:22:35] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure invoked. 
+[2025-03-22 18:22:48] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure invoked. 
+[2025-03-22 18:23:02] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: 45,44 
+[2025-03-22 18:23:31] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -40,25 
+[2025-03-22 18:23:31] [INFO   ] Spawning Underground Dungeon at -625,46,401 
+[2025-03-22 18:23:44] [INFO   ] Minecart with chest at: -655, 30, 375 
+[2025-03-22 18:24:16] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -26,49 
+[2025-03-22 18:24:16] [INFO   ] Spawning Underground Dungeon at -408,33,789 
+[2025-03-22 18:24:29] [INFO   ] Minecart with chest at: -120, 38, 795 
+[2025-03-22 18:24:32] [INFO   ] Minecart with chest at: -174, 38, 800 
+[2025-03-22 18:25:00] [INFO   ] Minecart with chest at: -189, 23, 840 
+[2025-03-22 18:25:00] [INFO   ] Minecart with chest at: -192, 38, 837 
+[2025-03-22 18:25:04] [INFO   ] Generating org.terraform.structure.mineshaft.MineshaftPopulator at chunk: -12,52 
+[2025-03-22 18:25:05] [INFO   ] Minecart with chest at: -178, 23, 867 
+[2025-03-22 18:25:07] [INFO   ] Minecart with chest at: -165, 38, 888 
+[2025-03-22 18:25:47] [INFO   ] Generating org.terraform.structure.trialchamber.TrialChamberPopulator at chunk: 20,52 
+[2025-03-22 18:25:59] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure invoked. 
+[2025-03-22 18:26:52] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure invoked. 
