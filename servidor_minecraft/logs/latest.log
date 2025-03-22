@@ -529,3 +529,24 @@
 [18:57:01] [Server thread/WARN]: Ane_Freak moved too quickly! 9.107057700049424,4.0,-2.0336205253233572
 [18:57:01] [Server thread/WARN]: Agent_FFFF moved too quickly! -0.9595569935293042,-10.575531296918136,11.849403606098235
 [18:57:09] [Server thread/INFO]: Teagokk_ issued server command: /tp Agent_FFFF
+[18:59:08] [Server thread/WARN]: Teagokk_ moved too quickly! -8.080697726147264,0.0,-23.48583323228695
+[18:59:31] [Async Chat Thread - #20/INFO]: [Not Secure] <Teagokk_> f
+[18:59:32] [Async Chat Thread - #20/INFO]: [Not Secure] <Teagokk_> v
+[18:59:53] [Server thread/INFO]: Teagokk_ lost connection: Disconnected
+[18:59:53] [Server thread/INFO]: Teagokk_ left the game
+[18:59:56] [User Authenticator #13/INFO]: UUID of player Teagokk_ is 568394ee-f971-38a9-8464-23874d404e9f
+[18:59:57] [Server thread/INFO]: Teagokk_ joined the game
+[18:59:57] [Server thread/INFO]: Teagokk_[/127.189.225.101:52991] logged in with entity id 101018 at ([world]276.15263496808467, 97.40571658572604, 836.1863512638981)
+[18:59:58] [Craft Scheduler Thread - 140 - EliteMobs/INFO]: [EliteMobs] User 568394ee-f971-38a9-8464-23874d404e9f data successfully read!
+[19:01:05] [Server thread/INFO]: ImPipeOk has made the advancement [Enchanter]
+[19:01:50] [Server thread/INFO]: Teagokk_ issued server command: /gamemode survival
+[19:02:25] [Server thread/INFO]: ImPipeOk has made the advancement [Sweet Dreams]
+[19:03:21] [Server thread/INFO]: [EliteMobs] Event charms_goblin.yml ended!
+[19:04:07] [Server thread/INFO]: Named entity Zombie['Lvl 7 Elite Zombie'/109687, uuid='5a0d9202-9232-4d2a-8a5e-f5269135d3b5', l='ServerLevel[world]', x=238.10, y=73.50, z=819.14, cpos=[14, 51], tl=1881, v=true] died: Lvl 7 Elite Zombie was slain by Agent_FFFF
+[19:04:38] [Server thread/INFO]: Teagokk_ issued server command: /spectate
+[19:04:42] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[19:05:00] [Server thread/INFO]: Ane_Freak has made the advancement [Cover Me with Diamonds]
+[19:05:43] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[19:05:56] [Server thread/INFO]: Teagokk_ issued server command: /spectator
+[19:07:53] [Server thread/INFO]: Teagokk_ issued server command: /gamemode creative
+[19:07:54] [Server thread/INFO]: Teagokk_ issued server command: /spectator

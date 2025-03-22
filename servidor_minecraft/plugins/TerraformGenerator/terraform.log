@@ -1607,3 +1607,34 @@
 [2025-03-22 18:57:10] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -74,112 
 [2025-03-22 18:57:10] [INFO   ] Spawning Underground Dungeon at -1174,19,1803 
 [2025-03-22 18:57:18] [INFO   ] Generating org.terraform.structure.trialchamber.TrialChamberPopulator at chunk: -76,116 
+[2025-03-22 18:58:00] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -86,134 
+[2025-03-22 18:58:00] [INFO   ] Spawning Underground Dungeon at -1369,21,2153 
+[2025-03-22 18:58:30] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -91,110 
+[2025-03-22 18:58:30] [INFO   ] Spawning Underground Dungeon at -1447,55,1762 
+[2025-03-22 18:59:28] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -1742 28 1787 in a room of size 14x15 
+[2025-03-22 18:59:28] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -1658 28 1893 in a room of size 13x15 
+[2025-03-22 18:59:28] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -1739 28 1886 in a room of size 14x15 
+[2025-03-22 18:59:28] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -1786 28 1787 in a room of size 13x15 
+[2025-03-22 18:59:28] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -1724 28 1911 in a room of size 14x15 
+[2025-03-22 18:59:28] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -1677 28 1874 in a room of size 13x13 
+[2025-03-22 18:59:28] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -1773 28 1930 in a room of size 14x14 
+[2025-03-22 18:59:28] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -1770 28 1805 in a room of size 13x14 
+[2025-03-22 18:59:28] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -1717 28 1805 in a room of size 14x13 
+[2025-03-22 18:59:28] [INFO   ] Calculated structure at -97,127 
+[2025-03-22 18:59:34] [INFO   ] -108,148 will spawn a vanilla structure, with tryGenerateStructure == true 
+[2025-03-22 19:03:22] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: -71,102 
+[2025-03-22 19:03:26] [INFO   ] Generating org.terraform.structure.small.buriedtreasure.BuriedTreasurePopulator at chunk: -59,100 
+[2025-03-22 19:03:30] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -85,100 
+[2025-03-22 19:03:30] [INFO   ] Spawning Underground Dungeon at -1355,42,1606 
+[2025-03-22 19:03:45] [INFO   ] Large Cave at -1216,21,1344 has water level > -24 with populator GenericLargeCavePopulator 
+[2025-03-22 19:03:45] [INFO   ] Calculated structure at -65,95 
+[2025-03-22 19:04:31] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -79,86 
+[2025-03-22 19:04:31] [INFO   ] Spawning Underground Dungeon at -1250,57,1391 
+[2025-03-22 19:04:40] [INFO   ] Generating org.terraform.structure.caves.LargeCavePopulator at chunk: -76,84 
+[2025-03-22 19:05:38] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -50,78 
+[2025-03-22 19:05:38] [INFO   ] Spawning Underground Dungeon at -799,32,1258 
+[2025-03-22 19:05:53] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: -74,76 
+[2025-03-22 19:06:56] [INFO   ] Generating org.terraform.structure.small.shipwreck.ShipwreckPopulator at chunk: -58,69 
+[2025-03-22 19:06:56] [INFO   ] Spawning shipwreck at -914, 23, 1110 with rotation of NORTH 
+[2025-03-22 19:07:00] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -48,68 
+[2025-03-22 19:07:00] [INFO   ] Spawning Underground Dungeon at -766,10,1102 
