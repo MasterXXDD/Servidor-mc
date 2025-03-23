@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1742770183209
+  logout: 1742771236695
+  login: 1742771204240
 money: '0'
 last-account-name: URLPvPez
+logoutlocation:
+  world: aee96b02-67ff-42b3-a727-214310d307b1
+  world-name: world
+  x: 289.8710291238901
+  y: 112.45946400986615
+  z: 344.1960697117179
+  yaw: 53.358551025390625
+  pitch: 28.083629608154297

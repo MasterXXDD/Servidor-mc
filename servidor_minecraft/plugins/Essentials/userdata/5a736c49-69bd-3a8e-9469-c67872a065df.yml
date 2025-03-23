@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1742771311753
   login: 1742770213402
 money: '0'
 last-account-name: porcenluca
+logoutlocation:
+  world: aee96b02-67ff-42b3-a727-214310d307b1
+  world-name: world
+  x: 1075.5969310973524
+  y: 180.7997398651458
+  z: 121.5906998937418
+  yaw: -173.99755859375
+  pitch: 26.700048446655273

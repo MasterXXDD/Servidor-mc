@@ -226,3 +226,37 @@
 [22:55:17] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
 [22:55:18] [Async Chat Thread - #0/INFO]: [Not Secure] <ImPipeOk> se me acabo la bateria
 [22:57:51] [Async Chat Thread - #1/INFO]: [Not Secure] <ImPipeOk> son 15 15
+[22:58:37] [Async Chat Thread - #2/INFO]: [Not Secure] <ImPipeOk> son dungeons
+[22:58:46] [Async Chat Thread - #2/INFO]: [Not Secure] <ImPipeOk> algunas
+[22:58:55] [Async Chat Thread - #2/INFO]: [Not Secure] <ImPipeOk> maso
+[22:59:30] [Server thread/WARN]: [BetterStructures] You are not using WorldGuard, so BetterStructures could not protect a boss arena! Using WorldGuard is recommended to guarantee a fair combat experience.
+[22:59:39] [Async Chat Thread - #2/INFO]: [Not Secure] <ImPipeOk> si ven una casita en una isla es la casa de un amigo
+[22:59:50] [Async Chat Thread - #1/INFO]: [Not Secure] <ImPipeOk> madera blanca
+[23:00:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2982ms or 59 ticks behind
+[23:00:30] [Server thread/INFO]: [EliteMobs] Event coins_goblin.yml has been queued!
+[23:00:31] [Server thread/INFO]: A Coins Goblin has been sighted!
+[23:00:35] [Async Chat Thread - #1/INFO]: [Not Secure] <ImPipeOk> no es
+[23:00:52] [Async Chat Thread - #1/INFO]: [Not Secure] <ImPipeOk> buena cancion uri
+[23:02:09] [Async Chat Thread - #3/INFO]: [Not Secure] <ImPipeOk> el spawn no es 0 0
+[23:02:27] [Async Chat Thread - #3/INFO]: [Not Secure] <ImPipeOk> es 400 500
+[23:05:54] [Async Chat Thread - #5/INFO]: [Not Secure] <ImPipeOk> me faltan 4 bloques
+[23:06:27] [Server thread/INFO]: URLPvPez was slain by Vindicator
+[23:06:27] [Server thread/INFO]: porcenluca was slain by Vindicator
+[23:06:30] [Server thread/INFO]: [EliteMobs] Event dead_moon.yml has been queued!
+[23:06:33] [Server thread/INFO]: URLPvPez lost connection: Disconnected
+[23:06:33] [Server thread/INFO]: URLPvPez left the game
+[23:06:42] [User Authenticator #1/INFO]: UUID of player URLPvPez is 2475d95e-3bf5-30ee-b69b-d56fbae4865f
+[23:06:44] [Server thread/INFO]: URLPvPez joined the game
+[23:06:44] [Server thread/INFO]: URLPvPez[/127.70.23.144:32961] logged in with entity id 12647 at ([world]1080.2954464041902, 172.0, 111.24553812505253)
+[23:06:45] [Craft Scheduler Thread - 53 - EliteMobs/INFO]: [EliteMobs] User 2475d95e-3bf5-30ee-b69b-d56fbae4865f data successfully read!
+[23:07:16] [Server thread/INFO]: URLPvPez lost connection: Disconnected
+[23:07:16] [Server thread/INFO]: URLPvPez left the game
+[23:07:50] [User Authenticator #2/INFO]: UUID of player soyuriel is 43037e7f-a77f-317c-a698-134b8c383ce2
+[23:07:52] [Server thread/INFO]: soyuriel joined the game
+[23:07:52] [Server thread/INFO]: soyuriel[/127.70.23.144:49631] logged in with entity id 15456 at ([world]459.5, 94.0, 302.5)
+[23:07:53] [Craft Scheduler Thread - 57 - EliteMobs/INFO]: [EliteMobs] No player entry detected, generating new entry!
+[23:08:05] [Async Chat Thread - #7/INFO]: [Not Secure] <soyuriel> hola
+[23:08:08] [Async Chat Thread - #7/INFO]: [Not Secure] <ImPipeOk> no los voy a poder revivir por que el owner apago la pc y no puede revivir
+[23:08:21] [Async Chat Thread - #7/INFO]: [Not Secure] <ImPipeOk> tranqui
+[23:08:31] [Server thread/INFO]: porcenluca lost connection: Disconnected
+[23:08:31] [Server thread/INFO]: porcenluca left the game
