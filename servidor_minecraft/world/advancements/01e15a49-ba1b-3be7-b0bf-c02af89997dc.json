@@ -7,30 +7,31 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:badlands": "2025-03-22 18:53:53 +0000",
       "minecraft:cold_ocean": "2025-03-22 19:45:54 +0000",
       "minecraft:snowy_slopes": "2025-03-22 18:46:48 +0000",
-      "minecraft:beach": "2025-03-22 18:08:07 +0000",
-      "minecraft:dark_forest": "2025-03-22 21:44:32 +0000",
       "minecraft:forest": "2025-03-22 19:42:33 +0000",
       "minecraft:taiga": "2025-03-22 18:14:15 +0000",
-      "minecraft:mangrove_swamp": "2025-03-22 19:41:18 +0000",
       "minecraft:deep_ocean": "2025-03-22 19:28:17 +0000",
-      "minecraft:river": "2025-03-22 18:08:08 +0000",
-      "minecraft:stony_shore": "2025-03-22 18:15:09 +0000",
       "minecraft:lush_caves": "2025-03-22 18:23:25 +0000",
-      "minecraft:dripstone_caves": "2025-03-22 18:23:24 +0000",
       "minecraft:deep_cold_ocean": "2025-03-22 19:45:15 +0000",
       "minecraft:desert": "2025-03-22 18:52:55 +0000",
       "minecraft:ocean": "2025-03-22 19:26:16 +0000",
       "minecraft:jungle": "2025-03-22 19:37:11 +0000",
+      "minecraft:birch_forest": "2025-03-22 18:49:08 +0000",
+      "minecraft:bamboo_jungle": "2025-03-23 23:10:15 +0000",
+      "minecraft:warm_ocean": "2025-03-22 18:18:22 +0000",
+      "minecraft:badlands": "2025-03-22 18:53:53 +0000",
+      "minecraft:beach": "2025-03-22 18:08:07 +0000",
+      "minecraft:dark_forest": "2025-03-22 21:44:32 +0000",
+      "minecraft:mangrove_swamp": "2025-03-22 19:41:18 +0000",
+      "minecraft:river": "2025-03-22 18:08:08 +0000",
+      "minecraft:stony_shore": "2025-03-22 18:15:09 +0000",
+      "minecraft:dripstone_caves": "2025-03-22 18:23:24 +0000",
       "minecraft:swamp": "2025-03-22 18:15:11 +0000",
       "minecraft:meadow": "2025-03-22 19:04:11 +0000",
-      "minecraft:birch_forest": "2025-03-22 18:49:08 +0000",
       "minecraft:savanna": "2025-03-22 18:15:51 +0000",
       "minecraft:plains": "2025-03-22 18:02:05 +0000",
-      "minecraft:jagged_peaks": "2025-03-22 18:13:58 +0000",
-      "minecraft:warm_ocean": "2025-03-22 18:18:22 +0000"
+      "minecraft:jagged_peaks": "2025-03-22 18:13:58 +0000"
     },
     "done": false
   },
@@ -1795,6 +1796,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-03-23 23:04:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2025-03-23 22:53:56 +0000"
@@ -1813,15 +1820,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-03-23 23:04:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
       "has_mutton": "2025-03-23 22:58:28 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-03-23 23:04:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2025-03-23 22:58:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-03-23 23:04:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-03-23 23:04:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-03-23 23:04:52 +0000"
     },
     "done": true
   },

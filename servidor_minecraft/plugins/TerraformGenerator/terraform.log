@@ -2661,3 +2661,29 @@
 [2025-03-23 23:06:48] [INFO   ] Spawning ForestedMountainsCavePopulator at 1169,45,1115 
 [2025-03-23 23:07:01] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 59,71 
 [2025-03-23 23:07:01] [INFO   ] Spawning Underground Dungeon at 954,41,1143 
+[2025-03-23 23:08:50] [INFO   ] Generating org.terraform.structure.trialchamber.TrialChamberPopulator at chunk: 84,52 
+[2025-03-23 23:08:59] [INFO   ] Small Schematic 
+[2025-03-23 23:09:06] [INFO   ] Medium Schematic 
+[2025-03-23 23:09:51] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 88,81 
+[2025-03-23 23:09:51] [INFO   ] Spawning Drowned Dungeon at 1418,1309 
+[2025-03-23 23:09:53] [INFO   ] Generating org.terraform.structure.mineshaft.MineshaftPopulator at chunk: 84,84 
+[2025-03-23 23:09:53] [INFO   ] Generating org.terraform.structure.ancientcity.AncientCityPopulator at chunk: 52,84 
+[2025-03-23 23:10:27] [INFO   ] Large Cave at 1856,15,1344 has water level > -25 with populator GenericLargeCavePopulator 
+[2025-03-23 23:10:27] [INFO   ] Calculated structure at 96,66 
+[2025-03-23 23:11:20] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 103,76 
+[2025-03-23 23:11:20] [INFO   ] Spawning Underground Dungeon at 1654,10,1231 
+[2025-03-23 23:11:27] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 105,72 
+[2025-03-23 23:11:27] [INFO   ] Spawning Underground Dungeon at 1693,6,1156 
+[2025-03-23 23:11:52] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 90,35 
+[2025-03-23 23:11:52] [INFO   ] Spawning Underground Dungeon at 1442,78,567 
+[2025-03-23 23:12:07] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: 113,72 
+[2025-03-23 23:12:14] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: 115,39 
+[2025-03-23 23:12:25] [INFO   ] Generating org.terraform.structure.trialchamber.TrialChamberPopulator at chunk: 116,52 
+[2025-03-23 23:13:04] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 123,23 
+[2025-03-23 23:13:04] [INFO   ] Spawning Underground Dungeon at 1980,32,371 
+[2025-03-23 23:13:17] [INFO   ] Generating org.terraform.structure.villagehouse.VillageHousePopulator at chunk: 116,20 
+[2025-03-23 23:13:17] [INFO   ] Spawning farmhouse at 1856,71,320 with rotation of WEST 
+[2025-03-23 23:13:33] [INFO   ] Large Cave at 2368,4,832 has water level > -26 with populator LargeLushCavePopulator 
+[2025-03-23 23:13:33] [INFO   ] Calculated structure at 128,32 
+[2025-03-23 23:13:33] [INFO   ] Large Cave at 2368,12,320 has water level > -12 with populator GenericLargeCavePopulator 
+[2025-03-23 23:13:33] [INFO   ] Calculated structure at 128,31 
