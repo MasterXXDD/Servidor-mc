@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1742771961496
   lastheal: 0
   mute: 0
   jail: 0
@@ -20,3 +20,11 @@ timestamps:
   login: 1742771768297
 money: '0'
 last-account-name: soyluca2
+lastlocation:
+  world: aee96b02-67ff-42b3-a727-214310d307b1
+  world-name: world
+  x: 242.26688617709763
+  y: 73.0
+  z: 263.7731239002291
+  yaw: 96.902099609375
+  pitch: 14.249979019165039
