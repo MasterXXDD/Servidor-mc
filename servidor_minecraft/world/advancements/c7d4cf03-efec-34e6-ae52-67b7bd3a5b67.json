@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-03-23 19:13:13 +0000",
       "minecraft:beach": "2025-03-22 18:29:12 +0000",
       "minecraft:taiga": "2025-03-22 18:23:52 +0000",
       "minecraft:jungle": "2025-03-22 18:41:55 +0000",
