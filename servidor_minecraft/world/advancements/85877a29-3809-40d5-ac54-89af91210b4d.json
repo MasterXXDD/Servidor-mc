@@ -1111,6 +1111,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-04-06 03:57:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-04-06 03:56:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2025-04-06 03:10:29 +0000"
@@ -1120,6 +1132,12 @@
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_the_recipe": "2025-04-06 03:18:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-04-06 03:56:04 +0000"
     },
     "done": true
   },

@@ -86,3 +86,33 @@
 [03:50:53] [Async Chat Thread - #8/INFO]: <IMMRPO> ./tpa teagokk
 [03:51:06] [Async Chat Thread - #8/INFO]: <Teagokk_> no
 [03:54:43] [Server thread/INFO]: IMMRPO has made the advancement [Stone Age]
+[03:55:39] [Server thread/INFO]: Teagokk_ was slain by Iron Golem
+[03:56:24] [Server thread/INFO]: IMMRPO has made the advancement [Monster Hunter]
+[03:56:55] [Server thread/INFO]: IMMRPO was shot by Pillager
+[03:57:00] [Async Chat Thread - #9/INFO]: <Teagokk_> que bot
+[03:57:57] [Server thread/INFO]: IMMRPO has made the advancement [Acquire Hardware]
+[03:58:43] [Server thread/INFO]: IMMRPO lost connection: Disconnected
+[03:58:43] [Server thread/INFO]: IMMRPO left the game
+[03:58:46] [Server thread/INFO]: Teagokk_ lost connection: Disconnected
+[03:58:47] [Server thread/INFO]: Teagokk_ left the game
+[03:58:51] [User Authenticator #3/INFO]: UUID of player Teagokk_ is 5f3b4f9e-0a67-4dab-9cb0-f83a5e0eeb80
+[03:58:52] [User Authenticator #3/INFO]: UUID of player IMMRPO is 7130f9ef-0570-465e-97ce-6ce2709f8b6c
+[03:58:53] [Server thread/INFO]: Teagokk_ joined the game
+[03:58:53] [Server thread/INFO]: Teagokk_[/127.189.225.101:38067] logged in with entity id 10263 at ([world]-97.30274752071175, 64.23152379758702, -195.69999998807907)
+[03:58:53] [Server thread/INFO]: IMMRPO joined the game
+[03:58:53] [Server thread/INFO]: IMMRPO[/127.155.111.229:57999] logged in with entity id 10266 at ([world]-46.042758068047966, 63.0, -181.73304637899452)
+[03:59:37] [Server thread/INFO]: Teagokk_ was slain by IMMRPO
+[03:59:39] [Server thread/INFO]: IMMRPO has made the advancement [Cover Me with Diamonds]
+[03:59:39] [Server thread/INFO]: IMMRPO has made the advancement [Suit Up]
+[03:59:40] [Server thread/INFO]: IMMRPO has made the advancement [Getting an Upgrade]
+[04:02:20] [Server thread/INFO]: IMMRPO has made the advancement [Isn't It Iron Pick]
+[04:04:56] [Server thread/INFO]: IMMRPO has made the advancement [What a Deal!]
+[04:05:43] [Server thread/INFO]: IMMRPO lost connection: Disconnected
+[04:05:43] [Server thread/INFO]: IMMRPO left the game
+[04:05:46] [User Authenticator #4/INFO]: UUID of player IMMRPO is 7130f9ef-0570-465e-97ce-6ce2709f8b6c
+[04:05:47] [Server thread/INFO]: IMMRPO joined the game
+[04:05:47] [Server thread/INFO]: IMMRPO[/127.155.111.229:58335] logged in with entity id 11703 at ([world]-128.24401931638593, 65.0, -207.97619839420489)
+[04:09:17] [Server thread/INFO]: IMMRPO has made the advancement [Sweet Dreams]
+[04:13:58] [Server thread/INFO]: IMMRPO issued server command: /seed
+[04:14:13] [Server thread/INFO]: Teagokk_ issued server command: /seed
+[04:15:25] [Server thread/INFO]: Villager Villager['Villager'/13242, uuid='7e1ec8e1-92d2-4e11-b75b-2adeb2eab032', l='ServerLevel[world]', x=-294.37, y=64.56, z=-779.72, cpos=[-19, -49], tl=191, v=true] died, message: 'Villager suffocated in a wall'
