@@ -1,56 +1,66 @@
-[02:26:44] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[02:26:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[02:26:45] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[02:26:45] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[02:26:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:26:51] [ServerMain/INFO]: Loaded 1290 recipes
-[02:26:51] [ServerMain/INFO]: Loaded 1399 advancements
-[02:26:51] [Server thread/INFO]: Starting minecraft server version 1.21
-[02:26:51] [Server thread/INFO]: Loading properties
-[02:26:51] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[02:26:52] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[02:26:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:26:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:26:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[02:26:53] [Server thread/INFO]: Default game type: SURVIVAL
-[02:26:53] [Server thread/INFO]: Generating keypair
-[02:26:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:26:53] [Server thread/INFO]: Using epoll channel type
-[02:26:53] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[02:26:53] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[02:26:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:26:53] [Server thread/INFO]: Preparing level "world"
-[02:26:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:26:55] [Server thread/INFO]: Time elapsed: 1159 ms
-[02:26:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:26:55] [Server thread/INFO]: Time elapsed: 379 ms
-[02:26:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:26:55] [Server thread/INFO]: Time elapsed: 150 ms
-[02:26:55] [Server thread/INFO]: [spark] Starting background profiler...
-[02:26:56] [Server thread/INFO]: Done preparing level "world" (2.498s)
-[02:26:56] [Server thread/INFO]: Running delayed init tasks
-[02:26:56] [Server thread/INFO]: Done (11.928s)! For help, type "help"
-[02:26:56] [Server thread/INFO]: Timings Reset
-[02:27:16] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 5f3b4f9e-0a67-4dab-9cb0-f83a5e0eeb80
-[02:27:18] [Server thread/INFO]: Teagokk_ joined the game
-[02:27:18] [Server thread/INFO]: Teagokk_[/127.189.225.101:42783] logged in with entity id 70 at ([world]7.5, 63.0, 86.5)
-[02:27:23] [User Authenticator #0/INFO]: UUID of player Agent_FFFF is 85877a29-3809-40d5-ac54-89af91210b4d
-[02:27:24] [Server thread/INFO]: Agent_FFFF joined the game
-[02:27:24] [Server thread/INFO]: Agent_FFFF[/127.86.91.244:49035] logged in with entity id 159 at ([world]25.5, 64.0, 78.5)
-[02:27:36] [Server thread/INFO]: Agent_FFFF lost connection: Disconnected
-[02:27:36] [Server thread/INFO]: Agent_FFFF left the game
-[02:27:39] [User Authenticator #0/INFO]: UUID of player Agent_FFFF is 85877a29-3809-40d5-ac54-89af91210b4d
-[02:27:40] [Server thread/INFO]: Agent_FFFF joined the game
-[02:27:40] [Server thread/INFO]: Agent_FFFF[/127.86.91.244:51127] logged in with entity id 436 at ([world]24.672409652447037, 65.0, 114.08236113849688)
-[02:30:50] [Server thread/INFO]: Teagokk_ has made the advancement [Stone Age]
-[02:30:59] [Server thread/INFO]: Teagokk_ has made the advancement [Getting an Upgrade]
-[02:31:01] [Server thread/INFO]: Agent_FFFF has made the advancement [Stone Age]
-[02:31:50] [Server thread/INFO]: Teagokk_ has made the advancement [Acquire Hardware]
-[02:32:08] [Server thread/INFO]: Agent_FFFF has made the advancement [Getting an Upgrade]
-[02:37:30] [Server thread/INFO]: Agent_FFFF has made the advancement [Sweet Dreams]
-[02:37:48] [Server thread/INFO]: Teagokk_ has made the advancement [Sweet Dreams]
-[02:53:47] [Server thread/INFO]: Teagokk_ was slain by Iron Golem
-[02:54:51] [Server thread/INFO]: Agent_FFFF has made the advancement [What a Deal!]
-[02:55:15] [Server thread/WARN]: Oak Boat (vehicle of Teagokk_) moved wrongly! 0.2559455797204302
-[02:55:30] [Server thread/WARN]: Oak Boat (vehicle of Teagokk_) moved wrongly! 0.3672836110025513
-[02:55:55] [Server thread/INFO]: Teagokk_ has made the advancement [Local Brewery]
+[03:05:14] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[03:05:14] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[03:05:14] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:05:15] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[03:05:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:05:22] [ServerMain/INFO]: Loaded 1290 recipes
+[03:05:22] [ServerMain/INFO]: Loaded 1399 advancements
+[03:05:22] [Server thread/INFO]: Starting minecraft server version 1.21
+[03:05:22] [Server thread/INFO]: Loading properties
+[03:05:22] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[03:05:23] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:05:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:05:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:05:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[03:05:25] [Server thread/INFO]: Default game type: SURVIVAL
+[03:05:25] [Server thread/INFO]: Generating keypair
+[03:05:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:05:25] [Server thread/INFO]: Using epoll channel type
+[03:05:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:05:25] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[03:05:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:05:25] [Server thread/INFO]: Preparing level "world"
+[03:05:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:05:28] [Server thread/INFO]: Time elapsed: 2851 ms
+[03:05:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:05:29] [Server thread/INFO]: Time elapsed: 704 ms
+[03:05:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:05:29] [Server thread/INFO]: Time elapsed: 381 ms
+[03:05:29] [Server thread/INFO]: [spark] Starting background profiler...
+[03:05:30] [Server thread/INFO]: Done preparing level "world" (5.084s)
+[03:05:30] [Server thread/INFO]: Running delayed init tasks
+[03:05:30] [Server thread/INFO]: Done (18.701s)! For help, type "help"
+[03:05:30] [Server thread/INFO]: Timings Reset
+[03:05:35] [User Authenticator #0/INFO]: UUID of player Teagokk_ is 5f3b4f9e-0a67-4dab-9cb0-f83a5e0eeb80
+[03:05:37] [Server thread/INFO]: Teagokk_ joined the game
+[03:05:37] [Server thread/INFO]: Teagokk_[/127.189.225.101:39663] logged in with entity id 17 at ([world]-128.69999998807907, 64.0, -202.30000001192093)
+[03:05:38] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: c6ae5db4-70d7-4b1d-9b8d-d00ae05d78d5, mapped to Zombie['Zombie'/18, uuid='c6ae5db4-70d7-4b1d-9b8d-d00ae05d78d5', l='ServerLevel[world]', x=-130.50, y=64.00, z=-206.32, cpos=[-9, -13], tl=179, v=true], can't add Zombie['Zombie'/31, uuid='c6ae5db4-70d7-4b1d-9b8d-d00ae05d78d5', l='ServerLevel[world]', x=-130.32, y=64.00, z=-209.92, cpos=[-9, -14], tl=198, v=false]
+[03:05:38] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 57f3560a-c57a-4a81-8224-f06c30f3e209, mapped to Skeleton['Skeleton'/33, uuid='57f3560a-c57a-4a81-8224-f06c30f3e209', l='ServerLevel[world]', x=-97.67, y=64.00, z=-192.33, cpos=[-7, -13], tl=474, v=true], can't add Skeleton['Skeleton'/52, uuid='57f3560a-c57a-4a81-8224-f06c30f3e209', l='ServerLevel[world]', x=-99.48, y=64.00, z=-190.51, cpos=[-7, -12], tl=455, v=false]
+[03:05:45] [User Authenticator #0/INFO]: UUID of player Agent_FFFF is 85877a29-3809-40d5-ac54-89af91210b4d
+[03:05:46] [Server thread/INFO]: Agent_FFFF joined the game
+[03:05:46] [Server thread/INFO]: Agent_FFFF[/127.86.91.244:42933] logged in with entity id 355 at ([world]-125.38671991660694, 67.0, -202.00116856792437)
+[03:05:50] [Server thread/INFO]: Teagokk_ was shot by Skeleton
+[03:06:07] [Server thread/INFO]: Agent_FFFF has made the advancement [Monster Hunter]
+[03:06:12] [Server thread/INFO]: Agent_FFFF has made the advancement [Not Today, Thank You]
+[03:06:14] [Server thread/INFO]: Teagokk_ was slain by Zombie
+[03:06:26] [Server thread/INFO]: Agent_FFFF was slain by Spider
+[03:06:31] [Server thread/INFO]: Teagokk_ has made the advancement [Monster Hunter]
+[03:06:48] [Server thread/INFO]: Agent_FFFF was impaled by Drowned
+[03:06:59] [Server thread/INFO]: Teagokk_ has made the advancement [Not Today, Thank You]
+[03:07:27] [Server thread/INFO]: Teagokk_ was shot by Skeleton
+[03:08:13] [Server thread/INFO]: Agent_FFFF was shot by Skeleton
+[03:08:15] [Server thread/INFO]: Teagokk_ was shot by Skeleton
+[03:08:17] [Server thread/INFO]: Villager Villager['Villager'/71, uuid='b3d6197f-810b-45b4-bbb7-274a9079a396', l='ServerLevel[world]', x=-205.49, y=56.00, z=-203.51, cpos=[-13, -13], tl=111802, v=true] died, message: 'Villager discovered the floor was lava'
+[03:09:01] [Server thread/INFO]: Agent_FFFF has made the advancement [A Throwaway Joke]
+[03:09:02] [Server thread/INFO]: Teagokk_ was slain by Zombie Villager
+[03:09:25] [Server thread/INFO]: Agent_FFFF was slain by Zombie Villager
+[03:10:04] [Server thread/INFO]: Agent_FFFF was shot by Skeleton
+[03:10:21] [Server thread/INFO]: Teagokk_ was shot by Skeleton
+[03:11:13] [Async Chat Thread - #2/INFO]: <Teagokk_> 1|
+[03:11:18] [User Authenticator #1/INFO]: UUID of player Teagokk_ is 5f3b4f9e-0a67-4dab-9cb0-f83a5e0eeb80
+[03:11:18] [Server thread/INFO]: Teagokk_ lost connection: You logged in from another location
+[03:11:18] [Server thread/INFO]: Teagokk_ left the game
+[03:11:20] [Server thread/INFO]: Teagokk_ joined the game
+[03:11:20] [Server thread/INFO]: Teagokk_[/127.189.225.101:59761] logged in with entity id 1700 at ([world]-122.5555484547204, 64.0, -209.44020825734754)
+[03:13:30] [Server thread/INFO]: Agent_FFFF has made the advancement [Acquire Hardware]
+[03:14:20] [Server thread/INFO]: Teagokk_ has made the advancement [What a Deal!]
