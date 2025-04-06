@@ -39,3 +39,9 @@
 [01:54:21] [Server thread/INFO]: Agent_FFFF joined the game
 [01:54:21] [Server thread/INFO]: Agent_FFFF[/127.86.91.244:35393] logged in with entity id 17 at ([world]-261.4070677182864, 66.0, -257.1861376646852)
 [01:54:22] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 6fbb015b-892a-4ba3-9632-e6fa8e63e02e, mapped to EnderMan['Enderman'/66, uuid='6fbb015b-892a-4ba3-9632-e6fa8e63e02e', l='ServerLevel[world]', x=-346.35, y=67.00, z=-243.41, cpos=[-22, -16], tl=2964, v=true], can't add EnderMan['Enderman'/78, uuid='6fbb015b-892a-4ba3-9632-e6fa8e63e02e', l='ServerLevel[world]', x=-345.05, y=69.00, z=-236.92, cpos=[-22, -15], tl=4645, v=false]
+[01:58:58] [Server thread/INFO]: Agent_FFFF has made the advancement [Suit Up]
+[02:02:45] [Server thread/INFO]: Agent_FFFF was impaled on a stalagmite
+[02:03:57] [Server thread/INFO]: Villager Villager['Villager'/186, uuid='a946d332-19a2-48d6-873f-20bab4299541', l='ServerLevel[world]', x=-122.72, y=68.25, z=-187.02, cpos=[-8, -12], tl=51689, v=true] died, message: 'Villager was slain by Zombie'
+[02:04:47] [Server thread/INFO]: Agent_FFFF has made the advancement [Sweet Dreams]
+[02:04:55] [Server thread/INFO]: Agent_FFFF was shot by Skeleton
+[02:05:16] [Server thread/INFO]: Agent_FFFF was shot by Skeleton
