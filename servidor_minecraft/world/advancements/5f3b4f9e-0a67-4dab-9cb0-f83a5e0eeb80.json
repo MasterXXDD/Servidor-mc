@@ -434,7 +434,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "bread": "2025-04-06 02:32:23 +0000"
+      "bread": "2025-04-06 02:32:23 +0000",
+      "cooked_beef": "2025-04-06 03:26:13 +0000"
     },
     "done": false
   },
@@ -819,6 +820,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-04-06 03:22:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-04-06 03:17:41 +0000"
@@ -894,6 +901,12 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2025-04-06 03:18:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-04-06 03:22:49 +0000"
     },
     "done": true
   },
